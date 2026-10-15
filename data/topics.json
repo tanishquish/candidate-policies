@@ -1,0 +1,14 @@
+[
+  {"id":"abortion","label":"Abortion"},
+  {"id":"lgbtq","label":"LGBTQ+ rights"},
+  {"id":"taxes","label":"Tax policy"},
+  {"id":"defense","label":"Defense"},
+  {"id":"healthcare","label":"Healthcare"},
+  {"id":"immigration","label":"Immigration"},
+  {"id":"economy","label":"Economy & jobs"},
+  {"id":"climate","label":"Climate & energy"},
+  {"id":"guns","label":"Guns"},
+  {"id":"education","label":"Education"},
+  {"id":"safety","label":"Public safety"},
+  {"id":"veterans","label":"Veterans"}
+]
