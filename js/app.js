@@ -252,7 +252,7 @@ function route() {
 }
 
 async function init() {
-  const [s, t, c] = await Promise.all(['states', 'topics', 'candidates'].map(f => fetch(`data/${f}.json`).then(r => r.json())));
+  const [s, t, c] = await Promise.all(['states', 'topics', 'candidates'].map(f => fetch(`data/${f}.json?v=20261022b`).then(r => r.json())));
   Object.assign(state, { states: s, topics: t, candidates: c.candidates, updated: c.updated });
   window.addEventListener('hashchange', route);
   route();
