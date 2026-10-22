@@ -635,6 +635,8 @@ import research_c
 research_c.build(BYID, T, Q, add_src)
 import research_d
 research_d.build(BYID, T, Q, add_src)
+import research_e
+research_e.build(BYID, T, Q, add_src)
 
 # every core topic is selectable for every candidate; fill the ones with nothing
 CORE = ["abortion", "lgbtq", "taxes", "defense", "healthcare", "immigration", "economy", "climate", "guns", "education"]

@@ -11454,6 +11454,16 @@
      "key": "si",
      "title": "Alma Sarelli for State Senate: Issues",
      "url": "https://votealma.com/issues/"
+    },
+    {
+     "key": "nod",
+     "title": "Westport Journal: RTM Member Alma Sarelli receives GOP nod for state senate District 26 (May 23, 2026)",
+     "url": "https://westportjournal.com/politics/rtm-member-alma-sarelli-receives-gop-nod-for-state-senate-district-26/"
+    },
+    {
+     "key": "lwv",
+     "title": "Westport Journal: Westport LWV debate is latest cancelled reportedly for Sarelli’s non-participation (Oct. 9, 2026)",
+     "url": "https://westportjournal.com/politics/westport-lvw-debate-is-latest-cancelled-reportedly-for-sarellis-non-participation/"
     }
    ],
    "overview": [
@@ -11471,6 +11481,12 @@
       "q": "Alma Sarelli is a working mom who moved to Connecticut 13 years ago.",
       "s": "bp"
      }
+    ],
+    [
+     {
+      "t": "The Westport Journal reported that League of Women Voters debates in the district were canceled because Sarelli's campaign said she would not participate or she did not respond to invitations, and that she did not respond to the Journal's request for comment.",
+      "s": "lwv"
+     }
     ]
    ],
    "incumbent": false,
@@ -11482,7 +11498,18 @@
    "topics": {
     "economy": {
      "gap": false,
-     "said": [],
+     "said": [
+      {
+       "when": "2026-05-23",
+       "context": "Statement after winning the Republican nomination, as reported by the Westport Journal.",
+       "seg": [
+        {
+         "q": "Decisions affecting our towns should be made by locally elected officials, not transferred by state politicians to bureaucrats in Hartford",
+         "s": "nod"
+        }
+       ]
+      }
+     ],
      "plan": [
       [
        {
@@ -11631,6 +11658,11 @@
      "key": "nv",
      "title": "Sam Nestor for State Senate: Vision",
      "url": "https://www.samforct.com/vision"
+    },
+    {
+     "key": "lwv",
+     "title": "Westport Journal: Westport LWV debate is latest cancelled reportedly for Sarelli’s non-participation (Oct. 9, 2026)",
+     "url": "https://westportjournal.com/politics/westport-lvw-debate-is-latest-cancelled-reportedly-for-sarellis-non-participation/"
     }
    ],
    "overview": [
@@ -11638,6 +11670,18 @@
      {
       "t": "Sam Nestor is a candidate on the November 3, 2026 ballot for State Senate District 26, running as: Democratic.",
       "s": "ballotS"
+     }
+    ],
+    [
+     {
+      "t": "The Westport Journal reported that League of Women Voters debates in the district were canceled after the Republican candidate did not take part; Nestor said she was "
+     },
+     {
+      "q": "disappointed",
+      "s": "lwv"
+     },
+     {
+      "t": " that she would not get to debate."
      }
     ]
    ],
@@ -11965,6 +12009,11 @@
      "key": "bp",
      "title": "Ballotpedia: Amybeth Laroche",
      "url": "https://ballotpedia.org/Amybeth_Laroche"
+    },
+    {
+     "key": "nb",
+     "title": "The Newtown Bee: Newtown Resident Amybeth Laroche Officially Announces Campaign For State Senate (Feb. 13, 2026)",
+     "url": "https://www.newtownbee.com/02132026/newtown-resident-amybeth-laroche-officially-announces-campaign-for-state-senate/"
     }
    ],
    "overview": [
@@ -11973,15 +12022,115 @@
       "t": "Amybeth Laroche is a candidate on the November 3, 2026 ballot for State Senate District 28, running as: Republican.",
       "s": "ballotS"
      }
+    ],
+    [
+     {
+      "t": "At her campaign launch she said she ran for Newtown’s Board of Finance because she believed the town "
+     },
+     {
+      "q": "deserved fiscal discipline, transparency, and respect for taxpayer dollars",
+      "s": "nb"
+     },
+     {
+      "t": "."
+     }
     ]
    ],
    "incumbent": false,
-   "unreviewed": true,
+   "unreviewed": false,
    "accessed": "2026-10-22",
    "state": "CT",
    "photo": null,
    "photoSource": null,
    "topics": {
+    "taxes": {
+     "gap": true,
+     "said": [
+      {
+       "when": "2026-02-13",
+       "context": "Remarks at her campaign kickoff event in Newtown, as reported by The Newtown Bee. She listed her priorities.",
+       "seg": [
+        {
+         "t": "She said her priorities are "
+        },
+        {
+         "q": "real tax relief, lower energy costs, lower health care costs, housing solutions rooted in local control, child care and workforce pathways, transparency, and accountability",
+         "s": "nb"
+        },
+        {
+         "t": "."
+        }
+       ]
+      }
+     ],
+     "plan": []
+    },
+    "climate": {
+     "gap": true,
+     "said": [
+      {
+       "when": "2026-02-13",
+       "context": "Remarks at her campaign kickoff event in Newtown, as reported by The Newtown Bee. She listed her priorities.",
+       "seg": [
+        {
+         "t": "She said her priorities include "
+        },
+        {
+         "q": "lower energy costs",
+         "s": "nb"
+        },
+        {
+         "t": "."
+        }
+       ]
+      }
+     ],
+     "plan": []
+    },
+    "healthcare": {
+     "gap": true,
+     "said": [
+      {
+       "when": "2026-02-13",
+       "context": "Remarks at her campaign kickoff event in Newtown, as reported by The Newtown Bee. She listed her priorities.",
+       "seg": [
+        {
+         "t": "She said her priorities include "
+        },
+        {
+         "q": "lower health care costs",
+         "s": "nb"
+        },
+        {
+         "t": "."
+        }
+       ]
+      }
+     ],
+     "plan": []
+    },
+    "economy": {
+     "gap": true,
+     "said": [
+      {
+       "when": "2026-02-13",
+       "context": "Remarks at her campaign kickoff event in Newtown, as reported by The Newtown Bee. She listed her priorities.",
+       "seg": [
+        {
+         "t": "She said her priorities include "
+        },
+        {
+         "q": "housing solutions rooted in local control, child care and workforce pathways",
+         "s": "nb"
+        },
+        {
+         "t": "."
+        }
+       ]
+      }
+     ],
+     "plan": []
+    },
     "abortion": {
      "gap": true,
      "said": [],
@@ -11992,32 +12141,12 @@
      "said": [],
      "plan": []
     },
-    "taxes": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
     "defense": {
      "gap": true,
      "said": [],
      "plan": []
     },
-    "healthcare": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
     "immigration": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
-    "economy": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
-    "climate": {
      "gap": true,
      "said": [],
      "plan": []
@@ -12059,6 +12188,16 @@
      "key": "w",
      "title": "Rob Blanchard for CT State Senate",
      "url": "https://www.robblanchardct.com"
+    },
+    {
+     "key": "pq",
+     "title": "Patch: Patch Candidate Profile: Rob Blanchard, 28th Senate District (Oct. 16, 2026)",
+     "url": "https://patch.com/connecticut/fairfield/patch-candidate-profile-rob-blanchard-28th-senate-district"
+    },
+    {
+     "key": "nj",
+     "title": "CT News Junkie: Lamont Staffer Announces Run For State Senate Seat (Apr. 1, 2026)",
+     "url": "https://ctnewsjunkie.com/2026/04/01/lamont-staffer-announces-run-for-state-senate-seat/"
     }
    ],
    "overview": [
@@ -12076,6 +12215,18 @@
       "q": "Rob is running to turn the 28th State Senate District blue for the first time in 50 years, because residents of the district have been underserved and underrepresented.",
       "s": "bp"
      }
+    ],
+    [
+     {
+      "t": "He describes himself, in the Patch questionnaire, as having served as "
+     },
+     {
+      "q": "Governor Lamont's communications director",
+      "s": "pq"
+     },
+     {
+      "t": "."
+     }
     ]
    ],
    "incumbent": false,
@@ -12087,8 +12238,32 @@
    "topics": {
     "economy": {
      "gap": false,
-     "said": [],
-     "plan": [],
+     "said": [
+      {
+       "when": "2026-10-16",
+       "context": "Patch candidate questionnaire (answers written by the candidate). In answer to “Why are you seeking this office?”",
+       "seg": [
+        {
+         "q": "towns should take the lead on where and how they grow",
+         "s": "pq"
+        }
+       ]
+      }
+     ],
+     "plan": [
+      [
+       {
+        "q": "reform 830-g, repurpose existing buildings, and protect our watershed and open space from overdevelopment",
+        "s": "pq"
+       }
+      ],
+      [
+       {
+        "q": "we must invest in a workforce that attracts and trains the next generation of teachers, health care and public safety professionals, mental health workers, and manufacturers",
+        "s": "pq"
+       }
+      ]
+     ],
      "paras": [
       [
        {
@@ -12106,8 +12281,36 @@
     },
     "healthcare": {
      "gap": false,
-     "said": [],
-     "plan": [],
+     "said": [
+      {
+       "when": "2026-10-16",
+       "context": "Patch candidate questionnaire (answers written by the candidate). Same answer.",
+       "seg": [
+        {
+         "q": "I’ll support letting small employers join together to buy coverage at a lower price, with the key ACA protections intact.",
+         "s": "pq"
+        }
+       ]
+      },
+      {
+       "when": "2026-04-01",
+       "context": "Quoted in CT News Junkie’s report on his campaign announcement.",
+       "seg": [
+        {
+         "q": "Every kid deserves pre-K, families need an affordable public healthcare option they can actually count on, and we have to hold utility companies accountable.",
+         "s": "nj"
+        }
+       ]
+      }
+     ],
+     "plan": [
+      [
+       {
+        "q": "push down the cost of prescriptions, protect and strengthen paid family and medical leave, and invest in and expand our childcare endowment",
+        "s": "pq"
+       }
+      ]
+     ],
      "paras": [
       [
        {
@@ -12125,15 +12328,98 @@
     },
     "abortion": {
      "gap": true,
-     "said": [],
+     "said": [
+      {
+       "when": "2026-10-16",
+       "context": "Patch candidate questionnaire (answers written by the candidate). In answer to “Why are you seeking this office?”",
+       "seg": [
+        {
+         "q": "defend our fundamental rights, such as a woman’s right to reproductive freedom and access to paid family and medical leave, regardless of who is in the White House",
+         "s": "pq"
+        }
+       ]
+      }
+     ],
      "plan": []
     },
-    "lgbtq": {
+    "guns": {
      "gap": true,
      "said": [],
-     "plan": []
+     "plan": [
+      [
+       {
+        "q": "I will fund public safety, strengthen red flag gun laws that save lives, and pass gun safety laws.",
+        "s": "pq"
+       }
+      ]
+     ]
     },
     "taxes": {
+     "gap": true,
+     "said": [
+      {
+       "when": "2026-10-16",
+       "context": "Patch candidate questionnaire (answers written by the candidate). In answer to “What do you believe is the No. 1 issue facing Connecticut, and how do you plan to address it?”",
+       "seg": [
+        {
+         "q": "I’ll back tax relief that puts money straight into family budgets, like the Earned Income Tax Credit, the Child Tax Credit, and the property tax credit.",
+         "s": "pq"
+        }
+       ]
+      }
+     ],
+     "plan": [
+      [
+       {
+        "q": "I’ll fight for more municipal aid and bonding so our towns can fund their schools without reaching deeper into homeowners’ pockets.",
+        "s": "pq"
+       }
+      ]
+     ]
+    },
+    "climate": {
+     "gap": true,
+     "said": [
+      {
+       "when": "2026-10-16",
+       "context": "Patch candidate questionnaire (answers written by the candidate). In answer to “Energy costs have been soaring in Connecticut. What are your plans to help address this issue?”",
+       "seg": [
+        {
+         "q": "I’ll start by protecting what’s working: the fixed-price nuclear contracts that shield us from price spikes, and the new rule that stops utilities from billing customers for lobbying, PR, and political donations.",
+         "s": "pq"
+        }
+       ]
+      }
+     ],
+     "plan": [
+      [
+       {
+        "q": "Then I’ll go line by line through the public benefits charge.",
+        "s": "pq"
+       },
+       {
+        "t": " "
+       },
+       {
+        "q": "Anything that doesn’t earn its place on your bill should go.",
+        "s": "pq"
+       }
+      ]
+     ]
+    },
+    "education": {
+     "gap": true,
+     "said": [],
+     "plan": [
+      [
+       {
+        "q": "Every kid deserves pre-K",
+        "s": "nj"
+       }
+      ]
+     ]
+    },
+    "lgbtq": {
      "gap": true,
      "said": [],
      "plan": []
@@ -12144,21 +12430,6 @@
      "plan": []
     },
     "immigration": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
-    "climate": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
-    "guns": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
-    "education": {
      "gap": true,
      "said": [],
      "plan": []
