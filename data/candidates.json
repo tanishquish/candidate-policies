@@ -5725,7 +5725,7 @@
    "office": "State Senate",
    "district": "1",
    "website": "http://www.senatedems.ct.gov/Fonfara",
-   "reviewed": null,
+   "reviewed": "w",
    "sources": [
     {
      "key": "ballotS",
@@ -5736,6 +5736,11 @@
      "key": "bp",
      "title": "Ballotpedia: John Fonfara",
      "url": "https://ballotpedia.org/John_Fonfara"
+    },
+    {
+     "key": "w",
+     "title": "Connecticut Senate Democrats: John Fonfara",
+     "url": "http://www.senatedems.ct.gov/Fonfara"
     }
    ],
    "overview": [
@@ -5747,7 +5752,7 @@
     ]
    ],
    "incumbent": true,
-   "unreviewed": true,
+   "unreviewed": false,
    "accessed": "2026-10-22",
    "state": "CT",
    "photo": "https://www.senatedems.ct.gov/wp-content/uploads/2023/09/fonfara5x4.jpg",
@@ -5905,7 +5910,7 @@
    "office": "State Senate",
    "district": "2",
    "website": "https://www.khanforconn.com/",
-   "reviewed": null,
+   "reviewed": "w",
    "sources": [
     {
      "key": "ballotS",
@@ -5916,6 +5921,11 @@
      "key": "bp",
      "title": "Ballotpedia: Maryam Khan",
      "url": "https://ballotpedia.org/Maryam_Khan"
+    },
+    {
+     "key": "w",
+     "title": "Maryam Khan for State Senate",
+     "url": "https://www.khanforconn.com"
     }
    ],
    "overview": [
@@ -5927,7 +5937,7 @@
     ]
    ],
    "incumbent": false,
-   "unreviewed": true,
+   "unreviewed": false,
    "accessed": "2026-10-22",
    "state": "CT",
    "photo": null,
@@ -5994,7 +6004,7 @@
    "office": "State Senate",
    "district": "2",
    "website": "https://www.timknottsforsenate.com/",
-   "reviewed": null,
+   "reviewed": "w",
    "sources": [
     {
      "key": "ballotS",
@@ -6005,6 +6015,11 @@
      "key": "bp",
      "title": "Ballotpedia: Tim Knotts",
      "url": "https://ballotpedia.org/Tim_Knotts"
+    },
+    {
+     "key": "w",
+     "title": "Tim Knotts for State Senate",
+     "url": "https://www.timknottsforsenate.com"
     }
    ],
    "overview": [
@@ -6016,23 +6031,86 @@
     ]
    ],
    "incumbent": false,
-   "unreviewed": true,
+   "unreviewed": false,
    "accessed": "2026-10-22",
    "state": "CT",
    "photo": "https://images.squarespace-cdn.com/content/v1/6a026e812bc1b475d4d54348/cc053199-8300-432e-9c76-a7f2dbabf707/image.png",
    "photoSource": "https://www.timknottsforsenate.com/",
    "topics": {
+    "economy": {
+     "gap": false,
+     "said": [],
+     "plan": [
+      [
+       {
+        "q": "Audit and roll back the hidden fees, surcharges, and middleman costs tacked onto utility bills, healthcare bills, motor vehicle bills, and tax bills.",
+        "s": "w"
+       }
+      ]
+     ],
+     "paras": [
+      [
+       {
+        "t": "His site says he is running to "
+       },
+       {
+        "q": "root out the waste and special-interest costs that have made Connecticut unaffordable for working families",
+        "s": "w"
+       },
+       {
+        "t": "."
+       }
+      ]
+     ]
+    },
+    "taxes": {
+     "gap": false,
+     "said": [],
+     "plan": [],
+     "paras": [
+      [
+       {
+        "q": "taxes should be called taxes",
+        "s": "w"
+       },
+       {
+        "t": ", he says in his list of priorities."
+       }
+      ]
+     ]
+    },
+    "education": {
+     "gap": false,
+     "said": [],
+     "plan": [
+      [
+       {
+        "q": "Strong, well-funded public schools, real parental involvement, and respect for every family’s educational choice without punishing any of them.",
+        "s": "w"
+       }
+      ]
+     ],
+     "paras": [
+      [
+       {
+        "t": "His site says "
+       },
+       {
+        "q": "parents are a child’s first and most important educator",
+        "s": "w"
+       },
+       {
+        "t": "."
+       }
+      ]
+     ]
+    },
     "abortion": {
      "gap": true,
      "said": [],
      "plan": []
     },
     "lgbtq": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
-    "taxes": {
      "gap": true,
      "said": [],
      "plan": []
@@ -6052,22 +6130,12 @@
      "said": [],
      "plan": []
     },
-    "economy": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
     "climate": {
      "gap": true,
      "said": [],
      "plan": []
     },
     "guns": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
-    "education": {
      "gap": true,
      "said": [],
      "plan": []
@@ -6085,7 +6153,7 @@
    "office": "State Senate",
    "district": "3",
    "website": "https://eliotthughesforsenate.com/",
-   "reviewed": null,
+   "reviewed": "w",
    "sources": [
     {
      "key": "ballotS",
@@ -6096,6 +6164,11 @@
      "key": "bp",
      "title": "Ballotpedia: Eliott Hughes",
      "url": "https://ballotpedia.org/Eliott_Hughes"
+    },
+    {
+     "key": "w",
+     "title": "Eliott Hughes for Senate",
+     "url": "https://eliotthughesforsenate.com"
     }
    ],
    "overview": [
@@ -6107,23 +6180,91 @@
     ]
    ],
    "incumbent": false,
-   "unreviewed": true,
+   "unreviewed": false,
    "accessed": "2026-10-22",
    "state": "CT",
    "photo": "https://i0.wp.com/eliotthughesforsenate.com/wp-content/uploads/2026/10/Billboard-Photo-transparecy.png?resize=1080%2C1780&ssl=1",
    "photoSource": "https://eliotthughesforsenate.com/",
    "topics": {
+    "taxes": {
+     "gap": false,
+     "said": [],
+     "plan": [
+      [
+       {
+        "q": "I will focus on lowering income and property taxes, stopping the state from passing down hidden costs to our towns",
+        "s": "w"
+       },
+       {
+        "t": "."
+       }
+      ]
+     ],
+     "paras": [
+      [
+       {
+        "t": "His site says "
+       },
+       {
+        "q": "Taxes, fees, energy bills, and everyday costs keep climbing while too many voices get ignored at the Capitol.",
+        "s": "w"
+       }
+      ]
+     ]
+    },
+    "climate": {
+     "gap": true,
+     "said": [],
+     "plan": [
+      [
+       {
+        "q": "pushing for energy policies that bring down utility bills",
+        "s": "w"
+       }
+      ]
+     ]
+    },
+    "education": {
+     "gap": false,
+     "said": [],
+     "plan": [
+      [
+       {
+        "q": "I will pursue school funding models that reward real student outcomes while protecting parent’s right to choose the best learning environment for their children including the right to homeschool.",
+        "s": "w"
+       }
+      ]
+     ],
+     "paras": [
+      [
+       {
+        "t": "His site says "
+       },
+       {
+        "q": "Parents should decide what’s best for their children — public school, private, or homeschool.",
+        "s": "w"
+       }
+      ]
+     ]
+    },
+    "economy": {
+     "gap": true,
+     "said": [],
+     "plan": [
+      [
+       {
+        "q": "reduce burdens on small businesses",
+        "s": "w"
+       }
+      ]
+     ]
+    },
     "abortion": {
      "gap": true,
      "said": [],
      "plan": []
     },
     "lgbtq": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
-    "taxes": {
      "gap": true,
      "said": [],
      "plan": []
@@ -6143,22 +6284,7 @@
      "said": [],
      "plan": []
     },
-    "economy": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
-    "climate": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
     "guns": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
-    "education": {
      "gap": true,
      "said": [],
      "plan": []
@@ -6176,7 +6302,7 @@
    "office": "State Senate",
    "district": "3",
    "website": "https://www.saudanwar.com/",
-   "reviewed": null,
+   "reviewed": "w",
    "sources": [
     {
      "key": "ballotS",
@@ -6187,6 +6313,11 @@
      "key": "bp",
      "title": "Ballotpedia: Saud Anwar",
      "url": "https://ballotpedia.org/Saud_Anwar"
+    },
+    {
+     "key": "w",
+     "title": "Dr. Saud Anwar for State Senate",
+     "url": "https://www.saudanwar.com"
     }
    ],
    "overview": [
@@ -6198,12 +6329,57 @@
     ]
    ],
    "incumbent": true,
-   "unreviewed": true,
+   "unreviewed": false,
    "accessed": "2026-10-22",
    "state": "CT",
    "photo": "https://www.saudanwar.com/anwar-jumbo2-scaled.jpg",
    "photoSource": "https://www.saudanwar.com/",
    "topics": {
+    "healthcare": {
+     "gap": false,
+     "said": [],
+     "plan": [
+      [
+       {
+        "t": "He cites leading "
+       },
+       {
+        "q": "Led Senate Bill 196, restricting future hospital sale-leaseback deals on main campuses",
+        "s": "w"
+       },
+       {
+        "t": "."
+       }
+      ]
+     ],
+     "paras": [
+      [
+       {
+        "t": "His site says "
+       },
+       {
+        "q": "he'll keep fighting rising insurance and prescription costs, defending coverage from federal cuts, and keeping private equity out of our hospitals",
+        "s": "w"
+       },
+       {
+        "t": "."
+       }
+      ]
+     ]
+    },
+    "economy": {
+     "gap": false,
+     "said": [],
+     "plan": [],
+     "paras": [
+      [
+       {
+        "q": "Building on more than $600 million already saved for residents, he'll keep going after the everyday costs squeezing our families.",
+        "s": "w"
+       }
+      ]
+     ]
+    },
     "abortion": {
      "gap": true,
      "said": [],
@@ -6224,17 +6400,7 @@
      "said": [],
      "plan": []
     },
-    "healthcare": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
     "immigration": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
-    "economy": {
      "gap": true,
      "said": [],
      "plan": []
@@ -6365,7 +6531,7 @@
    "office": "State Senate",
    "district": "4",
    "website": "https://www.mdforsenate.com",
-   "reviewed": null,
+   "reviewed": "w",
    "sources": [
     {
      "key": "ballotS",
@@ -6376,6 +6542,11 @@
      "key": "bp",
      "title": "Ballotpedia: MD Rahman",
      "url": "https://ballotpedia.org/MD_Rahman"
+    },
+    {
+     "key": "w",
+     "title": "MD Rahman for State Senate: Platform",
+     "url": "https://www.mdforsenate.com/platform"
     }
    ],
    "overview": [
@@ -6387,21 +6558,149 @@
     ]
    ],
    "incumbent": true,
-   "unreviewed": true,
+   "unreviewed": false,
    "accessed": "2026-10-22",
    "state": "CT",
    "photo": "https://static.wixstatic.com/media/646b37_4e5d2cbea5f046148cba0839656ed24a~mv2.jpg/v1/fill/w_147,h_221,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/2022_RAHMAN_MD_9388__.jpg",
    "photoSource": "https://www.mdforsenate.com",
    "topics": {
     "abortion": {
-     "gap": true,
+     "gap": false,
      "said": [],
-     "plan": []
+     "plan": [
+      [
+       {
+        "q": "MD will strongly oppose and stop Republican efforts to repeal any of the protections Democrats have enshrined in Connecticut law",
+        "s": "w"
+       },
+       {
+        "t": "."
+       }
+      ]
+     ],
+     "paras": [
+      [
+       {
+        "q": "Abortion is a woman’s right, fullstop.",
+        "s": "w"
+       }
+      ]
+     ]
     },
     "lgbtq": {
+     "gap": false,
+     "said": [],
+     "plan": [],
+     "paras": [
+      [
+       {
+        "q": "MD will defend LGBTQ+ rights and supports access to medical care for all children and adults.",
+        "s": "w"
+       }
+      ]
+     ]
+    },
+    "healthcare": {
+     "gap": false,
+     "said": [],
+     "plan": [
+      [
+       {
+        "q": "He’ll support a Public Option",
+        "s": "w"
+       },
+       {
+        "t": ", and "
+       },
+       {
+        "q": "will always ensure our safety net is fully funded",
+        "s": "w"
+       },
+       {
+        "t": "."
+       }
+      ]
+     ],
+     "paras": [
+      [
+       {
+        "t": "His platform says "
+       },
+       {
+        "q": "healthcare is a right, not a privilege",
+        "s": "w"
+       },
+       {
+        "t": "."
+       }
+      ]
+     ]
+    },
+    "guns": {
      "gap": true,
      "said": [],
-     "plan": []
+     "plan": [
+      [
+       {
+        "q": "MD will work to strengthen our prohibitions on ghost guns and illegal weapons, require training for firearm permits, and fund mental health and jobs programs to help stop violence before it starts.",
+        "s": "w"
+       }
+      ]
+     ]
+    },
+    "education": {
+     "gap": false,
+     "said": [],
+     "plan": [
+      [
+       {
+        "q": "Providing the opportunity to attend community college and technical schools for free",
+        "s": "w"
+       },
+       {
+        "t": ", and "
+       },
+       {
+        "q": "universal pre-Kindergarten",
+        "s": "w"
+       },
+       {
+        "t": "."
+       }
+      ]
+     ],
+     "paras": [
+      [
+       {
+        "q": "Education is the answer to so many of the obstacles faced by Connecticut families.",
+        "s": "w"
+       }
+      ]
+     ]
+    },
+    "climate": {
+     "gap": true,
+     "said": [],
+     "plan": [
+      [
+       {
+        "q": "invest in our electric grid and electric-car charging infrastructure",
+        "s": "w"
+       }
+      ]
+     ]
+    },
+    "economy": {
+     "gap": true,
+     "said": [],
+     "plan": [
+      [
+       {
+        "q": "we need a state government that fosters growth through targeted investments, reduced college and technical school costs, and aligns our workforce with the jobs of tomorrow",
+        "s": "w"
+       }
+      ]
+     ]
     },
     "taxes": {
      "gap": true,
@@ -6413,32 +6712,7 @@
      "said": [],
      "plan": []
     },
-    "healthcare": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
     "immigration": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
-    "economy": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
-    "climate": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
-    "guns": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
-    "education": {
      "gap": true,
      "said": [],
      "plan": []
@@ -6456,7 +6730,7 @@
    "office": "State Senate",
    "district": "5",
    "website": "http://www.senatedems.ct.gov/slap",
-   "reviewed": null,
+   "reviewed": "w",
    "sources": [
     {
      "key": "ballotS",
@@ -6467,6 +6741,11 @@
      "key": "bp",
      "title": "Ballotpedia: Derek Slap",
      "url": "https://ballotpedia.org/Derek_Slap"
+    },
+    {
+     "key": "w",
+     "title": "Connecticut Senate Democrats: Derek Slap",
+     "url": "http://www.senatedems.ct.gov/slap"
     }
    ],
    "overview": [
@@ -6478,7 +6757,7 @@
     ]
    ],
    "incumbent": true,
-   "unreviewed": true,
+   "unreviewed": false,
    "accessed": "2026-10-22",
    "state": "CT",
    "photo": "https://www.senatedems.ct.gov/wp-content/uploads/2023/09/Slap-headshot-2025-scaled.jpg",
@@ -6727,7 +7006,7 @@
    "office": "State Senate",
    "district": "7",
    "website": "https://www.kinerforsenate.com/",
-   "reviewed": null,
+   "reviewed": "w",
    "sources": [
     {
      "key": "ballotS",
@@ -6738,6 +7017,11 @@
      "key": "bp",
      "title": "Ballotpedia: David William Kiner",
      "url": "https://ballotpedia.org/David_William_Kiner"
+    },
+    {
+     "key": "w",
+     "title": "David Kiner for State Senate: Priorities",
+     "url": "https://www.kinerforsenate.com/priorities"
     }
    ],
    "overview": [
@@ -6749,12 +7033,110 @@
     ]
    ],
    "incumbent": false,
-   "unreviewed": true,
+   "unreviewed": false,
    "accessed": "2026-10-22",
    "state": "CT",
    "photo": null,
    "photoSource": null,
    "topics": {
+    "economy": {
+     "gap": false,
+     "said": [],
+     "plan": [],
+     "paras": [
+      [
+       {
+        "t": "His priorities page says "
+       },
+       {
+        "q": "policies that lower everyday costs, expanding access to affordable housing, strengthening public transportation",
+        "s": "w"
+       },
+       {
+        "t": "."
+       }
+      ]
+     ]
+    },
+    "climate": {
+     "gap": false,
+     "said": [],
+     "plan": [
+      [
+       {
+        "q": "greater transparency in how utility rates are set",
+        "s": "w"
+       },
+       {
+        "t": ", and "
+       },
+       {
+        "q": "push for reforms that put consumers first",
+        "s": "w"
+       },
+       {
+        "t": "."
+       }
+      ]
+     ],
+     "paras": [
+      [
+       {
+        "t": "His site says "
+       },
+       {
+        "q": "utility companies must be held accountable when they put profits ahead of the people they serve",
+        "s": "w"
+       },
+       {
+        "t": "."
+       }
+      ]
+     ]
+    },
+    "taxes": {
+     "gap": true,
+     "said": [],
+     "plan": [
+      [
+       {
+        "q": "pursue policies that help communities fund essential services without relying so heavily on property tax increases",
+        "s": "w"
+       }
+      ]
+     ]
+    },
+    "healthcare": {
+     "gap": true,
+     "said": [],
+     "plan": [
+      [
+       {
+        "q": "expand access to affordable healthcare and prescriptions",
+        "s": "w"
+       }
+      ]
+     ]
+    },
+    "education": {
+     "gap": false,
+     "said": [],
+     "plan": [],
+     "paras": [
+      [
+       {
+        "t": "His site says he will "
+       },
+       {
+        "q": "advocate for fair and reliable education funding so schools have the resources they need to help students thrive",
+        "s": "w"
+       },
+       {
+        "t": "."
+       }
+      ]
+     ]
+    },
     "abortion": {
      "gap": true,
      "said": [],
@@ -6765,17 +7147,7 @@
      "said": [],
      "plan": []
     },
-    "taxes": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
     "defense": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
-    "healthcare": {
      "gap": true,
      "said": [],
      "plan": []
@@ -6785,22 +7157,7 @@
      "said": [],
      "plan": []
     },
-    "economy": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
-    "climate": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
     "guns": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
-    "education": {
      "gap": true,
      "said": [],
      "plan": []
@@ -6816,7 +7173,7 @@
    "office": "State Senate",
    "district": "7",
    "website": "https://www.johnkisselforsenate.com",
-   "reviewed": null,
+   "reviewed": "w",
    "sources": [
     {
      "key": "ballotS",
@@ -6827,6 +7184,11 @@
      "key": "bp",
      "title": "Ballotpedia: John Kissel",
      "url": "https://ballotpedia.org/John_Kissel"
+    },
+    {
+     "key": "w",
+     "title": "John Kissel for State Senate",
+     "url": "https://www.johnkisselforsenate.com"
     }
    ],
    "overview": [
@@ -6838,12 +7200,45 @@
     ]
    ],
    "incumbent": true,
-   "unreviewed": true,
+   "unreviewed": false,
    "accessed": "2026-10-22",
    "state": "CT",
    "photo": "https://www.johnkisselforsenate.com/wp-content/themes/john-a-kissel/assets/1_inset_HSv2.jpg",
    "photoSource": "https://www.johnkisselforsenate.com",
    "topics": {
+    "economy": {
+     "gap": false,
+     "said": [],
+     "plan": [],
+     "paras": [
+      [
+       {
+        "q": "John knows every state policy should help make Connecticut more affordable to live, work and raise a family.",
+        "s": "w"
+       }
+      ]
+     ]
+    },
+    "education": {
+     "gap": false,
+     "said": [],
+     "plan": [
+      [
+       {
+        "q": "John is leading the fight for greater state support for special education teachers and programs, as well as early childhood education.",
+        "s": "w"
+       }
+      ]
+     ],
+     "paras": [
+      [
+       {
+        "q": "John will continue to fight for more state dollars for local education.",
+        "s": "w"
+       }
+      ]
+     ]
+    },
     "abortion": {
      "gap": true,
      "said": [],
@@ -6874,22 +7269,12 @@
      "said": [],
      "plan": []
     },
-    "economy": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
     "climate": {
      "gap": true,
      "said": [],
      "plan": []
     },
     "guns": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
-    "education": {
      "gap": true,
      "said": [],
      "plan": []
@@ -6907,7 +7292,7 @@
    "office": "State Senate",
    "district": "8",
    "website": "https://www.mikecriss.com/",
-   "reviewed": null,
+   "reviewed": "w",
    "sources": [
     {
      "key": "ballotS",
@@ -6918,6 +7303,11 @@
      "key": "bp",
      "title": "Ballotpedia: Michael Criss",
      "url": "https://ballotpedia.org/Michael_Criss"
+    },
+    {
+     "key": "w",
+     "title": "Mike Criss for State Senate",
+     "url": "https://www.mikecriss.com"
     }
    ],
    "overview": [
@@ -6929,23 +7319,56 @@
     ]
    ],
    "incumbent": false,
-   "unreviewed": true,
+   "unreviewed": false,
    "accessed": "2026-10-22",
    "state": "CT",
    "photo": "https://static.wixstatic.com/media/bafce4_c685183500f3456a997df53682947e2f~mv2.jpeg/v1/crop/x_0,y_182,w_596,h_596/fill/w_159,h_159,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/IMG_5342.jpeg",
    "photoSource": "https://www.mikecriss.com/",
    "topics": {
+    "taxes": {
+     "gap": false,
+     "said": [],
+     "plan": [
+      [
+       {
+        "q": "Deliver real relief for homeowners and working families burdened by rising costs.",
+        "s": "w"
+       }
+      ]
+     ],
+     "paras": [
+      [
+       {
+        "t": "His site's slogan is "
+       },
+       {
+        "q": "Lower Costs, Local Control",
+        "s": "w"
+       },
+       {
+        "t": "."
+       }
+      ]
+     ]
+    },
+    "climate": {
+     "gap": true,
+     "said": [],
+     "plan": [
+      [
+       {
+        "q": "Tackle the \"public benefits\" charges on your bill, stop policies that increase your rates",
+        "s": "w"
+       }
+      ]
+     ]
+    },
     "abortion": {
      "gap": true,
      "said": [],
      "plan": []
     },
     "lgbtq": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
-    "taxes": {
      "gap": true,
      "said": [],
      "plan": []
@@ -6966,11 +7389,6 @@
      "plan": []
     },
     "economy": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
-    "climate": {
      "gap": true,
      "said": [],
      "plan": []
@@ -6998,7 +7416,7 @@
    "office": "State Senate",
    "district": "8",
    "website": "https://paulhonigforstatesenate.com",
-   "reviewed": null,
+   "reviewed": "w",
    "sources": [
     {
      "key": "ballotS",
@@ -7009,6 +7427,11 @@
      "key": "bp",
      "title": "Ballotpedia: Paul Honig",
      "url": "https://ballotpedia.org/Paul_Honig"
+    },
+    {
+     "key": "w",
+     "title": "Paul Honig for State Senate: Issues",
+     "url": "https://paulhonigforstatesenate.com/issues"
     }
    ],
    "overview": [
@@ -7029,23 +7452,60 @@
     ]
    ],
    "incumbent": true,
-   "unreviewed": true,
+   "unreviewed": false,
    "accessed": "2026-10-22",
    "state": "CT",
    "photo": null,
    "photoSource": null,
    "topics": {
+    "taxes": {
+     "gap": false,
+     "said": [],
+     "plan": [],
+     "paras": [
+      [
+       {
+        "t": "His issues page says "
+       },
+       {
+        "q": "I was proud to support Connecticut’s bipartisan balanced state budget that maintains the largest middle-class tax cut in state history.",
+        "s": "w"
+       }
+      ]
+     ]
+    },
+    "education": {
+     "gap": false,
+     "said": [],
+     "plan": [],
+     "paras": [
+      [
+       {
+        "t": "His site lists a record that includes "
+       },
+       {
+        "q": "Increased K-12 regular education funding more than $4.6 million",
+        "s": "w"
+       },
+       {
+        "t": " and "
+       },
+       {
+        "q": "Provided $1.4 million in grants for special ed",
+        "s": "w"
+       },
+       {
+        "t": "."
+       }
+      ]
+     ]
+    },
     "abortion": {
      "gap": true,
      "said": [],
      "plan": []
     },
     "lgbtq": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
-    "taxes": {
      "gap": true,
      "said": [],
      "plan": []
@@ -7076,11 +7536,6 @@
      "plan": []
     },
     "guns": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
-    "education": {
      "gap": true,
      "said": [],
      "plan": []
@@ -7185,7 +7640,7 @@
    "office": "State Senate",
    "district": "9",
    "website": "https://gwenforct.com/",
-   "reviewed": null,
+   "reviewed": "w",
    "sources": [
     {
      "key": "ballotS",
@@ -7196,6 +7651,11 @@
      "key": "bp",
      "title": "Ballotpedia: Gwen Samuel",
      "url": "https://ballotpedia.org/Gwen_Samuel"
+    },
+    {
+     "key": "w",
+     "title": "Gwen Samuel for State Senate: Issues",
+     "url": "https://gwenforct.com/issues"
     }
    ],
    "overview": [
@@ -7207,12 +7667,97 @@
     ]
    ],
    "incumbent": false,
-   "unreviewed": true,
+   "unreviewed": false,
    "accessed": "2026-10-22",
    "state": "CT",
    "photo": "https://images.remixer.ai/account-2160829/1503a5c5-5603-41cf-b013-5dbdb2b87c69.png",
    "photoSource": "https://gwenforct.com/",
    "topics": {
+    "economy": {
+     "gap": false,
+     "said": [],
+     "plan": [
+      [
+       {
+        "q": "Reduce unnecessary barriers and costs that make it harder for local businesses and entrepreneurs to grow.",
+        "s": "w"
+       }
+      ]
+     ],
+     "paras": [
+      [
+       {
+        "t": "Her issues page says "
+       },
+       {
+        "q": "Affordability is more than one tax or one bill.",
+        "s": "w"
+       }
+      ]
+     ]
+    },
+    "taxes": {
+     "gap": true,
+     "said": [],
+     "plan": [
+      [
+       {
+        "q": "Work to reduce the pressure placed on local property taxpayers by examining state mandates",
+        "s": "w"
+       }
+      ]
+     ]
+    },
+    "climate": {
+     "gap": true,
+     "said": [],
+     "plan": [
+      [
+       {
+        "q": "Push for greater transparency, accountability, competition, and long-term solutions to Connecticut's high energy costs.",
+        "s": "w"
+       }
+      ]
+     ]
+    },
+    "healthcare": {
+     "gap": true,
+     "said": [],
+     "plan": [
+      [
+       {
+        "q": "Support efforts that reduce out-of-pocket healthcare and prescription costs",
+        "s": "w"
+       }
+      ]
+     ]
+    },
+    "education": {
+     "gap": false,
+     "said": [],
+     "plan": [],
+     "paras": [
+      [
+       {
+        "t": "Her site lists "
+       },
+       {
+        "q": "Strong public schools and academic excellence",
+        "s": "w"
+       },
+       {
+        "t": " and "
+       },
+       {
+        "q": "Meaningful parental involvement and transparency",
+        "s": "w"
+       },
+       {
+        "t": "."
+       }
+      ]
+     ]
+    },
     "abortion": {
      "gap": true,
      "said": [],
@@ -7223,17 +7768,7 @@
      "said": [],
      "plan": []
     },
-    "taxes": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
     "defense": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
-    "healthcare": {
      "gap": true,
      "said": [],
      "plan": []
@@ -7243,22 +7778,7 @@
      "said": [],
      "plan": []
     },
-    "economy": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
-    "climate": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
     "guns": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
-    "education": {
      "gap": true,
      "said": [],
      "plan": []
@@ -7276,7 +7796,7 @@
    "office": "State Senate",
    "district": "9",
    "website": "https://www.mattlesser.com",
-   "reviewed": null,
+   "reviewed": "w",
    "sources": [
     {
      "key": "ballotS",
@@ -7287,6 +7807,11 @@
      "key": "bp",
      "title": "Ballotpedia: Matthew L. Lesser",
      "url": "https://ballotpedia.org/Matthew_Lesser"
+    },
+    {
+     "key": "w",
+     "title": "Matt Lesser for State Senate",
+     "url": "https://www.mattlesser.com"
     }
    ],
    "overview": [
@@ -7298,12 +7823,69 @@
     ]
    ],
    "incumbent": true,
-   "unreviewed": true,
+   "unreviewed": false,
    "accessed": "2026-10-22",
    "state": "CT",
    "photo": null,
    "photoSource": null,
    "topics": {
+    "healthcare": {
+     "gap": false,
+     "said": [],
+     "plan": [],
+     "paras": [
+      [
+       {
+        "t": "His site calls him "
+       },
+       {
+        "q": "the leading voice for affordable health care",
+        "s": "w"
+       },
+       {
+        "t": "."
+       }
+      ]
+     ]
+    },
+    "education": {
+     "gap": false,
+     "said": [],
+     "plan": [],
+     "paras": [
+      [
+       {
+        "t": "His site calls him "
+       },
+       {
+        "q": "a passionate advocate for public education",
+        "s": "w"
+       },
+       {
+        "t": "."
+       }
+      ]
+     ]
+    },
+    "immigration": {
+     "gap": false,
+     "said": [],
+     "plan": [],
+     "paras": [
+      [
+       {
+        "t": "His site says he is "
+       },
+       {
+        "q": "leading the charge to protect our community from ICE & MAGA Republicans in Washington",
+        "s": "w"
+       },
+       {
+        "t": "."
+       }
+      ]
+     ]
+    },
     "abortion": {
      "gap": true,
      "said": [],
@@ -7324,16 +7906,6 @@
      "said": [],
      "plan": []
     },
-    "healthcare": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
-    "immigration": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
     "economy": {
      "gap": true,
      "said": [],
@@ -7345,11 +7917,6 @@
      "plan": []
     },
     "guns": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
-    "education": {
      "gap": true,
      "said": [],
      "plan": []
@@ -7454,7 +8021,7 @@
    "office": "State Senate",
    "district": "11",
    "website": "http://www.housedems.ct.gov/Paolillo",
-   "reviewed": null,
+   "reviewed": "w",
    "sources": [
     {
      "key": "ballotS",
@@ -7465,6 +8032,11 @@
      "key": "bp",
      "title": "Ballotpedia: Alphonse Paolillo",
      "url": "https://ballotpedia.org/Alphonse_Paolillo"
+    },
+    {
+     "key": "w",
+     "title": "Connecticut House Democrats: Alphonse Paolillo",
+     "url": "http://www.housedems.ct.gov/Paolillo"
     }
    ],
    "overview": [
@@ -7476,7 +8048,7 @@
     ]
    ],
    "incumbent": false,
-   "unreviewed": true,
+   "unreviewed": false,
    "accessed": "2026-10-22",
    "state": "CT",
    "photo": null,
@@ -7543,7 +8115,7 @@
    "office": "State Senate",
    "district": "11",
    "website": "https://voteworkersvoice.net/",
-   "reviewed": null,
+   "reviewed": "w",
    "sources": [
     {
      "key": "ballotS",
@@ -7554,6 +8126,11 @@
      "key": "bp",
      "title": "Ballotpedia: Rosa Aurelia Pepper-Macias",
      "url": "https://ballotpedia.org/Rosa_Aurelia_Pepper-Macias"
+    },
+    {
+     "key": "w",
+     "title": "Workers' Voice Party: Rosa Pepper-Macias, Issues",
+     "url": "https://voteworkersvoice.net/issues"
     }
    ],
    "overview": [
@@ -7565,58 +8142,153 @@
     ]
    ],
    "incumbent": false,
-   "unreviewed": true,
+   "unreviewed": false,
    "accessed": "2026-10-22",
    "state": "CT",
    "photo": null,
    "photoSource": null,
    "topics": {
-    "abortion": {
-     "gap": true,
+    "immigration": {
+     "gap": false,
      "said": [],
-     "plan": []
+     "plan": [
+      [
+       {
+        "q": "Stop all ICE raids, detentions and deportations",
+        "s": "w"
+       }
+      ]
+     ],
+     "paras": [
+      [
+       {
+        "q": "Abolish ICE!",
+        "s": "w"
+       }
+      ]
+     ]
     },
-    "lgbtq": {
-     "gap": true,
+    "defense": {
+     "gap": false,
      "said": [],
-     "plan": []
+     "plan": [],
+     "paras": [
+      [
+       {
+        "q": "STOP the war and use the Pentagon’s trillion-dollar budget for jobs, education, housing, food, and healthcare as rights",
+        "s": "w"
+       }
+      ]
+     ]
     },
     "taxes": {
      "gap": true,
      "said": [],
-     "plan": []
-    },
-    "defense": {
-     "gap": true,
-     "said": [],
-     "plan": []
+     "plan": [
+      [
+       {
+        "q": "No taxes on anyone earning $50,000 or less per year",
+        "s": "w"
+       },
+       {
+        "t": ", and "
+       },
+       {
+        "q": "Tax all income above $250,000 at 95% (when federal income tax is included)",
+        "s": "w"
+       },
+       {
+        "t": "."
+       }
+      ]
+     ]
     },
     "healthcare": {
-     "gap": true,
+     "gap": false,
      "said": [],
-     "plan": []
+     "plan": [],
+     "paras": [
+      [
+       {
+        "q": "Socialize and expand healthcare: For a unified public healthcare plan",
+        "s": "w"
+       }
+      ]
+     ]
     },
-    "immigration": {
-     "gap": true,
+    "lgbtq": {
+     "gap": false,
      "said": [],
-     "plan": []
+     "plan": [
+      [
+       {
+        "q": "Re-establish all gender affirming care at all CT hospitals and make it free, as a human right",
+        "s": "w"
+       }
+      ]
+     ],
+     "paras": [
+      [
+       {
+        "q": "Equal rights for all regardless of their gender identity. Free access to gender-affirming care for all.",
+        "s": "w"
+       }
+      ]
+     ]
     },
-    "economy": {
-     "gap": true,
+    "abortion": {
+     "gap": false,
      "said": [],
-     "plan": []
-    },
-    "climate": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
-    "guns": {
-     "gap": true,
-     "said": [],
-     "plan": []
+     "plan": [],
+     "paras": [
+      [
+       {
+        "q": "Contraception, abortion and other reproductive services free and on demand",
+        "s": "w"
+       }
+      ]
+     ]
     },
     "education": {
+     "gap": false,
+     "said": [],
+     "plan": [],
+     "paras": [
+      [
+       {
+        "q": "Make all public colleges and universities tuition free",
+        "s": "w"
+       }
+      ]
+     ]
+    },
+    "climate": {
+     "gap": false,
+     "said": [],
+     "plan": [],
+     "paras": [
+      [
+       {
+        "q": "Workers' control over production to combat climate change and provide for human need, not for war, genocide and big tech authoritarianism",
+        "s": "w"
+       }
+      ]
+     ]
+    },
+    "economy": {
+     "gap": false,
+     "said": [],
+     "plan": [],
+     "paras": [
+      [
+       {
+        "q": "End unemployment with a shortened workweek compensated at full-time pay.",
+        "s": "w"
+       }
+      ]
+     ]
+    },
+    "guns": {
      "gap": true,
      "said": [],
      "plan": []
@@ -7632,7 +8304,7 @@
    "office": "State Senate",
    "district": "12",
    "website": "http://www.senatedems.ct.gov/cohen",
-   "reviewed": null,
+   "reviewed": "w",
    "sources": [
     {
      "key": "ballotS",
@@ -7643,6 +8315,11 @@
      "key": "bp",
      "title": "Ballotpedia: Christine Cohen",
      "url": "https://ballotpedia.org/Christine_Cohen"
+    },
+    {
+     "key": "w",
+     "title": "Christine Cohen: legislator or campaign page (no policy statements)",
+     "url": "http://www.senatedems.ct.gov/cohen"
     }
    ],
    "overview": [
@@ -7654,7 +8331,7 @@
     ]
    ],
    "incumbent": true,
-   "unreviewed": true,
+   "unreviewed": false,
    "accessed": "2026-10-22",
    "state": "CT",
    "photo": "https://www.senatedems.ct.gov/wp-content/uploads/2023/09/cohen5x4.jpg",
@@ -7723,7 +8400,7 @@
    "office": "State Senate",
    "district": "12",
    "website": "https://www.deane2026.com/",
-   "reviewed": null,
+   "reviewed": "w",
    "sources": [
     {
      "key": "ballotS",
@@ -7734,6 +8411,11 @@
      "key": "bp",
      "title": "Ballotpedia: Lisa Deane",
      "url": "https://ballotpedia.org/Lisa_Deane"
+    },
+    {
+     "key": "w",
+     "title": "Lisa Deane for State Senate",
+     "url": "https://www.deane2026.com"
     }
    ],
    "overview": [
@@ -7745,23 +8427,56 @@
     ]
    ],
    "incumbent": false,
-   "unreviewed": true,
+   "unreviewed": false,
    "accessed": "2026-10-22",
    "state": "CT",
    "photo": null,
    "photoSource": null,
    "topics": {
+    "taxes": {
+     "gap": false,
+     "said": [],
+     "plan": [
+      [
+       {
+        "q": "immediate sales and income tax relief, the development of a state child tax deduction, and a reduction of small business filing fees",
+        "s": "w"
+       }
+      ]
+     ],
+     "paras": [
+      [
+       {
+        "t": "Her site says she is "
+       },
+       {
+        "q": "committed to supporting immediate sales and income tax relief, the development of a state child tax deduction, and a reduction of small business filing fees to help facilitate economic development",
+        "s": "w"
+       },
+       {
+        "t": "."
+       }
+      ]
+     ]
+    },
+    "safety": {
+     "gap": true,
+     "said": [],
+     "plan": [
+      [
+       {
+        "q": "invest in police recruitment, revise the Police Accountability bill, and educate our youth on the dangers of intoxicated and distracted driving",
+        "s": "w"
+       }
+      ]
+     ]
+    },
     "abortion": {
      "gap": true,
      "said": [],
      "plan": []
     },
     "lgbtq": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
-    "taxes": {
      "gap": true,
      "said": [],
      "plan": []
@@ -7812,7 +8527,7 @@
    "office": "State Senate",
    "district": "13",
    "website": "https://fazzinoforct.com/",
-   "reviewed": null,
+   "reviewed": "w",
    "sources": [
     {
      "key": "ballotS",
@@ -7823,6 +8538,11 @@
      "key": "bp",
      "title": "Ballotpedia: Jonathan Fazzino",
      "url": "https://ballotpedia.org/Jonathan_Fazzino"
+    },
+    {
+     "key": "w",
+     "title": "Jonathan Fazzino: legislator or campaign page (no policy statements)",
+     "url": "https://fazzinoforct.com/"
     }
    ],
    "overview": [
@@ -7834,7 +8554,7 @@
     ]
    ],
    "incumbent": false,
-   "unreviewed": true,
+   "unreviewed": false,
    "accessed": "2026-10-22",
    "state": "CT",
    "photo": "https://content.app-sources.com/s/34442690154796091/thumbnails/640x480/Images/JF26_Primary_0210-1792024.jpg?format=webp",
@@ -7992,7 +8712,7 @@
    "office": "State Senate",
    "district": "14",
    "website": "https://maroneyforus.com/",
-   "reviewed": null,
+   "reviewed": "w",
    "sources": [
     {
      "key": "ballotS",
@@ -8003,6 +8723,16 @@
      "key": "bp",
      "title": "Ballotpedia: James Maroney",
      "url": "https://ballotpedia.org/James_Maroney"
+    },
+    {
+     "key": "w",
+     "title": "James Maroney for State Senate (home page)",
+     "url": "https://maroneyforus.com"
+    },
+    {
+     "key": "pg",
+     "title": "James Maroney for State Senate: Policy Goals",
+     "url": "https://maroneyforus.com/policy-goals/"
     }
    ],
    "overview": [
@@ -8014,12 +8744,54 @@
     ]
    ],
    "incumbent": true,
-   "unreviewed": true,
+   "unreviewed": false,
    "accessed": "2026-10-22",
    "state": "CT",
    "photo": null,
    "photoSource": null,
    "topics": {
+    "economy": {
+     "gap": false,
+     "said": [],
+     "plan": [],
+     "paras": [
+      [
+       {
+        "t": "His site says his focus includes "
+       },
+       {
+        "q": "cutting red tape for small businesses",
+        "s": "w"
+       },
+       {
+        "t": "."
+       }
+      ]
+     ]
+    },
+    "education": {
+     "gap": false,
+     "said": [],
+     "plan": [
+      [
+       {
+        "q": "James is excited to work with Senator Fonfara and other legislators on ECE policy.",
+        "s": "pg"
+       }
+      ]
+     ],
+     "paras": [
+      [
+       {
+        "t": "His policy-goals page says on early childhood education: "
+       },
+       {
+        "q": "So, this is an investment in both Connecticut’s short term and long term workforce.",
+        "s": "pg"
+       }
+      ]
+     ]
+    },
     "abortion": {
      "gap": true,
      "said": [],
@@ -8050,22 +8822,12 @@
      "said": [],
      "plan": []
     },
-    "economy": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
     "climate": {
      "gap": true,
      "said": [],
      "plan": []
     },
     "guns": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
-    "education": {
      "gap": true,
      "said": [],
      "plan": []
@@ -8081,7 +8843,7 @@
    "office": "State Senate",
    "district": "14",
    "website": "https://www.owforsenate.com/",
-   "reviewed": null,
+   "reviewed": "w",
    "sources": [
     {
      "key": "ballotS",
@@ -8092,6 +8854,16 @@
      "key": "bp",
      "title": "Ballotpedia: Owen Weaver",
      "url": "https://ballotpedia.org/Owen_Weaver"
+    },
+    {
+     "key": "w",
+     "title": "Owen Weaver for State Senate: About",
+     "url": "https://www.owforsenate.com/about"
+    },
+    {
+     "key": "h",
+     "title": "Owen Weaver for State Senate (home page)",
+     "url": "https://www.owforsenate.com"
     }
    ],
    "overview": [
@@ -8103,23 +8875,60 @@
     ]
    ],
    "incumbent": false,
-   "unreviewed": true,
+   "unreviewed": false,
    "accessed": "2026-10-22",
    "state": "CT",
    "photo": "https://static.wixstatic.com/media/bf1030_1018968acdf442cbbe610ffa359476cf~mv2.jpg/v1/fill/w_122,h_122,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/bf1030_1018968acdf442cbbe610ffa359476cf~mv2.jpg",
    "photoSource": "https://www.owforsenate.com/",
    "topics": {
+    "taxes": {
+     "gap": false,
+     "said": [],
+     "plan": [
+      [
+       {
+        "q": "making the state more affordable through tax cuts and property tax relief",
+        "s": "w"
+       }
+      ]
+     ],
+     "paras": [
+      [
+       {
+        "t": "His site says he wants "
+       },
+       {
+        "q": "making the state more affordable through tax cuts and property tax relief",
+        "s": "w"
+       },
+       {
+        "t": "."
+       }
+      ]
+     ]
+    },
+    "economy": {
+     "gap": false,
+     "said": [],
+     "plan": [],
+     "paras": [
+      [
+       {
+        "t": "His site says "
+       },
+       {
+        "q": "Connecticut’s top-down approach to affordable housing is both bad law and bad policy.",
+        "s": "h"
+       }
+      ]
+     ]
+    },
     "abortion": {
      "gap": true,
      "said": [],
      "plan": []
     },
     "lgbtq": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
-    "taxes": {
      "gap": true,
      "said": [],
      "plan": []
@@ -8135,11 +8944,6 @@
      "plan": []
     },
     "immigration": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
-    "economy": {
      "gap": true,
      "said": [],
      "plan": []
@@ -8172,7 +8976,7 @@
    "office": "State Senate",
    "district": "15",
    "website": "http://www.senatedems.ct.gov/hartley",
-   "reviewed": null,
+   "reviewed": "w",
    "sources": [
     {
      "key": "ballotS",
@@ -8183,6 +8987,11 @@
      "key": "bp",
      "title": "Ballotpedia: Joan Hartley",
      "url": "https://ballotpedia.org/Joan_Hartley"
+    },
+    {
+     "key": "w",
+     "title": "Joan Hartley: legislator or campaign page (no policy statements)",
+     "url": "http://www.senatedems.ct.gov/hartley"
     }
    ],
    "overview": [
@@ -8194,7 +9003,7 @@
     ]
    ],
    "incumbent": true,
-   "unreviewed": true,
+   "unreviewed": false,
    "accessed": "2026-10-22",
    "state": "CT",
    "photo": null,
@@ -8350,7 +9159,7 @@
    "office": "State Senate",
    "district": "16",
    "website": "https://www.voteforjackperry.com/",
-   "reviewed": null,
+   "reviewed": "w",
    "sources": [
     {
      "key": "ballotS",
@@ -8361,6 +9170,21 @@
      "key": "bp",
      "title": "Ballotpedia: Jack Perry",
      "url": "https://ballotpedia.org/Jack_Perry"
+    },
+    {
+     "key": "w",
+     "title": "Jack Perry for State Senate",
+     "url": "https://www.voteforjackperry.com"
+    },
+    {
+     "key": "ab",
+     "title": "Jack Perry for State Senate: Meet Jack",
+     "url": "https://www.voteforjackperry.com/about"
+    },
+    {
+     "key": "en",
+     "title": "Jack Perry for State Senate: Perry Campaign Releases Energy Platform",
+     "url": "https://www.voteforjackperry.com/news/perry-campaign-releases-energy-platform"
     }
    ],
    "overview": [
@@ -8381,23 +9205,69 @@
     ]
    ],
    "incumbent": false,
-   "unreviewed": true,
+   "unreviewed": false,
    "accessed": "2026-10-22",
    "state": "CT",
    "photo": null,
    "photoSource": null,
    "topics": {
+    "taxes": {
+     "gap": false,
+     "said": [],
+     "plan": [],
+     "paras": [
+      [
+       {
+        "t": "His site's slogan is "
+       },
+       {
+        "q": "lower taxes, LOWER HOUSEHOLD COSTS, HOLD EVERSOURCE ACCOUNTABLE",
+        "s": "w"
+       },
+       {
+        "t": "."
+       }
+      ]
+     ]
+    },
+    "climate": {
+     "gap": false,
+     "said": [],
+     "plan": [
+      [
+       {
+        "q": "Connecticut needs publicly-owned power grids.",
+        "s": "en"
+       }
+      ]
+     ],
+     "paras": [
+      [
+       {
+        "q": "Your electric bill keeps climbing while Eversource posts record profits.",
+        "s": "w"
+       }
+      ]
+     ]
+    },
+    "economy": {
+     "gap": true,
+     "said": [],
+     "plan": [
+      [
+       {
+        "q": "lowering costs, expanding access to child care and housing, and making sure small businesses and working families actually have a fair shot",
+        "s": "ab"
+       }
+      ]
+     ]
+    },
     "abortion": {
      "gap": true,
      "said": [],
      "plan": []
     },
     "lgbtq": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
-    "taxes": {
      "gap": true,
      "said": [],
      "plan": []
@@ -8413,16 +9283,6 @@
      "plan": []
     },
     "immigration": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
-    "economy": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
-    "climate": {
      "gap": true,
      "said": [],
      "plan": []
@@ -8537,7 +9397,7 @@
    "office": "State Senate",
    "district": "17",
    "website": "https://www.doraisforstatesenate.com/",
-   "reviewed": null,
+   "reviewed": "w",
    "sources": [
     {
      "key": "ballotS",
@@ -8548,6 +9408,11 @@
      "key": "bp",
      "title": "Ballotpedia: John-Paul Dorais",
      "url": "https://ballotpedia.org/John-Paul_Dorais"
+    },
+    {
+     "key": "w",
+     "title": "John-Paul Dorais for State Senate",
+     "url": "https://www.doraisforstatesenate.com"
     }
    ],
    "overview": [
@@ -8559,12 +9424,120 @@
     ]
    ],
    "incumbent": false,
-   "unreviewed": true,
+   "unreviewed": false,
    "accessed": "2026-10-22",
    "state": "CT",
    "photo": "https://www.doraisforstatesenate.com/images/hero-capitol-v2.jpg?dpl=dpl_FKyJfHqqEqrtJghH5mCYBYbn5SLK",
    "photoSource": "https://www.doraisforstatesenate.com/",
    "topics": {
+    "taxes": {
+     "gap": false,
+     "said": [],
+     "plan": [
+      [
+       {
+        "q": "Cap annual municipal property-tax levy increases at the greater of 2% or inflation, while allowing voters to approve exceptions for major projects.",
+        "s": "w"
+       }
+      ],
+      [
+       {
+        "q": "Reduce Connecticut's Paid Family Leave payroll tax by 20%.",
+        "s": "w"
+       }
+      ],
+      [
+       {
+        "t": "His site cites a Senate Republican package that included "
+       },
+       {
+        "q": "a $1 billion working- and middle-class income tax cut",
+        "s": "w"
+       },
+       {
+        "t": "."
+       }
+      ]
+     ],
+     "paras": [
+      [
+       {
+        "q": "Connecticut families work hard for their money. They should not have to watch more of every paycheck disappear into taxes while state government continues to grow.",
+        "s": "w"
+       }
+      ]
+     ]
+    },
+    "climate": {
+     "gap": false,
+     "said": [],
+     "plan": [
+      [
+       {
+        "q": "A moratorium on data centers should be considered as an option.",
+        "s": "w"
+       }
+      ]
+     ],
+     "paras": [
+      [
+       {
+        "q": "Connecticut families shouldn't dread opening their electric bills.",
+        "s": "w"
+       }
+      ]
+     ]
+    },
+    "immigration": {
+     "gap": false,
+     "said": [],
+     "plan": [],
+     "paras": [
+      [
+       {
+        "t": "His site says Senate Republicans "
+       },
+       {
+        "q": "proposed public-safety exceptions to legislation restricting cooperation with federal authorities",
+        "s": "w"
+       },
+       {
+        "t": "."
+       }
+      ]
+     ]
+    },
+    "safety": {
+     "gap": true,
+     "said": [],
+     "plan": [
+      [
+       {
+        "q": "recruiting and retaining qualified officers",
+        "s": "w"
+       }
+      ]
+     ]
+    },
+    "economy": {
+     "gap": false,
+     "said": [],
+     "plan": [],
+     "paras": [
+      [
+       {
+        "t": "His site lists the priority "
+       },
+       {
+        "q": "Protect Local Control of Housing Policy",
+        "s": "w"
+       },
+       {
+        "t": "."
+       }
+      ]
+     ]
+    },
     "abortion": {
      "gap": true,
      "said": [],
@@ -8575,32 +9548,12 @@
      "said": [],
      "plan": []
     },
-    "taxes": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
     "defense": {
      "gap": true,
      "said": [],
      "plan": []
     },
     "healthcare": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
-    "immigration": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
-    "economy": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
-    "climate": {
      "gap": true,
      "said": [],
      "plan": []
@@ -8628,7 +9581,7 @@
    "office": "State Senate",
    "district": "17",
    "website": "https://www.jorgecabreract.com",
-   "reviewed": null,
+   "reviewed": "w",
    "sources": [
     {
      "key": "ballotS",
@@ -8639,6 +9592,11 @@
      "key": "bp",
      "title": "Ballotpedia: Jorge Cabrera",
      "url": "https://ballotpedia.org/Jorge_Cabrera"
+    },
+    {
+     "key": "w",
+     "title": "Jorge Cabrera: legislator or campaign page (no policy statements)",
+     "url": "https://www.jorgecabreract.com"
     }
    ],
    "overview": [
@@ -8650,7 +9608,7 @@
     ]
    ],
    "incumbent": true,
-   "unreviewed": true,
+   "unreviewed": false,
    "accessed": "2026-10-22",
    "state": "CT",
    "photo": null,
@@ -8806,7 +9764,7 @@
    "office": "State Senate",
    "district": "18",
    "website": "https://www.joeforct.com/",
-   "reviewed": null,
+   "reviewed": "w",
    "sources": [
     {
      "key": "ballotS",
@@ -8817,6 +9775,16 @@
      "key": "bp",
      "title": "Ballotpedia: Joe de la Cruz",
      "url": "https://ballotpedia.org/Joe_de_la_Cruz"
+    },
+    {
+     "key": "w",
+     "title": "Joe de la Cruz for State Senate: Platform",
+     "url": "https://www.joeforct.com/platform"
+    },
+    {
+     "key": "h",
+     "title": "Joe de la Cruz for State Senate (home page)",
+     "url": "https://www.joeforct.com"
     }
    ],
    "overview": [
@@ -8828,12 +9796,68 @@
     ]
    ],
    "incumbent": false,
-   "unreviewed": true,
+   "unreviewed": false,
    "accessed": "2026-10-22",
    "state": "CT",
    "photo": "https://static.wixstatic.com/media/fa2961_27edb0fce851405199b977fe04a04b9c~mv2.jpg/v1/fill/w_147,h_109,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/JOED-104_edited.jpg",
    "photoSource": "https://www.joeforct.com/",
    "topics": {
+    "healthcare": {
+     "gap": false,
+     "said": [],
+     "plan": [],
+     "paras": [
+      [
+       {
+        "q": "Joe is fighting for universal health coverage so no family has to go without critical care, even when life circumstances change.",
+        "s": "w"
+       }
+      ]
+     ]
+    },
+    "guns": {
+     "gap": false,
+     "said": [],
+     "plan": [],
+     "paras": [
+      [
+       {
+        "t": "His site says he and his wife "
+       },
+       {
+        "q": "co-founded Community Speaks Out after losing a son to gun violence",
+        "s": "h"
+       },
+       {
+        "t": "."
+       }
+      ]
+     ]
+    },
+    "economy": {
+     "gap": true,
+     "said": [],
+     "plan": [
+      [
+       {
+        "q": "securing paid family leave, to raising the minimum wage, to bringing down our energy costs",
+        "s": "w"
+       }
+      ]
+     ]
+    },
+    "taxes": {
+     "gap": true,
+     "said": [],
+     "plan": [
+      [
+       {
+        "q": "fight for lower taxes",
+        "s": "w"
+       }
+      ]
+     ]
+    },
     "abortion": {
      "gap": true,
      "said": [],
@@ -8844,17 +9868,7 @@
      "said": [],
      "plan": []
     },
-    "taxes": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
     "defense": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
-    "healthcare": {
      "gap": true,
      "said": [],
      "plan": []
@@ -8864,17 +9878,7 @@
      "said": [],
      "plan": []
     },
-    "economy": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
     "climate": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
-    "guns": {
      "gap": true,
      "said": [],
      "plan": []
@@ -8897,7 +9901,7 @@
    "office": "State Senate",
    "district": "19",
    "website": "http://www.senatedems.ct.gov/Osten",
-   "reviewed": null,
+   "reviewed": "w",
    "sources": [
     {
      "key": "ballotS",
@@ -8908,6 +9912,11 @@
      "key": "bp",
      "title": "Ballotpedia: Catherine Osten",
      "url": "https://ballotpedia.org/Catherine_Osten"
+    },
+    {
+     "key": "w",
+     "title": "Catherine Osten: legislator or campaign page (no policy statements)",
+     "url": "http://www.senatedems.ct.gov/Osten"
     }
    ],
    "overview": [
@@ -8919,7 +9928,7 @@
     ]
    ],
    "incumbent": true,
-   "unreviewed": true,
+   "unreviewed": false,
    "accessed": "2026-10-22",
    "state": "CT",
    "photo": "https://www.senatedems.ct.gov/wp-content/uploads/2023/09/osten5x4.jpg",
@@ -8988,7 +9997,7 @@
    "office": "State Senate",
    "district": "19",
    "website": "https://www.guidoneforsenate.com/",
-   "reviewed": null,
+   "reviewed": "w",
    "sources": [
     {
      "key": "ballotS",
@@ -8999,6 +10008,11 @@
      "key": "bp",
      "title": "Ballotpedia: Jason Guidone",
      "url": "https://ballotpedia.org/Jason_Guidone"
+    },
+    {
+     "key": "w",
+     "title": "Jason Guidone for State Senate",
+     "url": "https://www.guidoneforsenate.com"
     }
    ],
    "overview": [
@@ -9010,23 +10024,63 @@
     ]
    ],
    "incumbent": false,
-   "unreviewed": true,
+   "unreviewed": false,
    "accessed": "2026-10-22",
    "state": "CT",
    "photo": "https://static.wixstatic.com/media/d33cc1_7db614691c2e43c9ac2f7ecf1e78873b~mv2.jpg/v1/fill/w_1200,h_750,al_c/d33cc1_7db614691c2e43c9ac2f7ecf1e78873b~mv2.jpg",
    "photoSource": "https://www.guidoneforsenate.com/",
    "topics": {
+    "taxes": {
+     "gap": false,
+     "said": [],
+     "plan": [],
+     "paras": [
+      [
+       {
+        "q": "I support responsible spending, transparency in government, and policies that keep taxes under control.",
+        "s": "w"
+       }
+      ]
+     ]
+    },
+    "education": {
+     "gap": false,
+     "said": [],
+     "plan": [],
+     "paras": [
+      [
+       {
+        "q": "I support strong parental involvement, a rigorous curriculum, and keeping education decisions in local hands",
+        "s": "w"
+       },
+       {
+        "t": "."
+       }
+      ]
+     ]
+    },
+    "economy": {
+     "gap": false,
+     "said": [],
+     "plan": [],
+     "paras": [
+      [
+       {
+        "t": "His site lists "
+       },
+       {
+        "q": "Making Connecticut more affordable so families, retirees, and young people can afford to stay here.",
+        "s": "w"
+       }
+      ]
+     ]
+    },
     "abortion": {
      "gap": true,
      "said": [],
      "plan": []
     },
     "lgbtq": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
-    "taxes": {
      "gap": true,
      "said": [],
      "plan": []
@@ -9046,22 +10100,12 @@
      "said": [],
      "plan": []
     },
-    "economy": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
     "climate": {
      "gap": true,
      "said": [],
      "plan": []
     },
     "guns": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
-    "education": {
      "gap": true,
      "said": [],
      "plan": []
@@ -9079,7 +10123,7 @@
    "office": "State Senate",
    "district": "20",
    "website": "https://www.leeelci.com/",
-   "reviewed": null,
+   "reviewed": "w",
    "sources": [
     {
      "key": "ballotS",
@@ -9090,6 +10134,16 @@
      "key": "bp",
      "title": "Ballotpedia: Lee Elci",
      "url": "https://ballotpedia.org/Lee_Elci"
+    },
+    {
+     "key": "w",
+     "title": "Lee Elci for CT Senate: Platform",
+     "url": "https://www.leeelci.com/issues"
+    },
+    {
+     "key": "h",
+     "title": "Lee Elci for CT Senate (home page)",
+     "url": "https://www.leeelci.com"
     }
    ],
    "overview": [
@@ -9101,23 +10155,83 @@
     ]
    ],
    "incumbent": false,
-   "unreviewed": true,
+   "unreviewed": false,
    "accessed": "2026-10-22",
    "state": "CT",
    "photo": null,
    "photoSource": null,
    "topics": {
+    "taxes": {
+     "gap": false,
+     "said": [],
+     "plan": [
+      [
+       {
+        "q": "Enact permanent, broad-based middle-class tax cuts, funded by real spending cuts, not gimmicks.",
+        "s": "w"
+       }
+      ],
+      [
+       {
+        "q": "Impose a strict spending cap tied to inflation and population growth.",
+        "s": "w"
+       },
+       {
+        "t": " "
+       },
+       {
+        "q": "Ban hidden fee and tax hikes buried in budget implementer bills.",
+        "s": "w"
+       }
+      ]
+     ],
+     "paras": [
+      [
+       {
+        "q": "Connecticut families are being taxed and priced out of their own state — while Hartford sits on surpluses instead of delivering relief.",
+        "s": "w"
+       }
+      ]
+     ]
+    },
+    "safety": {
+     "gap": false,
+     "said": [],
+     "plan": [
+      [
+       {
+        "q": "Restore real legal protections for officers acting in good faith.",
+        "s": "w"
+       }
+      ]
+     ],
+     "paras": [
+      [
+       {
+        "q": "The 2020 police accountability law turned our officers into suspects instead of protectors, and it's driving good men and women out of the profession.",
+        "s": "w"
+       }
+      ]
+     ]
+    },
+    "climate": {
+     "gap": true,
+     "said": [],
+     "plan": [
+      [
+       {
+        "q": "Get public-benefit charges off your electric bill, keep Millstone working, and modernize the grid.",
+        "s": "h"
+       }
+      ]
+     ]
+    },
     "abortion": {
      "gap": true,
      "said": [],
      "plan": []
     },
     "lgbtq": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
-    "taxes": {
      "gap": true,
      "said": [],
      "plan": []
@@ -9138,11 +10252,6 @@
      "plan": []
     },
     "economy": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
-    "climate": {
      "gap": true,
      "said": [],
      "plan": []
@@ -9168,7 +10277,7 @@
    "office": "State Senate",
    "district": "20",
    "website": "http://www.senatedems.ct.gov/marx",
-   "reviewed": null,
+   "reviewed": "w",
    "sources": [
     {
      "key": "ballotS",
@@ -9179,6 +10288,11 @@
      "key": "bp",
      "title": "Ballotpedia: Martha Marx",
      "url": "https://ballotpedia.org/Martha_Marx"
+    },
+    {
+     "key": "w",
+     "title": "Martha Marx: legislator or campaign page (no policy statements)",
+     "url": "http://www.senatedems.ct.gov/marx"
     }
    ],
    "overview": [
@@ -9190,7 +10304,7 @@
     ]
    ],
    "incumbent": true,
-   "unreviewed": true,
+   "unreviewed": false,
    "accessed": "2026-10-22",
    "state": "CT",
    "photo": "https://www.senatedems.ct.gov/wp-content/uploads/2023/09/Marx-2026-Headshot.jpeg",
@@ -9259,7 +10373,7 @@
    "office": "State Senate",
    "district": "21",
    "website": "https://www.reidforstatesenate.com/",
-   "reviewed": null,
+   "reviewed": "w",
    "sources": [
     {
      "key": "ballotS",
@@ -9270,6 +10384,11 @@
      "key": "bp",
      "title": "Ballotpedia: Carolann Reid",
      "url": "https://ballotpedia.org/Carolann_Reid"
+    },
+    {
+     "key": "w",
+     "title": "Carolann Reid for State Senate: Issues",
+     "url": "https://www.reidforstatesenate.com/issues"
     }
    ],
    "overview": [
@@ -9281,23 +10400,55 @@
     ]
    ],
    "incumbent": false,
-   "unreviewed": true,
+   "unreviewed": false,
    "accessed": "2026-10-22",
    "state": "CT",
    "photo": null,
    "photoSource": null,
    "topics": {
+    "economy": {
+     "gap": false,
+     "said": [],
+     "plan": [],
+     "paras": [
+      [
+       {
+        "q": "Affordability and economic security are central challenges for District 21 and Connecticut.",
+        "s": "w"
+       }
+      ]
+     ]
+    },
+    "taxes": {
+     "gap": true,
+     "said": [],
+     "plan": [
+      [
+       {
+        "q": "I will advocate for a state child tax credit, meaningful property-tax relief, more affordable child care, and workforce development that connects residents to sustainable careers.",
+        "s": "w"
+       }
+      ]
+     ]
+    },
+    "climate": {
+     "gap": true,
+     "said": [],
+     "plan": [
+      [
+       {
+        "q": "I will push for greater scrutiny of utility costs, transparent electricity-rate decisions, and more affordable energy supplies without sacrificing reliability.",
+        "s": "w"
+       }
+      ]
+     ]
+    },
     "abortion": {
      "gap": true,
      "said": [],
      "plan": []
     },
     "lgbtq": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
-    "taxes": {
      "gap": true,
      "said": [],
      "plan": []
@@ -9313,16 +10464,6 @@
      "plan": []
     },
     "immigration": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
-    "economy": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
-    "climate": {
      "gap": true,
      "said": [],
      "plan": []
@@ -9348,7 +10489,7 @@
    "office": "State Senate",
    "district": "21",
    "website": "https://www.ctsenaterepublicans.com/senators/jason-perillo/",
-   "reviewed": null,
+   "reviewed": "w",
    "sources": [
     {
      "key": "ballotS",
@@ -9359,6 +10500,11 @@
      "key": "bp",
      "title": "Ballotpedia: Jason Perillo",
      "url": "https://ballotpedia.org/Jason_Perillo"
+    },
+    {
+     "key": "w",
+     "title": "Jason Perillo: legislator or campaign page (no policy statements)",
+     "url": "https://www.ctsenaterepublicans.com/senators/jason-perillo/"
     }
    ],
    "overview": [
@@ -9370,7 +10516,7 @@
     ]
    ],
    "incumbent": true,
-   "unreviewed": true,
+   "unreviewed": false,
    "accessed": "2026-10-22",
    "state": "CT",
    "photo": "https://www.ctsenaterepublicans.com/wp-content/uploads/2025/03/Perillo-Jason-Portrait-01-WEB-.jpg",
@@ -9528,7 +10674,7 @@
    "office": "State Senate",
    "district": "22",
    "website": "https://www.senatedems.ct.gov/senator/sujata-gadkar-wilcox",
-   "reviewed": null,
+   "reviewed": "w",
    "sources": [
     {
      "key": "ballotS",
@@ -9539,6 +10685,11 @@
      "key": "bp",
      "title": "Ballotpedia: Sujata Gadkar-Wilcox",
      "url": "https://ballotpedia.org/Sujata_Gadkar-Wilcox"
+    },
+    {
+     "key": "w",
+     "title": "Sujata Gadkar-Wilcox: legislator or campaign page (no policy statements)",
+     "url": "https://www.senatedems.ct.gov/senator/sujata-gadkar-wilcox"
     }
    ],
    "overview": [
@@ -9559,7 +10710,7 @@
     ]
    ],
    "incumbent": true,
-   "unreviewed": true,
+   "unreviewed": false,
    "accessed": "2026-10-22",
    "state": "CT",
    "photo": "https://www.senatedems.ct.gov/wp-content/uploads/2025/01/Sujata-Headshot.jpg",
@@ -9628,7 +10779,7 @@
    "office": "State Senate",
    "district": "23",
    "website": "http://senatedems.ct.gov/gaston",
-   "reviewed": null,
+   "reviewed": "w",
    "sources": [
     {
      "key": "ballotS",
@@ -9639,6 +10790,11 @@
      "key": "bp",
      "title": "Ballotpedia: Herron Gaston",
      "url": "https://ballotpedia.org/Herron_Gaston"
+    },
+    {
+     "key": "w",
+     "title": "Herron Gaston: legislator page (no policy statements)",
+     "url": "http://senatedems.ct.gov/gaston"
     }
    ],
    "overview": [
@@ -9650,7 +10806,7 @@
     ]
    ],
    "incumbent": true,
-   "unreviewed": true,
+   "unreviewed": false,
    "accessed": "2026-10-22",
    "state": "CT",
    "photo": "https://www.senatedems.ct.gov/wp-content/uploads/2023/09/ALP00585-scaled.jpeg",
@@ -9808,7 +10964,7 @@
    "office": "State Senate",
    "district": "24",
    "website": "https://www.juliekushnerforct.com",
-   "reviewed": null,
+   "reviewed": "w",
    "sources": [
     {
      "key": "ballotS",
@@ -9819,6 +10975,11 @@
      "key": "bp",
      "title": "Ballotpedia: Julie Kushner",
      "url": "https://ballotpedia.org/Julie_Kushner"
+    },
+    {
+     "key": "w",
+     "title": "Julie Kushner for State Senate",
+     "url": "https://www.juliekushnerforct.com"
     }
    ],
    "overview": [
@@ -9830,12 +10991,103 @@
     ]
    ],
    "incumbent": true,
-   "unreviewed": true,
+   "unreviewed": false,
    "accessed": "2026-10-22",
    "state": "CT",
    "photo": null,
    "photoSource": null,
    "topics": {
+    "taxes": {
+     "gap": false,
+     "said": [],
+     "plan": [],
+     "paras": [
+      [
+       {
+        "t": "Her site lists among her accomplishments "
+       },
+       {
+        "q": "Passing two of the largest tax cuts in state history",
+        "s": "w"
+       },
+       {
+        "t": "."
+       }
+      ]
+     ]
+    },
+    "economy": {
+     "gap": false,
+     "said": [],
+     "plan": [],
+     "paras": [
+      [
+       {
+        "t": "Her site lists "
+       },
+       {
+        "q": "Raising the minimum wage to $16.94",
+        "s": "w"
+       },
+       {
+        "t": " among her accomplishments."
+       }
+      ]
+     ]
+    },
+    "guns": {
+     "gap": false,
+     "said": [],
+     "plan": [],
+     "paras": [
+      [
+       {
+        "t": "Her site lists "
+       },
+       {
+        "q": "Taken action to reduce gun violence and ban ghost guns",
+        "s": "w"
+       },
+       {
+        "t": "."
+       }
+      ]
+     ]
+    },
+    "healthcare": {
+     "gap": true,
+     "said": [],
+     "plan": [
+      [
+       {
+        "q": "Making health insurance affordable for the tens of thousands still struggling with costs",
+        "s": "w"
+       }
+      ]
+     ]
+    },
+    "education": {
+     "gap": true,
+     "said": [],
+     "plan": [
+      [
+       {
+        "q": "Ensuring schools are properly resourced to support special education students and multilingual learners",
+        "s": "w"
+       },
+       {
+        "t": ", and "
+       },
+       {
+        "q": "Continuing investment in early childhood education to ensure our earliest learners can thrive and families can afford care",
+        "s": "w"
+       },
+       {
+        "t": "."
+       }
+      ]
+     ]
+    },
     "abortion": {
      "gap": true,
      "said": [],
@@ -9846,17 +11098,7 @@
      "said": [],
      "plan": []
     },
-    "taxes": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
     "defense": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
-    "healthcare": {
      "gap": true,
      "said": [],
      "plan": []
@@ -9866,22 +11108,7 @@
      "said": [],
      "plan": []
     },
-    "economy": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
     "climate": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
-    "guns": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
-    "education": {
      "gap": true,
      "said": [],
      "plan": []
@@ -9897,7 +11124,7 @@
    "office": "State Senate",
    "district": "24",
    "website": "https://www.lindseyforsenatect.com/",
-   "reviewed": null,
+   "reviewed": "w",
    "sources": [
     {
      "key": "ballotS",
@@ -9908,6 +11135,16 @@
      "key": "bp",
      "title": "Ballotpedia: Melissa Lindsey",
      "url": "https://ballotpedia.org/Melissa_Lindsey"
+    },
+    {
+     "key": "w",
+     "title": "Melissa Lindsey for CT Senate: Issues",
+     "url": "https://www.lindseyforsenatect.com/issues"
+    },
+    {
+     "key": "af",
+     "title": "Melissa Lindsey for CT Senate: Affordability",
+     "url": "https://www.lindseyforsenatect.com/issues/affordability"
     }
    ],
    "overview": [
@@ -9919,23 +11156,63 @@
     ]
    ],
    "incumbent": false,
-   "unreviewed": true,
+   "unreviewed": false,
    "accessed": "2026-10-22",
    "state": "CT",
    "photo": "https://content.campaignpartner.net/images/153270/IMG_6847_3.jpg",
    "photoSource": "https://www.lindseyforsenatect.com/",
    "topics": {
+    "taxes": {
+     "gap": false,
+     "said": [],
+     "plan": [],
+     "paras": [
+      [
+       {
+        "q": "Connecticut families don’t need more hidden costs and higher taxes.",
+        "s": "af"
+       }
+      ]
+     ]
+    },
+    "climate": {
+     "gap": true,
+     "said": [],
+     "plan": [
+      [
+       {
+        "q": "Lower energy costs & electric bills by eliminating public benefits charge",
+        "s": "w"
+       },
+       {
+        "t": ", and "
+       },
+       {
+        "q": "Connecticut must pursue a balanced, all-of-the-above energy strategy. This strategy should include nuclear, natural gas, and renewable energy.",
+        "s": "af"
+       }
+      ]
+     ]
+    },
+    "safety": {
+     "gap": false,
+     "said": [],
+     "plan": [],
+     "paras": [
+      [
+       {
+        "q": "I support law enforcement and believe safe communities are common sense.",
+        "s": "w"
+       }
+      ]
+     ]
+    },
     "abortion": {
      "gap": true,
      "said": [],
      "plan": []
     },
     "lgbtq": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
-    "taxes": {
      "gap": true,
      "said": [],
      "plan": []
@@ -9956,11 +11233,6 @@
      "plan": []
     },
     "economy": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
-    "climate": {
      "gap": true,
      "said": [],
      "plan": []
@@ -10771,7 +12043,7 @@
    "office": "State Senate",
    "district": "28",
    "website": "https://www.robblanchardct.com/",
-   "reviewed": null,
+   "reviewed": "w",
    "sources": [
     {
      "key": "ballotS",
@@ -10782,6 +12054,11 @@
      "key": "bp",
      "title": "Ballotpedia: Rob Blanchard",
      "url": "https://ballotpedia.org/Rob_Blanchard"
+    },
+    {
+     "key": "w",
+     "title": "Rob Blanchard for CT State Senate",
+     "url": "https://www.robblanchardct.com"
     }
    ],
    "overview": [
@@ -10802,12 +12079,50 @@
     ]
    ],
    "incumbent": false,
-   "unreviewed": true,
+   "unreviewed": false,
    "accessed": "2026-10-22",
    "state": "CT",
    "photo": null,
    "photoSource": null,
    "topics": {
+    "economy": {
+     "gap": false,
+     "said": [],
+     "plan": [],
+     "paras": [
+      [
+       {
+        "t": "His site says he is "
+       },
+       {
+        "q": "focused on making Connecticut more affordable by tackling the rising costs of housing, healthcare, and childcare, while supporting strong schools and vibrant local communities",
+        "s": "w"
+       },
+       {
+        "t": "."
+       }
+      ]
+     ]
+    },
+    "healthcare": {
+     "gap": false,
+     "said": [],
+     "plan": [],
+     "paras": [
+      [
+       {
+        "t": "His site says he is "
+       },
+       {
+        "q": "tackling the rising costs of housing, healthcare, and childcare",
+        "s": "w"
+       },
+       {
+        "t": "."
+       }
+      ]
+     ]
+    },
     "abortion": {
      "gap": true,
      "said": [],
@@ -10828,17 +12143,7 @@
      "said": [],
      "plan": []
     },
-    "healthcare": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
     "immigration": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
-    "economy": {
      "gap": true,
      "said": [],
      "plan": []
@@ -10958,7 +12263,7 @@
    "office": "State Senate",
    "district": "29",
    "website": "http://www.senatedems.ct.gov/flexer",
-   "reviewed": null,
+   "reviewed": "w",
    "sources": [
     {
      "key": "ballotS",
@@ -10969,6 +12274,11 @@
      "key": "bp",
      "title": "Ballotpedia: Mae Flexer",
      "url": "https://ballotpedia.org/Mae_Flexer"
+    },
+    {
+     "key": "w",
+     "title": "Mae Flexer: legislator page (no policy statements)",
+     "url": "http://www.senatedems.ct.gov/flexer"
     }
    ],
    "overview": [
@@ -10980,7 +12290,7 @@
     ]
    ],
    "incumbent": true,
-   "unreviewed": true,
+   "unreviewed": false,
    "accessed": "2026-10-22",
    "state": "CT",
    "photo": null,
@@ -11047,7 +12357,7 @@
    "office": "State Senate",
    "district": "30",
    "website": "https://www.zimmerforct.com/",
-   "reviewed": null,
+   "reviewed": "w",
    "sources": [
     {
      "key": "ballotS",
@@ -11058,6 +12368,21 @@
      "key": "bp",
      "title": "Ballotpedia: Aaron Zimmer",
      "url": "https://ballotpedia.org/Aaron_Zimmer"
+    },
+    {
+     "key": "w",
+     "title": "Aaron Zimmer for State Senate (home page)",
+     "url": "https://www.zimmerforct.com"
+    },
+    {
+     "key": "pf",
+     "title": "Aaron Zimmer for State Senate: Platform",
+     "url": "https://www.zimmerforct.com/platform"
+    },
+    {
+     "key": "pp",
+     "title": "Aaron Zimmer for State Senate: Planned Parenthood Votes - Connecticut endorsement (posted on his site)",
+     "url": "https://www.zimmerforct.com/planned-parenthood-connecticut-votes-endorses-zimmer-for-the-state-senate"
     }
    ],
    "overview": [
@@ -11069,43 +12394,96 @@
     ]
    ],
    "incumbent": false,
-   "unreviewed": true,
+   "unreviewed": false,
    "accessed": "2026-10-22",
    "state": "CT",
    "photo": "https://images.solidarity.tech/fit-in/1200x0/filters:no_upscale()/9wk82b9xsaifogxc379y6x460n5p",
    "photoSource": "https://www.zimmerforct.com/",
    "topics": {
-    "abortion": {
-     "gap": true,
+    "taxes": {
+     "gap": false,
      "said": [],
-     "plan": []
+     "plan": [],
+     "paras": [
+      [
+       {
+        "t": "His site says he is running to "
+       },
+       {
+        "q": "tax the ultra-rich",
+        "s": "w"
+       },
+       {
+        "t": ", and his platform says "
+       },
+       {
+        "q": "Taxing the ultra-rich their fair share isn’t about class warfare or punishing success.",
+        "s": "pf"
+       }
+      ]
+     ]
+    },
+    "healthcare": {
+     "gap": false,
+     "said": [],
+     "plan": [],
+     "paras": [
+      [
+       {
+        "q": "Healthcare in Connecticut shouldn’t feel like a luxury. It should be a guarantee that every family can see a doctor, fill a prescription, and get the care they need without fear of financial ruin.",
+        "s": "pf"
+       }
+      ]
+     ]
+    },
+    "immigration": {
+     "gap": false,
+     "said": [],
+     "plan": [],
+     "paras": [
+      [
+       {
+        "q": "Every human being deserves the right to lead happy, healthy and dignified lives, regardless of economic or immigration statuses.",
+        "s": "pf"
+       }
+      ]
+     ]
+    },
+    "abortion": {
+     "gap": false,
+     "said": [],
+     "plan": [],
+     "paras": [
+      [
+       {
+        "t": "A Planned Parenthood Votes–Connecticut endorsement posted on his site says "
+       },
+       {
+        "q": "Aaron Zimmer will defend our right to choose.",
+        "s": "pp"
+       }
+      ]
+     ]
+    },
+    "economy": {
+     "gap": false,
+     "said": [],
+     "plan": [],
+     "paras": [
+      [
+       {
+        "q": "Lowering costs for Connecticut families is about more than just taxes and energy bills.",
+        "s": "pf"
+       }
+      ]
+     ]
     },
     "lgbtq": {
      "gap": true,
      "said": [],
      "plan": []
     },
-    "taxes": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
     "defense": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
-    "healthcare": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
-    "immigration": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
-    "economy": {
      "gap": true,
      "said": [],
      "plan": []
@@ -11227,7 +12605,7 @@
    "office": "State Senate",
    "district": "31",
    "website": "https://ctsenaterepublicans.com/home-Martin/",
-   "reviewed": null,
+   "reviewed": "w",
    "sources": [
     {
      "key": "ballotS",
@@ -11238,6 +12616,11 @@
      "key": "bp",
      "title": "Ballotpedia: Henri Martin",
      "url": "https://ballotpedia.org/Henri_Martin"
+    },
+    {
+     "key": "w",
+     "title": "Henri Martin: legislator page (no policy statements)",
+     "url": "https://ctsenaterepublicans.com/home-Martin/"
     }
    ],
    "overview": [
@@ -11249,7 +12632,7 @@
     ]
    ],
    "incumbent": true,
-   "unreviewed": true,
+   "unreviewed": false,
    "accessed": "2026-10-22",
    "state": "CT",
    "photo": "https://www.ctsenaterepublicans.com/wp-content/uploads/2025/01/Martin-Henri-Portrait-02-WEB-e1738098270643.jpg",
@@ -11318,7 +12701,7 @@
    "office": "State Senate",
    "district": "31",
    "website": "https://www.laurelforsenate.com/",
-   "reviewed": null,
+   "reviewed": "w",
    "sources": [
     {
      "key": "ballotS",
@@ -11329,6 +12712,11 @@
      "key": "bp",
      "title": "Ballotpedia: Laurel LaPorte-Grimes",
      "url": "https://ballotpedia.org/Laurel_LaPorte-Grimes"
+    },
+    {
+     "key": "w",
+     "title": "Laurel for State Senate: Platform",
+     "url": "https://www.laurelforsenate.com/platform"
     }
    ],
    "overview": [
@@ -11340,12 +12728,80 @@
     ]
    ],
    "incumbent": false,
-   "unreviewed": true,
+   "unreviewed": false,
    "accessed": "2026-10-22",
    "state": "CT",
    "photo": "https://images.squarespace-cdn.com/content/v1/69f8c1629037aa4bff5f58dc/f86d82cd-4e25-4d7d-909b-655fa8b0f725/LLGWebsiteHomeImage.jpg",
    "photoSource": "https://www.laurelforsenate.com/",
    "topics": {
+    "economy": {
+     "gap": false,
+     "said": [],
+     "plan": [
+      [
+       {
+        "q": "Support practical solutions that make housing more affordable",
+        "s": "w"
+       }
+      ]
+     ],
+     "paras": [
+      [
+       {
+        "q": "Working families, seniors, young adults, and small businesses are being squeezed from every direction.",
+        "s": "w"
+       }
+      ]
+     ]
+    },
+    "healthcare": {
+     "gap": true,
+     "said": [],
+     "plan": [
+      [
+       {
+        "q": "Make healthcare more affordable for families, workers, and small businesses",
+        "s": "w"
+       }
+      ]
+     ]
+    },
+    "climate": {
+     "gap": true,
+     "said": [],
+     "plan": [
+      [
+       {
+        "q": "Reduce energy costs and protect consumers from unreasonable rate increases",
+        "s": "w"
+       }
+      ]
+     ]
+    },
+    "education": {
+     "gap": true,
+     "said": [],
+     "plan": [
+      [
+       {
+        "q": "Provide free breakfast and lunch in our schools so every child can focus on learning",
+        "s": "w"
+       }
+      ]
+     ]
+    },
+    "taxes": {
+     "gap": true,
+     "said": [],
+     "plan": [
+      [
+       {
+        "q": "Reduce reliance on property taxes to fund essential local services",
+        "s": "w"
+       }
+      ]
+     ]
+    },
     "abortion": {
      "gap": true,
      "said": [],
@@ -11356,17 +12812,7 @@
      "said": [],
      "plan": []
     },
-    "taxes": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
     "defense": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
-    "healthcare": {
      "gap": true,
      "said": [],
      "plan": []
@@ -11376,22 +12822,7 @@
      "said": [],
      "plan": []
     },
-    "economy": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
-    "climate": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
     "guns": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
-    "education": {
      "gap": true,
      "said": [],
      "plan": []
@@ -11409,7 +12840,7 @@
    "office": "State Senate",
    "district": "32",
    "website": "https://www.berthelforsenate.org",
-   "reviewed": null,
+   "reviewed": "w",
    "sources": [
     {
      "key": "ballotS",
@@ -11420,6 +12851,11 @@
      "key": "bp",
      "title": "Ballotpedia: Eric Berthel",
      "url": "https://ballotpedia.org/Eric_C._Berthel"
+    },
+    {
+     "key": "w",
+     "title": "Eric Berthel for State Senate: About Eric",
+     "url": "https://www.berthelforsenate.org/about-eric"
     }
    ],
    "overview": [
@@ -11431,12 +12867,32 @@
     ]
    ],
    "incumbent": true,
-   "unreviewed": true,
+   "unreviewed": false,
    "accessed": "2026-10-22",
    "state": "CT",
    "photo": "https://static.wixstatic.com/media/ae4f11_2cc9aea911524d98a02c2d219aafe214~mv2.jpg/v1/fill/w_288,h_192,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/ae4f11_2cc9aea911524d98a02c2d219aafe214~mv2.jpg",
    "photoSource": "https://www.berthelforsenate.org",
    "topics": {
+    "education": {
+     "gap": false,
+     "said": [],
+     "plan": [],
+     "paras": [
+      [
+       {
+        "q": "He is a fierce advocate for public school education on all levels - student outcomes, teacher recruitment, funding and curriculum.",
+        "s": "w"
+       },
+       {
+        "t": " "
+       },
+       {
+        "q": "He is also outspoken about parental choice in education, including support of families who chose to homeschool their children.",
+        "s": "w"
+       }
+      ]
+     ]
+    },
     "abortion": {
      "gap": true,
      "said": [],
@@ -11481,11 +12937,6 @@
      "gap": true,
      "said": [],
      "plan": []
-    },
-    "education": {
-     "gap": true,
-     "said": [],
-     "plan": []
     }
    },
    "photoYear": null,
@@ -11500,7 +12951,7 @@
    "office": "State Senate",
    "district": "32",
    "website": "https://www.mattknickerbocker.com/",
-   "reviewed": null,
+   "reviewed": "w",
    "sources": [
     {
      "key": "ballotS",
@@ -11511,6 +12962,11 @@
      "key": "bp",
      "title": "Ballotpedia: Matthew Knickerbocker",
      "url": "https://ballotpedia.org/Matthew_Knickerbocker"
+    },
+    {
+     "key": "w",
+     "title": "Matt Knickerbocker for Senate: Priorities",
+     "url": "https://www.mattknickerbocker.com/priorities"
     }
    ],
    "overview": [
@@ -11531,23 +12987,80 @@
     ]
    ],
    "incumbent": false,
-   "unreviewed": true,
+   "unreviewed": false,
    "accessed": "2026-10-22",
    "state": "CT",
    "photo": null,
    "photoSource": null,
    "topics": {
+    "education": {
+     "gap": false,
+     "said": [],
+     "plan": [
+      [
+       {
+        "q": "Matt will fight to secure our fair share of state funding so local taxpayers aren’t left filling the gap.",
+        "s": "w"
+       },
+       {
+        "t": " "
+       },
+       {
+        "q": "Matt will push for full reimbursement of excess special education costs",
+        "s": "w"
+       },
+       {
+        "t": "."
+       }
+      ]
+     ],
+     "paras": [
+      [
+       {
+        "q": "Every child deserves a strong public education, no matter their ZIP code.",
+        "s": "w"
+       }
+      ]
+     ]
+    },
+    "taxes": {
+     "gap": false,
+     "said": [],
+     "plan": [
+      [
+       {
+        "q": "Matt will work to end this practice and ensure municipalities aren’t stuck covering costs for decisions made in Hartford.",
+        "s": "w"
+       }
+      ]
+     ],
+     "paras": [
+      [
+       {
+        "q": "The state shouldn’t pass requirements without paying for them.",
+        "s": "w"
+       }
+      ]
+     ]
+    },
+    "economy": {
+     "gap": true,
+     "said": [],
+     "plan": [
+      [
+       {
+        "q": "Matt will work to cut red tape",
+        "s": "w"
+       }
+      ]
+     ]
+    },
     "abortion": {
      "gap": true,
      "said": [],
      "plan": []
     },
     "lgbtq": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
-    "taxes": {
      "gap": true,
      "said": [],
      "plan": []
@@ -11567,22 +13080,12 @@
      "said": [],
      "plan": []
     },
-    "economy": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
     "climate": {
      "gap": true,
      "said": [],
      "plan": []
     },
     "guns": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
-    "education": {
      "gap": true,
      "said": [],
      "plan": []
@@ -11687,7 +13190,7 @@
    "office": "State Senate",
    "district": "33",
    "website": "http://www.senatedems.ct.gov/needleman",
-   "reviewed": null,
+   "reviewed": "w",
    "sources": [
     {
      "key": "ballotS",
@@ -11698,6 +13201,11 @@
      "key": "bp",
      "title": "Ballotpedia: Norm Needleman",
      "url": "https://ballotpedia.org/Norm_Needleman"
+    },
+    {
+     "key": "w",
+     "title": "Norm Needleman: legislator page (no policy statements)",
+     "url": "http://www.senatedems.ct.gov/needleman"
     }
    ],
    "overview": [
@@ -11709,7 +13217,7 @@
     ]
    ],
    "incumbent": true,
-   "unreviewed": true,
+   "unreviewed": false,
    "accessed": "2026-10-22",
    "state": "CT",
    "photo": "https://www.senatedems.ct.gov/wp-content/uploads/2023/09/Head-shot-1.jpg",
@@ -11778,7 +13286,7 @@
    "office": "State Senate",
    "district": "34",
    "website": "https://www.mandatofor34.com/",
-   "reviewed": null,
+   "reviewed": "w",
    "sources": [
     {
      "key": "ballotS",
@@ -11789,6 +13297,11 @@
      "key": "bp",
      "title": "Ballotpedia: Brandi Mandato",
      "url": "https://ballotpedia.org/Brandi_Mandato"
+    },
+    {
+     "key": "w",
+     "title": "Brandi Mandato for State Senate: About",
+     "url": "https://www.mandatofor34.com/about"
     }
    ],
    "overview": [
@@ -11809,12 +13322,31 @@
     ]
    ],
    "incumbent": false,
-   "unreviewed": true,
+   "unreviewed": false,
    "accessed": "2026-10-22",
    "state": "CT",
    "photo": null,
    "photoSource": null,
    "topics": {
+    "economy": {
+     "gap": false,
+     "said": [],
+     "plan": [],
+     "paras": [
+      [
+       {
+        "t": "Her site says her work has focused on "
+       },
+       {
+        "q": "to expand access to quality jobs, education pathways, including apprenticeships, trade schools, and higher education, and economic opportunity",
+        "s": "w"
+       },
+       {
+        "t": "."
+       }
+      ]
+     ]
+    },
     "abortion": {
      "gap": true,
      "said": [],
@@ -11841,11 +13373,6 @@
      "plan": []
     },
     "immigration": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
-    "economy": {
      "gap": true,
      "said": [],
      "plan": []
