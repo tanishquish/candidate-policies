@@ -112,6 +112,47 @@ function card(c) {
     </a>`;
 }
 
+/* ---------- ZIP code district lookup (stays on the page) ---------- */
+let zipData = null;
+const zipBox = () => `
+  <form class="zip" id="zipf" novalidate>
+    <label class="picker-l" for="zip">Find your districts by ZIP code</label>
+    <div class="zip-row">
+      <input id="zip" inputmode="numeric" autocomplete="postal-code" maxlength="5" placeholder="e.g. 06880" aria-describedby="zipnote">
+      <button type="submit">Find my districts</button>
+    </div>
+    <div id="zipout" class="zip-out" aria-live="polite"></div>
+    <p id="zipnote" class="muted small">Based on U.S. Census ZIP Code Tabulation Areas and 2024 district lines. Some ZIP codes cover more than one district; percentages are the share of the ZIP’s land area. Confirm your exact districts with your voter registration at <a href="https://myvote.ct.gov/" target="_blank" rel="noopener">myvote.ct.gov</a>.</p>
+  </form>`;
+
+function wireZip() {
+  const form = document.getElementById('zipf'), out = document.getElementById('zipout'), input = document.getElementById('zip');
+  const clear = () => document.querySelectorAll('h3.race.hit').forEach(h => h.classList.remove('hit'));
+  const show = html => { out.innerHTML = html; };
+  form.onsubmit = async e => {
+    e.preventDefault();
+    const z = input.value.trim();
+    clear();
+    if (!/^\d{5}$/.test(z)) return show('<p class="zip-msg">Enter a 5-digit ZIP code.</p>');
+    try {
+      zipData ||= await fetch('data/zip_districts.json?v=20261022e').then(r => r.json());
+    } catch { return show('<p class="zip-msg">The ZIP lookup could not be loaded. Use the district list below.</p>'); }
+    const r = zipData[z];
+    if (!r || (!r.h.length && !r.s.length)) return show(`<p class="zip-msg">${esc(z)} ${z.startsWith('06') ? 'isn’t in this lookup (PO-box-only ZIP codes are not included). Try the district list below.' : 'isn’t a Connecticut ZIP code.'}</p>`);
+    const link = (kind, id, label, pct) => `<a href="#" class="dlink" data-go="${kind}-${id}">${esc(label)} ${esc(id)}</a>${r[kind === 'house' ? 'h' : 's'].length > 1 ? ` <span class="muted">(${pct}% of this ZIP)</span>` : ''}`;
+    const hs = r.h.map(([d, p]) => link('house', d, 'U.S. House District', p)).join(' · ');
+    const ss = r.s.map(([d, p]) => link('senate', d, 'State Senate District', p)).join(' · ');
+    show(`<div class="zip-res"><p><b>ZIP ${esc(z)}</b> is in:</p><ul>
+      <li>Governor and other statewide offices (everyone in Connecticut)</li>
+      <li>${hs || 'U.S. House: not found'}</li>
+      <li>${ss || 'State Senate: not found'}</li></ul>
+      <p class="muted small">Select a district to jump to its candidates.</p></div>`);
+    r.h.forEach(([d]) => document.getElementById('house-' + d)?.classList.add('hit'));
+    r.s.forEach(([d]) => document.getElementById('senate-' + d)?.classList.add('hit'));
+    out.querySelectorAll('[data-go]').forEach(a => a.onclick = ev => { ev.preventDefault(); document.getElementById(a.dataset.go)?.scrollIntoView({ behavior: 'smooth', block: 'start' }); });
+  };
+}
+
 function stateView(code) {
   const name = state.states[code];
   if (!name) return notFound();
@@ -138,10 +179,12 @@ function stateView(code) {
     <p><a href="#/">← Back to the map</a></p>
     <h1>${esc(name)}</h1>
     <nav class="jump" aria-label="Jump to">${sections.map(s => `<a href="#" data-j="${s.id}">${esc(s.label)}</a>`).join('')}</nav>
+    ${code === 'CT' ? zipBox() : ''}
     ${districtPicker}
     ${sections.map(s => `<section id="sec-${s.id}"><h2 class="sec">${esc(s.label)}</h2>${s.body}</section>`).join('')}
     <p class="muted small">Candidates are those listed for the November 3, 2026 general election as of ${esc(state.updated)}, per ${[...new Set(list.map(c => c.sources[0]))].map(s => `<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.title)}</a>`).join(' and ')}. Write-in candidates are not included.</p>`;
   $app.querySelectorAll('[data-j]').forEach(a => a.onclick = e => { e.preventDefault(); document.getElementById('sec-' + a.dataset.j).scrollIntoView({ behavior: 'smooth' }); });
+  if (code === 'CT') wireZip();
   const dist = document.getElementById('dist');
   if (dist) dist.onchange = () => { const el = document.getElementById('senate-' + dist.value); if (el) el.scrollIntoView({ behavior: 'smooth' }); };
 }
@@ -250,7 +293,7 @@ function route() {
 }
 
 async function init() {
-  const [s, t, c] = await Promise.all(['states', 'topics', 'candidates'].map(f => fetch(`data/${f}.json?v=20261022c`).then(r => r.json())));
+  const [s, t, c] = await Promise.all(['states', 'topics', 'candidates'].map(f => fetch(`data/${f}.json?v=20261022e`).then(r => r.json())));
   Object.assign(state, { states: s, topics: t, candidates: c.candidates, updated: c.updated });
   window.addEventListener('hashchange', route);
   route();

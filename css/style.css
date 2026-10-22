@@ -100,3 +100,11 @@ h3.race{margin:22px 0 8px;font-size:.95rem;color:var(--red);text-transform:upper
 .chip:hover{background:var(--navy);color:#fff}
 .chip.web{background:var(--navy);color:#fff}
 .chip.web:hover{background:var(--red);border-color:var(--red)}
+.zip{margin:14px 0 6px;padding:14px 16px;background:#fff;border:1px solid var(--line);border-left:5px solid var(--red);border-radius:12px;max-width:560px}
+.zip-row{display:flex;gap:8px;flex-wrap:wrap}
+.zip-row input{width:9.5em;padding:9px 12px;border:1px solid var(--line);border-radius:8px;font:inherit;background:#fff;color:var(--fg)}
+.zip-out{margin-top:8px}
+.zip-res ul{margin:.3em 0 .6em;padding-left:20px}
+.zip-msg{color:#7d1a25;margin:.4em 0}
+.dlink{font-weight:600}
+h3.race.hit{background:#fff4d6;box-shadow:-6px 0 0 #fff4d6,6px 0 0 #fff4d6;border-radius:4px}
