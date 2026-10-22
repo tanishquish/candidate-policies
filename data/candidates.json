@@ -593,6 +593,36 @@
    "accessed": "2026-10-15",
    "photoYear": null,
    "photoBasis": null,
+   "links": [
+    {
+     "platform": "X",
+     "url": "https://x.com/NedLamont"
+    },
+    {
+     "platform": "Facebook",
+     "url": "https://www.facebook.com/NedLamontCT"
+    },
+    {
+     "platform": "Instagram",
+     "url": "https://www.instagram.com/nedlamont"
+    },
+    {
+     "platform": "YouTube",
+     "url": "https://www.youtube.com/@nedlamontforct"
+    },
+    {
+     "platform": "TikTok",
+     "url": "https://www.tiktok.com/@nedlamont.ct"
+    },
+    {
+     "platform": "Bluesky",
+     "url": "https://bsky.app/profile/nedlamont.com"
+    },
+    {
+     "platform": "LinkedIn",
+     "url": "https://www.linkedin.com/in/ned-lamont-38008b8"
+    }
+   ],
    "noWebsite": false
   },
   {
@@ -1267,6 +1297,32 @@
    "accessed": "2026-10-15",
    "photoYear": "2023",
    "photoBasis": "posted",
+   "links": [
+    {
+     "platform": "X",
+     "url": "https://x.com/ryanfazio"
+    },
+    {
+     "platform": "Facebook",
+     "url": "https://www.facebook.com/ryanfazio"
+    },
+    {
+     "platform": "Instagram",
+     "url": "https://www.instagram.com/ryanfazioct"
+    },
+    {
+     "platform": "YouTube",
+     "url": "https://www.youtube.com/@ryanfazioct"
+    },
+    {
+     "platform": "TikTok",
+     "url": "https://www.tiktok.com/@ryanfazioct"
+    },
+    {
+     "platform": "LinkedIn",
+     "url": "https://www.linkedin.com/in/ryan-fazio-4209251ab"
+    }
+   ],
    "noWebsite": false
   },
   {
@@ -1732,6 +1788,40 @@
    "accessed": "2026-10-15",
    "photoYear": null,
    "photoBasis": null,
+   "links": [
+    {
+     "platform": "X",
+     "url": "https://x.com/lukebronin"
+    },
+    {
+     "platform": "Facebook",
+     "url": "https://www.facebook.com/luke.bronin"
+    },
+    {
+     "platform": "Instagram",
+     "url": "https://www.instagram.com/lukebronin"
+    },
+    {
+     "platform": "YouTube",
+     "url": "https://www.youtube.com/@LukeBroninForCongress/shorts"
+    },
+    {
+     "platform": "TikTok",
+     "url": "https://www.tiktok.com/@lukebronin"
+    },
+    {
+     "platform": "Threads",
+     "url": "https://threads.net/@lukebronin"
+    },
+    {
+     "platform": "Bluesky",
+     "url": "https://bsky.app/profile/lukebronin.bsky.social"
+    },
+    {
+     "platform": "LinkedIn",
+     "url": "https://www.linkedin.com/in/luke-bronin-359a16a"
+    }
+   ],
    "noWebsite": false
   },
   {
@@ -2034,6 +2124,32 @@
    "accessed": "2026-10-15",
    "photoYear": "2026",
    "photoBasis": "posted",
+   "links": [
+    {
+     "platform": "X",
+     "url": "https://x.com/docchai2022"
+    },
+    {
+     "platform": "Facebook",
+     "url": "https://www.facebook.com/chai.for.congress.ct.1"
+    },
+    {
+     "platform": "Instagram",
+     "url": "https://www.instagram.com/chai_for_congress"
+    },
+    {
+     "platform": "YouTube",
+     "url": "https://www.youtube.com/@docchai"
+    },
+    {
+     "platform": "TikTok",
+     "url": "https://www.tiktok.com/@doc.chai7"
+    },
+    {
+     "platform": "LinkedIn",
+     "url": "https://www.linkedin.com/in/amy-chai-md-ms-a1822810a"
+    }
+   ],
    "noWebsite": false
   },
   {
@@ -2235,6 +2351,20 @@
     }
    },
    "accessed": "2026-10-15",
+   "links": [
+    {
+     "platform": "X",
+     "url": "https://x.com/marymaryssc1"
+    },
+    {
+     "platform": "Facebook",
+     "url": "https://www.facebook.com/vote.mary.sanders"
+    },
+    {
+     "platform": "LinkedIn",
+     "url": "https://www.linkedin.com/in/mary-l-sanders-64707916"
+    }
+   ],
    "noWebsite": true
   },
   {
@@ -2591,6 +2721,24 @@
    "accessed": "2026-10-15",
    "photoYear": "2023",
    "photoBasis": "taken",
+   "links": [
+    {
+     "platform": "X",
+     "url": "https://x.com/repjoecourtney"
+    },
+    {
+     "platform": "Facebook",
+     "url": "https://www.facebook.com/repjoecourtney"
+    },
+    {
+     "platform": "Instagram",
+     "url": "https://www.instagram.com/joecourtneyct"
+    },
+    {
+     "platform": "YouTube",
+     "url": "https://www.youtube.com/user/RepCourtney"
+    }
+   ],
    "noWebsite": false
   },
   {
@@ -2957,6 +3105,24 @@
    "accessed": "2026-10-15",
    "photoYear": "2026",
    "photoBasis": "posted",
+   "links": [
+    {
+     "platform": "X",
+     "url": "https://x.com/GeorgeforCT2"
+    },
+    {
+     "platform": "Facebook",
+     "url": "https://www.facebook.com/GeorgeAustinCT"
+    },
+    {
+     "platform": "YouTube",
+     "url": "https://www.youtube.com/@VoteGeorgeforCongress"
+    },
+    {
+     "platform": "TikTok",
+     "url": "https://www.tiktok.com/@georgeforcongressct2"
+    }
+   ],
    "noWebsite": false
   },
   {
@@ -3393,6 +3559,28 @@
    "accessed": "2026-10-15",
    "photoYear": "2025",
    "photoBasis": "posted",
+   "links": [
+    {
+     "platform": "X",
+     "url": "https://x.com/search"
+    },
+    {
+     "platform": "Facebook",
+     "url": "https://www.facebook.com/RosaDelauro"
+    },
+    {
+     "platform": "Instagram",
+     "url": "https://www.instagram.com/rosa_delauro"
+    },
+    {
+     "platform": "YouTube",
+     "url": "https://www.youtube.com/user/RosaDeLauro"
+    },
+    {
+     "platform": "TikTok",
+     "url": "https://www.tiktok.com/@reprosadelauro"
+    }
+   ],
    "noWebsite": false
   },
   {
@@ -3666,6 +3854,20 @@
    "photo": null,
    "photoSource": null,
    "accessed": "2026-10-15",
+   "links": [
+    {
+     "platform": "Facebook",
+     "url": "https://www.facebook.com/profile.php?id=61574624072385"
+    },
+    {
+     "platform": "Instagram",
+     "url": "https://www.instagram.com/lancia_for_congress_2026"
+    },
+    {
+     "platform": "TikTok",
+     "url": "https://www.tiktok.com/@lanciaforcongress2026"
+    }
+   ],
    "noWebsite": false
   },
   {
@@ -3790,6 +3992,7 @@
    },
    "accessed": "2026-10-15",
    "noInfoNote": true,
+   "links": [],
    "noWebsite": true
   },
   {
@@ -4220,6 +4423,28 @@
    "accessed": "2026-10-15",
    "photoYear": "2023",
    "photoBasis": "posted",
+   "links": [
+    {
+     "platform": "X",
+     "url": "https://x.com/jahimes"
+    },
+    {
+     "platform": "Facebook",
+     "url": "https://www.facebook.com/himesforcongress"
+    },
+    {
+     "platform": "Instagram",
+     "url": "https://www.instagram.com/himesforcongress"
+    },
+    {
+     "platform": "YouTube",
+     "url": "https://www.youtube.com/@HimesForCongress"
+    },
+    {
+     "platform": "LinkedIn",
+     "url": "https://www.linkedin.com/in/jim-himes-8919222b"
+    }
+   ],
    "noWebsite": false
   },
   {
@@ -4647,6 +4872,20 @@
    "photoBasis": null,
    "photoKind": "his public Instagram profile",
    "photoLowRes": true,
+   "links": [
+    {
+     "platform": "X",
+     "url": "https://x.com/drmikegoldstein"
+    },
+    {
+     "platform": "Facebook",
+     "url": "https://www.facebook.com/goldsteinforcongress"
+    },
+    {
+     "platform": "Instagram",
+     "url": "https://www.instagram.com/drmichaelgoldstein"
+    }
+   ],
    "noWebsite": false
   },
   {
@@ -4922,6 +5161,16 @@
     }
    },
    "accessed": "2026-10-15",
+   "links": [
+    {
+     "platform": "Instagram",
+     "url": "https://www.instagram.com/benwesleyforcongress"
+    },
+    {
+     "platform": "TikTok",
+     "url": "https://www.tiktok.com/@benwesleyforcongress"
+    }
+   ],
    "noWebsite": false
   },
   {
@@ -5365,6 +5614,28 @@
    "accessed": "2026-10-15",
    "photoYear": "2018",
    "photoBasis": "taken",
+   "links": [
+    {
+     "platform": "X",
+     "url": "https://x.com/jahanahayesct"
+    },
+    {
+     "platform": "Facebook",
+     "url": "https://www.facebook.com/jahanahayesct"
+    },
+    {
+     "platform": "Instagram",
+     "url": "https://www.instagram.com/realjahanahayes"
+    },
+    {
+     "platform": "YouTube",
+     "url": "https://www.youtube.com/@friendsofjahanahayes4787"
+    },
+    {
+     "platform": "LinkedIn",
+     "url": "https://www.linkedin.com/in/jahana-hayes-727b52164"
+    }
+   ],
    "noWebsite": false
   },
   {
@@ -5715,6 +5986,20 @@
    "accessed": "2026-10-15",
    "photoYear": "2026",
    "photoBasis": "posted",
+   "links": [
+    {
+     "platform": "X",
+     "url": "https://x.com/sheaforcongress"
+    },
+    {
+     "platform": "Facebook",
+     "url": "https://www.facebook.com/profile.php?id=61586811124047"
+    },
+    {
+     "platform": "Instagram",
+     "url": "https://www.instagram.com/chrissheaforcongress"
+    }
+   ],
    "noWebsite": false
   },
   {
@@ -5811,6 +6096,16 @@
    },
    "photoYear": null,
    "photoBasis": null,
+   "links": [
+    {
+     "platform": "Facebook",
+     "url": "https://www.facebook.com/senatorfonfara"
+    },
+    {
+     "platform": "LinkedIn",
+     "url": "https://www.linkedin.com/in/john-fonfara-76684585"
+    }
+   ],
    "noWebsite": false
   },
   {
@@ -5900,6 +6195,7 @@
      "plan": []
     }
    },
+   "links": [],
    "noWebsite": true
   },
   {
@@ -6042,6 +6338,24 @@
      "plan": []
     }
    },
+   "links": [
+    {
+     "platform": "X",
+     "url": "https://x.com/khanforconn"
+    },
+    {
+     "platform": "Facebook",
+     "url": "https://www.facebook.com/StateRepKhan"
+    },
+    {
+     "platform": "Instagram",
+     "url": "https://www.instagram.com/khanforconn"
+    },
+    {
+     "platform": "LinkedIn",
+     "url": "https://www.linkedin.com/in/maryam-khan-45a543a1"
+    }
+   ],
    "noWebsite": false
   },
   {
@@ -6239,6 +6553,16 @@
    },
    "photoYear": null,
    "photoBasis": null,
+   "links": [
+    {
+     "platform": "Facebook",
+     "url": "https://www.facebook.com/profile.php?id=61589485261288"
+    },
+    {
+     "platform": "Instagram",
+     "url": "https://www.instagram.com/tknottsforct2026"
+    }
+   ],
    "noWebsite": false
   },
   {
@@ -6388,6 +6712,12 @@
    },
    "photoYear": null,
    "photoBasis": null,
+   "links": [
+    {
+     "platform": "Facebook",
+     "url": "https://www.facebook.com/profile.php?id=61590145263108"
+    }
+   ],
    "noWebsite": false
   },
   {
@@ -6519,6 +6849,24 @@
    },
    "photoYear": null,
    "photoBasis": null,
+   "links": [
+    {
+     "platform": "X",
+     "url": "https://x.com/SaudAnwarCT"
+    },
+    {
+     "platform": "Facebook",
+     "url": "https://www.facebook.com/SenatorSaudAnwar"
+    },
+    {
+     "platform": "Instagram",
+     "url": "https://www.instagram.com/saudanwarct"
+    },
+    {
+     "platform": "LinkedIn",
+     "url": "https://www.linkedin.com/in/saud-anwar-md-mph-fccp-4612a44a"
+    }
+   ],
    "noWebsite": false
   },
   {
@@ -6617,6 +6965,16 @@
      "plan": []
     }
    },
+   "links": [
+    {
+     "platform": "Facebook",
+     "url": "https://www.facebook.com/profile.php?id=61562932736864"
+    },
+    {
+     "platform": "LinkedIn",
+     "url": "https://www.linkedin.com/in/jennifer-jennings-6672352b"
+    }
+   ],
    "noWebsite": false
   },
   {
@@ -6816,6 +7174,24 @@
    },
    "photoYear": null,
    "photoBasis": null,
+   "links": [
+    {
+     "platform": "X",
+     "url": "https://x.com/MDRahmanCT"
+    },
+    {
+     "platform": "Facebook",
+     "url": "https://www.facebook.com/MDRahmanforSenate"
+    },
+    {
+     "platform": "Instagram",
+     "url": "https://www.instagram.com/SenatorMDRahman"
+    },
+    {
+     "platform": "LinkedIn",
+     "url": "https://www.linkedin.com/in/senator-md-rahman-a10923196"
+    }
+   ],
    "noWebsite": false
   },
   {
@@ -6912,6 +7288,20 @@
    },
    "photoYear": null,
    "photoBasis": null,
+   "links": [
+    {
+     "platform": "Facebook",
+     "url": "https://www.facebook.com/SenatorDerekSlap"
+    },
+    {
+     "platform": "Instagram",
+     "url": "https://www.instagram.com/derekslap"
+    },
+    {
+     "platform": "LinkedIn",
+     "url": "https://www.linkedin.com/in/derek-slap-9337b9a"
+    }
+   ],
    "noWebsite": false
   },
   {
@@ -7003,6 +7393,16 @@
    },
    "photoYear": null,
    "photoBasis": null,
+   "links": [
+    {
+     "platform": "Facebook",
+     "url": "https://www.facebook.com/senatorricklopes"
+    },
+    {
+     "platform": "LinkedIn",
+     "url": "https://www.linkedin.com/in/lopes-rick-38b478b"
+    }
+   ],
    "noWebsite": false
   },
   {
@@ -7092,6 +7492,20 @@
      "plan": []
     }
    },
+   "links": [
+    {
+     "platform": "X",
+     "url": "https://x.com/TremellCollins"
+    },
+    {
+     "platform": "Facebook",
+     "url": "https://www.facebook.com/profile.php?id=61555934288507"
+    },
+    {
+     "platform": "LinkedIn",
+     "url": "https://www.linkedin.com/in/tremell-collins-5b33b8279"
+    }
+   ],
    "noWebsite": true
   },
   {
@@ -7259,6 +7673,12 @@
      "plan": []
     }
    },
+   "links": [
+    {
+     "platform": "Facebook",
+     "url": "https://www.facebook.com/DavidKinerforSenate"
+    }
+   ],
    "noWebsite": false
   },
   {
@@ -7378,6 +7798,20 @@
    },
    "photoYear": null,
    "photoBasis": null,
+   "links": [
+    {
+     "platform": "X",
+     "url": "https://x.com/SenatorKissel"
+    },
+    {
+     "platform": "Facebook",
+     "url": "https://www.facebook.com/Kissel2018"
+    },
+    {
+     "platform": "Instagram",
+     "url": "https://www.instagram.com/senatorkissel2022"
+    }
+   ],
    "noWebsite": false
   },
   {
@@ -7502,6 +7936,12 @@
    },
    "photoYear": null,
    "photoBasis": null,
+   "links": [
+    {
+     "platform": "Facebook",
+     "url": "https://www.facebook.com/crissforsenate"
+    }
+   ],
    "noWebsite": false
   },
   {
@@ -7637,6 +8077,20 @@
      "plan": []
     }
    },
+   "links": [
+    {
+     "platform": "Facebook",
+     "url": "https://www.facebook.com/SenatorPaulHonig"
+    },
+    {
+     "platform": "Instagram",
+     "url": "https://www.instagram.com/senatorpaulhonig"
+    },
+    {
+     "platform": "LinkedIn",
+     "url": "https://www.linkedin.com/in/paul-honig-70b20116"
+    }
+   ],
    "noWebsite": false
   },
   {
@@ -7726,6 +8180,28 @@
      "plan": []
     }
    },
+   "links": [
+    {
+     "platform": "X",
+     "url": "https://x.com/ballotpedia"
+    },
+    {
+     "platform": "Facebook",
+     "url": "https://www.facebook.com/Ballotpedia"
+    },
+    {
+     "platform": "Instagram",
+     "url": "https://www.instagram.com/ballotpedia"
+    },
+    {
+     "platform": "YouTube",
+     "url": "https://www.youtube.com/channel/UC0u04Fuq2qLUmYK12rVXFfQ"
+    },
+    {
+     "platform": "LinkedIn",
+     "url": "https://www.linkedin.com/company/ballotpedia"
+    }
+   ],
    "noWebsite": true
   },
   {
@@ -7882,6 +8358,16 @@
    },
    "photoYear": null,
    "photoBasis": null,
+   "links": [
+    {
+     "platform": "YouTube",
+     "url": "https://www.youtube.com"
+    },
+    {
+     "platform": "LinkedIn",
+     "url": "https://www.linkedin.com/in/gwen-e-samuel-87b48214"
+    }
+   ],
    "noWebsite": false
   },
   {
@@ -8018,6 +8504,20 @@
      "plan": []
     }
    },
+   "links": [
+    {
+     "platform": "Facebook",
+     "url": "https://www.facebook.com/MattLesserCT"
+    },
+    {
+     "platform": "Instagram",
+     "url": "https://www.instagram.com/matthew.lesser"
+    },
+    {
+     "platform": "LinkedIn",
+     "url": "https://www.linkedin.com/in/matthew-lesser-bb941414"
+    }
+   ],
    "noWebsite": false
   },
   {
@@ -8107,6 +8607,32 @@
      "plan": []
     }
    },
+   "links": [
+    {
+     "platform": "X",
+     "url": "https://x.com/Gary4CT"
+    },
+    {
+     "platform": "Facebook",
+     "url": "https://www.facebook.com/SenatorGary"
+    },
+    {
+     "platform": "Instagram",
+     "url": "https://www.instagram.com/iamgarywinfield"
+    },
+    {
+     "platform": "YouTube",
+     "url": "https://www.youtube.com/@garywinfield1868"
+    },
+    {
+     "platform": "TikTok",
+     "url": "https://www.tiktok.com/@iamgarywinfield"
+    },
+    {
+     "platform": "LinkedIn",
+     "url": "https://www.linkedin.com/in/gary-winfield-62880828"
+    }
+   ],
    "noWebsite": false
   },
   {
@@ -8201,6 +8727,24 @@
      "plan": []
     }
    },
+   "links": [
+    {
+     "platform": "X",
+     "url": "https://x.com/CTHouseDems"
+    },
+    {
+     "platform": "Facebook",
+     "url": "https://www.facebook.com/CTHouseDems"
+    },
+    {
+     "platform": "Instagram",
+     "url": "https://www.instagram.com/cthousedems"
+    },
+    {
+     "platform": "YouTube",
+     "url": "https://www.youtube.com/user/CTHouseDemocrats"
+    }
+   ],
    "noWebsite": false
   },
   {
@@ -8390,6 +8934,16 @@
      "plan": []
     }
    },
+   "links": [
+    {
+     "platform": "Facebook",
+     "url": "https://www.facebook.com/profile.php?id=61591440692229"
+    },
+    {
+     "platform": "Instagram",
+     "url": "https://www.instagram.com/rosaforctstatesenate"
+    }
+   ],
    "noWebsite": false
   },
   {
@@ -8486,6 +9040,20 @@
    },
    "photoYear": null,
    "photoBasis": null,
+   "links": [
+    {
+     "platform": "Facebook",
+     "url": "https://www.facebook.com/christinecohen"
+    },
+    {
+     "platform": "Instagram",
+     "url": "https://www.instagram.com/senatorcohenct"
+    },
+    {
+     "platform": "LinkedIn",
+     "url": "https://www.linkedin.com/in/christine-cohen-a60b6a25"
+    }
+   ],
    "noWebsite": false
   },
   {
@@ -8613,6 +9181,12 @@
      "plan": []
     }
    },
+   "links": [
+    {
+     "platform": "Facebook",
+     "url": "https://www.facebook.com/LisaDeane2026"
+    }
+   ],
    "noWebsite": false
   },
   {
@@ -8709,6 +9283,20 @@
    },
    "photoYear": null,
    "photoBasis": null,
+   "links": [
+    {
+     "platform": "Facebook",
+     "url": "https://www.facebook.com/JackFazzinoForCT"
+    },
+    {
+     "platform": "Instagram",
+     "url": "https://www.instagram.com/jackfazzinoct"
+    },
+    {
+     "platform": "LinkedIn",
+     "url": "https://www.linkedin.com/in/jonathanfazzino"
+    }
+   ],
    "noWebsite": false
   },
   {
@@ -8798,6 +9386,7 @@
      "plan": []
     }
    },
+   "links": [],
    "noWebsite": true
   },
   {
@@ -8929,6 +9518,24 @@
      "plan": []
     }
    },
+   "links": [
+    {
+     "platform": "X",
+     "url": "https://x.com/SenatorMaroney"
+    },
+    {
+     "platform": "Facebook",
+     "url": "https://www.facebook.com/Maroneyforus"
+    },
+    {
+     "platform": "Instagram",
+     "url": "https://www.instagram.com/senatorjamesmaroney"
+    },
+    {
+     "platform": "LinkedIn",
+     "url": "https://www.linkedin.com/in/jamesmaroneyct"
+    }
+   ],
    "noWebsite": false
   },
   {
@@ -9062,6 +9669,16 @@
    },
    "photoYear": null,
    "photoBasis": null,
+   "links": [
+    {
+     "platform": "Facebook",
+     "url": "https://www.facebook.com/owforsenate"
+    },
+    {
+     "platform": "LinkedIn",
+     "url": "https://www.linkedin.com/in/owen-weaver-3a964012"
+    }
+   ],
    "noWebsite": false
   },
   {
@@ -9156,6 +9773,12 @@
      "plan": []
     }
    },
+   "links": [
+    {
+     "platform": "Facebook",
+     "url": "https://www.facebook.com/SenatorJoanHartley"
+    }
+   ],
    "noWebsite": false
   },
   {
@@ -9245,6 +9868,16 @@
      "plan": []
     }
    },
+   "links": [
+    {
+     "platform": "Facebook",
+     "url": "https://www.facebook.com/RodriguezStateSenate15"
+    },
+    {
+     "platform": "LinkedIn",
+     "url": "https://www.linkedin.com/in/vnetproducts"
+    }
+   ],
    "noWebsite": true
   },
   {
@@ -9394,6 +10027,36 @@
      "plan": []
     }
    },
+   "links": [
+    {
+     "platform": "X",
+     "url": "https://x.com/JackPerryCT"
+    },
+    {
+     "platform": "Facebook",
+     "url": "https://www.facebook.com/jackperrySouthington"
+    },
+    {
+     "platform": "Instagram",
+     "url": "https://www.instagram.com/jackperryct"
+    },
+    {
+     "platform": "YouTube",
+     "url": "https://www.youtube.com/@JackPerryCT"
+    },
+    {
+     "platform": "TikTok",
+     "url": "https://www.tiktok.com/@jackperryct"
+    },
+    {
+     "platform": "Threads",
+     "url": "https://threads.net/@jackperryct"
+    },
+    {
+     "platform": "Bluesky",
+     "url": "https://bsky.app/profile/jackperryct.bsky.social"
+    }
+   ],
    "noWebsite": false
   },
   {
@@ -9483,6 +10146,28 @@
      "plan": []
     }
    },
+   "links": [
+    {
+     "platform": "X",
+     "url": "https://x.com/ballotpedia"
+    },
+    {
+     "platform": "Facebook",
+     "url": "https://www.facebook.com/Ballotpedia"
+    },
+    {
+     "platform": "Instagram",
+     "url": "https://www.instagram.com/ballotpedia"
+    },
+    {
+     "platform": "YouTube",
+     "url": "https://www.youtube.com/channel/UC0u04Fuq2qLUmYK12rVXFfQ"
+    },
+    {
+     "platform": "LinkedIn",
+     "url": "https://www.linkedin.com/company/ballotpedia"
+    }
+   ],
    "noWebsite": true
   },
   {
@@ -9711,6 +10396,16 @@
    },
    "photoYear": null,
    "photoBasis": null,
+   "links": [
+    {
+     "platform": "Facebook",
+     "url": "https://www.facebook.com/profile.php?id=61583919448499"
+    },
+    {
+     "platform": "Instagram",
+     "url": "https://www.instagram.com/doraisforstatesenate"
+    }
+   ],
    "noWebsite": false
   },
   {
@@ -9896,6 +10591,20 @@
      "plan": []
     }
    },
+   "links": [
+    {
+     "platform": "X",
+     "url": "https://x.com/Cabrera4CT"
+    },
+    {
+     "platform": "Facebook",
+     "url": "https://www.facebook.com/jorge.cabrera.505"
+    },
+    {
+     "platform": "Instagram",
+     "url": "https://www.instagram.com/cabrera4ct"
+    }
+   ],
    "noWebsite": false
   },
   {
@@ -9985,6 +10694,28 @@
      "plan": []
     }
    },
+   "links": [
+    {
+     "platform": "X",
+     "url": "https://x.com/heatherssomers"
+    },
+    {
+     "platform": "Facebook",
+     "url": "https://www.facebook.com/senheathersomers"
+    },
+    {
+     "platform": "Instagram",
+     "url": "https://www.instagram.com/senatorsomersct"
+    },
+    {
+     "platform": "YouTube",
+     "url": "https://www.youtube.com/user/TheSomersheather"
+    },
+    {
+     "platform": "LinkedIn",
+     "url": "https://www.linkedin.com/in/heather-somers-95155841"
+    }
+   ],
    "noWebsite": false
   },
   {
@@ -10122,6 +10853,24 @@
    },
    "photoYear": null,
    "photoBasis": null,
+   "links": [
+    {
+     "platform": "X",
+     "url": "https://x.com/WixStudio"
+    },
+    {
+     "platform": "Facebook",
+     "url": "https://www.facebook.com/WixStudio"
+    },
+    {
+     "platform": "Instagram",
+     "url": "https://www.instagram.com/wixstudio"
+    },
+    {
+     "platform": "LinkedIn",
+     "url": "https://www.linkedin.com/in/joseph-de-la-cruz-a55636308"
+    }
+   ],
    "noWebsite": false
   },
   {
@@ -10218,6 +10967,20 @@
    },
    "photoYear": null,
    "photoBasis": null,
+   "links": [
+    {
+     "platform": "X",
+     "url": "https://x.com/CathyOsten"
+    },
+    {
+     "platform": "Facebook",
+     "url": "https://www.facebook.com/CathyOstenCT"
+    },
+    {
+     "platform": "LinkedIn",
+     "url": "https://www.linkedin.com/in/cathy-osten-a444981a"
+    }
+   ],
    "noWebsite": false
   },
   {
@@ -10344,6 +11107,24 @@
    },
    "photoYear": null,
    "photoBasis": null,
+   "links": [
+    {
+     "platform": "X",
+     "url": "https://x.com/ForSenateCTD19"
+    },
+    {
+     "platform": "Facebook",
+     "url": "https://www.facebook.com/profile.php?id=61558854819087"
+    },
+    {
+     "platform": "Instagram",
+     "url": "https://www.instagram.com/guidoneforctsenate19"
+    },
+    {
+     "platform": "LinkedIn",
+     "url": "https://www.linkedin.com/in/jason-guidone-b5144212"
+    }
+   ],
    "noWebsite": false
   },
   {
@@ -10498,6 +11279,28 @@
      "plan": []
     }
    },
+   "links": [
+    {
+     "platform": "X",
+     "url": "https://x.com/LeeElci"
+    },
+    {
+     "platform": "Facebook",
+     "url": "https://www.facebook.com/LeeElci2026"
+    },
+    {
+     "platform": "Instagram",
+     "url": "https://www.instagram.com/leeelci.2026"
+    },
+    {
+     "platform": "YouTube",
+     "url": "https://www.youtube.com/@leeelci1261"
+    },
+    {
+     "platform": "LinkedIn",
+     "url": "https://www.linkedin.com/in/lee-elci-a6490519"
+    }
+   ],
    "noWebsite": false
   },
   {
@@ -10594,6 +11397,20 @@
    },
    "photoYear": null,
    "photoBasis": null,
+   "links": [
+    {
+     "platform": "X",
+     "url": "https://x.com/SenMarthaMarx"
+    },
+    {
+     "platform": "Facebook",
+     "url": "https://www.facebook.com/statesenatormarthamarx"
+    },
+    {
+     "platform": "Instagram",
+     "url": "https://www.instagram.com/senatormarthamarx"
+    }
+   ],
    "noWebsite": false
   },
   {
@@ -10710,6 +11527,16 @@
      "plan": []
     }
    },
+   "links": [
+    {
+     "platform": "Facebook",
+     "url": "https://www.facebook.com/reidforstatesenate"
+    },
+    {
+     "platform": "Instagram",
+     "url": "https://www.instagram.com/reidforstatesenate"
+    }
+   ],
    "noWebsite": false
   },
   {
@@ -10806,6 +11633,32 @@
    },
    "photoYear": null,
    "photoBasis": null,
+   "links": [
+    {
+     "platform": "X",
+     "url": "https://x.com/ctsenategop"
+    },
+    {
+     "platform": "Facebook",
+     "url": "https://www.facebook.com/CTSenateGOP"
+    },
+    {
+     "platform": "Instagram",
+     "url": "https://www.instagram.com/ctsenategop"
+    },
+    {
+     "platform": "YouTube",
+     "url": "https://www.youtube.com/user/ctsenaterepublicans"
+    },
+    {
+     "platform": "TikTok",
+     "url": "https://www.tiktok.com/@ctsenategop"
+    },
+    {
+     "platform": "LinkedIn",
+     "url": "https://www.linkedin.com/in/jasonperillo"
+    }
+   ],
    "noWebsite": false
   },
   {
@@ -10895,6 +11748,16 @@
      "plan": []
     }
    },
+   "links": [
+    {
+     "platform": "X",
+     "url": "https://x.com/ModlinForCT"
+    },
+    {
+     "platform": "Instagram",
+     "url": "https://www.instagram.com/modlinforct"
+    }
+   ],
    "noWebsite": false
   },
   {
@@ -11000,6 +11863,20 @@
    },
    "photoYear": null,
    "photoBasis": null,
+   "links": [
+    {
+     "platform": "Facebook",
+     "url": "https://www.facebook.com/SenatorGadkarWilcox"
+    },
+    {
+     "platform": "Instagram",
+     "url": "https://www.instagram.com/senatorgadkarwilcox"
+    },
+    {
+     "platform": "TikTok",
+     "url": "https://www.tiktok.com/@senatorsujata"
+    }
+   ],
    "noWebsite": false
   },
   {
@@ -11096,6 +11973,20 @@
    },
    "photoYear": null,
    "photoBasis": null,
+   "links": [
+    {
+     "platform": "X",
+     "url": "https://x.com/herrongaston"
+    },
+    {
+     "platform": "Facebook",
+     "url": "https://www.facebook.com/SenatorGaston"
+    },
+    {
+     "platform": "Instagram",
+     "url": "https://www.instagram.com/senatorgaston"
+    }
+   ],
    "noWebsite": false
   },
   {
@@ -11185,6 +12076,7 @@
      "plan": []
     }
    },
+   "links": [],
    "noWebsite": true
   },
   {
@@ -11345,6 +12237,24 @@
      "plan": []
     }
    },
+   "links": [
+    {
+     "platform": "X",
+     "url": "https://x.com/SenatorJulie"
+    },
+    {
+     "platform": "Facebook",
+     "url": "https://www.facebook.com/SenatorJulie"
+    },
+    {
+     "platform": "Instagram",
+     "url": "https://www.instagram.com/senatorjulie"
+    },
+    {
+     "platform": "LinkedIn",
+     "url": "https://www.linkedin.com/in/julie-kushner-1a80a637"
+    }
+   ],
    "noWebsite": false
   },
   {
@@ -11481,6 +12391,16 @@
    },
    "photoYear": null,
    "photoBasis": null,
+   "links": [
+    {
+     "platform": "Facebook",
+     "url": "https://www.facebook.com/people/Lindsey-For-Senate"
+    },
+    {
+     "platform": "Instagram",
+     "url": "https://www.instagram.com/lindseyforsenate24"
+    }
+   ],
    "noWebsite": false
   },
   {
@@ -11570,6 +12490,7 @@
      "plan": []
     }
    },
+   "links": [],
    "noWebsite": true
   },
   {
@@ -11659,6 +12580,7 @@
      "plan": []
     }
    },
+   "links": [],
    "noWebsite": true
   },
   {
@@ -11863,6 +12785,32 @@
    },
    "photoYear": null,
    "photoBasis": null,
+   "links": [
+    {
+     "platform": "X",
+     "url": "https://x.com/almaforctsenate"
+    },
+    {
+     "platform": "Facebook",
+     "url": "https://www.facebook.com/profile.php?id=61573336756769"
+    },
+    {
+     "platform": "Instagram",
+     "url": "https://www.instagram.com/almaforstatesenate"
+    },
+    {
+     "platform": "YouTube",
+     "url": "https://www.youtube.com/@almaforstatesenate"
+    },
+    {
+     "platform": "TikTok",
+     "url": "https://www.tiktok.com/@almaforstatesenate"
+    },
+    {
+     "platform": "LinkedIn",
+     "url": "https://www.linkedin.com/in/alma-sarelli-96b4416a"
+    }
+   ],
    "noWebsite": false
   },
   {
@@ -12130,6 +13078,16 @@
    },
    "photoYear": null,
    "photoBasis": null,
+   "links": [
+    {
+     "platform": "Facebook",
+     "url": "https://www.facebook.com/Sam4CT"
+    },
+    {
+     "platform": "Instagram",
+     "url": "https://www.instagram.com/sam_for_ct"
+    }
+   ],
    "noWebsite": false
   },
   {
@@ -12219,6 +13177,7 @@
      "plan": []
     }
    },
+   "links": [],
    "noWebsite": true
   },
   {
@@ -12393,6 +13352,20 @@
      "plan": []
     }
    },
+   "links": [
+    {
+     "platform": "X",
+     "url": "https://x.com/AmybethLaroche"
+    },
+    {
+     "platform": "Facebook",
+     "url": "https://www.facebook.com/amybethlaroche"
+    },
+    {
+     "platform": "Instagram",
+     "url": "https://www.instagram.com/amybethlaroche"
+    }
+   ],
    "noWebsite": false
   },
   {
@@ -12666,6 +13639,20 @@
      "plan": []
     }
    },
+   "links": [
+    {
+     "platform": "X",
+     "url": "https://x.com/robblanchardct"
+    },
+    {
+     "platform": "Facebook",
+     "url": "https://www.facebook.com/robblanchardct"
+    },
+    {
+     "platform": "Instagram",
+     "url": "https://www.instagram.com/robforct"
+    }
+   ],
    "noWebsite": false
   },
   {
@@ -12755,6 +13742,16 @@
      "plan": []
     }
    },
+   "links": [
+    {
+     "platform": "Facebook",
+     "url": "https://www.facebook.com/ReddyforCTSenate"
+    },
+    {
+     "platform": "Instagram",
+     "url": "https://www.instagram.com/chris_reddyforct29senate"
+    }
+   ],
    "noWebsite": true
   },
   {
@@ -12849,6 +13846,20 @@
      "plan": []
     }
    },
+   "links": [
+    {
+     "platform": "Facebook",
+     "url": "https://www.facebook.com/SenatorMaeFlexer"
+    },
+    {
+     "platform": "Instagram",
+     "url": "https://www.instagram.com/maeflexer"
+    },
+    {
+     "platform": "LinkedIn",
+     "url": "https://www.linkedin.com/in/mae-flexer-157b5010"
+    }
+   ],
    "noWebsite": false
   },
   {
@@ -13008,6 +14019,28 @@
    },
    "photoYear": null,
    "photoBasis": null,
+   "links": [
+    {
+     "platform": "Facebook",
+     "url": "https://www.facebook.com/aaronzimmerct"
+    },
+    {
+     "platform": "Instagram",
+     "url": "https://www.instagram.com/aaronzimmerct"
+    },
+    {
+     "platform": "YouTube",
+     "url": "https://www.youtube.com/@aaronzimmerct"
+    },
+    {
+     "platform": "TikTok",
+     "url": "https://www.tiktok.com/@aaronzimmerct"
+    },
+    {
+     "platform": "Threads",
+     "url": "https://threads.net/@aaronzimmerct"
+    }
+   ],
    "noWebsite": false
   },
   {
@@ -13097,6 +14130,7 @@
      "plan": []
     }
    },
+   "links": [],
    "noWebsite": true
   },
   {
@@ -13193,6 +14227,32 @@
    },
    "photoYear": null,
    "photoBasis": null,
+   "links": [
+    {
+     "platform": "X",
+     "url": "https://x.com/ctsenategop"
+    },
+    {
+     "platform": "Facebook",
+     "url": "https://www.facebook.com/CTSenateGOP"
+    },
+    {
+     "platform": "Instagram",
+     "url": "https://www.instagram.com/ctsenategop"
+    },
+    {
+     "platform": "YouTube",
+     "url": "https://www.youtube.com/user/ctsenaterepublicans"
+    },
+    {
+     "platform": "TikTok",
+     "url": "https://www.tiktok.com/@ctsenategop"
+    },
+    {
+     "platform": "LinkedIn",
+     "url": "https://www.linkedin.com/in/henri-martin-9274b461"
+    }
+   ],
    "noWebsite": false
   },
   {
@@ -13332,6 +14392,20 @@
    },
    "photoYear": null,
    "photoBasis": null,
+   "links": [
+    {
+     "platform": "Facebook",
+     "url": "https://www.facebook.com/laurelforsenate"
+    },
+    {
+     "platform": "Instagram",
+     "url": "https://www.instagram.com/laurelforsenate"
+    },
+    {
+     "platform": "TikTok",
+     "url": "https://www.tiktok.com/@laurelforsenate"
+    }
+   ],
    "noWebsite": false
   },
   {
@@ -13480,6 +14554,24 @@
    },
    "photoYear": null,
    "photoBasis": null,
+   "links": [
+    {
+     "platform": "X",
+     "url": "https://x.com/eric_berthel"
+    },
+    {
+     "platform": "Facebook",
+     "url": "https://www.facebook.com/berthelforsenate"
+    },
+    {
+     "platform": "Instagram",
+     "url": "https://www.instagram.com/senatorberthel"
+    },
+    {
+     "platform": "LinkedIn",
+     "url": "https://www.linkedin.com/in/ericberthel"
+    }
+   ],
    "noWebsite": false
   },
   {
@@ -13630,6 +14722,20 @@
      "plan": []
     }
    },
+   "links": [
+    {
+     "platform": "Facebook",
+     "url": "https://www.facebook.com/knickerbockerforsenate"
+    },
+    {
+     "platform": "Instagram",
+     "url": "https://www.instagram.com/mknicker"
+    },
+    {
+     "platform": "LinkedIn",
+     "url": "https://www.linkedin.com/in/matthewknickerbocker"
+    }
+   ],
    "noWebsite": false
   },
   {
@@ -13719,6 +14825,7 @@
      "plan": []
     }
    },
+   "links": [],
    "noWebsite": true
   },
   {
@@ -13815,6 +14922,24 @@
    },
    "photoYear": null,
    "photoBasis": null,
+   "links": [
+    {
+     "platform": "X",
+     "url": "https://x.com/NormCT"
+    },
+    {
+     "platform": "Facebook",
+     "url": "https://www.facebook.com/norman.needleman.3"
+    },
+    {
+     "platform": "Instagram",
+     "url": "https://www.instagram.com/normneedleman"
+    },
+    {
+     "platform": "LinkedIn",
+     "url": "https://www.linkedin.com/in/norm-needleman-7ab039a"
+    }
+   ],
    "noWebsite": false
   },
   {
@@ -13995,6 +15120,20 @@
      "plan": []
     }
    },
+   "links": [
+    {
+     "platform": "Facebook",
+     "url": "https://www.facebook.com/profile.php?id=61558798262093"
+    },
+    {
+     "platform": "Instagram",
+     "url": "https://www.instagram.com/brandiforct"
+    },
+    {
+     "platform": "LinkedIn",
+     "url": "https://www.linkedin.com/in/bamandato"
+    }
+   ],
    "noWebsite": false
   },
   {
@@ -14164,6 +15303,7 @@
      "plan": []
     }
    },
+   "links": [],
    "noWebsite": true
   },
   {
@@ -14284,6 +15424,28 @@
      "plan": []
     }
    },
+   "links": [
+    {
+     "platform": "X",
+     "url": "https://x.com/ethan_werstler"
+    },
+    {
+     "platform": "Facebook",
+     "url": "https://www.facebook.com/werstlerforct"
+    },
+    {
+     "platform": "Instagram",
+     "url": "https://www.instagram.com/werstlerforct"
+    },
+    {
+     "platform": "YouTube",
+     "url": "https://www.youtube.com/@werstlerforct"
+    },
+    {
+     "platform": "LinkedIn",
+     "url": "https://www.linkedin.com/in/ethan-werstler-2175921a4"
+    }
+   ],
    "noWebsite": false
   },
   {
@@ -14443,6 +15605,7 @@
      "plan": []
     }
    },
+   "links": [],
    "noWebsite": true
   },
   {
@@ -14741,6 +15904,24 @@
      "plan": []
     }
    },
+   "links": [
+    {
+     "platform": "Facebook",
+     "url": "https://www.facebook.com/Oberlander2026"
+    },
+    {
+     "platform": "Instagram",
+     "url": "https://www.instagram.com/jilloberlander2026"
+    },
+    {
+     "platform": "YouTube",
+     "url": "https://www.youtube.com/@jilloberlanderforstatesenate"
+    },
+    {
+     "platform": "LinkedIn",
+     "url": "https://www.linkedin.com/in/jill-oberlander"
+    }
+   ],
    "noWebsite": false
   },
   {
@@ -14995,6 +16176,7 @@
      "plan": []
     }
    },
+   "links": [],
    "noWebsite": true
   },
   {
@@ -15147,6 +16329,24 @@
    },
    "photoYear": null,
    "photoBasis": null,
+   "links": [
+    {
+     "platform": "X",
+     "url": "https://x.com/ErickRussellCT"
+    },
+    {
+     "platform": "Facebook",
+     "url": "https://www.facebook.com/ErickRussellCT"
+    },
+    {
+     "platform": "Instagram",
+     "url": "https://www.instagram.com/erickrussellct"
+    },
+    {
+     "platform": "LinkedIn",
+     "url": "https://www.linkedin.com/in/erick-russell-25a26431"
+    }
+   ],
    "noWebsite": false
   },
   {
@@ -15276,6 +16476,16 @@
      "plan": []
     }
    },
+   "links": [
+    {
+     "platform": "Facebook",
+     "url": "https://www.facebook.com/fred.wilms.1"
+    },
+    {
+     "platform": "LinkedIn",
+     "url": "https://www.linkedin.com/in/fred-wilms-13b81b93"
+    }
+   ],
    "noWebsite": false
   },
   {
@@ -15407,6 +16617,24 @@
    },
    "photoYear": null,
    "photoBasis": null,
+   "links": [
+    {
+     "platform": "X",
+     "url": "https://x.com/Tooker4CTComp"
+    },
+    {
+     "platform": "Facebook",
+     "url": "https://www.facebook.com/jentookerforcomptroller"
+    },
+    {
+     "platform": "Instagram",
+     "url": "https://www.instagram.com/tooker4ctcomptroller"
+    },
+    {
+     "platform": "LinkedIn",
+     "url": "https://www.linkedin.com/in/jenniferstooker"
+    }
+   ],
    "noWebsite": false
   },
   {
@@ -15496,6 +16724,7 @@
      "plan": []
     }
    },
+   "links": [],
    "noWebsite": true
   },
   {
@@ -15594,6 +16823,24 @@
      "plan": []
     }
    },
+   "links": [
+    {
+     "platform": "X",
+     "url": "https://x.com/MattCoreyCT"
+    },
+    {
+     "platform": "Facebook",
+     "url": "https://www.facebook.com/MattCoreyCT"
+    },
+    {
+     "platform": "Instagram",
+     "url": "https://www.instagram.com/mattcoreyct"
+    },
+    {
+     "platform": "LinkedIn",
+     "url": "https://www.linkedin.com/in/matthew-corey-6169a744"
+    }
+   ],
    "noWebsite": false
   },
   {
@@ -15683,6 +16930,32 @@
      "plan": []
     }
    },
+   "links": [
+    {
+     "platform": "X",
+     "url": "https://x.com/realpeterlumaj"
+    },
+    {
+     "platform": "Facebook",
+     "url": "https://www.facebook.com/peterlumaj"
+    },
+    {
+     "platform": "Instagram",
+     "url": "https://www.instagram.com/peterlumaj"
+    },
+    {
+     "platform": "YouTube",
+     "url": "https://www.youtube.com/@peterlumaj"
+    },
+    {
+     "platform": "TikTok",
+     "url": "https://www.tiktok.com/@peterlumaj"
+    },
+    {
+     "platform": "LinkedIn",
+     "url": "https://www.linkedin.com/in/peter-lumaj"
+    }
+   ],
    "noWebsite": false
   },
   {
@@ -15774,6 +17047,28 @@
    },
    "photoYear": null,
    "photoBasis": null,
+   "links": [
+    {
+     "platform": "X",
+     "url": "https://x.com/CTComptroller"
+    },
+    {
+     "platform": "Facebook",
+     "url": "https://www.facebook.com/CTComptroller"
+    },
+    {
+     "platform": "Instagram",
+     "url": "https://www.instagram.com/CTComptroller"
+    },
+    {
+     "platform": "TikTok",
+     "url": "https://www.tiktok.com/@seanscanlonct"
+    },
+    {
+     "platform": "LinkedIn",
+     "url": "https://www.linkedin.com/company/ctosc"
+    }
+   ],
    "noWebsite": false
   },
   {
@@ -15863,6 +17158,7 @@
      "plan": []
     }
    },
+   "links": [],
    "noWebsite": true
   },
   {
@@ -16013,6 +17309,28 @@
      "plan": []
     }
    },
+   "links": [
+    {
+     "platform": "X",
+     "url": "https://x.com/susanforct"
+    },
+    {
+     "platform": "Facebook",
+     "url": "https://www.facebook.com/SusanBysiewicz"
+    },
+    {
+     "platform": "Instagram",
+     "url": "https://www.instagram.com/susanbysiewicz"
+    },
+    {
+     "platform": "YouTube",
+     "url": "https://www.youtube.com/@SusanBysiewiczCT"
+    },
+    {
+     "platform": "LinkedIn",
+     "url": "https://www.linkedin.com/in/lieutenant-governor-susan-bysiewicz-92442962"
+    }
+   ],
    "noWebsite": false
   },
   {
@@ -16149,6 +17467,32 @@
      "plan": []
     }
    },
+   "links": [
+    {
+     "platform": "X",
+     "url": "https://x.com/AGWilliamTong"
+    },
+    {
+     "platform": "Facebook",
+     "url": "https://www.facebook.com/teamtong2018"
+    },
+    {
+     "platform": "Instagram",
+     "url": "https://www.instagram.com/williamtongct"
+    },
+    {
+     "platform": "YouTube",
+     "url": "https://www.youtube.com/channel/UCxPkQeQ5QmTO-iI_0uewhsw"
+    },
+    {
+     "platform": "TikTok",
+     "url": "https://www.tiktok.com/@agwilliamtong"
+    },
+    {
+     "platform": "LinkedIn",
+     "url": "https://www.linkedin.com/in/william-tong-a196bb1"
+    }
+   ],
    "noWebsite": false
   }
  ]

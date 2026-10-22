@@ -94,3 +94,9 @@ h3.race{margin:22px 0 8px;font-size:.95rem;color:var(--red);text-transform:upper
 #dist{padding:8px 12px;border:1px solid var(--line);border-radius:8px;background:#fff;color:var(--fg);font:inherit;margin-bottom:8px}
 .inc{display:inline-block;font-size:.7rem;border:1px solid var(--navy);color:var(--navy);padding:1px 7px;border-radius:999px;margin-left:4px}
 .unrev{background:#fff8e6;border:1px solid #f0dca8;border-radius:8px;padding:10px 14px;margin:14px 0;font-size:.92rem;color:#5c4a12}
+.online{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin:10px 0 4px}
+.online-l{font-size:.85rem;color:var(--muted);margin-right:4px}
+.chip{display:inline-block;padding:3px 12px;border:1px solid var(--navy);border-radius:999px;font-size:.85rem;text-decoration:none;color:var(--navy);background:#fff}
+.chip:hover{background:var(--navy);color:#fff}
+.chip.web{background:var(--navy);color:#fff}
+.chip.web:hover{background:var(--red);border-color:var(--red)}

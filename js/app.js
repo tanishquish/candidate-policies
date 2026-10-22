@@ -195,6 +195,15 @@ function topicPanel(c, topic) {
   return html + '</div>';
 }
 
+function online(c) {
+  const chips = [];
+  if (c.website) chips.push(`<a class="chip web" href="${esc(c.website)}" target="_blank" rel="noopener">Website</a>`);
+  (c.links || []).forEach(l => chips.push(`<a class="chip" href="${esc(l.url)}" target="_blank" rel="noopener" aria-label="${esc(c.name)} on ${esc(l.platform)}">${esc(l.platform)}</a>`));
+  if (!chips.length) return '<p class="muted small">No campaign website or social media accounts were listed on their Ballotpedia profile.</p>';
+  return `<div class="online" aria-label="Find ${esc(c.name)} online"><span class="online-l">Find them online:</span>${chips.join('')}</div>
+    <p class="muted small">Links come from the candidate’s own website and their Ballotpedia profile; they open external sites.</p>`;
+}
+
 function candidateView(id, topicId) {
   const c = state.candidates.find(x => x.id === id);
   if (!c) return notFound();
@@ -213,7 +222,7 @@ function candidateView(id, topicId) {
         <span class="party ${partyKey(c.party)}">${esc(c.ticket)}</span>${sup(c, 'ballot')}
         <p class="muted">${esc(raceLabel(c))}</p>
         ${paragraphs(c, c.overview)}
-        ${c.website ? `<p><a href="${esc(c.website)}" target="_blank" rel="noopener">Candidate website ↗</a></p>` : ''}
+        ${online(c)}
         ${siteNote}
       </div>
     </div>

@@ -640,6 +640,11 @@ research_e.build(BYID, T, Q, add_src)
 import research_f
 research_f.build(BYID, T, Q, add_src)
 
+import json as _json, pathlib as _pl
+_links = _json.loads((_pl.Path(__file__).resolve().parent / "social_links.json").read_text())
+for _c in C:
+    _c["links"] = _links.get(_c["id"], [])
+
 # every core topic is selectable for every candidate; fill the ones with nothing
 CORE = ["abortion", "lgbtq", "taxes", "defense", "healthcare", "immigration", "economy", "climate", "guns", "education"]
 for c in C:
