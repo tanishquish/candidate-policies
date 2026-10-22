@@ -233,9 +233,7 @@ function candidateView(id, topicId) {
       ${topics.map(x => `<button class="${c.topics[x.id].gap && !c.unreviewed ? 'noweb' : ''}" aria-pressed="${x.id === topicId}" data-t="${x.id}">${esc(x.label)}</button>`).join('')}
     </div>
     ${c.unreviewed ? '' : '<p class="muted small">Dashed buttons: nothing on this topic on the candidate’s own website; the page shows other sourced statements instead.</p>'}
-    ${panel}
-    <h2 class="sources-h">Sources</h2>
-    <ol class="sources">${c.sources.map(s => `<li><a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.title)}</a> <span class="muted">(accessed ${esc(c.accessed)})</span></li>`).join('')}</ol>`;
+    ${panel}`;
   $app.querySelectorAll('[data-t]').forEach(b => b.onclick = () => { location.hash = `#/candidate/${id}/${b.dataset.t}`; });
 }
 
@@ -252,7 +250,7 @@ function route() {
 }
 
 async function init() {
-  const [s, t, c] = await Promise.all(['states', 'topics', 'candidates'].map(f => fetch(`data/${f}.json?v=20261022b`).then(r => r.json())));
+  const [s, t, c] = await Promise.all(['states', 'topics', 'candidates'].map(f => fetch(`data/${f}.json?v=20261022c`).then(r => r.json())));
   Object.assign(state, { states: s, topics: t, candidates: c.candidates, updated: c.updated });
   window.addEventListener('hashchange', route);
   route();
