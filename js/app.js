@@ -97,20 +97,26 @@ const OFFICE_RANK = { 'Governor': 0, 'Lieutenant Governor': 1, 'Secretary of the
 const raceLabel = c => c.district ? `${c.office} — District ${c.district}` : c.office;
 const raceOrder = c => OFFICE_RANK[c.office] * 100 + Number(c.district || 0);
 
+const slug = s => s.toLowerCase().replace(/[^a-z]+/g, '-').replace(/^-|-$/g, '');
+const raceKey = c => c.office === 'U.S. House' ? `house-${c.district}` : c.office === 'State Senate' ? `senate-${c.district}` : slug(c.office);
+const lastName = n => n.replace(/,? (Jr\.|Sr\.)$/, '').split(' ').slice(-1)[0];
+
+function tileGrid(list, pred) {
+  const races = new Map();
+  list.filter(pred).forEach(c => { const k = raceKey(c); if (!races.has(k)) races.set(k, []); races.get(k).push(c); });
+  return [...races.entries()].map(([k, cs]) => {
+    const label = cs[0].district ? `${cs[0].office === 'U.S. House' ? 'House' : 'Senate'} ${cs[0].district}` : cs[0].office;
+    return `<a class="tile" data-key="${esc(k)}" href="#/race/${esc(cs[0].state)}/${esc(k)}">
+      <span class="t-l">${esc(label)}</span>
+      <span class="t-n">${cs.map(c => `<i class="dot ${partyKey(c.party)}" title="${esc(PARTY[c.party] || c.party)}"></i>${esc(lastName(c.name))}`).join('<br>')}</span></a>`;
+  }).join('');
+}
+
 const GROUPS = [
   ['statewide', 'Statewide offices', c => OFFICE_RANK[c.office] <= 5],
   ['house', 'U.S. House', c => c.office === 'U.S. House'],
   ['senate', 'State Senate', c => c.office === 'State Senate'],
 ];
-
-function card(c) {
-  return `
-    <a class="card" href="#/candidate/${esc(c.id)}">
-      ${photo(c)}
-      <div class="body"><div class="name">${esc(c.name)}</div>
-      <span class="party ${partyKey(c.party)}">${esc(PARTY[c.party] || c.party)}</span>${c.incumbent ? ' <span class="inc">Incumbent</span>' : ''}</div>
-    </a>`;
-}
 
 /* ---------- ZIP code district lookup (stays on the page) ---------- */
 let zipData = null;
@@ -127,7 +133,7 @@ const zipBox = () => `
 
 function wireZip() {
   const form = document.getElementById('zipf'), out = document.getElementById('zipout'), input = document.getElementById('zip');
-  const clear = () => document.querySelectorAll('h3.race.hit').forEach(h => h.classList.remove('hit'));
+  const clear = () => document.querySelectorAll('.tile.hit').forEach(h => h.classList.remove('hit'));
   const show = html => { out.innerHTML = html; };
   form.onsubmit = async e => {
     e.preventDefault();
@@ -135,7 +141,7 @@ function wireZip() {
     clear();
     if (!/^\d{5}$/.test(z)) return show('<p class="zip-msg">Enter a 5-digit ZIP code.</p>');
     try {
-      zipData ||= await fetch('data/zip_districts.json?v=20261022e').then(r => r.json());
+      zipData ||= await fetch('data/zip_districts.json?v=20261022g').then(r => r.json());
     } catch { return show('<p class="zip-msg">The ZIP lookup could not be loaded. Use the district list below.</p>'); }
     const r = zipData[z];
     if (!r || (!r.h.length && !r.s.length)) return show(`<p class="zip-msg">${esc(z)} ${z.startsWith('06') ? 'isn’t in this lookup (PO-box-only ZIP codes are not included). Try the district list below.' : 'isn’t a Connecticut ZIP code.'}</p>`);
@@ -146,10 +152,10 @@ function wireZip() {
       <li>Governor and other statewide offices (everyone in Connecticut)</li>
       <li>${hs || 'U.S. House: not found'}</li>
       <li>${ss || 'State Senate: not found'}</li></ul>
-      <p class="muted small">Select a district to jump to its candidates.</p></div>`);
-    r.h.forEach(([d]) => document.getElementById('house-' + d)?.classList.add('hit'));
-    r.s.forEach(([d]) => document.getElementById('senate-' + d)?.classList.add('hit'));
-    out.querySelectorAll('[data-go]').forEach(a => a.onclick = ev => { ev.preventDefault(); document.getElementById(a.dataset.go)?.scrollIntoView({ behavior: 'smooth', block: 'start' }); });
+      <p class="muted small">Select a district to see its candidates; your districts are also highlighted below.</p></div>`);
+    r.h.forEach(([d]) => document.querySelector(`.tile[data-key="house-${d}"]`)?.classList.add('hit'));
+    r.s.forEach(([d]) => document.querySelector(`.tile[data-key="senate-${d}"]`)?.classList.add('hit'));
+    out.querySelectorAll('[data-go]').forEach(a => a.onclick = ev => { ev.preventDefault(); location.hash = `#/race/CT/${a.dataset.go}`; });
   };
 }
 
@@ -161,32 +167,39 @@ function stateView(code) {
     $app.innerHTML = `<p><a href="#/">← Back to the map</a></p><h1>${esc(name)}</h1><div class="empty">Candidate information for ${esc(name)} hasn't been added yet. Connecticut is available now.</div>`;
     return;
   }
-  const sections = GROUPS.map(([id, label, pred]) => {
-    const cs = list.filter(pred);
-    if (!cs.length) return null;
-    const races = {};
-    cs.forEach(c => (races[raceLabel(c)] ||= []).push(c));
-    const body = Object.entries(races).map(([r, rc]) => `
-      <h3 class="race" id="${id}-${esc(r.replace(/\D+/g, '') || r)}">${esc(r)}</h3>
-      <div class="cards">${rc.map(card).join('')}</div>`).join('');
-    return { id, label, body, races: Object.keys(races) };
-  }).filter(Boolean);
-  const senate = sections.find(s => s.id === 'senate');
-  const districtPicker = senate ? `
-    <label class="picker-l" for="dist">Find your State Senate district</label>
-    <select id="dist"><option value="">Choose a district…</option>${senate.races.map(r => `<option value="${esc(r.replace(/\D+/g, ''))}">${esc(r.replace('State Senate — ', ''))}</option>`).join('')}</select>` : '';
+  const sections = GROUPS.map(([id, label, pred]) => ({ id, label, grid: tileGrid(list, pred) })).filter(s => s.grid);
   $app.innerHTML = `
     <p><a href="#/">← Back to the map</a></p>
     <h1>${esc(name)}</h1>
-    <nav class="jump" aria-label="Jump to">${sections.map(s => `<a href="#" data-j="${s.id}">${esc(s.label)}</a>`).join('')}</nav>
+    <p class="muted">Choose a race to see its candidates side by side.</p>
     ${code === 'CT' ? zipBox() : ''}
-    ${districtPicker}
-    ${sections.map(s => `<section id="sec-${s.id}"><h2 class="sec">${esc(s.label)}</h2>${s.body}</section>`).join('')}
-    <p class="muted small">Candidates are those listed for the November 3, 2026 general election as of ${esc(state.updated)}, per ${[...new Set(list.map(c => c.sources[0]))].map(s => `<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.title)}</a>`).join(' and ')}. Write-in candidates are not included.</p>`;
-  $app.querySelectorAll('[data-j]').forEach(a => a.onclick = e => { e.preventDefault(); document.getElementById('sec-' + a.dataset.j).scrollIntoView({ behavior: 'smooth' }); });
+    ${sections.map(s => `<section id="sec-${s.id}"><h2 class="sec">${esc(s.label)}</h2><div class="tiles ${s.id}">${s.grid}</div></section>`).join('')}
+    <p class="muted small">Candidates are those listed for the November 3, 2026 general election as of ${esc(state.updated)}, per ${[...new Map(list.map(c => [c.sources[0].url, c.sources[0]])).values()].map(s => `<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.title)}</a>`).join(' and ')}. Write-in candidates are not included. Dots show party: blue Democratic, red Republican, green Green, gray Independent.</p>`;
   if (code === 'CT') wireZip();
-  const dist = document.getElementById('dist');
-  if (dist) dist.onchange = () => { const el = document.getElementById('senate-' + dist.value); if (el) el.scrollIntoView({ behavior: 'smooth' }); };
+}
+
+/* ---------- one race: candidates side by side ---------- */
+function raceView(code, key) {
+  const list = state.candidates.filter(c => c.state === code && raceKey(c) === key).sort((a, b) => a.name.localeCompare(b.name));
+  if (!list.length) return notFound();
+  const title = raceLabel(list[0]).replace('—', '·');
+  const keys = [...new Set(state.candidates.filter(c => c.state === code && c.office === list[0].office).map(raceKey))];
+  const grouped = list[0].district ? keys.sort((x, y) => Number(x.split('-')[1]) - Number(y.split('-')[1])) : [];
+  const idx = grouped.indexOf(key);
+  const nav = grouped.length ? `<p class="race-nav">${idx > 0 ? `<a href="#/race/${esc(code)}/${esc(grouped[idx - 1])}">← District ${esc(grouped[idx - 1].split('-')[1])}</a>` : '<span></span>'}${idx < grouped.length - 1 ? `<a href="#/race/${esc(code)}/${esc(grouped[idx + 1])}">District ${esc(grouped[idx + 1].split('-')[1])} →</a>` : ''}</p>` : '';
+  $app.innerHTML = `
+    <p><a href="#/state/${esc(code)}">← All ${esc(state.states[code])} races</a></p>
+    <h1>${esc(title)}</h1>
+    <p class="muted">${list.length} ${list.length === 1 ? 'candidate' : 'candidates'} on the November 3, 2026 ballot. Select a candidate for their full positions, plans and sources.</p>
+    <div class="race-cols">${list.map(c => `
+      <article class="rc">
+        <a class="rc-photo" href="#/candidate/${esc(c.id)}" aria-label="Full profile for ${esc(c.name)}">${photo(c)}</a>
+        <h2><a href="#/candidate/${esc(c.id)}">${esc(c.name)}</a></h2>
+        <span class="party ${partyKey(c.party)}">${esc(c.ticket)}</span>${c.incumbent ? ' <span class="inc">Incumbent</span>' : ''}
+        <div class="rc-ov">${paragraphs(c, c.overview.slice(0, 2))}</div>
+        <a class="btn-full" href="#/candidate/${esc(c.id)}">Full profile →</a>
+      </article>`).join('')}</div>
+    ${nav}`;
 }
 
 /* ---------- candidate ---------- */
@@ -257,7 +270,7 @@ function candidateView(id, topicId) {
     ? '<div class="empty">No campaign website or published policy statements were found for this candidate as of ' + esc(c.accessed) + '. This page will be updated if they become available.</div>' : '';
   const siteNote = c.siteNote ? `<p class="muted small">${esc(c.siteNote)}</p>` : '';
   $app.innerHTML = `
-    <p><a href="#/state/${esc(c.state)}">← ${esc(state.states[c.state])} candidates</a></p>
+    <p><a href="#/race/${esc(c.state)}/${esc(raceKey(c))}">← ${esc(raceLabel(c).replace('—', '·'))}: all candidates</a> · <a href="#/state/${esc(c.state)}">All ${esc(state.states[c.state])} races</a></p>
     <div class="profile">
       <div>${photo(c)}${photoCaption(c)}</div>
       <div>
@@ -287,13 +300,14 @@ function notFound() {
 function route() {
   const [, page, a, b] = location.hash.split('/');
   if (page === 'state') stateView(a);
+  else if (page === 'race') raceView(a, b);
   else if (page === 'candidate') candidateView(a, b);
   else homeView();
-  if (!b) window.scrollTo(0, 0);
+  if (page === 'race' || !b) window.scrollTo(0, 0);
 }
 
 async function init() {
-  const [s, t, c] = await Promise.all(['states', 'topics', 'candidates'].map(f => fetch(`data/${f}.json?v=20261022e`).then(r => r.json())));
+  const [s, t, c] = await Promise.all(['states', 'topics', 'candidates'].map(f => fetch(`data/${f}.json?v=20261022g`).then(r => r.json())));
   Object.assign(state, { states: s, topics: t, candidates: c.candidates, updated: c.updated });
   window.addEventListener('hashchange', route);
   route();
