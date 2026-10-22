@@ -1,6 +1,6 @@
 const $app = document.getElementById('app');
 const state = { states: {}, topics: [], candidates: [], updated: '' };
-const ATLAS = 'https://cdn.jsdelivr.net/npm/us-atlas@3/states-albers-10m.json';
+const ATLAS = 'https://cdn.jsdelivr.net/npm/us-atlas@3.0.1/states-albers-10m.json';
 
 const PARTY = { D: 'Democratic', R: 'Republican', I: 'Independent', G: 'Green' };
 const partyKey = p => (['D', 'R', 'I', 'G'].includes(p) ? p : 'O');
@@ -48,7 +48,7 @@ async function homeView() {
     <div class="legend"><span><i class="sw avail"></i> Red outline: candidates available</span><span><i class="sw"></i> Other states: coming soon</span></div>
     <h2 class="race">Or choose from the list</h2>
     <ul class="state-grid">${links}</ul>`;
-  drawMap().catch(() => { document.getElementById('map').innerHTML = '<p class="muted">The map could not be loaded. Use the state list below.</p>'; });
+  drawMap().catch(() => { const m = document.getElementById('map'); if (m) m.innerHTML = '<p class="muted">The map could not be loaded. Use the state list below.</p>'; });
 }
 
 async function drawMap() {
@@ -99,16 +99,18 @@ const raceOrder = c => OFFICE_RANK[c.office] * 100 + Number(c.district || 0);
 
 const slug = s => s.toLowerCase().replace(/[^a-z]+/g, '-').replace(/^-|-$/g, '');
 const raceKey = c => c.office === 'U.S. House' ? `house-${c.district}` : c.office === 'State Senate' ? `senate-${c.district}` : slug(c.office);
+const PARTY_ORDER = { D: 0, R: 1, I: 2, G: 3 };
+const byParty = (x, y) => (PARTY_ORDER[x.party] ?? 4) - (PARTY_ORDER[y.party] ?? 4) || x.name.localeCompare(y.name);
 const lastName = n => n.replace(/,? (Jr\.|Sr\.)$/, '').split(' ').slice(-1)[0];
 
 function tileGrid(list, pred) {
   const races = new Map();
-  list.filter(pred).forEach(c => { const k = raceKey(c); if (!races.has(k)) races.set(k, []); races.get(k).push(c); });
+  list.filter(pred).slice().sort(byParty).forEach(c => { const k = raceKey(c); if (!races.has(k)) races.set(k, []); races.get(k).push(c); });
   return [...races.entries()].map(([k, cs]) => {
     const label = cs[0].district ? `${cs[0].office === 'U.S. House' ? 'House' : 'Senate'} ${cs[0].district}` : cs[0].office;
     return `<a class="tile" data-key="${esc(k)}" href="#/race/${esc(cs[0].state)}/${esc(k)}">
       <span class="t-l">${esc(label)}</span>
-      <span class="t-n">${cs.map(c => `<i class="dot ${partyKey(c.party)}" title="${esc(PARTY[c.party] || c.party)}"></i>${esc(lastName(c.name))}`).join('<br>')}</span></a>`;
+      <span class="t-n">${cs.map(c => `<i class="dot ${partyKey(c.party)}" aria-hidden="true"></i>${esc(lastName(c.name))} <span class="pl">(${esc(c.party)})</span>`).join('<br>')}</span></a>`;
   }).join('');
 }
 
@@ -141,7 +143,7 @@ function wireZip() {
     clear();
     if (!/^\d{5}$/.test(z)) return show('<p class="zip-msg">Enter a 5-digit ZIP code.</p>');
     try {
-      zipData ||= await fetch('data/zip_districts.json?v=20261022g').then(r => r.json());
+      zipData ||= await fetch('data/zip_districts.json?v=20261022h').then(r => r.json());
     } catch { return show('<p class="zip-msg">The ZIP lookup could not be loaded. Use the district list below.</p>'); }
     const r = zipData[z];
     if (!r || (!r.h.length && !r.s.length)) return show(`<p class="zip-msg">${esc(z)} ${z.startsWith('06') ? 'isn’t in this lookup (PO-box-only ZIP codes are not included). Try the district list below.' : 'isn’t a Connecticut ZIP code.'}</p>`);
@@ -174,13 +176,13 @@ function stateView(code) {
     <p class="muted">Choose a race to see its candidates side by side.</p>
     ${code === 'CT' ? zipBox() : ''}
     ${sections.map(s => `<section id="sec-${s.id}"><h2 class="sec">${esc(s.label)}</h2><div class="tiles ${s.id}">${s.grid}</div></section>`).join('')}
-    <p class="muted small">Candidates are those listed for the November 3, 2026 general election as of ${esc(state.updated)}, per ${[...new Map(list.map(c => [c.sources[0].url, c.sources[0]])).values()].map(s => `<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.title)}</a>`).join(' and ')}. Write-in candidates are not included. Dots show party: blue Democratic, red Republican, green Green, gray Independent.</p>`;
+    <p class="muted small">Candidates are those listed for the November 3, 2026 general election as of ${esc(state.updated)}, per ${[...new Map(list.map(c => [c.sources[0].url, c.sources[0]])).values()].map(s => `<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.title)}</a>`).join(' and ')}. Write-in candidates are not included. Letters show party: D Democratic, R Republican, G Green, I Independent.</p>`;
   if (code === 'CT') wireZip();
 }
 
 /* ---------- one race: candidates side by side ---------- */
 function raceView(code, key) {
-  const list = state.candidates.filter(c => c.state === code && raceKey(c) === key).sort((a, b) => a.name.localeCompare(b.name));
+  const list = state.candidates.filter(c => c.state === code && raceKey(c) === key).sort(byParty);
   if (!list.length) return notFound();
   const title = raceLabel(list[0]).replace('—', '·');
   const keys = [...new Set(state.candidates.filter(c => c.state === code && c.office === list[0].office).map(raceKey))];
@@ -303,11 +305,19 @@ function route() {
   else if (page === 'race') raceView(a, b);
   else if (page === 'candidate') candidateView(a, b);
   else homeView();
-  if (page === 'race' || !b) window.scrollTo(0, 0);
+  const h1 = document.querySelector('h1');
+  document.title = (h1 ? h1.textContent : 'Page not found') + ' · Candidate Policies';
+  const topicChange = page === 'candidate' && b;
+  if (!topicChange) {
+    window.scrollTo(0, 0);
+    if (h1) { h1.setAttribute('tabindex', '-1'); h1.focus({ preventScroll: true }); }
+  }
 }
 
+document.getElementById('skip')?.addEventListener('click', e => { e.preventDefault(); $app.setAttribute('tabindex', '-1'); $app.focus(); });
+
 async function init() {
-  const [s, t, c] = await Promise.all(['states', 'topics', 'candidates'].map(f => fetch(`data/${f}.json?v=20261022g`).then(r => r.json())));
+  const [s, t, c] = await Promise.all(['states', 'topics', 'candidates'].map(f => fetch(`data/${f}.json?v=20261022h`).then(r => r.json())));
   Object.assign(state, { states: s, topics: t, candidates: c.candidates, updated: c.updated });
   window.addEventListener('hashchange', route);
   route();

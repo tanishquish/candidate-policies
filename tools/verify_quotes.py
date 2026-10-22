@@ -30,7 +30,7 @@ def page_text(url):
             h += subprocess.run(["curl", "--compressed", "-sL", "-m", "30", "-A", ua, url], capture_output=True).stdout.decode("utf8", "ignore")
         h = re.sub(r"(?is)<(script|style|noscript|svg)[^>]*>.*?</\1>", "", h)
         h = re.sub(r"(?i)<(br|/p|/div|/h\d|/li|/section)[^>]*>", "\n", h)
-        blocked = "sgcaptcha" in h or "captcha" in h.lower()[:2000]
+        blocked = len(h) < 1500 or "sgcaptcha" in h or "captcha" in h.lower()[:2000]  # tiny pages are bot challenges
         cache[url] = None if blocked else norm(re.sub(r"<[^>]+>", " ", h))
     return cache[url]
 
