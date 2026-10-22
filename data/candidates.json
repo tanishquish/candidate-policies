@@ -13695,6 +13695,16 @@
      "key": "oi",
      "title": "Jill Oberlander for State Senate: Jill on the Issues",
      "url": "https://jilloberlander.com/jill-on-the-issues/"
+    },
+    {
+     "key": "rh",
+     "title": "Greenwich Free Press: Round Hill Association Hosts Debate for State Senate 36th District (Oct. 8, 2026)",
+     "url": "https://greenwichfreepress.com/news/government/round-hill-association-hosts-debate-for-state-senate-36th-district-255043/"
+    },
+    {
+     "key": "lw",
+     "title": "Greenwich Free Press: LWV Greenwich Candidates Debate (Oct. 16, 2026)",
+     "url": "https://greenwichfreepress.com/news/government/lwv-greenwich-candidates-debate-inflation-affordability-taxes-reproductive-rights-gun-safety-255373/"
     }
    ],
    "overview": [
@@ -13714,7 +13724,18 @@
    "topics": {
     "climate": {
      "gap": false,
-     "said": [],
+     "said": [
+      {
+       "when": "2026-10-07",
+       "context": "Round Hill Association debate (Oct. 7, 2026) between Joe Kelly and Jill Oberlander, as reported by the Greenwich Free Press. Asked about data centers.",
+       "seg": [
+        {
+         "q": "I think New York has the right approach. I think we should pause consideration on any data center",
+         "s": "rh"
+        }
+       ]
+      }
+     ],
      "plan": [
       [
        {
@@ -13746,7 +13767,18 @@
     },
     "taxes": {
      "gap": false,
-     "said": [],
+     "said": [
+      {
+       "when": "2026-10-14",
+       "context": "League of Women Voters Greenwich debate (Oct. 14, 2026) between Joe Kelly and Jill Oberlander, as reported by the Greenwich Free Press. ",
+       "seg": [
+        {
+         "q": "I would work hard to bring money back to our district and I would not support new taxes",
+         "s": "lw"
+        }
+       ]
+      }
+     ],
      "plan": [
       [
        {
@@ -13778,7 +13810,18 @@
     },
     "economy": {
      "gap": false,
-     "said": [],
+     "said": [
+      {
+       "when": "2026-10-07",
+       "context": "Round Hill Association debate (Oct. 7, 2026) between Joe Kelly and Jill Oberlander, as reported by the Greenwich Free Press. Asked what she would change about the 8-30g affordable housing law.",
+       "seg": [
+        {
+         "q": "What I won’t do is give into pressure to support bills that aren’t good for our community. I will be an advocate for our district and our local zoning laws.",
+         "s": "rh"
+        }
+       ]
+      }
+     ],
      "plan": [
       [
        {
@@ -13790,6 +13833,12 @@
        {
         "q": "Expand apprenticeships and workforce training that lead to jobs.",
         "s": "oi"
+       }
+      ],
+      [
+       {
+        "q": "In Hartford, I want to be the liaison between the municipalities and the State to ensure we’re getting the support we need and to push back and fight against overreach on the part of the state.",
+        "s": "rh"
        }
       ]
      ],
@@ -13868,7 +13917,38 @@
     },
     "abortion": {
      "gap": true,
-     "said": [],
+     "said": [
+      {
+       "when": "2026-10-14",
+       "context": "League of Women Voters Greenwich debate (Oct. 14, 2026) between Joe Kelly and Jill Oberlander, as reported by the Greenwich Free Press. Asked about reproductive rights and abortion; she said her father was an OB/GYN.",
+       "seg": [
+        {
+         "q": "These days it goes beyond saying, ‘I support the right to choose,’",
+         "s": "lw"
+        },
+        {
+         "t": " and added it was also important to support doctors, healthcare providers and access to services including prescriptions and counseling.",
+         "s": "lw"
+        }
+       ]
+      }
+     ],
+     "plan": []
+    },
+    "guns": {
+     "gap": true,
+     "said": [
+      {
+       "when": "2026-10-14",
+       "context": "League of Women Voters Greenwich debate (Oct. 14, 2026) between Joe Kelly and Jill Oberlander, as reported by the Greenwich Free Press. Asked whether she would have supported the 2026 convertible-pistol law.",
+       "seg": [
+        {
+         "q": "And I will vote that way for any gun violence prevention bill. Anything that will keep our children and residents safe from gun violence, I will be a strong supporter of.",
+         "s": "lw"
+        }
+       ]
+      }
+     ],
      "plan": []
     },
     "lgbtq": {
@@ -13882,11 +13962,6 @@
      "plan": []
     },
     "immigration": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
-    "guns": {
      "gap": true,
      "said": [],
      "plan": []
@@ -13913,6 +13988,21 @@
      "key": "bp",
      "title": "Ballotpedia: Joe Kelly",
      "url": "https://ballotpedia.org/Joe_Kelly"
+    },
+    {
+     "key": "ann",
+     "title": "Greenwich Free Press: Greenwich’s Joe Kelly Announces Run for State Senate in 36th District (Mar. 6, 2026)",
+     "url": "https://greenwichfreepress.com/news/government/greenwichs-joe-kelly-announces-run-for-state-senate-in-36th-district-244700/"
+    },
+    {
+     "key": "rh",
+     "title": "Greenwich Free Press: Round Hill Association Hosts Debate for State Senate 36th District (Oct. 8, 2026)",
+     "url": "https://greenwichfreepress.com/news/government/round-hill-association-hosts-debate-for-state-senate-36th-district-255043/"
+    },
+    {
+     "key": "lw",
+     "title": "Greenwich Free Press: LWV Greenwich Candidates Debate (Oct. 16, 2026)",
+     "url": "https://greenwichfreepress.com/news/government/lwv-greenwich-candidates-debate-inflation-affordability-taxes-reproductive-rights-gun-safety-255373/"
     }
    ],
    "overview": [
@@ -13921,10 +14011,28 @@
       "t": "Joe Kelly is a candidate on the November 3, 2026 ballot for State Senate District 36, running as: Republican; Independent of Connecticut.",
       "s": "ballotS"
      }
+    ],
+    [
+     {
+      "t": "At his March 2026 campaign announcement he said "
+     },
+     {
+      "q": "Public service should bring people together to solve problems",
+      "s": "ann"
+     },
+     {
+      "t": "."
+     }
+    ],
+    [
+     {
+      "t": "The announcement also described him as a Greenwich Board of Estimate and Taxation member and former Board of Education chair.",
+      "s": "ann"
+     }
     ]
    ],
    "incumbent": false,
-   "unreviewed": true,
+   "unreviewed": false,
    "accessed": "2026-10-22",
    "state": "CT",
    "photo": null,
@@ -13932,15 +14040,172 @@
    "topics": {
     "abortion": {
      "gap": true,
-     "said": [],
+     "said": [
+      {
+       "when": "2026-10-14",
+       "context": "League of Women Voters Greenwich debate (Oct. 14, 2026) between Joe Kelly and Jill Oberlander, as reported by the Greenwich Free Press. Asked about reproductive rights and abortion; the article notes that in 2020 he had said he had not made up his mind.",
+       "seg": [
+        {
+         "q": "I’m pro-choice",
+         "s": "lw"
+        },
+        {
+         "t": ", adding: "
+        },
+        {
+         "q": "I was brought up as a Catholic with 16 years of Catholic education. I have three strong daughters and a strong wife. There’s no way I can argue any other way.",
+         "s": "lw"
+        }
+       ]
+      }
+     ],
      "plan": []
     },
-    "lgbtq": {
+    "guns": {
      "gap": true,
-     "said": [],
+     "said": [
+      {
+       "when": "2026-10-14",
+       "context": "League of Women Voters Greenwich debate (Oct. 14, 2026) between Joe Kelly and Jill Oberlander, as reported by the Greenwich Free Press. Asked whether he would have supported the 2026 law (Public Act 26-41) banning pistols that can easily be converted into automatic weapons.",
+       "seg": [
+        {
+         "q": "If a device is going to turn a handgun into an automatic weapon, that is bad. We should not vote in favor of that",
+         "s": "lw"
+        }
+       ]
+      }
+     ],
      "plan": []
     },
     "taxes": {
+     "gap": true,
+     "said": [
+      {
+       "when": "2026-10-07",
+       "context": "Round Hill Association debate (Oct. 7, 2026) between Joe Kelly and Jill Oberlander, as reported by the Greenwich Free Press. Asked about the state’s unfunded pension liabilities.",
+       "seg": [
+        {
+         "q": "We have to take bold moves in order to fix that by stimulating business. How do we do that? By lowering taxes",
+         "s": "rh"
+        }
+       ]
+      }
+     ],
+     "plan": [
+      [
+       {
+        "q": "You have to cut the taxes.",
+        "s": "lw"
+       },
+       {
+        "t": " The Greenwich Free Press also reported he talked about removing the public benefit charge from electricity bills.",
+        "s": "lw"
+       }
+      ]
+     ]
+    },
+    "economy": {
+     "gap": true,
+     "said": [
+      {
+       "when": "2026-10-07",
+       "context": "Round Hill Association debate (Oct. 7, 2026) between Joe Kelly and Jill Oberlander, as reported by the Greenwich Free Press. ",
+       "seg": [
+        {
+         "q": "Jobs are leaving, we can’t have that. We have to stimulate the state by making it more attractive",
+         "s": "rh"
+        }
+       ]
+      }
+     ],
+     "plan": [
+      [
+       {
+        "q": "I think 8-30g has created an adversarial relationship between the municipalities and Hartford",
+        "s": "rh"
+       },
+       {
+        "t": ", and on repealing it: "
+       },
+       {
+        "q": "We’d vote it out",
+        "s": "rh"
+       },
+       {
+        "t": "."
+       }
+      ],
+      [
+       {
+        "q": "If elected, I will continue working to ensure Connecticut lives within its means while strengthening the communities we call home.",
+        "s": "ann"
+       }
+      ]
+     ]
+    },
+    "healthcare": {
+     "gap": true,
+     "said": [
+      {
+       "when": "2026-10-07",
+       "context": "Round Hill Association debate (Oct. 7, 2026) between Joe Kelly and Jill Oberlander, as reported by the Greenwich Free Press. Asked about rising health insurance premiums.",
+       "seg": [
+        {
+         "q": "Healthcare should be a right, but I can’t have health care be run by the government because the government doesn’t run things well.",
+         "s": "rh"
+        }
+       ]
+      }
+     ],
+     "plan": []
+    },
+    "education": {
+     "gap": true,
+     "said": [
+      {
+       "when": "2026-10-07",
+       "context": "Round Hill Association debate (Oct. 7, 2026) between Joe Kelly and Jill Oberlander, as reported by the Greenwich Free Press. Asked about federal funding cuts to healthcare and education.",
+       "seg": [
+        {
+         "q": "We do have to make sure we fund our schools.",
+         "s": "rh"
+        },
+        {
+         "t": " "
+        },
+        {
+         "q": "whatever is going to happen with federal funding, we have to have to make up for it with the state, because we can’t put our schools at risk",
+         "s": "rh"
+        }
+       ]
+      }
+     ],
+     "plan": [
+      [
+       {
+        "q": "we have to have to make up for it with the state, because we can’t put our schools at risk",
+        "s": "rh"
+       }
+      ]
+     ]
+    },
+    "climate": {
+     "gap": true,
+     "said": [
+      {
+       "when": "2026-10-07",
+       "context": "Round Hill Association debate (Oct. 7, 2026) between Joe Kelly and Jill Oberlander, as reported by the Greenwich Free Press. Asked about data centers.",
+       "seg": [
+        {
+         "t": "The Greenwich Free Press reported he said building a data center would only create temporary construction jobs, since data centers employ few permanent workers.",
+         "s": "rh"
+        }
+       ]
+      }
+     ],
+     "plan": []
+    },
+    "lgbtq": {
      "gap": true,
      "said": [],
      "plan": []
@@ -13950,32 +14215,7 @@
      "said": [],
      "plan": []
     },
-    "healthcare": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
     "immigration": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
-    "economy": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
-    "climate": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
-    "guns": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
-    "education": {
      "gap": true,
      "said": [],
      "plan": []
