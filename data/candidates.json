@@ -10166,7 +10166,7 @@
    "office": "State Senate",
    "district": "26",
    "website": "https://votealma.com/",
-   "reviewed": null,
+   "reviewed": "si",
    "sources": [
     {
      "key": "ballotS",
@@ -10177,6 +10177,11 @@
      "key": "bp",
      "title": "Ballotpedia: Alma Sarelli",
      "url": "https://ballotpedia.org/Alma_Sarelli"
+    },
+    {
+     "key": "si",
+     "title": "Alma Sarelli for State Senate: Issues",
+     "url": "https://votealma.com/issues/"
     }
    ],
    "overview": [
@@ -10197,23 +10202,105 @@
     ]
    ],
    "incumbent": false,
-   "unreviewed": true,
+   "unreviewed": false,
    "accessed": "2026-10-22",
    "state": "CT",
    "photo": "https://votealma.com/UserFiles/image/Alma_black_jacket.png",
    "photoSource": "https://votealma.com/",
    "topics": {
+    "economy": {
+     "gap": false,
+     "said": [],
+     "plan": [
+      [
+       {
+        "q": "fight to protect local zoning authority, oppose unfunded mandates, and require infrastructure planning before major development moves forward",
+        "s": "si"
+       },
+       {
+        "t": "."
+       }
+      ]
+     ],
+     "paras": [
+      [
+       {
+        "t": "Her issues page says her campaign is focused on "
+       },
+       {
+        "q": "making Connecticut more affordable, protecting local control, preserving educational excellence, and strengthening support for special education",
+        "s": "si"
+       },
+       {
+        "t": "."
+       }
+      ]
+     ]
+    },
+    "taxes": {
+     "gap": true,
+     "said": [],
+     "plan": [
+      [
+       {
+        "q": "oppose unfunded mandates",
+        "s": "si"
+       },
+       {
+        "t": " and "
+       },
+       {
+        "q": "protect taxpayers",
+        "s": "si"
+       },
+       {
+        "t": "."
+       }
+      ]
+     ]
+    },
+    "education": {
+     "gap": false,
+     "said": [],
+     "plan": [
+      [
+       {
+        "q": "support excellent schools, require clear cost controls, improve traffic and parking planning, protect neighborhoods, and keep residents involved before major decisions are made",
+        "s": "si"
+       },
+       {
+        "t": ", and "
+       },
+       {
+        "q": "push for more responsible state support for education and special education",
+        "s": "si"
+       },
+       {
+        "t": "."
+       }
+      ]
+     ],
+     "paras": [
+      [
+       {
+        "t": "She says "
+       },
+       {
+        "q": "strong schools and taxpayer accountability must go together",
+        "s": "si"
+       },
+       {
+        "t": "."
+       }
+      ]
+     ]
+    },
     "abortion": {
      "gap": true,
      "said": [],
      "plan": []
     },
     "lgbtq": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
-    "taxes": {
      "gap": true,
      "said": [],
      "plan": []
@@ -10233,22 +10320,12 @@
      "said": [],
      "plan": []
     },
-    "economy": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
     "climate": {
      "gap": true,
      "said": [],
      "plan": []
     },
     "guns": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
-    "education": {
      "gap": true,
      "said": [],
      "plan": []
@@ -10266,7 +10343,7 @@
    "office": "State Senate",
    "district": "26",
    "website": "https://www.samforct.com/",
-   "reviewed": null,
+   "reviewed": "nv",
    "sources": [
     {
      "key": "ballotS",
@@ -10277,6 +10354,11 @@
      "key": "bp",
      "title": "Ballotpedia: Sam Nestor",
      "url": "https://ballotpedia.org/Sam_Nestor"
+    },
+    {
+     "key": "nv",
+     "title": "Sam Nestor for State Senate: Vision",
+     "url": "https://www.samforct.com/vision"
     }
    ],
    "overview": [
@@ -10288,21 +10370,195 @@
     ]
    ],
    "incumbent": false,
-   "unreviewed": true,
+   "unreviewed": false,
    "accessed": "2026-10-22",
    "state": "CT",
    "photo": "https://images.squarespace-cdn.com/content/v1/69b084deb565561b3ece995e/7a5e52e4-e8b7-4a9d-97fd-6c08e37f5446/68a9c42d-9e0e-4139-8970-434037c0e1fa.png",
    "photoSource": "https://www.samforct.com/",
    "topics": {
     "abortion": {
-     "gap": true,
+     "gap": false,
      "said": [],
-     "plan": []
+     "plan": [],
+     "paras": [
+      [
+       {
+        "t": "Her vision page says "
+       },
+       {
+        "q": "I am absolutely committed to protecting civil rights, free speech, equality, women's rights, bodily autonomy, LGBTQIA+ rights, healthcare, voting rights, religious freedoms, and freedom of the press",
+        "s": "nv"
+       },
+       {
+        "t": "."
+       }
+      ]
+     ]
     },
     "lgbtq": {
-     "gap": true,
+     "gap": false,
      "said": [],
-     "plan": []
+     "plan": [],
+     "paras": [
+      [
+       {
+        "t": "Her vision page says "
+       },
+       {
+        "q": "I am absolutely committed to protecting civil rights, free speech, equality, women's rights, bodily autonomy, LGBTQIA+ rights, healthcare, voting rights, religious freedoms, and freedom of the press",
+        "s": "nv"
+       },
+       {
+        "t": "."
+       }
+      ]
+     ]
+    },
+    "healthcare": {
+     "gap": false,
+     "said": [],
+     "plan": [
+      [
+       {
+        "q": "I will work to hold insurers accountable, to ensure it’s not just urban centers that have access to quality care, and find solutions to ever rising costs",
+        "s": "nv"
+       },
+       {
+        "t": "."
+       }
+      ]
+     ],
+     "paras": [
+      [
+       {
+        "t": "She says "
+       },
+       {
+        "q": "Healthcare costs are one of the main drivers of municipal budgets, school budgets, the cost of running a business, and our own household budgets.",
+        "s": "nv"
+       }
+      ]
+     ]
+    },
+    "education": {
+     "gap": false,
+     "said": [],
+     "plan": [
+      [
+       {
+        "q": "fully funding special education",
+        "s": "nv"
+       },
+       {
+        "t": ", and "
+       },
+       {
+        "q": "I will promote and support alternative pathways to work, though career training, community college, and trade schools",
+        "s": "nv"
+       },
+       {
+        "t": "."
+       }
+      ]
+     ],
+     "paras": [
+      [
+       {
+        "t": "She says "
+       },
+       {
+        "q": "outstanding public education is near and dear to my heart",
+        "s": "nv"
+       },
+       {
+        "t": "."
+       }
+      ]
+     ]
+    },
+    "climate": {
+     "gap": false,
+     "said": [],
+     "plan": [
+      [
+       {
+        "t": "Short term: "
+       },
+       {
+        "q": "I will advocate for increased funding for programs that bridge the gap on energy bills for those who can’t make ends meet",
+        "s": "nv"
+       },
+       {
+        "t": "."
+       }
+      ],
+      [
+       {
+        "t": "Long term: "
+       },
+       {
+        "q": "we need to double down on renewable energy sources",
+        "s": "nv"
+       },
+       {
+        "t": ", and "
+       },
+       {
+        "q": "I will propose policies that make it easier for homeowners, businesses, and towns to build renewable energy capacity",
+        "s": "nv"
+       },
+       {
+        "t": "."
+       }
+      ]
+     ],
+     "paras": [
+      [
+       {
+        "t": "She says "
+       },
+       {
+        "q": "The cost of energy is an enormous burden for households, businesses, and government.",
+        "s": "nv"
+       }
+      ]
+     ]
+    },
+    "economy": {
+     "gap": false,
+     "said": [],
+     "plan": [
+      [
+       {
+        "q": "if we don’t make it profitable for builders to build, lots remain undeveloped",
+        "s": "nv"
+       },
+       {
+        "t": ", and "
+       },
+       {
+        "q": "we can help lower administrative costs for builders without sacrificing environmental or regulatory compliance",
+        "s": "nv"
+       },
+       {
+        "t": "."
+       }
+      ]
+     ],
+     "paras": [
+      [
+       {
+        "t": "She says "
+       },
+       {
+        "q": "Solving the housing crisis in Connecticut is key to solving the affordability crisis",
+        "s": "nv"
+       },
+       {
+        "t": "."
+       }
+      ]
+     ]
     },
     "taxes": {
      "gap": true,
@@ -10314,32 +10570,12 @@
      "said": [],
      "plan": []
     },
-    "healthcare": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
     "immigration": {
      "gap": true,
      "said": [],
      "plan": []
     },
-    "economy": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
-    "climate": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
     "guns": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
-    "education": {
      "gap": true,
      "said": [],
      "plan": []
@@ -11916,7 +12152,7 @@
    "office": "State Senate",
    "district": "36",
    "website": "https://jilloberlander.com/",
-   "reviewed": null,
+   "reviewed": "oi",
    "sources": [
     {
      "key": "ballotS",
@@ -11927,6 +12163,11 @@
      "key": "bp",
      "title": "Ballotpedia: Jill Oberlander",
      "url": "https://ballotpedia.org/Jill_Oberlander"
+    },
+    {
+     "key": "oi",
+     "title": "Jill Oberlander for State Senate: Jill on the Issues",
+     "url": "https://jilloberlander.com/jill-on-the-issues/"
     }
    ],
    "overview": [
@@ -11938,12 +12179,166 @@
     ]
    ],
    "incumbent": false,
-   "unreviewed": true,
+   "unreviewed": false,
    "accessed": "2026-10-22",
    "state": "CT",
    "photo": null,
    "photoSource": null,
    "topics": {
+    "climate": {
+     "gap": false,
+     "said": [],
+     "plan": [
+      [
+       {
+        "q": "Strengthen utility accountability and transparency in the rate-setting process.",
+        "s": "oi"
+       }
+      ],
+      [
+       {
+        "q": "Audit ratepayer-funded programs and protect effective energy-assistance programs.",
+        "s": "oi"
+       }
+      ]
+     ],
+     "paras": [
+      [
+       {
+        "t": "Her site says "
+       },
+       {
+        "q": "ratepayers deserve greater transparency and accountability",
+        "s": "oi"
+       },
+       {
+        "t": "."
+       }
+      ]
+     ]
+    },
+    "taxes": {
+     "gap": false,
+     "said": [],
+     "plan": [
+      [
+       {
+        "q": "Oppose broad-based tax increases and maintain Connecticut’s fiscal guardrails.",
+        "s": "oi"
+       }
+      ],
+      [
+       {
+        "q": "Reduce state-to-local cost shifting that puts pressure on property taxes.",
+        "s": "oi"
+       }
+      ]
+     ],
+     "paras": [
+      [
+       {
+        "t": "Her site says "
+       },
+       {
+        "q": "fiscal discipline and strong public services can go hand in hand",
+        "s": "oi"
+       },
+       {
+        "t": "."
+       }
+      ]
+     ]
+    },
+    "economy": {
+     "gap": false,
+     "said": [],
+     "plan": [
+      [
+       {
+        "q": "Cut unnecessary red tape for businesses.",
+        "s": "oi"
+       }
+      ],
+      [
+       {
+        "q": "Expand apprenticeships and workforce training that lead to jobs.",
+        "s": "oi"
+       }
+      ]
+     ],
+     "paras": [
+      [
+       {
+        "t": "Her site says "
+       },
+       {
+        "q": "we should make it easier and less expensive to start and grow a business here",
+        "s": "oi"
+       },
+       {
+        "t": "."
+       }
+      ]
+     ]
+    },
+    "education": {
+     "gap": false,
+     "said": [],
+     "plan": [
+      [
+       {
+        "q": "Strengthen state support for local schools and improve Educational Cost Sharing funding.",
+        "s": "oi"
+       }
+      ],
+      [
+       {
+        "q": "Increase support for special education so local taxpayers aren’t left carrying disproportionate costs.",
+        "s": "oi"
+       }
+      ]
+     ],
+     "paras": [
+      [
+       {
+        "t": "Her site says "
+       },
+       {
+        "q": "the state should be a reliable funding partner",
+        "s": "oi"
+       },
+       {
+        "t": "."
+       }
+      ]
+     ]
+    },
+    "healthcare": {
+     "gap": false,
+     "said": [],
+     "plan": [
+      [
+       {
+        "q": "Expand insurance-pooling options for small businesses and nonprofits.",
+        "s": "oi"
+       }
+      ],
+      [
+       {
+        "q": "Work to reduce premiums for families who purchase their own coverage.",
+        "s": "oi"
+       }
+      ]
+     ],
+     "paras": [
+      [
+       {
+        "q": "The rising cost of healthcare is straining families, seniors, small businesses and self-employed residents.",
+        "s": "oi"
+       }
+      ]
+     ]
+    },
     "abortion": {
      "gap": true,
      "said": [],
@@ -11954,17 +12349,7 @@
      "said": [],
      "plan": []
     },
-    "taxes": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
     "defense": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
-    "healthcare": {
      "gap": true,
      "said": [],
      "plan": []
@@ -11974,22 +12359,7 @@
      "said": [],
      "plan": []
     },
-    "economy": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
-    "climate": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
     "guns": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
-    "education": {
      "gap": true,
      "said": [],
      "plan": []
@@ -12094,7 +12464,7 @@
    "office": "Treasurer",
    "district": null,
    "website": "https://www.erickforct.com/",
-   "reviewed": null,
+   "reviewed": "ra",
    "sources": [
     {
      "key": "ballot",
@@ -12105,6 +12475,11 @@
      "key": "bp",
      "title": "Ballotpedia: Erick Russell",
      "url": "https://ballotpedia.org/Erick_Russell"
+    },
+    {
+     "key": "ra",
+     "title": "Erick Russell for State Treasurer: About",
+     "url": "https://www.erickforct.com/about"
     }
    ],
    "overview": [
@@ -12116,21 +12491,87 @@
     ]
    ],
    "incumbent": true,
-   "unreviewed": true,
+   "unreviewed": false,
    "accessed": "2026-10-22",
    "state": "CT",
    "photo": "https://run.imgix.net/194f1f9b-bbef-42aa-b768-979d265acb7a/5fc71304-0cf1-4a0a-87bf-71c3803147ad/5fc71304-0cf1-4a0a-87bf-71c3803147ad.jpg?ixlib=js-3.8.0&bri=0&con=0&sat=0&high=0&shad=0&usm=0&rect=0%2C0%2C1200%2C628&s=7e3c97f253c625d2d06889c0e56929c1",
    "photoSource": "https://www.erickforct.com/",
    "topics": {
     "abortion": {
-     "gap": true,
+     "gap": false,
      "said": [],
-     "plan": []
+     "plan": [],
+     "paras": [
+      [
+       {
+        "t": "His site says the Treasurer’s Office has "
+       },
+       {
+        "q": "leveraged private donations to protect access to reproductive and gender-affirming care",
+        "s": "ra"
+       },
+       {
+        "t": "."
+       }
+      ]
+     ]
     },
     "lgbtq": {
-     "gap": true,
+     "gap": false,
      "said": [],
-     "plan": []
+     "plan": [],
+     "paras": [
+      [
+       {
+        "t": "His site says the Treasurer’s Office has "
+       },
+       {
+        "q": "leveraged private donations to protect access to reproductive and gender-affirming care",
+        "s": "ra"
+       },
+       {
+        "t": "."
+       }
+      ]
+     ]
+    },
+    "economy": {
+     "gap": false,
+     "said": [],
+     "plan": [],
+     "paras": [
+      [
+       {
+        "t": "His site highlights "
+       },
+       {
+        "q": "launching CT Baby Bonds, a first-in-the-nation program that invests directly in the future of Connecticut’s children",
+        "s": "ra"
+       },
+       {
+        "t": "."
+       }
+      ]
+     ]
+    },
+    "education": {
+     "gap": false,
+     "said": [],
+     "plan": [],
+     "paras": [
+      [
+       {
+        "t": "His site says Baby Bonds give children "
+       },
+       {
+        "q": "the financial resources to buy a home, start a business, pursue college or vocational training, or build toward a dignified retirement",
+        "s": "ra"
+       },
+       {
+        "t": "."
+       }
+      ]
+     ]
     },
     "taxes": {
      "gap": true,
@@ -12152,22 +12593,12 @@
      "said": [],
      "plan": []
     },
-    "economy": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
     "climate": {
      "gap": true,
      "said": [],
      "plan": []
     },
     "guns": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
-    "education": {
      "gap": true,
      "said": [],
      "plan": []
@@ -12185,7 +12616,7 @@
    "office": "Treasurer",
    "district": null,
    "website": "https://www.fredforconnecticut.com/",
-   "reviewed": null,
+   "reviewed": "wh",
    "sources": [
     {
      "key": "ballot",
@@ -12196,6 +12627,11 @@
      "key": "bp",
      "title": "Ballotpedia: Fred Wilms",
      "url": "https://ballotpedia.org/Fred_Wilms"
+    },
+    {
+     "key": "wh",
+     "title": "Fred Wilms for State Treasurer",
+     "url": "https://www.fredforconnecticut.com/"
     }
    ],
    "overview": [
@@ -12207,23 +12643,63 @@
     ]
    ],
    "incumbent": false,
-   "unreviewed": true,
+   "unreviewed": false,
    "accessed": "2026-10-22",
    "state": "CT",
    "photo": null,
    "photoSource": null,
    "topics": {
+    "taxes": {
+     "gap": false,
+     "said": [],
+     "plan": [],
+     "paras": [
+      [
+       {
+        "t": "His site says the budget he helped pass as a legislator "
+       },
+       {
+        "q": "put in fiscal guardrails, respected the constitutional spending cap, boosted the Rainy-Day Fund, and pushed for long-overdue pension reform",
+        "s": "wh"
+       },
+       {
+        "t": "."
+       }
+      ]
+     ]
+    },
+    "economy": {
+     "gap": false,
+     "said": [],
+     "plan": [
+      [
+       {
+        "t": "He says voters deserve "
+       },
+       {
+        "q": "better oversight, better returns, and a stronger financial future",
+        "s": "wh"
+       },
+       {
+        "t": " for the state’s pension system."
+       }
+      ]
+     ],
+     "paras": [
+      [
+       {
+        "q": "Connecticut deserves a State Treasurer who puts performance over politics.",
+        "s": "wh"
+       }
+      ]
+     ]
+    },
     "abortion": {
      "gap": true,
      "said": [],
      "plan": []
     },
     "lgbtq": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
-    "taxes": {
      "gap": true,
      "said": [],
      "plan": []
@@ -12239,11 +12715,6 @@
      "plan": []
     },
     "immigration": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
-    "economy": {
      "gap": true,
      "said": [],
      "plan": []
@@ -12274,7 +12745,7 @@
    "office": "Comptroller",
    "district": null,
    "website": "https://www.jentooker.com/",
-   "reviewed": null,
+   "reviewed": "tk",
    "sources": [
     {
      "key": "ballot",
@@ -12285,6 +12756,11 @@
      "key": "bp",
      "title": "Ballotpedia: Jennifer Tooker",
      "url": "https://ballotpedia.org/Jennifer_Tooker"
+    },
+    {
+     "key": "tk",
+     "title": "Jen Tooker for Comptroller",
+     "url": "https://www.jentooker.com/"
     }
    ],
    "overview": [
@@ -12296,12 +12772,57 @@
     ]
    ],
    "incumbent": false,
-   "unreviewed": true,
+   "unreviewed": false,
    "accessed": "2026-10-22",
    "state": "CT",
    "photo": "https://irp.cdn-website.com/acf027a0/dms3rep/multi/opt/Jen-Tooker-1920w.jpeg",
    "photoSource": "https://www.jentooker.com/",
    "topics": {
+    "economy": {
+     "gap": false,
+     "said": [],
+     "plan": [
+      [
+       {
+        "t": "She says she is running "
+       },
+       {
+        "q": "to restore accountability, transparency, and discipline to Connecticut’s finances",
+        "s": "tk"
+       },
+       {
+        "t": "."
+       }
+      ]
+     ],
+     "paras": [
+      [
+       {
+        "q": "Connecticut doesn’t have a revenue problem, it has a trust problem.",
+        "s": "tk"
+       }
+      ]
+     ]
+    },
+    "education": {
+     "gap": false,
+     "said": [],
+     "plan": [],
+     "paras": [
+      [
+       {
+        "t": "Her site says she wants to "
+       },
+       {
+        "q": "ensure access to great schools for every student because she believes that your zip code should not determine your opportunities in life",
+        "s": "tk"
+       },
+       {
+        "t": "."
+       }
+      ]
+     ]
+    },
     "abortion": {
      "gap": true,
      "said": [],
@@ -12332,22 +12853,12 @@
      "said": [],
      "plan": []
     },
-    "economy": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
     "climate": {
      "gap": true,
      "said": [],
      "plan": []
     },
     "guns": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
-    "education": {
      "gap": true,
      "said": [],
      "plan": []
@@ -12821,7 +13332,7 @@
    "office": "Lieutenant Governor",
    "district": null,
    "website": "https://bysiewiczforct.com",
-   "reviewed": null,
+   "reviewed": "bh",
    "sources": [
     {
      "key": "ballot",
@@ -12832,6 +13343,11 @@
      "key": "bp",
      "title": "Ballotpedia: Susan Bysiewicz",
      "url": "https://ballotpedia.org/Susan_Bysiewicz"
+    },
+    {
+     "key": "bh",
+     "title": "Susan Bysiewicz for Lieutenant Governor",
+     "url": "https://bysiewiczforct.com"
     }
    ],
    "overview": [
@@ -12843,12 +13359,88 @@
     ]
    ],
    "incumbent": true,
-   "unreviewed": true,
+   "unreviewed": false,
    "accessed": "2026-10-22",
    "state": "CT",
    "photo": null,
    "photoSource": null,
    "topics": {
+    "taxes": {
+     "gap": false,
+     "said": [],
+     "plan": [],
+     "paras": [
+      [
+       {
+        "t": "Her site says the Lamont-Bysiewicz administration has delivered "
+       },
+       {
+        "q": "two historic tax cuts",
+        "s": "bh"
+       },
+       {
+        "t": "."
+       }
+      ]
+     ]
+    },
+    "healthcare": {
+     "gap": false,
+     "said": [],
+     "plan": [],
+     "paras": [
+      [
+       {
+        "t": "Her site says the administration "
+       },
+       {
+        "q": "reduced the cost of insulin",
+        "s": "bh"
+       },
+       {
+        "t": "."
+       }
+      ]
+     ]
+    },
+    "economy": {
+     "gap": false,
+     "said": [],
+     "plan": [],
+     "paras": [
+      [
+       {
+        "t": "Her site says the administration "
+       },
+       {
+        "q": "raised the state minimum wage",
+        "s": "bh"
+       },
+       {
+        "t": "."
+       }
+      ]
+     ]
+    },
+    "education": {
+     "gap": false,
+     "said": [],
+     "plan": [],
+     "paras": [
+      [
+       {
+        "t": "Her site says the administration "
+       },
+       {
+        "q": "expanded access to affordable, high-quality childcare",
+        "s": "bh"
+       },
+       {
+        "t": "."
+       }
+      ]
+     ]
+    },
     "abortion": {
      "gap": true,
      "said": [],
@@ -12859,27 +13451,12 @@
      "said": [],
      "plan": []
     },
-    "taxes": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
     "defense": {
      "gap": true,
      "said": [],
      "plan": []
     },
-    "healthcare": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
     "immigration": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
-    "economy": {
      "gap": true,
      "said": [],
      "plan": []
@@ -12890,11 +13467,6 @@
      "plan": []
     },
     "guns": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
-    "education": {
      "gap": true,
      "said": [],
      "plan": []
@@ -12910,7 +13482,7 @@
    "office": "Attorney General",
    "district": null,
    "website": "https://www.williamtong.com",
-   "reviewed": null,
+   "reviewed": "ta",
    "sources": [
     {
      "key": "ballot",
@@ -12921,6 +13493,11 @@
      "key": "bp",
      "title": "Ballotpedia: William Tong",
      "url": "https://ballotpedia.org/William_Tong"
+    },
+    {
+     "key": "ta",
+     "title": "William Tong for Attorney General: About",
+     "url": "https://www.williamtong.com/about/"
     }
    ],
    "overview": [
@@ -12932,16 +13509,68 @@
     ]
    ],
    "incumbent": true,
-   "unreviewed": true,
+   "unreviewed": false,
    "accessed": "2026-10-22",
    "state": "CT",
    "photo": null,
    "photoSource": null,
    "topics": {
     "abortion": {
-     "gap": true,
+     "gap": false,
      "said": [],
-     "plan": []
+     "plan": [],
+     "paras": [
+      [
+       {
+        "t": "His site says he is "
+       },
+       {
+        "q": "fighting hard against extremist threats to our reproductive freedom and healthcare",
+        "s": "ta"
+       },
+       {
+        "t": "."
+       }
+      ]
+     ]
+    },
+    "guns": {
+     "gap": false,
+     "said": [],
+     "plan": [],
+     "paras": [
+      [
+       {
+        "t": "His site says he is fighting "
+       },
+       {
+        "q": "challenges to our post-Sandy Hook gun laws",
+        "s": "ta"
+       },
+       {
+        "t": "."
+       }
+      ]
+     ]
+    },
+    "economy": {
+     "gap": false,
+     "said": [],
+     "plan": [],
+     "paras": [
+      [
+       {
+        "t": "His site says he "
+       },
+       {
+        "q": "stood up to our state’s utilities to stop $700 million in rate increases",
+        "s": "ta"
+       },
+       {
+        "t": "."
+       }
+      ]
+     ]
     },
     "lgbtq": {
      "gap": true,
@@ -12968,17 +13597,7 @@
      "said": [],
      "plan": []
     },
-    "economy": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
     "climate": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
-    "guns": {
      "gap": true,
      "said": [],
      "plan": []

@@ -625,6 +625,8 @@ said("ct-05-hayes", "taxes", "2026-10-14", "League of Women Voters of Litchfield
 
 import plans
 plans.build(BYID, T, Q, add_src)
+import state_research
+state_research.build(BYID, T, Q, add_src)
 
 # every core topic is selectable for every candidate; fill the ones with nothing
 CORE = ["abortion", "lgbtq", "taxes", "defense", "healthcare", "immigration", "economy", "climate", "guns", "education"]
