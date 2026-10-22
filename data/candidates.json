@@ -5926,6 +5926,11 @@
      "key": "w",
      "title": "Maryam Khan for State Senate",
      "url": "https://www.khanforconn.com"
+    },
+    {
+     "key": "ctm",
+     "title": "CT Mirror: Doug McCrory loses Democratic primary for CT 2nd Senate District (Aug. 11, 2026)",
+     "url": "https://ctmirror.org/2026/08/11/doug-mccrory-primary-general-assembly-house-senate/"
     }
    ],
    "overview": [
@@ -5943,17 +5948,70 @@
    "photo": null,
    "photoSource": null,
    "topics": {
+    "taxes": {
+     "gap": true,
+     "said": [
+      {
+       "when": "2026-08-11",
+       "context": "Statement after winning the Democratic primary, as reported by CT Mirror.",
+       "seg": [
+        {
+         "t": "She said the district deserves "
+        },
+        {
+         "q": "a government that taxes the wealthy their fair share, holds Eversource accountable, and puts real money into the neighborhood schools that raised us",
+         "s": "ctm"
+        },
+        {
+         "t": "."
+        }
+       ]
+      }
+     ],
+     "plan": []
+    },
+    "climate": {
+     "gap": true,
+     "said": [],
+     "plan": [
+      [
+       {
+        "t": "In her primary-night statement she listed "
+       },
+       {
+        "q": "holds Eversource accountable",
+        "s": "ctm"
+       },
+       {
+        "t": " among her priorities."
+       }
+      ]
+     ]
+    },
+    "education": {
+     "gap": true,
+     "said": [],
+     "plan": [
+      [
+       {
+        "t": "In her primary-night statement she listed putting "
+       },
+       {
+        "q": "real money into the neighborhood schools that raised us",
+        "s": "ctm"
+       },
+       {
+        "t": " among her priorities."
+       }
+      ]
+     ]
+    },
     "abortion": {
      "gap": true,
      "said": [],
      "plan": []
     },
     "lgbtq": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
-    "taxes": {
      "gap": true,
      "said": [],
      "plan": []
@@ -5978,17 +6036,7 @@
      "said": [],
      "plan": []
     },
-    "climate": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
     "guns": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
-    "education": {
      "gap": true,
      "said": [],
      "plan": []
@@ -6020,6 +6068,11 @@
      "key": "w",
      "title": "Tim Knotts for State Senate",
      "url": "https://www.timknottsforsenate.com"
+    },
+    {
+     "key": "pq",
+     "title": "Patch: Patch Candidate Profile: Tim Knotts For 2nd State Senate (Oct. 21, 2026)",
+     "url": "https://patch.com/connecticut/windsor/patch-candidate-profile-tim-knotts-2nd-state-senate"
     }
    ],
    "overview": [
@@ -6039,7 +6092,18 @@
    "topics": {
     "economy": {
      "gap": false,
-     "said": [],
+     "said": [
+      {
+       "when": "2026-10-21",
+       "context": "Patch candidate questionnaire (answers written by the candidate). In answer to “What do you believe is the No. 1 issue facing Connecticut, and how do you plan to address it?” ",
+       "seg": [
+        {
+         "q": "Connecticut has been unaffordable.",
+         "s": "pq"
+        }
+       ]
+      }
+     ],
      "plan": [
       [
        {
@@ -6065,8 +6129,26 @@
     },
     "taxes": {
      "gap": false,
-     "said": [],
-     "plan": [],
+     "said": [
+      {
+       "when": "2026-10-21",
+       "context": "Patch candidate questionnaire (answers written by the candidate). In answer to “What do you believe is the No. 1 issue facing Connecticut, and how do you plan to address it?” ",
+       "seg": [
+        {
+         "q": "We have to cut down on unfunded mandates, give an honest accounting of what we are taxing and spending, and stop government waste and fraud.",
+         "s": "pq"
+        }
+       ]
+      }
+     ],
+     "plan": [
+      [
+       {
+        "q": "We have to demand that ongoing costs are dealt with within the budget and not drive them out to bonding or down to towns.",
+        "s": "pq"
+       }
+      ]
+     ],
      "paras": [
       [
        {
@@ -6105,6 +6187,25 @@
       ]
      ]
     },
+    "climate": {
+     "gap": true,
+     "said": [
+      {
+       "when": "2026-10-21",
+       "context": "Patch candidate questionnaire (answers written by the candidate). In answer to “Energy costs have been soaring in Connecticut. What are your plans to help address this issue?” ",
+       "seg": [
+        {
+         "q": "our state should not be in the business of underwriting or commanding their development",
+         "s": "pq"
+        },
+        {
+         "t": " of new energy technologies."
+        }
+       ]
+      }
+     ],
+     "plan": []
+    },
     "abortion": {
      "gap": true,
      "said": [],
@@ -6126,11 +6227,6 @@
      "plan": []
     },
     "immigration": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
-    "climate": {
      "gap": true,
      "said": [],
      "plan": []
@@ -9413,6 +9509,11 @@
      "key": "w",
      "title": "John-Paul Dorais for State Senate",
      "url": "https://www.doraisforstatesenate.com"
+    },
+    {
+     "key": "pq",
+     "title": "Patch: Candidate Profile: John-Paul Dorais, 17th State Senate District (Oct. 16, 2026)",
+     "url": "https://patch.com/connecticut/hamden/candidate-profile-john-paul-dorais-17th-state-senate-district"
     }
    ],
    "overview": [
@@ -9432,7 +9533,18 @@
    "topics": {
     "taxes": {
      "gap": false,
-     "said": [],
+     "said": [
+      {
+       "when": "2026-10-16",
+       "context": "Patch candidate questionnaire (answers written by the candidate). In answer to “What do you believe is the No. 1 issue facing Connecticut, and how do you plan to address it?” ",
+       "seg": [
+        {
+         "q": "I would support meaningful tax relief, efforts to control property-tax growth, reducing unnecessary regulations and fees, and policies that make Connecticut more competitive for businesses and working families.",
+         "s": "pq"
+        }
+       ]
+      }
+     ],
      "plan": [
       [
        {
@@ -9470,12 +9582,29 @@
     },
     "climate": {
      "gap": false,
-     "said": [],
+     "said": [
+      {
+       "when": "2026-10-16",
+       "context": "Patch candidate questionnaire (answers written by the candidate). In answer to “Energy costs have been soaring in Connecticut. What are your plans to help address this issue?” ",
+       "seg": [
+        {
+         "q": "I support reviewing programs currently funded through electric bills and determining which legitimate state programs should instead go through the normal state budget process",
+         "s": "pq"
+        }
+       ]
+      }
+     ],
      "plan": [
       [
        {
         "q": "A moratorium on data centers should be considered as an option.",
         "s": "w"
+       }
+      ],
+      [
+       {
+        "q": "I also support reasonable limits on costly power-purchase agreements and requiring legislative approval before PURA creates new programs that increase costs for ratepayers.",
+        "s": "pq"
        }
       ]
      ],
@@ -9521,7 +9650,18 @@
     },
     "economy": {
      "gap": false,
-     "said": [],
+     "said": [
+      {
+       "when": "2026-10-16",
+       "context": "Patch candidate questionnaire (answers written by the candidate). In answer to “Affordability has been a major topic across the country and here in Connecticut. How do you plan to address this issue?” ",
+       "seg": [
+        {
+         "q": "We also need to expand opportunities for skilled trades and apprenticeships so young people have pathways to good-paying careers without assuming a four-year college degree is the only option.",
+         "s": "pq"
+        }
+       ]
+      }
+     ],
      "plan": [],
      "paras": [
       [
@@ -9597,6 +9737,11 @@
      "key": "w",
      "title": "Jorge Cabrera: legislator or campaign page (no policy statements)",
      "url": "https://www.jorgecabreract.com"
+    },
+    {
+     "key": "pq",
+     "title": "Patch: Candidate Profile: Jorge Cabrera, 17th State Senate District (Oct. 16, 2026)",
+     "url": "https://patch.com/connecticut/hamden/candidate-profile-jorge-cabrera-17th-state-senate-district"
     }
    ],
    "overview": [
@@ -9614,6 +9759,117 @@
    "photo": null,
    "photoSource": null,
    "topics": {
+    "economy": {
+     "gap": true,
+     "said": [
+      {
+       "when": "2026-10-16",
+       "context": "Patch candidate questionnaire (answers written by the candidate). In answer to “What do you believe is the No. 1 issue facing Connecticut, and how do you plan to address it?” ",
+       "seg": [
+        {
+         "q": "The number one issue facing Connecticut families is affordability.",
+         "s": "pq"
+        }
+       ]
+      }
+     ],
+     "plan": []
+    },
+    "taxes": {
+     "gap": true,
+     "said": [
+      {
+       "when": "2026-10-16",
+       "context": "Patch candidate questionnaire (answers written by the candidate). In answer to “Affordability has been a major topic across the country and here in Connecticut. How do you plan to address this issue?” ",
+       "seg": [
+        {
+         "q": "we also need to do more in terms of tax cuts, such as completely eliminating the state income tax on Social Security",
+         "s": "pq"
+        }
+       ]
+      }
+     ],
+     "plan": [
+      [
+       {
+        "q": "completely eliminating the state income tax on Social Security",
+        "s": "pq"
+       },
+       {
+        "t": ", and he says he would "
+       },
+       {
+        "q": "look at other taxes like the property tax on motor vehicles",
+        "s": "pq"
+       },
+       {
+        "t": "."
+       }
+      ]
+     ]
+    },
+    "healthcare": {
+     "gap": true,
+     "said": [
+      {
+       "when": "2026-10-16",
+       "context": "Patch candidate questionnaire (answers written by the candidate). In answer to “What do you believe is the No. 1 issue facing Connecticut, and how do you plan to address it?” ",
+       "seg": [
+        {
+         "q": "As Chair of the Insurance and Real Estate Committee, I will also work to lower the cost of healthcare and prescription drugs so people aren’t choosing between everyday essentials and life-saving medicine.",
+         "s": "pq"
+        }
+       ]
+      }
+     ],
+     "plan": [
+      [
+       {
+        "q": "work to lower the cost of healthcare and prescription drugs",
+        "s": "pq"
+       }
+      ]
+     ]
+    },
+    "climate": {
+     "gap": true,
+     "said": [
+      {
+       "when": "2026-10-16",
+       "context": "Patch candidate questionnaire (answers written by the candidate). In answer to “Energy costs have been soaring in Connecticut. What are your plans to help address this issue?” ",
+       "seg": [
+        {
+         "q": "I think we can also look at ways to incentive towns to have their own utility companies similar to what a few towns do who pay far less in energy costs.",
+         "s": "pq"
+        }
+       ]
+      }
+     ],
+     "plan": [
+      [
+       {
+        "q": "look at ways to incentive towns to have their own utility companies",
+        "s": "pq"
+       }
+      ]
+     ]
+    },
+    "education": {
+     "gap": true,
+     "said": [
+      {
+       "when": "2026-10-16",
+       "context": "Patch candidate questionnaire (answers written by the candidate). In answer to “What do you believe is the No. 1 issue facing Connecticut, and how do you plan to address it?” ",
+       "seg": [
+        {
+         "q": "I will continue advocating for increased school and municipal funding that will help lower property taxes.",
+         "s": "pq"
+        }
+       ]
+      }
+     ],
+     "plan": []
+    },
     "abortion": {
      "gap": true,
      "said": [],
@@ -9624,17 +9880,7 @@
      "said": [],
      "plan": []
     },
-    "taxes": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
     "defense": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
-    "healthcare": {
      "gap": true,
      "said": [],
      "plan": []
@@ -9644,22 +9890,7 @@
      "said": [],
      "plan": []
     },
-    "economy": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
-    "climate": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
     "guns": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
-    "education": {
      "gap": true,
      "said": [],
      "plan": []
@@ -13127,6 +13358,11 @@
      "key": "w",
      "title": "Eric Berthel for State Senate: About Eric",
      "url": "https://www.berthelforsenate.org/about-eric"
+    },
+    {
+     "key": "pq",
+     "title": "Patch: CT Patch Candidate Profile: Eric Berthel For State Senator (Oct. 1, 2024)",
+     "url": "https://patch.com/connecticut/brookfield/ct-patch-candidate-profile-eric-berthel-state-senator"
     }
    ],
    "overview": [
@@ -13164,17 +13400,54 @@
       ]
      ]
     },
+    "taxes": {
+     "gap": true,
+     "said": [
+      {
+       "when": "2024-10-01",
+       "context": "Patch candidate questionnaire from his 2024 re-election campaign (answers written by the candidate). In answer to “Why are you seeking this office?”",
+       "seg": [
+        {
+         "q": "My work has been focused on lowering taxes, lowering the cost of living, attracting new businesses and keeping our communities safe.",
+         "s": "pq"
+        }
+       ]
+      }
+     ],
+     "plan": [
+      [
+       {
+        "q": "I will continue to fight to reduce the burden caused by each of these issues.",
+        "s": "pq"
+       },
+       {
+        "t": " (inflation, cost of living and taxes)"
+       }
+      ]
+     ]
+    },
+    "economy": {
+     "gap": true,
+     "said": [
+      {
+       "when": "2024-10-01",
+       "context": "Patch candidate questionnaire from his 2024 re-election campaign (answers written by the candidate). In answer to “What are the major differences between you and the other candidates?”",
+       "seg": [
+        {
+         "q": "I am a fiscal conservative who believes in smaller government, local control, lower taxes and creating opportunity for people to succeed",
+         "s": "pq"
+        }
+       ]
+      }
+     ],
+     "plan": []
+    },
     "abortion": {
      "gap": true,
      "said": [],
      "plan": []
     },
     "lgbtq": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
-    "taxes": {
      "gap": true,
      "said": [],
      "plan": []
@@ -13190,11 +13463,6 @@
      "plan": []
     },
     "immigration": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
-    "economy": {
      "gap": true,
      "said": [],
      "plan": []
@@ -13573,6 +13841,11 @@
      "key": "w",
      "title": "Brandi Mandato for State Senate: About",
      "url": "https://www.mandatofor34.com/about"
+    },
+    {
+     "key": "pq",
+     "title": "Patch: Candidate Profile: Brandi Mandato, 34th State Senate District (Oct. 15, 2026)",
+     "url": "https://patch.com/connecticut/northhaven/candidate-profile-brandi-mandato-34th-state-senate-district-0"
     }
    ],
    "overview": [
@@ -13618,6 +13891,84 @@
       ]
      ]
     },
+    "taxes": {
+     "gap": true,
+     "said": [
+      {
+       "when": "2026-10-15",
+       "context": "Patch candidate questionnaire (answers written by the candidate). In answer to “What do you believe is the No. 1 issue facing Connecticut, and how do you plan to address it?” ",
+       "seg": [
+        {
+         "q": "I will fight to reform Connecticut’s tax code so that the wealthiest individuals and most profitable corporations pay their fair share, while providing meaningful tax relief to working families and small businesses.",
+         "s": "pq"
+        }
+       ]
+      }
+     ],
+     "plan": [
+      [
+       {
+        "q": "reforming Connecticut’s tax code to provide meaningful relief for working families and small businesses while asking the wealthiest individuals and most profitable corporations to contribute their fair share",
+        "s": "pq"
+       }
+      ]
+     ]
+    },
+    "climate": {
+     "gap": true,
+     "said": [
+      {
+       "when": "2026-10-15",
+       "context": "Patch candidate questionnaire (answers written by the candidate). In answer to “Energy costs have been soaring in Connecticut. What are your plans to help address this issue?” ",
+       "seg": [
+        {
+         "q": "I support giving municipalities and regional entities more flexibility to own and operate electric utilities, expanding access to affordable locally generated power, and making it easier for communities to pursue alternatives to investor-owned utilities.",
+         "s": "pq"
+        }
+       ]
+      }
+     ],
+     "plan": [
+      [
+       {
+        "q": "I support giving municipalities and regional entities more flexibility to own and operate electric utilities, expanding access to affordable locally generated power, and making it easier for communities to pursue alternatives to investor-owned utilities.",
+        "s": "pq"
+       }
+      ]
+     ]
+    },
+    "healthcare": {
+     "gap": true,
+     "said": [
+      {
+       "when": "2026-10-15",
+       "context": "Patch candidate questionnaire (answers written by the candidate). In answer to “Affordability has been a major topic across the country and here in Connecticut. How do you plan to address this issue?” ",
+       "seg": [
+        {
+         "q": "It means fully funding public education, expanding access to affordable childcare and paid family leave, protecting affordable housing, tackling healthcare and medical debt, and addressing the high cost of energy.",
+         "s": "pq"
+        }
+       ]
+      }
+     ],
+     "plan": []
+    },
+    "education": {
+     "gap": true,
+     "said": [
+      {
+       "when": "2026-10-15",
+       "context": "Patch candidate questionnaire (answers written by the candidate). In answer to “Affordability has been a major topic across the country and here in Connecticut. How do you plan to address this issue?” ",
+       "seg": [
+        {
+         "q": "fully funding public education",
+         "s": "pq"
+        }
+       ]
+      }
+     ],
+     "plan": []
+    },
     "abortion": {
      "gap": true,
      "said": [],
@@ -13628,17 +13979,7 @@
      "said": [],
      "plan": []
     },
-    "taxes": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
     "defense": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
-    "healthcare": {
      "gap": true,
      "said": [],
      "plan": []
@@ -13648,17 +13989,7 @@
      "said": [],
      "plan": []
     },
-    "climate": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
     "guns": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
-    "education": {
      "gap": true,
      "said": [],
      "plan": []
@@ -13685,6 +14016,11 @@
      "key": "bp",
      "title": "Ballotpedia: Paul Cicarella, Jr.",
      "url": "https://ballotpedia.org/Paul_Cicarella,_Jr"
+    },
+    {
+     "key": "pq",
+     "title": "Patch: Candidate Profile: Paul Cicarella, 34th State Senate District (Oct. 16, 2026)",
+     "url": "https://patch.com/connecticut/northhaven/candidate-profile-paul-cicarella-34th-state-senate-district-0"
     }
    ],
    "overview": [
@@ -13696,23 +14032,113 @@
     ]
    ],
    "incumbent": true,
-   "unreviewed": true,
+   "unreviewed": false,
    "accessed": "2026-10-22",
    "state": "CT",
    "photo": null,
    "photoSource": null,
    "topics": {
+    "taxes": {
+     "gap": true,
+     "said": [
+      {
+       "when": "2026-10-16",
+       "context": "Patch candidate questionnaire (answers written by the candidate). In answer to “Affordability has been a major topic across the country and here in Connecticut. How do you plan to address this issue?” ",
+       "seg": [
+        {
+         "q": "My focus is simple: keep more money in people’s pockets, control state spending, and make Connecticut a place where families can afford to live, work, and retire.",
+         "s": "pq"
+        }
+       ]
+      }
+     ],
+     "plan": [
+      [
+       {
+        "q": "Eliminating the Highway Use Tax",
+        "s": "pq"
+       },
+       {
+        "t": ", "
+       },
+       {
+        "q": "Eliminating Sales Tax on Meals sold at Grocery Stores",
+        "s": "pq"
+       },
+       {
+        "t": ", and "
+       },
+       {
+        "q": "Implementing a Gas Tax Holiday",
+        "s": "pq"
+       },
+       {
+        "t": " are among the measures he lists."
+       }
+      ]
+     ]
+    },
+    "climate": {
+     "gap": true,
+     "said": [
+      {
+       "when": "2026-10-16",
+       "context": "Patch candidate questionnaire (answers written by the candidate). In answer to “Energy costs have been soaring in Connecticut. What are your plans to help address this issue?” ",
+       "seg": [
+        {
+         "q": "eliminate the Public Benefits Charge on electric bills, cap long-term power purchase agreements (PPAs) to prevent ratepayers from being locked into contracts at prices substantially above market rates, and return all proceeds from the Regional Greenhouse Gas Initiative (RGGI) directly to ratepayers through electricity-bill relief",
+         "s": "pq"
+        }
+       ]
+      }
+     ],
+     "plan": [
+      [
+       {
+        "q": "eliminate the Public Benefits Charge on electric bills, cap long-term power purchase agreements (PPAs) to prevent ratepayers from being locked into contracts at prices substantially above market rates, and return all proceeds from the Regional Greenhouse Gas Initiative (RGGI) directly to ratepayers through electricity-bill relief",
+        "s": "pq"
+       }
+      ]
+     ]
+    },
+    "economy": {
+     "gap": true,
+     "said": [
+      {
+       "when": "2026-10-16",
+       "context": "Patch candidate questionnaire (answers written by the candidate). In answer to “Why are you seeking this office?” He listed what he would focus on if re-elected.",
+       "seg": [
+        {
+         "q": "Protecting local control by ensuring decisions reflect the needs of our communities, not one-size-fits-all mandates from Hartford.",
+         "s": "pq"
+        }
+       ]
+      }
+     ],
+     "plan": []
+    },
+    "education": {
+     "gap": true,
+     "said": [
+      {
+       "when": "2026-10-16",
+       "context": "Patch candidate questionnaire (answers written by the candidate). In answer to “Why are you seeking this office?” ",
+       "seg": [
+        {
+         "q": "Delivering funding for our schools and fighting for a fairer education funding system.",
+         "s": "pq"
+        }
+       ]
+      }
+     ],
+     "plan": []
+    },
     "abortion": {
      "gap": true,
      "said": [],
      "plan": []
     },
     "lgbtq": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
-    "taxes": {
      "gap": true,
      "said": [],
      "plan": []
@@ -13732,22 +14158,7 @@
      "said": [],
      "plan": []
     },
-    "economy": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
-    "climate": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
     "guns": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
-    "education": {
      "gap": true,
      "said": [],
      "plan": []
@@ -13774,6 +14185,11 @@
      "key": "bp",
      "title": "Ballotpedia: Ethan Werstler",
      "url": "https://ballotpedia.org/Ethan_Werstler"
+    },
+    {
+     "key": "pl",
+     "title": "Patch: Woodstock's Ethan Werstler Launches Campaign For Connecticut's 35th Senate District (Apr. 6, 2026)",
+     "url": "https://patch.com/connecticut/stafford-willington/woodstocks-ethan-werstler-launches-campaign-connecticuts-35th-senate"
     }
    ],
    "overview": [
@@ -13794,12 +14210,34 @@
     ]
    ],
    "incumbent": false,
-   "unreviewed": true,
+   "unreviewed": false,
    "accessed": "2026-10-22",
    "state": "CT",
    "photo": null,
    "photoSource": null,
    "topics": {
+    "economy": {
+     "gap": true,
+     "said": [
+      {
+       "when": "2026-04-06",
+       "context": "Patch’s report on his campaign launch.",
+       "seg": [
+        {
+         "t": "Patch reported he is "
+        },
+        {
+         "q": "launching a campaign centered on agriculture, housing, small business and rising costs in northeastern Connecticut",
+         "s": "pl"
+        },
+        {
+         "t": "."
+        }
+       ]
+      }
+     ],
+     "plan": []
+    },
     "abortion": {
      "gap": true,
      "said": [],
@@ -13826,11 +14264,6 @@
      "plan": []
     },
     "immigration": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
-    "economy": {
      "gap": true,
      "said": [],
      "plan": []
@@ -13872,6 +14305,11 @@
      "key": "bp",
      "title": "Ballotpedia: Jeff Gordon",
      "url": "https://ballotpedia.org/Jeff_Gordon"
+    },
+    {
+     "key": "pg",
+     "title": "Patch: State Sen. Jeff Gordon Wins Unanimous Convention Endorsement In 35th District (May 20, 2026)",
+     "url": "https://patch.com/connecticut/stafford-willington/state-sen-jeff-gordon-wins-unanimous-convention-endorsement-35th"
     }
    ],
    "overview": [
@@ -13883,12 +14321,92 @@
     ]
    ],
    "incumbent": true,
-   "unreviewed": true,
+   "unreviewed": false,
    "accessed": "2026-10-22",
    "state": "CT",
    "photo": null,
    "photoSource": null,
    "topics": {
+    "healthcare": {
+     "gap": true,
+     "said": [
+      {
+       "when": "2026-05-20",
+       "context": "Statement quoted by Patch after his unanimous Republican convention endorsement. ",
+       "seg": [
+        {
+         "t": "He listed "
+        },
+        {
+         "q": "strengthening rural healthcare access",
+         "s": "pg"
+        },
+        {
+         "t": " among the issues guiding his work."
+        }
+       ]
+      }
+     ],
+     "plan": []
+    },
+    "economy": {
+     "gap": true,
+     "said": [
+      {
+       "when": "2026-05-20",
+       "context": "Statement quoted by Patch after his unanimous Republican convention endorsement. ",
+       "seg": [
+        {
+         "t": "He listed "
+        },
+        {
+         "q": "addressing affordability concerns",
+         "s": "pg"
+        },
+        {
+         "t": ", "
+        },
+        {
+         "q": "helping small businesses",
+         "s": "pg"
+        },
+        {
+         "t": " and "
+        },
+        {
+         "q": "protecting taxpayers",
+         "s": "pg"
+        },
+        {
+         "t": "."
+        }
+       ]
+      }
+     ],
+     "plan": []
+    },
+    "education": {
+     "gap": true,
+     "said": [
+      {
+       "when": "2026-05-20",
+       "context": "Statement quoted by Patch after his unanimous Republican convention endorsement. ",
+       "seg": [
+        {
+         "t": "He listed "
+        },
+        {
+         "q": "supporting public education",
+         "s": "pg"
+        },
+        {
+         "t": "."
+        }
+       ]
+      }
+     ],
+     "plan": []
+    },
     "abortion": {
      "gap": true,
      "said": [],
@@ -13909,17 +14427,7 @@
      "said": [],
      "plan": []
     },
-    "healthcare": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
     "immigration": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
-    "economy": {
      "gap": true,
      "said": [],
      "plan": []
@@ -13930,11 +14438,6 @@
      "plan": []
     },
     "guns": {
-     "gap": true,
-     "said": [],
-     "plan": []
-    },
-    "education": {
      "gap": true,
      "said": [],
      "plan": []
