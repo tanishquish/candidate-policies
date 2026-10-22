@@ -105,7 +105,7 @@ const lastName = n => n.replace(/,? (Jr\.|Sr\.)$/, '').split(' ').slice(-1)[0];
 
 function tileGrid(list, pred) {
   const races = new Map();
-  list.filter(pred).slice().sort(byParty).forEach(c => { const k = raceKey(c); if (!races.has(k)) races.set(k, []); races.get(k).push(c); });
+  list.filter(pred).slice().sort((x, y) => raceOrder(x) - raceOrder(y) || byParty(x, y)).forEach(c => { const k = raceKey(c); if (!races.has(k)) races.set(k, []); races.get(k).push(c); });
   return [...races.entries()].map(([k, cs]) => {
     const label = cs[0].district ? `${cs[0].office === 'U.S. House' ? 'House' : 'Senate'} ${cs[0].district}` : cs[0].office;
     return `<a class="tile" data-key="${esc(k)}" href="#/race/${esc(cs[0].state)}/${esc(k)}">
@@ -143,7 +143,7 @@ function wireZip() {
     clear();
     if (!/^\d{5}$/.test(z)) return show('<p class="zip-msg">Enter a 5-digit ZIP code.</p>');
     try {
-      zipData ||= await fetch('data/zip_districts.json?v=20261022h').then(r => r.json());
+      zipData ||= await fetch('data/zip_districts.json?v=20261022i').then(r => r.json());
     } catch { return show('<p class="zip-msg">The ZIP lookup could not be loaded. Use the district list below.</p>'); }
     const r = zipData[z];
     if (!r || (!r.h.length && !r.s.length)) return show(`<p class="zip-msg">${esc(z)} ${z.startsWith('06') ? 'isn’t in this lookup (PO-box-only ZIP codes are not included). Try the district list below.' : 'isn’t a Connecticut ZIP code.'}</p>`);
@@ -317,7 +317,7 @@ function route() {
 document.getElementById('skip')?.addEventListener('click', e => { e.preventDefault(); $app.setAttribute('tabindex', '-1'); $app.focus(); });
 
 async function init() {
-  const [s, t, c] = await Promise.all(['states', 'topics', 'candidates'].map(f => fetch(`data/${f}.json?v=20261022h`).then(r => r.json())));
+  const [s, t, c] = await Promise.all(['states', 'topics', 'candidates'].map(f => fetch(`data/${f}.json?v=20261022i`).then(r => r.json())));
   Object.assign(state, { states: s, topics: t, candidates: c.candidates, updated: c.updated });
   window.addEventListener('hashchange', route);
   route();
