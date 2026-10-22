@@ -3,7 +3,7 @@
 
 Exit status 1 if any quote is missing.
 """
-import json, re, html, subprocess, pathlib, sys
+import json, re, html, subprocess, pathlib, sys, time
 
 UAS = ["Mozilla/5.0", "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 Chrome/120 Safari/537.36"]
 root = pathlib.Path(__file__).resolve().parent.parent
@@ -23,6 +23,8 @@ def page_text(url):
     if url in RENDERED:  # pages whose text is added by JavaScript: copied from a real browser session
         return norm((root / "tools" / "rendered" / RENDERED[url]).read_text())
     if url not in cache:
+        if "ballotpedia.org" in url:
+            time.sleep(4)  # Ballotpedia rate-limits bursts of requests
         h = ""
         for ua in UAS:  # some sites block one agent string or the other
             h += subprocess.run(["curl", "--compressed", "-sL", "-m", "30", "-A", ua, url], capture_output=True).stdout.decode("utf8", "ignore")

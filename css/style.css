@@ -85,3 +85,12 @@ a.quote{font-style:italic}
 .plan{margin:18px 0 6px;padding:4px 16px 10px;background:#eef3fc;border:1px solid #c9d8f0;border-left:5px solid var(--navy);border-radius:10px}
 .plan .plan-h{color:var(--navy);font-weight:700;margin-top:12px}
 .plan p{margin:.5em 0}
+.jump{display:flex;gap:8px;flex-wrap:wrap;margin:8px 0 16px}
+.jump a{padding:6px 14px;border:1px solid var(--navy);border-radius:999px;text-decoration:none;color:var(--navy);background:#fff;font-size:.9rem}
+.jump a:hover{background:var(--navy);color:#fff}
+h2.sec{margin-top:36px;padding-top:12px;border-top:2px solid var(--red)}
+h3.race{margin:22px 0 8px;font-size:.95rem;color:var(--red);text-transform:uppercase;letter-spacing:.05em}
+.picker-l{display:block;font-size:.85rem;color:var(--muted);margin:6px 0 4px}
+#dist{padding:8px 12px;border:1px solid var(--line);border-radius:8px;background:#fff;color:var(--fg);font:inherit;margin-bottom:8px}
+.inc{display:inline-block;font-size:.7rem;border:1px solid var(--navy);color:var(--navy);padding:1px 7px;border-radius:999px;margin-left:4px}
+.unrev{background:#fff8e6;border:1px solid #f0dca8;border-radius:8px;padding:10px 14px;margin:14px 0;font-size:.92rem;color:#5c4a12}

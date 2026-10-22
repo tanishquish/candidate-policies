@@ -5716,6 +5716,7280 @@
    "photoYear": "2026",
    "photoBasis": "posted",
    "noWebsite": false
+  },
+  {
+   "id": "ct-sen-01-fonfara",
+   "name": "John Fonfara",
+   "party": "D",
+   "ticket": "Democratic",
+   "office": "State Senate",
+   "district": "1",
+   "website": "http://www.senatedems.ct.gov/Fonfara",
+   "reviewed": null,
+   "sources": [
+    {
+     "key": "ballotS",
+     "title": "Ballotpedia: Connecticut State Senate elections, 2026",
+     "url": "https://ballotpedia.org/Connecticut_State_Senate_elections,_2026"
+    },
+    {
+     "key": "bp",
+     "title": "Ballotpedia: John Fonfara",
+     "url": "https://ballotpedia.org/John_Fonfara"
+    }
+   ],
+   "overview": [
+    [
+     {
+      "t": "John Fonfara is the incumbent on the November 3, 2026 ballot for State Senate District 1, running as: Democratic.",
+      "s": "ballotS"
+     }
+    ]
+   ],
+   "incumbent": true,
+   "unreviewed": true,
+   "accessed": "2026-10-22",
+   "state": "CT",
+   "photo": "https://www.senatedems.ct.gov/wp-content/uploads/2023/09/fonfara5x4.jpg",
+   "photoSource": "http://www.senatedems.ct.gov/Fonfara",
+   "topics": {
+    "abortion": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "lgbtq": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "taxes": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "defense": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "healthcare": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "immigration": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "economy": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "climate": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "guns": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "education": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    }
+   },
+   "photoYear": null,
+   "photoBasis": null,
+   "noWebsite": false
+  },
+  {
+   "id": "ct-sen-01-delgado",
+   "name": "Luis Delgado",
+   "party": "G",
+   "ticket": "Green Party",
+   "office": "State Senate",
+   "district": "1",
+   "website": null,
+   "reviewed": null,
+   "sources": [
+    {
+     "key": "ballotS",
+     "title": "Ballotpedia: Connecticut State Senate elections, 2026",
+     "url": "https://ballotpedia.org/Connecticut_State_Senate_elections,_2026"
+    },
+    {
+     "key": "bp",
+     "title": "Ballotpedia: Luis Delgado",
+     "url": "https://ballotpedia.org/Luis_Delgado"
+    }
+   ],
+   "overview": [
+    [
+     {
+      "t": "Luis Delgado is a candidate on the November 3, 2026 ballot for State Senate District 1, running as: Green Party.",
+      "s": "ballotS"
+     }
+    ]
+   ],
+   "incumbent": false,
+   "unreviewed": true,
+   "accessed": "2026-10-22",
+   "state": "CT",
+   "photo": null,
+   "photoSource": null,
+   "topics": {
+    "abortion": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "lgbtq": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "taxes": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "defense": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "healthcare": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "immigration": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "economy": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "climate": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "guns": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "education": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    }
+   },
+   "noWebsite": true
+  },
+  {
+   "id": "ct-sen-02-khan",
+   "name": "Maryam Khan",
+   "party": "D",
+   "ticket": "Democratic",
+   "office": "State Senate",
+   "district": "2",
+   "website": "https://www.khanforconn.com/",
+   "reviewed": null,
+   "sources": [
+    {
+     "key": "ballotS",
+     "title": "Ballotpedia: Connecticut State Senate elections, 2026",
+     "url": "https://ballotpedia.org/Connecticut_State_Senate_elections,_2026"
+    },
+    {
+     "key": "bp",
+     "title": "Ballotpedia: Maryam Khan",
+     "url": "https://ballotpedia.org/Maryam_Khan"
+    }
+   ],
+   "overview": [
+    [
+     {
+      "t": "Maryam Khan is a candidate on the November 3, 2026 ballot for State Senate District 2, running as: Democratic.",
+      "s": "ballotS"
+     }
+    ]
+   ],
+   "incumbent": false,
+   "unreviewed": true,
+   "accessed": "2026-10-22",
+   "state": "CT",
+   "photo": null,
+   "photoSource": null,
+   "topics": {
+    "abortion": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "lgbtq": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "taxes": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "defense": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "healthcare": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "immigration": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "economy": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "climate": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "guns": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "education": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    }
+   },
+   "noWebsite": false
+  },
+  {
+   "id": "ct-sen-02-knotts",
+   "name": "Tim Knotts",
+   "party": "R",
+   "ticket": "Republican",
+   "office": "State Senate",
+   "district": "2",
+   "website": "https://www.timknottsforsenate.com/",
+   "reviewed": null,
+   "sources": [
+    {
+     "key": "ballotS",
+     "title": "Ballotpedia: Connecticut State Senate elections, 2026",
+     "url": "https://ballotpedia.org/Connecticut_State_Senate_elections,_2026"
+    },
+    {
+     "key": "bp",
+     "title": "Ballotpedia: Tim Knotts",
+     "url": "https://ballotpedia.org/Tim_Knotts"
+    }
+   ],
+   "overview": [
+    [
+     {
+      "t": "Tim Knotts is a candidate on the November 3, 2026 ballot for State Senate District 2, running as: Republican.",
+      "s": "ballotS"
+     }
+    ]
+   ],
+   "incumbent": false,
+   "unreviewed": true,
+   "accessed": "2026-10-22",
+   "state": "CT",
+   "photo": "https://images.squarespace-cdn.com/content/v1/6a026e812bc1b475d4d54348/cc053199-8300-432e-9c76-a7f2dbabf707/image.png",
+   "photoSource": "https://www.timknottsforsenate.com/",
+   "topics": {
+    "abortion": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "lgbtq": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "taxes": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "defense": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "healthcare": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "immigration": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "economy": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "climate": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "guns": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "education": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    }
+   },
+   "photoYear": null,
+   "photoBasis": null,
+   "noWebsite": false
+  },
+  {
+   "id": "ct-sen-03-hughes",
+   "name": "Eliott Hughes",
+   "party": "R",
+   "ticket": "Republican",
+   "office": "State Senate",
+   "district": "3",
+   "website": "https://eliotthughesforsenate.com/",
+   "reviewed": null,
+   "sources": [
+    {
+     "key": "ballotS",
+     "title": "Ballotpedia: Connecticut State Senate elections, 2026",
+     "url": "https://ballotpedia.org/Connecticut_State_Senate_elections,_2026"
+    },
+    {
+     "key": "bp",
+     "title": "Ballotpedia: Eliott Hughes",
+     "url": "https://ballotpedia.org/Eliott_Hughes"
+    }
+   ],
+   "overview": [
+    [
+     {
+      "t": "Eliott Hughes is a candidate on the November 3, 2026 ballot for State Senate District 3, running as: Republican.",
+      "s": "ballotS"
+     }
+    ]
+   ],
+   "incumbent": false,
+   "unreviewed": true,
+   "accessed": "2026-10-22",
+   "state": "CT",
+   "photo": "https://i0.wp.com/eliotthughesforsenate.com/wp-content/uploads/2026/10/Billboard-Photo-transparecy.png?resize=1080%2C1780&ssl=1",
+   "photoSource": "https://eliotthughesforsenate.com/",
+   "topics": {
+    "abortion": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "lgbtq": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "taxes": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "defense": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "healthcare": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "immigration": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "economy": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "climate": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "guns": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "education": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    }
+   },
+   "photoYear": null,
+   "photoBasis": null,
+   "noWebsite": false
+  },
+  {
+   "id": "ct-sen-03-anwar",
+   "name": "Saud Anwar",
+   "party": "D",
+   "ticket": "Democratic; Working Families",
+   "office": "State Senate",
+   "district": "3",
+   "website": "https://www.saudanwar.com/",
+   "reviewed": null,
+   "sources": [
+    {
+     "key": "ballotS",
+     "title": "Ballotpedia: Connecticut State Senate elections, 2026",
+     "url": "https://ballotpedia.org/Connecticut_State_Senate_elections,_2026"
+    },
+    {
+     "key": "bp",
+     "title": "Ballotpedia: Saud Anwar",
+     "url": "https://ballotpedia.org/Saud_Anwar"
+    }
+   ],
+   "overview": [
+    [
+     {
+      "t": "Saud Anwar is the incumbent on the November 3, 2026 ballot for State Senate District 3, running as: Democratic; Working Families.",
+      "s": "ballotS"
+     }
+    ]
+   ],
+   "incumbent": true,
+   "unreviewed": true,
+   "accessed": "2026-10-22",
+   "state": "CT",
+   "photo": "https://www.saudanwar.com/anwar-jumbo2-scaled.jpg",
+   "photoSource": "https://www.saudanwar.com/",
+   "topics": {
+    "abortion": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "lgbtq": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "taxes": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "defense": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "healthcare": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "immigration": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "economy": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "climate": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "guns": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "education": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    }
+   },
+   "photoYear": null,
+   "photoBasis": null,
+   "noWebsite": false
+  },
+  {
+   "id": "ct-sen-04-jennings",
+   "name": "Jenn Jennings",
+   "party": "R",
+   "ticket": "Republican",
+   "office": "State Senate",
+   "district": "4",
+   "website": "https://jennjennings4senate.com/",
+   "reviewed": null,
+   "sources": [
+    {
+     "key": "ballotS",
+     "title": "Ballotpedia: Connecticut State Senate elections, 2026",
+     "url": "https://ballotpedia.org/Connecticut_State_Senate_elections,_2026"
+    },
+    {
+     "key": "bp",
+     "title": "Ballotpedia: Jenn Jennings",
+     "url": "https://ballotpedia.org/Jenn_Jennings"
+    }
+   ],
+   "overview": [
+    [
+     {
+      "t": "Jenn Jennings is a candidate on the November 3, 2026 ballot for State Senate District 4, running as: Republican.",
+      "s": "ballotS"
+     }
+    ],
+    [
+     {
+      "t": "In a Ballotpedia Candidate Connection survey answered in 2026, they wrote: "
+     },
+     {
+      "q": "I'm Jenn Jennings, a wife, mom of three, Realtor, Executive Director of the Connecticut Heating & Cooling Contractors Association, and a member of the Glastonbury Board of Education.",
+      "s": "bp"
+     }
+    ]
+   ],
+   "incumbent": false,
+   "unreviewed": true,
+   "accessed": "2026-10-22",
+   "state": "CT",
+   "photo": null,
+   "photoSource": null,
+   "topics": {
+    "abortion": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "lgbtq": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "taxes": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "defense": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "healthcare": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "immigration": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "economy": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "climate": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "guns": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "education": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    }
+   },
+   "noWebsite": false
+  },
+  {
+   "id": "ct-sen-04-rahman",
+   "name": "MD Rahman",
+   "party": "D",
+   "ticket": "Democratic; Working Families",
+   "office": "State Senate",
+   "district": "4",
+   "website": "https://www.mdforsenate.com",
+   "reviewed": null,
+   "sources": [
+    {
+     "key": "ballotS",
+     "title": "Ballotpedia: Connecticut State Senate elections, 2026",
+     "url": "https://ballotpedia.org/Connecticut_State_Senate_elections,_2026"
+    },
+    {
+     "key": "bp",
+     "title": "Ballotpedia: MD Rahman",
+     "url": "https://ballotpedia.org/MD_Rahman"
+    }
+   ],
+   "overview": [
+    [
+     {
+      "t": "MD Rahman is the incumbent on the November 3, 2026 ballot for State Senate District 4, running as: Democratic; Working Families.",
+      "s": "ballotS"
+     }
+    ]
+   ],
+   "incumbent": true,
+   "unreviewed": true,
+   "accessed": "2026-10-22",
+   "state": "CT",
+   "photo": "https://static.wixstatic.com/media/646b37_4e5d2cbea5f046148cba0839656ed24a~mv2.jpg/v1/fill/w_147,h_221,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/2022_RAHMAN_MD_9388__.jpg",
+   "photoSource": "https://www.mdforsenate.com",
+   "topics": {
+    "abortion": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "lgbtq": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "taxes": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "defense": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "healthcare": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "immigration": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "economy": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "climate": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "guns": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "education": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    }
+   },
+   "photoYear": null,
+   "photoBasis": null,
+   "noWebsite": false
+  },
+  {
+   "id": "ct-sen-05-slap",
+   "name": "Derek Slap",
+   "party": "D",
+   "ticket": "Democratic",
+   "office": "State Senate",
+   "district": "5",
+   "website": "http://www.senatedems.ct.gov/slap",
+   "reviewed": null,
+   "sources": [
+    {
+     "key": "ballotS",
+     "title": "Ballotpedia: Connecticut State Senate elections, 2026",
+     "url": "https://ballotpedia.org/Connecticut_State_Senate_elections,_2026"
+    },
+    {
+     "key": "bp",
+     "title": "Ballotpedia: Derek Slap",
+     "url": "https://ballotpedia.org/Derek_Slap"
+    }
+   ],
+   "overview": [
+    [
+     {
+      "t": "Derek Slap is the incumbent on the November 3, 2026 ballot for State Senate District 5, running as: Democratic.",
+      "s": "ballotS"
+     }
+    ]
+   ],
+   "incumbent": true,
+   "unreviewed": true,
+   "accessed": "2026-10-22",
+   "state": "CT",
+   "photo": "https://www.senatedems.ct.gov/wp-content/uploads/2023/09/Slap-headshot-2025-scaled.jpg",
+   "photoSource": "http://www.senatedems.ct.gov/slap",
+   "topics": {
+    "abortion": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "lgbtq": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "taxes": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "defense": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "healthcare": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "immigration": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "economy": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "climate": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "guns": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "education": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    }
+   },
+   "photoYear": null,
+   "photoBasis": null,
+   "noWebsite": false
+  },
+  {
+   "id": "ct-sen-06-lopes",
+   "name": "Rick Lopes",
+   "party": "D",
+   "ticket": "Democratic; Working Families",
+   "office": "State Senate",
+   "district": "6",
+   "website": "http://www.senatedems.ct.gov/lopes",
+   "reviewed": null,
+   "sources": [
+    {
+     "key": "ballotS",
+     "title": "Ballotpedia: Connecticut State Senate elections, 2026",
+     "url": "https://ballotpedia.org/Connecticut_State_Senate_elections,_2026"
+    },
+    {
+     "key": "bp",
+     "title": "Ballotpedia: Rick Lopes",
+     "url": "https://ballotpedia.org/Rick_Lopes"
+    }
+   ],
+   "overview": [
+    [
+     {
+      "t": "Rick Lopes is the incumbent on the November 3, 2026 ballot for State Senate District 6, running as: Democratic; Working Families.",
+      "s": "ballotS"
+     }
+    ]
+   ],
+   "incumbent": true,
+   "unreviewed": true,
+   "accessed": "2026-10-22",
+   "state": "CT",
+   "photo": "https://www.senatedems.ct.gov/wp-content/uploads/2024/01/lopes.png",
+   "photoSource": "http://www.senatedems.ct.gov/lopes",
+   "topics": {
+    "abortion": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "lgbtq": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "taxes": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "defense": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "healthcare": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "immigration": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "economy": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "climate": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "guns": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "education": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    }
+   },
+   "photoYear": null,
+   "photoBasis": null,
+   "noWebsite": false
+  },
+  {
+   "id": "ct-sen-06-collins",
+   "name": "Tremell Collins",
+   "party": "R",
+   "ticket": "Republican",
+   "office": "State Senate",
+   "district": "6",
+   "website": null,
+   "reviewed": null,
+   "sources": [
+    {
+     "key": "ballotS",
+     "title": "Ballotpedia: Connecticut State Senate elections, 2026",
+     "url": "https://ballotpedia.org/Connecticut_State_Senate_elections,_2026"
+    },
+    {
+     "key": "bp",
+     "title": "Ballotpedia: Tremell Collins",
+     "url": "https://ballotpedia.org/Tremell_Collins"
+    }
+   ],
+   "overview": [
+    [
+     {
+      "t": "Tremell Collins is a candidate on the November 3, 2026 ballot for State Senate District 6, running as: Republican.",
+      "s": "ballotS"
+     }
+    ]
+   ],
+   "incumbent": false,
+   "unreviewed": true,
+   "accessed": "2026-10-22",
+   "state": "CT",
+   "photo": null,
+   "photoSource": null,
+   "topics": {
+    "abortion": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "lgbtq": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "taxes": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "defense": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "healthcare": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "immigration": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "economy": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "climate": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "guns": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "education": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    }
+   },
+   "noWebsite": true
+  },
+  {
+   "id": "ct-sen-07-kiner",
+   "name": "David William Kiner",
+   "party": "D",
+   "ticket": "Democratic; Working Families",
+   "office": "State Senate",
+   "district": "7",
+   "website": "https://www.kinerforsenate.com/",
+   "reviewed": null,
+   "sources": [
+    {
+     "key": "ballotS",
+     "title": "Ballotpedia: Connecticut State Senate elections, 2026",
+     "url": "https://ballotpedia.org/Connecticut_State_Senate_elections,_2026"
+    },
+    {
+     "key": "bp",
+     "title": "Ballotpedia: David William Kiner",
+     "url": "https://ballotpedia.org/David_William_Kiner"
+    }
+   ],
+   "overview": [
+    [
+     {
+      "t": "David William Kiner is a candidate on the November 3, 2026 ballot for State Senate District 7, running as: Democratic; Working Families.",
+      "s": "ballotS"
+     }
+    ]
+   ],
+   "incumbent": false,
+   "unreviewed": true,
+   "accessed": "2026-10-22",
+   "state": "CT",
+   "photo": null,
+   "photoSource": null,
+   "topics": {
+    "abortion": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "lgbtq": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "taxes": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "defense": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "healthcare": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "immigration": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "economy": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "climate": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "guns": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "education": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    }
+   },
+   "noWebsite": false
+  },
+  {
+   "id": "ct-sen-07-kissel",
+   "name": "John Kissel",
+   "party": "R",
+   "ticket": "Republican; Independent of Connecticut",
+   "office": "State Senate",
+   "district": "7",
+   "website": "https://www.johnkisselforsenate.com",
+   "reviewed": null,
+   "sources": [
+    {
+     "key": "ballotS",
+     "title": "Ballotpedia: Connecticut State Senate elections, 2026",
+     "url": "https://ballotpedia.org/Connecticut_State_Senate_elections,_2026"
+    },
+    {
+     "key": "bp",
+     "title": "Ballotpedia: John Kissel",
+     "url": "https://ballotpedia.org/John_Kissel"
+    }
+   ],
+   "overview": [
+    [
+     {
+      "t": "John Kissel is the incumbent on the November 3, 2026 ballot for State Senate District 7, running as: Republican; Independent of Connecticut.",
+      "s": "ballotS"
+     }
+    ]
+   ],
+   "incumbent": true,
+   "unreviewed": true,
+   "accessed": "2026-10-22",
+   "state": "CT",
+   "photo": "https://www.johnkisselforsenate.com/wp-content/themes/john-a-kissel/assets/1_inset_HSv2.jpg",
+   "photoSource": "https://www.johnkisselforsenate.com",
+   "topics": {
+    "abortion": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "lgbtq": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "taxes": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "defense": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "healthcare": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "immigration": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "economy": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "climate": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "guns": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "education": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    }
+   },
+   "photoYear": null,
+   "photoBasis": null,
+   "noWebsite": false
+  },
+  {
+   "id": "ct-sen-08-criss",
+   "name": "Michael Criss",
+   "party": "R",
+   "ticket": "Republican",
+   "office": "State Senate",
+   "district": "8",
+   "website": "https://www.mikecriss.com/",
+   "reviewed": null,
+   "sources": [
+    {
+     "key": "ballotS",
+     "title": "Ballotpedia: Connecticut State Senate elections, 2026",
+     "url": "https://ballotpedia.org/Connecticut_State_Senate_elections,_2026"
+    },
+    {
+     "key": "bp",
+     "title": "Ballotpedia: Michael Criss",
+     "url": "https://ballotpedia.org/Michael_Criss"
+    }
+   ],
+   "overview": [
+    [
+     {
+      "t": "Michael Criss is a candidate on the November 3, 2026 ballot for State Senate District 8, running as: Republican.",
+      "s": "ballotS"
+     }
+    ]
+   ],
+   "incumbent": false,
+   "unreviewed": true,
+   "accessed": "2026-10-22",
+   "state": "CT",
+   "photo": "https://static.wixstatic.com/media/bafce4_c685183500f3456a997df53682947e2f~mv2.jpeg/v1/crop/x_0,y_182,w_596,h_596/fill/w_159,h_159,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/IMG_5342.jpeg",
+   "photoSource": "https://www.mikecriss.com/",
+   "topics": {
+    "abortion": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "lgbtq": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "taxes": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "defense": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "healthcare": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "immigration": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "economy": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "climate": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "guns": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "education": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    }
+   },
+   "photoYear": null,
+   "photoBasis": null,
+   "noWebsite": false
+  },
+  {
+   "id": "ct-sen-08-honig",
+   "name": "Paul Honig",
+   "party": "D",
+   "ticket": "Democratic; Independent of Connecticut",
+   "office": "State Senate",
+   "district": "8",
+   "website": "https://paulhonigforstatesenate.com",
+   "reviewed": null,
+   "sources": [
+    {
+     "key": "ballotS",
+     "title": "Ballotpedia: Connecticut State Senate elections, 2026",
+     "url": "https://ballotpedia.org/Connecticut_State_Senate_elections,_2026"
+    },
+    {
+     "key": "bp",
+     "title": "Ballotpedia: Paul Honig",
+     "url": "https://ballotpedia.org/Paul_Honig"
+    }
+   ],
+   "overview": [
+    [
+     {
+      "t": "Paul Honig is the incumbent on the November 3, 2026 ballot for State Senate District 8, running as: Democratic; Independent of Connecticut.",
+      "s": "ballotS"
+     }
+    ],
+    [
+     {
+      "t": "In a Ballotpedia Candidate Connection survey answered in 2022, they wrote: "
+     },
+     {
+      "q": "Paul Honig lives in Harwinton with his wife and their two sons.",
+      "s": "bp"
+     }
+    ]
+   ],
+   "incumbent": true,
+   "unreviewed": true,
+   "accessed": "2026-10-22",
+   "state": "CT",
+   "photo": null,
+   "photoSource": null,
+   "topics": {
+    "abortion": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "lgbtq": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "taxes": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "defense": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "healthcare": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "immigration": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "economy": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "climate": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "guns": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "education": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    }
+   },
+   "noWebsite": false
+  },
+  {
+   "id": "ct-sen-09-polomsky",
+   "name": "Grant W. Polomsky",
+   "party": "R",
+   "ticket": "Republican",
+   "office": "State Senate",
+   "district": "9",
+   "website": null,
+   "reviewed": null,
+   "sources": [
+    {
+     "key": "ballotS",
+     "title": "Ballotpedia: Connecticut State Senate elections, 2026",
+     "url": "https://ballotpedia.org/Connecticut_State_Senate_elections,_2026"
+    },
+    {
+     "key": "bp",
+     "title": "Ballotpedia: Grant W. Polomsky",
+     "url": "https://ballotpedia.org/Grant_W_Polomsky"
+    }
+   ],
+   "overview": [
+    [
+     {
+      "t": "Grant W. Polomsky is a candidate on the November 3, 2026 ballot for State Senate District 9, running as: Republican.",
+      "s": "ballotS"
+     }
+    ]
+   ],
+   "incumbent": false,
+   "unreviewed": true,
+   "accessed": "2026-10-22",
+   "state": "CT",
+   "photo": null,
+   "photoSource": null,
+   "topics": {
+    "abortion": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "lgbtq": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "taxes": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "defense": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "healthcare": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "immigration": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "economy": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "climate": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "guns": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "education": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    }
+   },
+   "noWebsite": true
+  },
+  {
+   "id": "ct-sen-09-samuel",
+   "name": "Gwen Samuel",
+   "party": "I",
+   "ticket": "Independent Party of Connecticut",
+   "office": "State Senate",
+   "district": "9",
+   "website": "https://gwenforct.com/",
+   "reviewed": null,
+   "sources": [
+    {
+     "key": "ballotS",
+     "title": "Ballotpedia: Connecticut State Senate elections, 2026",
+     "url": "https://ballotpedia.org/Connecticut_State_Senate_elections,_2026"
+    },
+    {
+     "key": "bp",
+     "title": "Ballotpedia: Gwen Samuel",
+     "url": "https://ballotpedia.org/Gwen_Samuel"
+    }
+   ],
+   "overview": [
+    [
+     {
+      "t": "Gwen Samuel is a candidate on the November 3, 2026 ballot for State Senate District 9, running as: Independent Party of Connecticut.",
+      "s": "ballotS"
+     }
+    ]
+   ],
+   "incumbent": false,
+   "unreviewed": true,
+   "accessed": "2026-10-22",
+   "state": "CT",
+   "photo": "https://images.remixer.ai/account-2160829/1503a5c5-5603-41cf-b013-5dbdb2b87c69.png",
+   "photoSource": "https://gwenforct.com/",
+   "topics": {
+    "abortion": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "lgbtq": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "taxes": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "defense": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "healthcare": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "immigration": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "economy": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "climate": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "guns": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "education": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    }
+   },
+   "photoYear": null,
+   "photoBasis": null,
+   "noWebsite": false
+  },
+  {
+   "id": "ct-sen-09-lesser",
+   "name": "Matthew L. Lesser",
+   "party": "D",
+   "ticket": "Democratic; Working Families",
+   "office": "State Senate",
+   "district": "9",
+   "website": "https://www.mattlesser.com",
+   "reviewed": null,
+   "sources": [
+    {
+     "key": "ballotS",
+     "title": "Ballotpedia: Connecticut State Senate elections, 2026",
+     "url": "https://ballotpedia.org/Connecticut_State_Senate_elections,_2026"
+    },
+    {
+     "key": "bp",
+     "title": "Ballotpedia: Matthew L. Lesser",
+     "url": "https://ballotpedia.org/Matthew_Lesser"
+    }
+   ],
+   "overview": [
+    [
+     {
+      "t": "Matthew L. Lesser is the incumbent on the November 3, 2026 ballot for State Senate District 9, running as: Democratic; Working Families.",
+      "s": "ballotS"
+     }
+    ]
+   ],
+   "incumbent": true,
+   "unreviewed": true,
+   "accessed": "2026-10-22",
+   "state": "CT",
+   "photo": null,
+   "photoSource": null,
+   "topics": {
+    "abortion": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "lgbtq": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "taxes": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "defense": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "healthcare": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "immigration": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "economy": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "climate": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "guns": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "education": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    }
+   },
+   "noWebsite": false
+  },
+  {
+   "id": "ct-sen-10-winfield",
+   "name": "Gary Winfield",
+   "party": "D",
+   "ticket": "Democratic; Working Families",
+   "office": "State Senate",
+   "district": "10",
+   "website": "http://www.senatedems.ct.gov/Winfield",
+   "reviewed": null,
+   "sources": [
+    {
+     "key": "ballotS",
+     "title": "Ballotpedia: Connecticut State Senate elections, 2026",
+     "url": "https://ballotpedia.org/Connecticut_State_Senate_elections,_2026"
+    },
+    {
+     "key": "bp",
+     "title": "Ballotpedia: Gary Winfield",
+     "url": "https://ballotpedia.org/Gary_Winfield"
+    }
+   ],
+   "overview": [
+    [
+     {
+      "t": "Gary Winfield is the incumbent on the November 3, 2026 ballot for State Senate District 10, running as: Democratic; Working Families.",
+      "s": "ballotS"
+     }
+    ]
+   ],
+   "incumbent": true,
+   "unreviewed": true,
+   "accessed": "2026-10-22",
+   "state": "CT",
+   "photo": null,
+   "photoSource": null,
+   "topics": {
+    "abortion": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "lgbtq": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "taxes": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "defense": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "healthcare": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "immigration": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "economy": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "climate": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "guns": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "education": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    }
+   },
+   "noWebsite": false
+  },
+  {
+   "id": "ct-sen-11-paolillo",
+   "name": "Alphonse Paolillo",
+   "party": "D",
+   "ticket": "Democratic",
+   "office": "State Senate",
+   "district": "11",
+   "website": "http://www.housedems.ct.gov/Paolillo",
+   "reviewed": null,
+   "sources": [
+    {
+     "key": "ballotS",
+     "title": "Ballotpedia: Connecticut State Senate elections, 2026",
+     "url": "https://ballotpedia.org/Connecticut_State_Senate_elections,_2026"
+    },
+    {
+     "key": "bp",
+     "title": "Ballotpedia: Alphonse Paolillo",
+     "url": "https://ballotpedia.org/Alphonse_Paolillo"
+    }
+   ],
+   "overview": [
+    [
+     {
+      "t": "Alphonse Paolillo is a candidate on the November 3, 2026 ballot for State Senate District 11, running as: Democratic.",
+      "s": "ballotS"
+     }
+    ]
+   ],
+   "incumbent": false,
+   "unreviewed": true,
+   "accessed": "2026-10-22",
+   "state": "CT",
+   "photo": null,
+   "photoSource": null,
+   "topics": {
+    "abortion": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "lgbtq": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "taxes": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "defense": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "healthcare": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "immigration": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "economy": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "climate": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "guns": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "education": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    }
+   },
+   "noWebsite": false
+  },
+  {
+   "id": "ct-sen-11-pepper-macias",
+   "name": "Rosa Aurelia Pepper-Macias",
+   "party": "O",
+   "ticket": "Workers' Voice Party",
+   "office": "State Senate",
+   "district": "11",
+   "website": "https://voteworkersvoice.net/",
+   "reviewed": null,
+   "sources": [
+    {
+     "key": "ballotS",
+     "title": "Ballotpedia: Connecticut State Senate elections, 2026",
+     "url": "https://ballotpedia.org/Connecticut_State_Senate_elections,_2026"
+    },
+    {
+     "key": "bp",
+     "title": "Ballotpedia: Rosa Aurelia Pepper-Macias",
+     "url": "https://ballotpedia.org/Rosa_Aurelia_Pepper-Macias"
+    }
+   ],
+   "overview": [
+    [
+     {
+      "t": "Rosa Aurelia Pepper-Macias is a candidate on the November 3, 2026 ballot for State Senate District 11, running as: Workers' Voice Party.",
+      "s": "ballotS"
+     }
+    ]
+   ],
+   "incumbent": false,
+   "unreviewed": true,
+   "accessed": "2026-10-22",
+   "state": "CT",
+   "photo": null,
+   "photoSource": null,
+   "topics": {
+    "abortion": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "lgbtq": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "taxes": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "defense": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "healthcare": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "immigration": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "economy": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "climate": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "guns": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "education": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    }
+   },
+   "noWebsite": false
+  },
+  {
+   "id": "ct-sen-12-cohen",
+   "name": "Christine Cohen",
+   "party": "D",
+   "ticket": "Democratic; Working Families; Independent of Connecticut",
+   "office": "State Senate",
+   "district": "12",
+   "website": "http://www.senatedems.ct.gov/cohen",
+   "reviewed": null,
+   "sources": [
+    {
+     "key": "ballotS",
+     "title": "Ballotpedia: Connecticut State Senate elections, 2026",
+     "url": "https://ballotpedia.org/Connecticut_State_Senate_elections,_2026"
+    },
+    {
+     "key": "bp",
+     "title": "Ballotpedia: Christine Cohen",
+     "url": "https://ballotpedia.org/Christine_Cohen"
+    }
+   ],
+   "overview": [
+    [
+     {
+      "t": "Christine Cohen is the incumbent on the November 3, 2026 ballot for State Senate District 12, running as: Democratic; Working Families; Independent of Connecticut.",
+      "s": "ballotS"
+     }
+    ]
+   ],
+   "incumbent": true,
+   "unreviewed": true,
+   "accessed": "2026-10-22",
+   "state": "CT",
+   "photo": "https://www.senatedems.ct.gov/wp-content/uploads/2023/09/cohen5x4.jpg",
+   "photoSource": "http://www.senatedems.ct.gov/cohen",
+   "topics": {
+    "abortion": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "lgbtq": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "taxes": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "defense": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "healthcare": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "immigration": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "economy": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "climate": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "guns": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "education": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    }
+   },
+   "photoYear": null,
+   "photoBasis": null,
+   "noWebsite": false
+  },
+  {
+   "id": "ct-sen-12-deane",
+   "name": "Lisa Deane",
+   "party": "R",
+   "ticket": "Republican",
+   "office": "State Senate",
+   "district": "12",
+   "website": "https://www.deane2026.com/",
+   "reviewed": null,
+   "sources": [
+    {
+     "key": "ballotS",
+     "title": "Ballotpedia: Connecticut State Senate elections, 2026",
+     "url": "https://ballotpedia.org/Connecticut_State_Senate_elections,_2026"
+    },
+    {
+     "key": "bp",
+     "title": "Ballotpedia: Lisa Deane",
+     "url": "https://ballotpedia.org/Lisa_Deane"
+    }
+   ],
+   "overview": [
+    [
+     {
+      "t": "Lisa Deane is a candidate on the November 3, 2026 ballot for State Senate District 12, running as: Republican.",
+      "s": "ballotS"
+     }
+    ]
+   ],
+   "incumbent": false,
+   "unreviewed": true,
+   "accessed": "2026-10-22",
+   "state": "CT",
+   "photo": null,
+   "photoSource": null,
+   "topics": {
+    "abortion": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "lgbtq": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "taxes": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "defense": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "healthcare": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "immigration": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "economy": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "climate": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "guns": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "education": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    }
+   },
+   "noWebsite": false
+  },
+  {
+   "id": "ct-sen-13-fazzino",
+   "name": "Jonathan Fazzino",
+   "party": "D",
+   "ticket": "Democratic; Working Families",
+   "office": "State Senate",
+   "district": "13",
+   "website": "https://fazzinoforct.com/",
+   "reviewed": null,
+   "sources": [
+    {
+     "key": "ballotS",
+     "title": "Ballotpedia: Connecticut State Senate elections, 2026",
+     "url": "https://ballotpedia.org/Connecticut_State_Senate_elections,_2026"
+    },
+    {
+     "key": "bp",
+     "title": "Ballotpedia: Jonathan Fazzino",
+     "url": "https://ballotpedia.org/Jonathan_Fazzino"
+    }
+   ],
+   "overview": [
+    [
+     {
+      "t": "Jonathan Fazzino is a candidate on the November 3, 2026 ballot for State Senate District 13, running as: Democratic; Working Families.",
+      "s": "ballotS"
+     }
+    ]
+   ],
+   "incumbent": false,
+   "unreviewed": true,
+   "accessed": "2026-10-22",
+   "state": "CT",
+   "photo": "https://content.app-sources.com/s/34442690154796091/thumbnails/640x480/Images/JF26_Primary_0210-1792024.jpg?format=webp",
+   "photoSource": "https://fazzinoforct.com/",
+   "topics": {
+    "abortion": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "lgbtq": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "taxes": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "defense": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "healthcare": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "immigration": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "economy": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "climate": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "guns": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "education": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    }
+   },
+   "photoYear": null,
+   "photoBasis": null,
+   "noWebsite": false
+  },
+  {
+   "id": "ct-sen-13-terrell",
+   "name": "Lamar Terrell",
+   "party": "I",
+   "ticket": "Independent Party of Connecticut",
+   "office": "State Senate",
+   "district": "13",
+   "website": null,
+   "reviewed": null,
+   "sources": [
+    {
+     "key": "ballotS",
+     "title": "Ballotpedia: Connecticut State Senate elections, 2026",
+     "url": "https://ballotpedia.org/Connecticut_State_Senate_elections,_2026"
+    },
+    {
+     "key": "bp",
+     "title": "Ballotpedia: Lamar Terrell",
+     "url": "https://ballotpedia.org/Lamar_Terrell"
+    }
+   ],
+   "overview": [
+    [
+     {
+      "t": "Lamar Terrell is a candidate on the November 3, 2026 ballot for State Senate District 13, running as: Independent Party of Connecticut.",
+      "s": "ballotS"
+     }
+    ]
+   ],
+   "incumbent": false,
+   "unreviewed": true,
+   "accessed": "2026-10-22",
+   "state": "CT",
+   "photo": null,
+   "photoSource": null,
+   "topics": {
+    "abortion": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "lgbtq": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "taxes": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "defense": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "healthcare": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "immigration": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "economy": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "climate": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "guns": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "education": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    }
+   },
+   "noWebsite": true
+  },
+  {
+   "id": "ct-sen-14-maroney",
+   "name": "James Maroney",
+   "party": "D",
+   "ticket": "Democratic; Independent of Connecticut",
+   "office": "State Senate",
+   "district": "14",
+   "website": "https://maroneyforus.com/",
+   "reviewed": null,
+   "sources": [
+    {
+     "key": "ballotS",
+     "title": "Ballotpedia: Connecticut State Senate elections, 2026",
+     "url": "https://ballotpedia.org/Connecticut_State_Senate_elections,_2026"
+    },
+    {
+     "key": "bp",
+     "title": "Ballotpedia: James Maroney",
+     "url": "https://ballotpedia.org/James_Maroney"
+    }
+   ],
+   "overview": [
+    [
+     {
+      "t": "James Maroney is the incumbent on the November 3, 2026 ballot for State Senate District 14, running as: Democratic; Independent of Connecticut.",
+      "s": "ballotS"
+     }
+    ]
+   ],
+   "incumbent": true,
+   "unreviewed": true,
+   "accessed": "2026-10-22",
+   "state": "CT",
+   "photo": null,
+   "photoSource": null,
+   "topics": {
+    "abortion": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "lgbtq": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "taxes": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "defense": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "healthcare": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "immigration": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "economy": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "climate": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "guns": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "education": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    }
+   },
+   "noWebsite": false
+  },
+  {
+   "id": "ct-sen-14-weaver",
+   "name": "Owen Weaver",
+   "party": "R",
+   "ticket": "Republican",
+   "office": "State Senate",
+   "district": "14",
+   "website": "https://www.owforsenate.com/",
+   "reviewed": null,
+   "sources": [
+    {
+     "key": "ballotS",
+     "title": "Ballotpedia: Connecticut State Senate elections, 2026",
+     "url": "https://ballotpedia.org/Connecticut_State_Senate_elections,_2026"
+    },
+    {
+     "key": "bp",
+     "title": "Ballotpedia: Owen Weaver",
+     "url": "https://ballotpedia.org/Owen_Weaver"
+    }
+   ],
+   "overview": [
+    [
+     {
+      "t": "Owen Weaver is a candidate on the November 3, 2026 ballot for State Senate District 14, running as: Republican.",
+      "s": "ballotS"
+     }
+    ]
+   ],
+   "incumbent": false,
+   "unreviewed": true,
+   "accessed": "2026-10-22",
+   "state": "CT",
+   "photo": "https://static.wixstatic.com/media/bf1030_1018968acdf442cbbe610ffa359476cf~mv2.jpg/v1/fill/w_122,h_122,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/bf1030_1018968acdf442cbbe610ffa359476cf~mv2.jpg",
+   "photoSource": "https://www.owforsenate.com/",
+   "topics": {
+    "abortion": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "lgbtq": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "taxes": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "defense": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "healthcare": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "immigration": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "economy": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "climate": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "guns": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "education": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    }
+   },
+   "photoYear": null,
+   "photoBasis": null,
+   "noWebsite": false
+  },
+  {
+   "id": "ct-sen-15-hartley",
+   "name": "Joan Hartley",
+   "party": "D",
+   "ticket": "Democratic; Independent of Connecticut",
+   "office": "State Senate",
+   "district": "15",
+   "website": "http://www.senatedems.ct.gov/hartley",
+   "reviewed": null,
+   "sources": [
+    {
+     "key": "ballotS",
+     "title": "Ballotpedia: Connecticut State Senate elections, 2026",
+     "url": "https://ballotpedia.org/Connecticut_State_Senate_elections,_2026"
+    },
+    {
+     "key": "bp",
+     "title": "Ballotpedia: Joan Hartley",
+     "url": "https://ballotpedia.org/Joan_Hartley"
+    }
+   ],
+   "overview": [
+    [
+     {
+      "t": "Joan Hartley is the incumbent on the November 3, 2026 ballot for State Senate District 15, running as: Democratic; Independent of Connecticut.",
+      "s": "ballotS"
+     }
+    ]
+   ],
+   "incumbent": true,
+   "unreviewed": true,
+   "accessed": "2026-10-22",
+   "state": "CT",
+   "photo": null,
+   "photoSource": null,
+   "topics": {
+    "abortion": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "lgbtq": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "taxes": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "defense": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "healthcare": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "immigration": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "economy": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "climate": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "guns": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "education": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    }
+   },
+   "noWebsite": false
+  },
+  {
+   "id": "ct-sen-15-rodriguez",
+   "name": "Ruben Rodriguez",
+   "party": "R",
+   "ticket": "Republican",
+   "office": "State Senate",
+   "district": "15",
+   "website": null,
+   "reviewed": null,
+   "sources": [
+    {
+     "key": "ballotS",
+     "title": "Ballotpedia: Connecticut State Senate elections, 2026",
+     "url": "https://ballotpedia.org/Connecticut_State_Senate_elections,_2026"
+    },
+    {
+     "key": "bp",
+     "title": "Ballotpedia: Ruben Rodriguez",
+     "url": "https://ballotpedia.org/Ruben_Rodriguez"
+    }
+   ],
+   "overview": [
+    [
+     {
+      "t": "Ruben Rodriguez is a candidate on the November 3, 2026 ballot for State Senate District 15, running as: Republican.",
+      "s": "ballotS"
+     }
+    ]
+   ],
+   "incumbent": false,
+   "unreviewed": true,
+   "accessed": "2026-10-22",
+   "state": "CT",
+   "photo": null,
+   "photoSource": null,
+   "topics": {
+    "abortion": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "lgbtq": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "taxes": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "defense": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "healthcare": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "immigration": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "economy": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "climate": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "guns": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "education": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    }
+   },
+   "noWebsite": true
+  },
+  {
+   "id": "ct-sen-16-perry",
+   "name": "Jack Perry",
+   "party": "D",
+   "ticket": "Democratic",
+   "office": "State Senate",
+   "district": "16",
+   "website": "https://www.voteforjackperry.com/",
+   "reviewed": null,
+   "sources": [
+    {
+     "key": "ballotS",
+     "title": "Ballotpedia: Connecticut State Senate elections, 2026",
+     "url": "https://ballotpedia.org/Connecticut_State_Senate_elections,_2026"
+    },
+    {
+     "key": "bp",
+     "title": "Ballotpedia: Jack Perry",
+     "url": "https://ballotpedia.org/Jack_Perry"
+    }
+   ],
+   "overview": [
+    [
+     {
+      "t": "Jack Perry is a candidate on the November 3, 2026 ballot for State Senate District 16, running as: Democratic.",
+      "s": "ballotS"
+     }
+    ],
+    [
+     {
+      "t": "In a Ballotpedia Candidate Connection survey answered in 2026, they wrote: "
+     },
+     {
+      "q": "I was raised by my single mother, an immigrant from Poland, after my father left at a young age.",
+      "s": "bp"
+     }
+    ]
+   ],
+   "incumbent": false,
+   "unreviewed": true,
+   "accessed": "2026-10-22",
+   "state": "CT",
+   "photo": null,
+   "photoSource": null,
+   "topics": {
+    "abortion": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "lgbtq": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "taxes": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "defense": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "healthcare": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "immigration": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "economy": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "climate": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "guns": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "education": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    }
+   },
+   "noWebsite": false
+  },
+  {
+   "id": "ct-sen-16-sampson",
+   "name": "Robert C. Sampson",
+   "party": "R",
+   "ticket": "Republican; Independent of Connecticut",
+   "office": "State Senate",
+   "district": "16",
+   "website": null,
+   "reviewed": null,
+   "sources": [
+    {
+     "key": "ballotS",
+     "title": "Ballotpedia: Connecticut State Senate elections, 2026",
+     "url": "https://ballotpedia.org/Connecticut_State_Senate_elections,_2026"
+    },
+    {
+     "key": "bp",
+     "title": "Ballotpedia: Robert C. Sampson",
+     "url": "https://ballotpedia.org/Robert_C_Sampson"
+    }
+   ],
+   "overview": [
+    [
+     {
+      "t": "Robert C. Sampson is the incumbent on the November 3, 2026 ballot for State Senate District 16, running as: Republican; Independent of Connecticut.",
+      "s": "ballotS"
+     }
+    ]
+   ],
+   "incumbent": true,
+   "unreviewed": true,
+   "accessed": "2026-10-22",
+   "state": "CT",
+   "photo": null,
+   "photoSource": null,
+   "topics": {
+    "abortion": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "lgbtq": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "taxes": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "defense": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "healthcare": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "immigration": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "economy": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "climate": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "guns": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "education": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    }
+   },
+   "noWebsite": true
+  },
+  {
+   "id": "ct-sen-17-dorais",
+   "name": "John-Paul Dorais",
+   "party": "R",
+   "ticket": "Republican; Independent of Connecticut",
+   "office": "State Senate",
+   "district": "17",
+   "website": "https://www.doraisforstatesenate.com/",
+   "reviewed": null,
+   "sources": [
+    {
+     "key": "ballotS",
+     "title": "Ballotpedia: Connecticut State Senate elections, 2026",
+     "url": "https://ballotpedia.org/Connecticut_State_Senate_elections,_2026"
+    },
+    {
+     "key": "bp",
+     "title": "Ballotpedia: John-Paul Dorais",
+     "url": "https://ballotpedia.org/John-Paul_Dorais"
+    }
+   ],
+   "overview": [
+    [
+     {
+      "t": "John-Paul Dorais is a candidate on the November 3, 2026 ballot for State Senate District 17, running as: Republican; Independent of Connecticut.",
+      "s": "ballotS"
+     }
+    ]
+   ],
+   "incumbent": false,
+   "unreviewed": true,
+   "accessed": "2026-10-22",
+   "state": "CT",
+   "photo": "https://www.doraisforstatesenate.com/images/hero-capitol-v2.jpg?dpl=dpl_FKyJfHqqEqrtJghH5mCYBYbn5SLK",
+   "photoSource": "https://www.doraisforstatesenate.com/",
+   "topics": {
+    "abortion": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "lgbtq": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "taxes": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "defense": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "healthcare": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "immigration": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "economy": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "climate": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "guns": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "education": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    }
+   },
+   "photoYear": null,
+   "photoBasis": null,
+   "noWebsite": false
+  },
+  {
+   "id": "ct-sen-17-cabrera",
+   "name": "Jorge Cabrera",
+   "party": "D",
+   "ticket": "Democratic; Working Families",
+   "office": "State Senate",
+   "district": "17",
+   "website": "https://www.jorgecabreract.com",
+   "reviewed": null,
+   "sources": [
+    {
+     "key": "ballotS",
+     "title": "Ballotpedia: Connecticut State Senate elections, 2026",
+     "url": "https://ballotpedia.org/Connecticut_State_Senate_elections,_2026"
+    },
+    {
+     "key": "bp",
+     "title": "Ballotpedia: Jorge Cabrera",
+     "url": "https://ballotpedia.org/Jorge_Cabrera"
+    }
+   ],
+   "overview": [
+    [
+     {
+      "t": "Jorge Cabrera is the incumbent on the November 3, 2026 ballot for State Senate District 17, running as: Democratic; Working Families.",
+      "s": "ballotS"
+     }
+    ]
+   ],
+   "incumbent": true,
+   "unreviewed": true,
+   "accessed": "2026-10-22",
+   "state": "CT",
+   "photo": null,
+   "photoSource": null,
+   "topics": {
+    "abortion": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "lgbtq": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "taxes": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "defense": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "healthcare": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "immigration": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "economy": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "climate": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "guns": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "education": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    }
+   },
+   "noWebsite": false
+  },
+  {
+   "id": "ct-sen-18-somers",
+   "name": "Heather Somers",
+   "party": "R",
+   "ticket": "Republican; Independent of Connecticut",
+   "office": "State Senate",
+   "district": "18",
+   "website": "https://www.heathersomers.com",
+   "reviewed": null,
+   "sources": [
+    {
+     "key": "ballotS",
+     "title": "Ballotpedia: Connecticut State Senate elections, 2026",
+     "url": "https://ballotpedia.org/Connecticut_State_Senate_elections,_2026"
+    },
+    {
+     "key": "bp",
+     "title": "Ballotpedia: Heather Somers",
+     "url": "https://ballotpedia.org/Heather_Somers"
+    }
+   ],
+   "overview": [
+    [
+     {
+      "t": "Heather Somers is the incumbent on the November 3, 2026 ballot for State Senate District 18, running as: Republican; Independent of Connecticut.",
+      "s": "ballotS"
+     }
+    ]
+   ],
+   "incumbent": true,
+   "unreviewed": true,
+   "accessed": "2026-10-22",
+   "state": "CT",
+   "photo": null,
+   "photoSource": null,
+   "topics": {
+    "abortion": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "lgbtq": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "taxes": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "defense": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "healthcare": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "immigration": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "economy": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "climate": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "guns": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "education": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    }
+   },
+   "noWebsite": false
+  },
+  {
+   "id": "ct-sen-18-cruz",
+   "name": "Joe de la Cruz",
+   "party": "D",
+   "ticket": "Democratic",
+   "office": "State Senate",
+   "district": "18",
+   "website": "https://www.joeforct.com/",
+   "reviewed": null,
+   "sources": [
+    {
+     "key": "ballotS",
+     "title": "Ballotpedia: Connecticut State Senate elections, 2026",
+     "url": "https://ballotpedia.org/Connecticut_State_Senate_elections,_2026"
+    },
+    {
+     "key": "bp",
+     "title": "Ballotpedia: Joe de la Cruz",
+     "url": "https://ballotpedia.org/Joe_de_la_Cruz"
+    }
+   ],
+   "overview": [
+    [
+     {
+      "t": "Joe de la Cruz is a candidate on the November 3, 2026 ballot for State Senate District 18, running as: Democratic.",
+      "s": "ballotS"
+     }
+    ]
+   ],
+   "incumbent": false,
+   "unreviewed": true,
+   "accessed": "2026-10-22",
+   "state": "CT",
+   "photo": "https://static.wixstatic.com/media/fa2961_27edb0fce851405199b977fe04a04b9c~mv2.jpg/v1/fill/w_147,h_109,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/JOED-104_edited.jpg",
+   "photoSource": "https://www.joeforct.com/",
+   "topics": {
+    "abortion": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "lgbtq": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "taxes": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "defense": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "healthcare": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "immigration": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "economy": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "climate": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "guns": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "education": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    }
+   },
+   "photoYear": null,
+   "photoBasis": null,
+   "noWebsite": false
+  },
+  {
+   "id": "ct-sen-19-osten",
+   "name": "Catherine Osten",
+   "party": "D",
+   "ticket": "Democratic; Working Families; Independent of Connecticut",
+   "office": "State Senate",
+   "district": "19",
+   "website": "http://www.senatedems.ct.gov/Osten",
+   "reviewed": null,
+   "sources": [
+    {
+     "key": "ballotS",
+     "title": "Ballotpedia: Connecticut State Senate elections, 2026",
+     "url": "https://ballotpedia.org/Connecticut_State_Senate_elections,_2026"
+    },
+    {
+     "key": "bp",
+     "title": "Ballotpedia: Catherine Osten",
+     "url": "https://ballotpedia.org/Catherine_Osten"
+    }
+   ],
+   "overview": [
+    [
+     {
+      "t": "Catherine Osten is the incumbent on the November 3, 2026 ballot for State Senate District 19, running as: Democratic; Working Families; Independent of Connecticut.",
+      "s": "ballotS"
+     }
+    ]
+   ],
+   "incumbent": true,
+   "unreviewed": true,
+   "accessed": "2026-10-22",
+   "state": "CT",
+   "photo": "https://www.senatedems.ct.gov/wp-content/uploads/2023/09/osten5x4.jpg",
+   "photoSource": "http://www.senatedems.ct.gov/Osten",
+   "topics": {
+    "abortion": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "lgbtq": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "taxes": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "defense": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "healthcare": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "immigration": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "economy": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "climate": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "guns": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "education": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    }
+   },
+   "photoYear": null,
+   "photoBasis": null,
+   "noWebsite": false
+  },
+  {
+   "id": "ct-sen-19-guidone",
+   "name": "Jason Guidone",
+   "party": "R",
+   "ticket": "Republican",
+   "office": "State Senate",
+   "district": "19",
+   "website": "https://www.guidoneforsenate.com/",
+   "reviewed": null,
+   "sources": [
+    {
+     "key": "ballotS",
+     "title": "Ballotpedia: Connecticut State Senate elections, 2026",
+     "url": "https://ballotpedia.org/Connecticut_State_Senate_elections,_2026"
+    },
+    {
+     "key": "bp",
+     "title": "Ballotpedia: Jason Guidone",
+     "url": "https://ballotpedia.org/Jason_Guidone"
+    }
+   ],
+   "overview": [
+    [
+     {
+      "t": "Jason Guidone is a candidate on the November 3, 2026 ballot for State Senate District 19, running as: Republican.",
+      "s": "ballotS"
+     }
+    ]
+   ],
+   "incumbent": false,
+   "unreviewed": true,
+   "accessed": "2026-10-22",
+   "state": "CT",
+   "photo": "https://static.wixstatic.com/media/d33cc1_7db614691c2e43c9ac2f7ecf1e78873b~mv2.jpg/v1/fill/w_1200,h_750,al_c/d33cc1_7db614691c2e43c9ac2f7ecf1e78873b~mv2.jpg",
+   "photoSource": "https://www.guidoneforsenate.com/",
+   "topics": {
+    "abortion": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "lgbtq": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "taxes": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "defense": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "healthcare": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "immigration": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "economy": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "climate": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "guns": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "education": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    }
+   },
+   "photoYear": null,
+   "photoBasis": null,
+   "noWebsite": false
+  },
+  {
+   "id": "ct-sen-20-elci",
+   "name": "Lee Elci",
+   "party": "R",
+   "ticket": "Republican; Independent of Connecticut",
+   "office": "State Senate",
+   "district": "20",
+   "website": "https://www.leeelci.com/",
+   "reviewed": null,
+   "sources": [
+    {
+     "key": "ballotS",
+     "title": "Ballotpedia: Connecticut State Senate elections, 2026",
+     "url": "https://ballotpedia.org/Connecticut_State_Senate_elections,_2026"
+    },
+    {
+     "key": "bp",
+     "title": "Ballotpedia: Lee Elci",
+     "url": "https://ballotpedia.org/Lee_Elci"
+    }
+   ],
+   "overview": [
+    [
+     {
+      "t": "Lee Elci is a candidate on the November 3, 2026 ballot for State Senate District 20, running as: Republican; Independent of Connecticut.",
+      "s": "ballotS"
+     }
+    ]
+   ],
+   "incumbent": false,
+   "unreviewed": true,
+   "accessed": "2026-10-22",
+   "state": "CT",
+   "photo": null,
+   "photoSource": null,
+   "topics": {
+    "abortion": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "lgbtq": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "taxes": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "defense": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "healthcare": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "immigration": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "economy": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "climate": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "guns": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "education": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    }
+   },
+   "noWebsite": false
+  },
+  {
+   "id": "ct-sen-20-marx",
+   "name": "Martha Marx",
+   "party": "D",
+   "ticket": "Democratic; Working Families",
+   "office": "State Senate",
+   "district": "20",
+   "website": "http://www.senatedems.ct.gov/marx",
+   "reviewed": null,
+   "sources": [
+    {
+     "key": "ballotS",
+     "title": "Ballotpedia: Connecticut State Senate elections, 2026",
+     "url": "https://ballotpedia.org/Connecticut_State_Senate_elections,_2026"
+    },
+    {
+     "key": "bp",
+     "title": "Ballotpedia: Martha Marx",
+     "url": "https://ballotpedia.org/Martha_Marx"
+    }
+   ],
+   "overview": [
+    [
+     {
+      "t": "Martha Marx is the incumbent on the November 3, 2026 ballot for State Senate District 20, running as: Democratic; Working Families.",
+      "s": "ballotS"
+     }
+    ]
+   ],
+   "incumbent": true,
+   "unreviewed": true,
+   "accessed": "2026-10-22",
+   "state": "CT",
+   "photo": "https://www.senatedems.ct.gov/wp-content/uploads/2023/09/Marx-2026-Headshot.jpeg",
+   "photoSource": "http://www.senatedems.ct.gov/marx",
+   "topics": {
+    "abortion": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "lgbtq": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "taxes": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "defense": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "healthcare": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "immigration": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "economy": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "climate": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "guns": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "education": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    }
+   },
+   "photoYear": null,
+   "photoBasis": null,
+   "noWebsite": false
+  },
+  {
+   "id": "ct-sen-21-reid",
+   "name": "Carolann Reid",
+   "party": "D",
+   "ticket": "Democratic",
+   "office": "State Senate",
+   "district": "21",
+   "website": "https://www.reidforstatesenate.com/",
+   "reviewed": null,
+   "sources": [
+    {
+     "key": "ballotS",
+     "title": "Ballotpedia: Connecticut State Senate elections, 2026",
+     "url": "https://ballotpedia.org/Connecticut_State_Senate_elections,_2026"
+    },
+    {
+     "key": "bp",
+     "title": "Ballotpedia: Carolann Reid",
+     "url": "https://ballotpedia.org/Carolann_Reid"
+    }
+   ],
+   "overview": [
+    [
+     {
+      "t": "Carolann Reid is a candidate on the November 3, 2026 ballot for State Senate District 21, running as: Democratic.",
+      "s": "ballotS"
+     }
+    ]
+   ],
+   "incumbent": false,
+   "unreviewed": true,
+   "accessed": "2026-10-22",
+   "state": "CT",
+   "photo": null,
+   "photoSource": null,
+   "topics": {
+    "abortion": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "lgbtq": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "taxes": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "defense": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "healthcare": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "immigration": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "economy": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "climate": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "guns": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "education": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    }
+   },
+   "noWebsite": false
+  },
+  {
+   "id": "ct-sen-21-perillo",
+   "name": "Jason Perillo",
+   "party": "R",
+   "ticket": "Republican; Independent of Connecticut",
+   "office": "State Senate",
+   "district": "21",
+   "website": "https://www.ctsenaterepublicans.com/senators/jason-perillo/",
+   "reviewed": null,
+   "sources": [
+    {
+     "key": "ballotS",
+     "title": "Ballotpedia: Connecticut State Senate elections, 2026",
+     "url": "https://ballotpedia.org/Connecticut_State_Senate_elections,_2026"
+    },
+    {
+     "key": "bp",
+     "title": "Ballotpedia: Jason Perillo",
+     "url": "https://ballotpedia.org/Jason_Perillo"
+    }
+   ],
+   "overview": [
+    [
+     {
+      "t": "Jason Perillo is the incumbent on the November 3, 2026 ballot for State Senate District 21, running as: Republican; Independent of Connecticut.",
+      "s": "ballotS"
+     }
+    ]
+   ],
+   "incumbent": true,
+   "unreviewed": true,
+   "accessed": "2026-10-22",
+   "state": "CT",
+   "photo": "https://www.ctsenaterepublicans.com/wp-content/uploads/2025/03/Perillo-Jason-Portrait-01-WEB-.jpg",
+   "photoSource": "https://www.ctsenaterepublicans.com/senators/jason-perillo/",
+   "topics": {
+    "abortion": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "lgbtq": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "taxes": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "defense": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "healthcare": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "immigration": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "economy": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "climate": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "guns": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "education": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    }
+   },
+   "photoYear": null,
+   "photoBasis": null,
+   "noWebsite": false
+  },
+  {
+   "id": "ct-sen-22-modlin",
+   "name": "Scott Modlin",
+   "party": "R",
+   "ticket": "Republican; Independent of Connecticut",
+   "office": "State Senate",
+   "district": "22",
+   "website": "https://modlinforct.com/",
+   "reviewed": null,
+   "sources": [
+    {
+     "key": "ballotS",
+     "title": "Ballotpedia: Connecticut State Senate elections, 2026",
+     "url": "https://ballotpedia.org/Connecticut_State_Senate_elections,_2026"
+    },
+    {
+     "key": "bp",
+     "title": "Ballotpedia: Scott Modlin",
+     "url": "https://ballotpedia.org/Scott_Modlin"
+    }
+   ],
+   "overview": [
+    [
+     {
+      "t": "Scott Modlin is a candidate on the November 3, 2026 ballot for State Senate District 22, running as: Republican; Independent of Connecticut.",
+      "s": "ballotS"
+     }
+    ]
+   ],
+   "incumbent": false,
+   "unreviewed": true,
+   "accessed": "2026-10-22",
+   "state": "CT",
+   "photo": null,
+   "photoSource": null,
+   "topics": {
+    "abortion": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "lgbtq": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "taxes": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "defense": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "healthcare": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "immigration": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "economy": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "climate": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "guns": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "education": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    }
+   },
+   "noWebsite": false
+  },
+  {
+   "id": "ct-sen-22-gadkar-wilcox",
+   "name": "Sujata Gadkar-Wilcox",
+   "party": "D",
+   "ticket": "Democratic",
+   "office": "State Senate",
+   "district": "22",
+   "website": "https://www.senatedems.ct.gov/senator/sujata-gadkar-wilcox",
+   "reviewed": null,
+   "sources": [
+    {
+     "key": "ballotS",
+     "title": "Ballotpedia: Connecticut State Senate elections, 2026",
+     "url": "https://ballotpedia.org/Connecticut_State_Senate_elections,_2026"
+    },
+    {
+     "key": "bp",
+     "title": "Ballotpedia: Sujata Gadkar-Wilcox",
+     "url": "https://ballotpedia.org/Sujata_Gadkar-Wilcox"
+    }
+   ],
+   "overview": [
+    [
+     {
+      "t": "Sujata Gadkar-Wilcox is the incumbent on the November 3, 2026 ballot for State Senate District 22, running as: Democratic.",
+      "s": "ballotS"
+     }
+    ],
+    [
+     {
+      "t": "In a Ballotpedia Candidate Connection survey answered in 2024, they wrote: "
+     },
+     {
+      "q": "I teach Constitutional and Human Rights Law at Quinnipiac University, where I'm Chair of the Department of Justice and Law.",
+      "s": "bp"
+     }
+    ]
+   ],
+   "incumbent": true,
+   "unreviewed": true,
+   "accessed": "2026-10-22",
+   "state": "CT",
+   "photo": "https://www.senatedems.ct.gov/wp-content/uploads/2025/01/Sujata-Headshot.jpg",
+   "photoSource": "https://www.senatedems.ct.gov/senator/sujata-gadkar-wilcox",
+   "topics": {
+    "abortion": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "lgbtq": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "taxes": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "defense": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "healthcare": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "immigration": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "economy": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "climate": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "guns": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "education": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    }
+   },
+   "photoYear": null,
+   "photoBasis": null,
+   "noWebsite": false
+  },
+  {
+   "id": "ct-sen-23-gaston",
+   "name": "Herron Gaston",
+   "party": "D",
+   "ticket": "Democratic",
+   "office": "State Senate",
+   "district": "23",
+   "website": "http://senatedems.ct.gov/gaston",
+   "reviewed": null,
+   "sources": [
+    {
+     "key": "ballotS",
+     "title": "Ballotpedia: Connecticut State Senate elections, 2026",
+     "url": "https://ballotpedia.org/Connecticut_State_Senate_elections,_2026"
+    },
+    {
+     "key": "bp",
+     "title": "Ballotpedia: Herron Gaston",
+     "url": "https://ballotpedia.org/Herron_Gaston"
+    }
+   ],
+   "overview": [
+    [
+     {
+      "t": "Herron Gaston is the incumbent on the November 3, 2026 ballot for State Senate District 23, running as: Democratic.",
+      "s": "ballotS"
+     }
+    ]
+   ],
+   "incumbent": true,
+   "unreviewed": true,
+   "accessed": "2026-10-22",
+   "state": "CT",
+   "photo": "https://www.senatedems.ct.gov/wp-content/uploads/2023/09/ALP00585-scaled.jpeg",
+   "photoSource": "http://senatedems.ct.gov/gaston",
+   "topics": {
+    "abortion": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "lgbtq": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "taxes": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "defense": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "healthcare": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "immigration": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "economy": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "climate": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "guns": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "education": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    }
+   },
+   "photoYear": null,
+   "photoBasis": null,
+   "noWebsite": false
+  },
+  {
+   "id": "ct-sen-23-williams",
+   "name": "Natasha Williams",
+   "party": "O",
+   "ticket": "New Movement Party",
+   "office": "State Senate",
+   "district": "23",
+   "website": null,
+   "reviewed": null,
+   "sources": [
+    {
+     "key": "ballotS",
+     "title": "Ballotpedia: Connecticut State Senate elections, 2026",
+     "url": "https://ballotpedia.org/Connecticut_State_Senate_elections,_2026"
+    },
+    {
+     "key": "bp",
+     "title": "Ballotpedia: Natasha Williams",
+     "url": "https://ballotpedia.org/Natasha_Williams"
+    }
+   ],
+   "overview": [
+    [
+     {
+      "t": "Natasha Williams is a candidate on the November 3, 2026 ballot for State Senate District 23, running as: New Movement Party.",
+      "s": "ballotS"
+     }
+    ]
+   ],
+   "incumbent": false,
+   "unreviewed": true,
+   "accessed": "2026-10-22",
+   "state": "CT",
+   "photo": null,
+   "photoSource": null,
+   "topics": {
+    "abortion": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "lgbtq": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "taxes": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "defense": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "healthcare": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "immigration": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "economy": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "climate": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "guns": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "education": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    }
+   },
+   "noWebsite": true
+  },
+  {
+   "id": "ct-sen-24-kushner",
+   "name": "Julie Kushner",
+   "party": "D",
+   "ticket": "Democratic; Working Families",
+   "office": "State Senate",
+   "district": "24",
+   "website": "https://www.juliekushnerforct.com",
+   "reviewed": null,
+   "sources": [
+    {
+     "key": "ballotS",
+     "title": "Ballotpedia: Connecticut State Senate elections, 2026",
+     "url": "https://ballotpedia.org/Connecticut_State_Senate_elections,_2026"
+    },
+    {
+     "key": "bp",
+     "title": "Ballotpedia: Julie Kushner",
+     "url": "https://ballotpedia.org/Julie_Kushner"
+    }
+   ],
+   "overview": [
+    [
+     {
+      "t": "Julie Kushner is the incumbent on the November 3, 2026 ballot for State Senate District 24, running as: Democratic; Working Families.",
+      "s": "ballotS"
+     }
+    ]
+   ],
+   "incumbent": true,
+   "unreviewed": true,
+   "accessed": "2026-10-22",
+   "state": "CT",
+   "photo": null,
+   "photoSource": null,
+   "topics": {
+    "abortion": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "lgbtq": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "taxes": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "defense": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "healthcare": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "immigration": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "economy": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "climate": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "guns": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "education": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    }
+   },
+   "noWebsite": false
+  },
+  {
+   "id": "ct-sen-24-lindsey",
+   "name": "Melissa Lindsey",
+   "party": "R",
+   "ticket": "Republican; Independent of Connecticut",
+   "office": "State Senate",
+   "district": "24",
+   "website": "https://www.lindseyforsenatect.com/",
+   "reviewed": null,
+   "sources": [
+    {
+     "key": "ballotS",
+     "title": "Ballotpedia: Connecticut State Senate elections, 2026",
+     "url": "https://ballotpedia.org/Connecticut_State_Senate_elections,_2026"
+    },
+    {
+     "key": "bp",
+     "title": "Ballotpedia: Melissa Lindsey",
+     "url": "https://ballotpedia.org/Melissa_Lindsey"
+    }
+   ],
+   "overview": [
+    [
+     {
+      "t": "Melissa Lindsey is a candidate on the November 3, 2026 ballot for State Senate District 24, running as: Republican; Independent of Connecticut.",
+      "s": "ballotS"
+     }
+    ]
+   ],
+   "incumbent": false,
+   "unreviewed": true,
+   "accessed": "2026-10-22",
+   "state": "CT",
+   "photo": "https://content.campaignpartner.net/images/153270/IMG_6847_3.jpg",
+   "photoSource": "https://www.lindseyforsenatect.com/",
+   "topics": {
+    "abortion": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "lgbtq": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "taxes": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "defense": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "healthcare": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "immigration": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "economy": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "climate": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "guns": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "education": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    }
+   },
+   "photoYear": null,
+   "photoBasis": null,
+   "noWebsite": false
+  },
+  {
+   "id": "ct-sen-25-duff",
+   "name": "Bob Duff",
+   "party": "D",
+   "ticket": "Democratic",
+   "office": "State Senate",
+   "district": "25",
+   "website": null,
+   "reviewed": null,
+   "sources": [
+    {
+     "key": "ballotS",
+     "title": "Ballotpedia: Connecticut State Senate elections, 2026",
+     "url": "https://ballotpedia.org/Connecticut_State_Senate_elections,_2026"
+    },
+    {
+     "key": "bp",
+     "title": "Ballotpedia: Bob Duff",
+     "url": "https://ballotpedia.org/Bob_Duff"
+    }
+   ],
+   "overview": [
+    [
+     {
+      "t": "Bob Duff is the incumbent on the November 3, 2026 ballot for State Senate District 25, running as: Democratic.",
+      "s": "ballotS"
+     }
+    ]
+   ],
+   "incumbent": true,
+   "unreviewed": true,
+   "accessed": "2026-10-22",
+   "state": "CT",
+   "photo": null,
+   "photoSource": null,
+   "topics": {
+    "abortion": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "lgbtq": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "taxes": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "defense": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "healthcare": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "immigration": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "economy": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "climate": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "guns": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "education": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    }
+   },
+   "noWebsite": true
+  },
+  {
+   "id": "ct-sen-25-perry",
+   "name": "Justin Perry",
+   "party": "R",
+   "ticket": "Republican",
+   "office": "State Senate",
+   "district": "25",
+   "website": null,
+   "reviewed": null,
+   "sources": [
+    {
+     "key": "ballotS",
+     "title": "Ballotpedia: Connecticut State Senate elections, 2026",
+     "url": "https://ballotpedia.org/Connecticut_State_Senate_elections,_2026"
+    },
+    {
+     "key": "bp",
+     "title": "Ballotpedia: Justin Perry",
+     "url": "https://ballotpedia.org/Justin_Perry"
+    }
+   ],
+   "overview": [
+    [
+     {
+      "t": "Justin Perry is a candidate on the November 3, 2026 ballot for State Senate District 25, running as: Republican.",
+      "s": "ballotS"
+     }
+    ]
+   ],
+   "incumbent": false,
+   "unreviewed": true,
+   "accessed": "2026-10-22",
+   "state": "CT",
+   "photo": null,
+   "photoSource": null,
+   "topics": {
+    "abortion": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "lgbtq": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "taxes": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "defense": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "healthcare": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "immigration": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "economy": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "climate": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "guns": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "education": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    }
+   },
+   "noWebsite": true
+  },
+  {
+   "id": "ct-sen-26-sarelli",
+   "name": "Alma Sarelli",
+   "party": "R",
+   "ticket": "Republican; Independent of Connecticut",
+   "office": "State Senate",
+   "district": "26",
+   "website": "https://votealma.com/",
+   "reviewed": null,
+   "sources": [
+    {
+     "key": "ballotS",
+     "title": "Ballotpedia: Connecticut State Senate elections, 2026",
+     "url": "https://ballotpedia.org/Connecticut_State_Senate_elections,_2026"
+    },
+    {
+     "key": "bp",
+     "title": "Ballotpedia: Alma Sarelli",
+     "url": "https://ballotpedia.org/Alma_Sarelli"
+    }
+   ],
+   "overview": [
+    [
+     {
+      "t": "Alma Sarelli is a candidate on the November 3, 2026 ballot for State Senate District 26, running as: Republican; Independent of Connecticut.",
+      "s": "ballotS"
+     }
+    ],
+    [
+     {
+      "t": "In a Ballotpedia Candidate Connection survey answered in 2022, they wrote: "
+     },
+     {
+      "q": "Alma Sarelli is a working mom who moved to Connecticut 13 years ago.",
+      "s": "bp"
+     }
+    ]
+   ],
+   "incumbent": false,
+   "unreviewed": true,
+   "accessed": "2026-10-22",
+   "state": "CT",
+   "photo": "https://votealma.com/UserFiles/image/Alma_black_jacket.png",
+   "photoSource": "https://votealma.com/",
+   "topics": {
+    "abortion": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "lgbtq": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "taxes": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "defense": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "healthcare": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "immigration": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "economy": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "climate": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "guns": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "education": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    }
+   },
+   "photoYear": null,
+   "photoBasis": null,
+   "noWebsite": false
+  },
+  {
+   "id": "ct-sen-26-nestor",
+   "name": "Sam Nestor",
+   "party": "D",
+   "ticket": "Democratic",
+   "office": "State Senate",
+   "district": "26",
+   "website": "https://www.samforct.com/",
+   "reviewed": null,
+   "sources": [
+    {
+     "key": "ballotS",
+     "title": "Ballotpedia: Connecticut State Senate elections, 2026",
+     "url": "https://ballotpedia.org/Connecticut_State_Senate_elections,_2026"
+    },
+    {
+     "key": "bp",
+     "title": "Ballotpedia: Sam Nestor",
+     "url": "https://ballotpedia.org/Sam_Nestor"
+    }
+   ],
+   "overview": [
+    [
+     {
+      "t": "Sam Nestor is a candidate on the November 3, 2026 ballot for State Senate District 26, running as: Democratic.",
+      "s": "ballotS"
+     }
+    ]
+   ],
+   "incumbent": false,
+   "unreviewed": true,
+   "accessed": "2026-10-22",
+   "state": "CT",
+   "photo": "https://images.squarespace-cdn.com/content/v1/69b084deb565561b3ece995e/7a5e52e4-e8b7-4a9d-97fd-6c08e37f5446/68a9c42d-9e0e-4139-8970-434037c0e1fa.png",
+   "photoSource": "https://www.samforct.com/",
+   "topics": {
+    "abortion": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "lgbtq": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "taxes": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "defense": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "healthcare": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "immigration": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "economy": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "climate": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "guns": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "education": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    }
+   },
+   "photoYear": null,
+   "photoBasis": null,
+   "noWebsite": false
+  },
+  {
+   "id": "ct-sen-27-miller",
+   "name": "Patricia Miller",
+   "party": "D",
+   "ticket": "Democratic",
+   "office": "State Senate",
+   "district": "27",
+   "website": null,
+   "reviewed": null,
+   "sources": [
+    {
+     "key": "ballotS",
+     "title": "Ballotpedia: Connecticut State Senate elections, 2026",
+     "url": "https://ballotpedia.org/Connecticut_State_Senate_elections,_2026"
+    },
+    {
+     "key": "bp",
+     "title": "Ballotpedia: Patricia Miller",
+     "url": "https://ballotpedia.org/Patricia_Miller"
+    }
+   ],
+   "overview": [
+    [
+     {
+      "t": "Patricia Miller is the incumbent on the November 3, 2026 ballot for State Senate District 27, running as: Democratic.",
+      "s": "ballotS"
+     }
+    ]
+   ],
+   "incumbent": true,
+   "unreviewed": true,
+   "accessed": "2026-10-22",
+   "state": "CT",
+   "photo": null,
+   "photoSource": null,
+   "topics": {
+    "abortion": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "lgbtq": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "taxes": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "defense": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "healthcare": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "immigration": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "economy": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "climate": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "guns": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "education": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    }
+   },
+   "noWebsite": true
+  },
+  {
+   "id": "ct-sen-28-laroche",
+   "name": "Amybeth Laroche",
+   "party": "R",
+   "ticket": "Republican",
+   "office": "State Senate",
+   "district": "28",
+   "website": "https://larocheforct.com/",
+   "reviewed": null,
+   "sources": [
+    {
+     "key": "ballotS",
+     "title": "Ballotpedia: Connecticut State Senate elections, 2026",
+     "url": "https://ballotpedia.org/Connecticut_State_Senate_elections,_2026"
+    },
+    {
+     "key": "bp",
+     "title": "Ballotpedia: Amybeth Laroche",
+     "url": "https://ballotpedia.org/Amybeth_Laroche"
+    }
+   ],
+   "overview": [
+    [
+     {
+      "t": "Amybeth Laroche is a candidate on the November 3, 2026 ballot for State Senate District 28, running as: Republican.",
+      "s": "ballotS"
+     }
+    ]
+   ],
+   "incumbent": false,
+   "unreviewed": true,
+   "accessed": "2026-10-22",
+   "state": "CT",
+   "photo": null,
+   "photoSource": null,
+   "topics": {
+    "abortion": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "lgbtq": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "taxes": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "defense": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "healthcare": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "immigration": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "economy": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "climate": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "guns": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "education": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    }
+   },
+   "noWebsite": false
+  },
+  {
+   "id": "ct-sen-28-blanchard",
+   "name": "Rob Blanchard",
+   "party": "D",
+   "ticket": "Democratic; Independent of Connecticut",
+   "office": "State Senate",
+   "district": "28",
+   "website": "https://www.robblanchardct.com/",
+   "reviewed": null,
+   "sources": [
+    {
+     "key": "ballotS",
+     "title": "Ballotpedia: Connecticut State Senate elections, 2026",
+     "url": "https://ballotpedia.org/Connecticut_State_Senate_elections,_2026"
+    },
+    {
+     "key": "bp",
+     "title": "Ballotpedia: Rob Blanchard",
+     "url": "https://ballotpedia.org/Rob_Blanchard"
+    }
+   ],
+   "overview": [
+    [
+     {
+      "t": "Rob Blanchard is a candidate on the November 3, 2026 ballot for State Senate District 28, running as: Democratic; Independent of Connecticut.",
+      "s": "ballotS"
+     }
+    ],
+    [
+     {
+      "t": "In a Ballotpedia Candidate Connection survey answered in 2024, they wrote: "
+     },
+     {
+      "q": "Rob is running to turn the 28th State Senate District blue for the first time in 50 years, because residents of the district have been underserved and underrepresented.",
+      "s": "bp"
+     }
+    ]
+   ],
+   "incumbent": false,
+   "unreviewed": true,
+   "accessed": "2026-10-22",
+   "state": "CT",
+   "photo": null,
+   "photoSource": null,
+   "topics": {
+    "abortion": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "lgbtq": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "taxes": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "defense": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "healthcare": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "immigration": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "economy": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "climate": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "guns": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "education": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    }
+   },
+   "noWebsite": false
+  },
+  {
+   "id": "ct-sen-29-reddy",
+   "name": "Chris Reddy",
+   "party": "R",
+   "ticket": "Republican",
+   "office": "State Senate",
+   "district": "29",
+   "website": null,
+   "reviewed": null,
+   "sources": [
+    {
+     "key": "ballotS",
+     "title": "Ballotpedia: Connecticut State Senate elections, 2026",
+     "url": "https://ballotpedia.org/Connecticut_State_Senate_elections,_2026"
+    },
+    {
+     "key": "bp",
+     "title": "Ballotpedia: Chris Reddy",
+     "url": "https://ballotpedia.org/Chris_Reddy"
+    }
+   ],
+   "overview": [
+    [
+     {
+      "t": "Chris Reddy is a candidate on the November 3, 2026 ballot for State Senate District 29, running as: Republican.",
+      "s": "ballotS"
+     }
+    ]
+   ],
+   "incumbent": false,
+   "unreviewed": true,
+   "accessed": "2026-10-22",
+   "state": "CT",
+   "photo": null,
+   "photoSource": null,
+   "topics": {
+    "abortion": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "lgbtq": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "taxes": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "defense": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "healthcare": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "immigration": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "economy": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "climate": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "guns": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "education": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    }
+   },
+   "noWebsite": true
+  },
+  {
+   "id": "ct-sen-29-flexer",
+   "name": "Mae Flexer",
+   "party": "D",
+   "ticket": "Democratic; Working Families",
+   "office": "State Senate",
+   "district": "29",
+   "website": "http://www.senatedems.ct.gov/flexer",
+   "reviewed": null,
+   "sources": [
+    {
+     "key": "ballotS",
+     "title": "Ballotpedia: Connecticut State Senate elections, 2026",
+     "url": "https://ballotpedia.org/Connecticut_State_Senate_elections,_2026"
+    },
+    {
+     "key": "bp",
+     "title": "Ballotpedia: Mae Flexer",
+     "url": "https://ballotpedia.org/Mae_Flexer"
+    }
+   ],
+   "overview": [
+    [
+     {
+      "t": "Mae Flexer is the incumbent on the November 3, 2026 ballot for State Senate District 29, running as: Democratic; Working Families.",
+      "s": "ballotS"
+     }
+    ]
+   ],
+   "incumbent": true,
+   "unreviewed": true,
+   "accessed": "2026-10-22",
+   "state": "CT",
+   "photo": null,
+   "photoSource": null,
+   "topics": {
+    "abortion": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "lgbtq": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "taxes": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "defense": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "healthcare": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "immigration": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "economy": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "climate": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "guns": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "education": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    }
+   },
+   "noWebsite": false
+  },
+  {
+   "id": "ct-sen-30-zimmer",
+   "name": "Aaron Zimmer",
+   "party": "D",
+   "ticket": "Democratic",
+   "office": "State Senate",
+   "district": "30",
+   "website": "https://www.zimmerforct.com/",
+   "reviewed": null,
+   "sources": [
+    {
+     "key": "ballotS",
+     "title": "Ballotpedia: Connecticut State Senate elections, 2026",
+     "url": "https://ballotpedia.org/Connecticut_State_Senate_elections,_2026"
+    },
+    {
+     "key": "bp",
+     "title": "Ballotpedia: Aaron Zimmer",
+     "url": "https://ballotpedia.org/Aaron_Zimmer"
+    }
+   ],
+   "overview": [
+    [
+     {
+      "t": "Aaron Zimmer is a candidate on the November 3, 2026 ballot for State Senate District 30, running as: Democratic.",
+      "s": "ballotS"
+     }
+    ]
+   ],
+   "incumbent": false,
+   "unreviewed": true,
+   "accessed": "2026-10-22",
+   "state": "CT",
+   "photo": "https://images.solidarity.tech/fit-in/1200x0/filters:no_upscale()/9wk82b9xsaifogxc379y6x460n5p",
+   "photoSource": "https://www.zimmerforct.com/",
+   "topics": {
+    "abortion": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "lgbtq": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "taxes": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "defense": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "healthcare": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "immigration": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "economy": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "climate": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "guns": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "education": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    }
+   },
+   "photoYear": null,
+   "photoBasis": null,
+   "noWebsite": false
+  },
+  {
+   "id": "ct-sen-30-harding",
+   "name": "Stephen Harding, Jr.",
+   "party": "R",
+   "ticket": "Republican; Independent of Connecticut",
+   "office": "State Senate",
+   "district": "30",
+   "website": null,
+   "reviewed": null,
+   "sources": [
+    {
+     "key": "ballotS",
+     "title": "Ballotpedia: Connecticut State Senate elections, 2026",
+     "url": "https://ballotpedia.org/Connecticut_State_Senate_elections,_2026"
+    },
+    {
+     "key": "bp",
+     "title": "Ballotpedia: Stephen Harding, Jr.",
+     "url": "https://ballotpedia.org/Stephen_Harding,_Jr"
+    }
+   ],
+   "overview": [
+    [
+     {
+      "t": "Stephen Harding, Jr. is the incumbent on the November 3, 2026 ballot for State Senate District 30, running as: Republican; Independent of Connecticut.",
+      "s": "ballotS"
+     }
+    ]
+   ],
+   "incumbent": true,
+   "unreviewed": true,
+   "accessed": "2026-10-22",
+   "state": "CT",
+   "photo": null,
+   "photoSource": null,
+   "topics": {
+    "abortion": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "lgbtq": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "taxes": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "defense": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "healthcare": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "immigration": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "economy": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "climate": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "guns": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "education": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    }
+   },
+   "noWebsite": true
+  },
+  {
+   "id": "ct-sen-31-martin",
+   "name": "Henri Martin",
+   "party": "R",
+   "ticket": "Republican",
+   "office": "State Senate",
+   "district": "31",
+   "website": "https://ctsenaterepublicans.com/home-Martin/",
+   "reviewed": null,
+   "sources": [
+    {
+     "key": "ballotS",
+     "title": "Ballotpedia: Connecticut State Senate elections, 2026",
+     "url": "https://ballotpedia.org/Connecticut_State_Senate_elections,_2026"
+    },
+    {
+     "key": "bp",
+     "title": "Ballotpedia: Henri Martin",
+     "url": "https://ballotpedia.org/Henri_Martin"
+    }
+   ],
+   "overview": [
+    [
+     {
+      "t": "Henri Martin is the incumbent on the November 3, 2026 ballot for State Senate District 31, running as: Republican.",
+      "s": "ballotS"
+     }
+    ]
+   ],
+   "incumbent": true,
+   "unreviewed": true,
+   "accessed": "2026-10-22",
+   "state": "CT",
+   "photo": "https://www.ctsenaterepublicans.com/wp-content/uploads/2025/01/Martin-Henri-Portrait-02-WEB-e1738098270643.jpg",
+   "photoSource": "https://ctsenaterepublicans.com/home-Martin/",
+   "topics": {
+    "abortion": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "lgbtq": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "taxes": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "defense": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "healthcare": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "immigration": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "economy": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "climate": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "guns": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "education": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    }
+   },
+   "photoYear": null,
+   "photoBasis": null,
+   "noWebsite": false
+  },
+  {
+   "id": "ct-sen-31-laporte-grimes",
+   "name": "Laurel LaPorte-Grimes",
+   "party": "D",
+   "ticket": "Democratic",
+   "office": "State Senate",
+   "district": "31",
+   "website": "https://www.laurelforsenate.com/",
+   "reviewed": null,
+   "sources": [
+    {
+     "key": "ballotS",
+     "title": "Ballotpedia: Connecticut State Senate elections, 2026",
+     "url": "https://ballotpedia.org/Connecticut_State_Senate_elections,_2026"
+    },
+    {
+     "key": "bp",
+     "title": "Ballotpedia: Laurel LaPorte-Grimes",
+     "url": "https://ballotpedia.org/Laurel_LaPorte-Grimes"
+    }
+   ],
+   "overview": [
+    [
+     {
+      "t": "Laurel LaPorte-Grimes is a candidate on the November 3, 2026 ballot for State Senate District 31, running as: Democratic.",
+      "s": "ballotS"
+     }
+    ]
+   ],
+   "incumbent": false,
+   "unreviewed": true,
+   "accessed": "2026-10-22",
+   "state": "CT",
+   "photo": "https://images.squarespace-cdn.com/content/v1/69f8c1629037aa4bff5f58dc/f86d82cd-4e25-4d7d-909b-655fa8b0f725/LLGWebsiteHomeImage.jpg",
+   "photoSource": "https://www.laurelforsenate.com/",
+   "topics": {
+    "abortion": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "lgbtq": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "taxes": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "defense": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "healthcare": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "immigration": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "economy": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "climate": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "guns": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "education": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    }
+   },
+   "photoYear": null,
+   "photoBasis": null,
+   "noWebsite": false
+  },
+  {
+   "id": "ct-sen-32-berthel",
+   "name": "Eric Berthel",
+   "party": "R",
+   "ticket": "Republican",
+   "office": "State Senate",
+   "district": "32",
+   "website": "https://www.berthelforsenate.org",
+   "reviewed": null,
+   "sources": [
+    {
+     "key": "ballotS",
+     "title": "Ballotpedia: Connecticut State Senate elections, 2026",
+     "url": "https://ballotpedia.org/Connecticut_State_Senate_elections,_2026"
+    },
+    {
+     "key": "bp",
+     "title": "Ballotpedia: Eric Berthel",
+     "url": "https://ballotpedia.org/Eric_C._Berthel"
+    }
+   ],
+   "overview": [
+    [
+     {
+      "t": "Eric Berthel is the incumbent on the November 3, 2026 ballot for State Senate District 32, running as: Republican.",
+      "s": "ballotS"
+     }
+    ]
+   ],
+   "incumbent": true,
+   "unreviewed": true,
+   "accessed": "2026-10-22",
+   "state": "CT",
+   "photo": "https://static.wixstatic.com/media/ae4f11_2cc9aea911524d98a02c2d219aafe214~mv2.jpg/v1/fill/w_288,h_192,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/ae4f11_2cc9aea911524d98a02c2d219aafe214~mv2.jpg",
+   "photoSource": "https://www.berthelforsenate.org",
+   "topics": {
+    "abortion": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "lgbtq": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "taxes": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "defense": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "healthcare": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "immigration": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "economy": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "climate": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "guns": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "education": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    }
+   },
+   "photoYear": null,
+   "photoBasis": null,
+   "noWebsite": false
+  },
+  {
+   "id": "ct-sen-32-knickerbocker",
+   "name": "Matthew Knickerbocker",
+   "party": "D",
+   "ticket": "Democratic",
+   "office": "State Senate",
+   "district": "32",
+   "website": "https://www.mattknickerbocker.com/",
+   "reviewed": null,
+   "sources": [
+    {
+     "key": "ballotS",
+     "title": "Ballotpedia: Connecticut State Senate elections, 2026",
+     "url": "https://ballotpedia.org/Connecticut_State_Senate_elections,_2026"
+    },
+    {
+     "key": "bp",
+     "title": "Ballotpedia: Matthew Knickerbocker",
+     "url": "https://ballotpedia.org/Matthew_Knickerbocker"
+    }
+   ],
+   "overview": [
+    [
+     {
+      "t": "Matthew Knickerbocker is a candidate on the November 3, 2026 ballot for State Senate District 32, running as: Democratic.",
+      "s": "ballotS"
+     }
+    ],
+    [
+     {
+      "t": "In a Ballotpedia Candidate Connection survey answered in 2026, they wrote: "
+     },
+     {
+      "q": "I am a former First Selectman and Board of Education chair for the Town of Bethel.",
+      "s": "bp"
+     }
+    ]
+   ],
+   "incumbent": false,
+   "unreviewed": true,
+   "accessed": "2026-10-22",
+   "state": "CT",
+   "photo": null,
+   "photoSource": null,
+   "topics": {
+    "abortion": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "lgbtq": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "taxes": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "defense": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "healthcare": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "immigration": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "economy": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "climate": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "guns": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "education": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    }
+   },
+   "noWebsite": false
+  },
+  {
+   "id": "ct-sen-33-ferraro",
+   "name": "Charles Ferraro",
+   "party": "R",
+   "ticket": "Republican",
+   "office": "State Senate",
+   "district": "33",
+   "website": null,
+   "reviewed": null,
+   "sources": [
+    {
+     "key": "ballotS",
+     "title": "Ballotpedia: Connecticut State Senate elections, 2026",
+     "url": "https://ballotpedia.org/Connecticut_State_Senate_elections,_2026"
+    },
+    {
+     "key": "bp",
+     "title": "Ballotpedia: Charles Ferraro",
+     "url": "https://ballotpedia.org/Charles_Ferraro"
+    }
+   ],
+   "overview": [
+    [
+     {
+      "t": "Charles Ferraro is a candidate on the November 3, 2026 ballot for State Senate District 33, running as: Republican.",
+      "s": "ballotS"
+     }
+    ]
+   ],
+   "incumbent": false,
+   "unreviewed": true,
+   "accessed": "2026-10-22",
+   "state": "CT",
+   "photo": null,
+   "photoSource": null,
+   "topics": {
+    "abortion": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "lgbtq": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "taxes": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "defense": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "healthcare": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "immigration": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "economy": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "climate": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "guns": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "education": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    }
+   },
+   "noWebsite": true
+  },
+  {
+   "id": "ct-sen-33-needleman",
+   "name": "Norm Needleman",
+   "party": "D",
+   "ticket": "Democratic; Independent of Connecticut",
+   "office": "State Senate",
+   "district": "33",
+   "website": "http://www.senatedems.ct.gov/needleman",
+   "reviewed": null,
+   "sources": [
+    {
+     "key": "ballotS",
+     "title": "Ballotpedia: Connecticut State Senate elections, 2026",
+     "url": "https://ballotpedia.org/Connecticut_State_Senate_elections,_2026"
+    },
+    {
+     "key": "bp",
+     "title": "Ballotpedia: Norm Needleman",
+     "url": "https://ballotpedia.org/Norm_Needleman"
+    }
+   ],
+   "overview": [
+    [
+     {
+      "t": "Norm Needleman is the incumbent on the November 3, 2026 ballot for State Senate District 33, running as: Democratic; Independent of Connecticut.",
+      "s": "ballotS"
+     }
+    ]
+   ],
+   "incumbent": true,
+   "unreviewed": true,
+   "accessed": "2026-10-22",
+   "state": "CT",
+   "photo": "https://www.senatedems.ct.gov/wp-content/uploads/2023/09/Head-shot-1.jpg",
+   "photoSource": "http://www.senatedems.ct.gov/needleman",
+   "topics": {
+    "abortion": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "lgbtq": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "taxes": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "defense": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "healthcare": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "immigration": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "economy": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "climate": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "guns": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "education": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    }
+   },
+   "photoYear": null,
+   "photoBasis": null,
+   "noWebsite": false
+  },
+  {
+   "id": "ct-sen-34-mandato",
+   "name": "Brandi Mandato",
+   "party": "D",
+   "ticket": "Democratic; Working Families",
+   "office": "State Senate",
+   "district": "34",
+   "website": "https://www.mandatofor34.com/",
+   "reviewed": null,
+   "sources": [
+    {
+     "key": "ballotS",
+     "title": "Ballotpedia: Connecticut State Senate elections, 2026",
+     "url": "https://ballotpedia.org/Connecticut_State_Senate_elections,_2026"
+    },
+    {
+     "key": "bp",
+     "title": "Ballotpedia: Brandi Mandato",
+     "url": "https://ballotpedia.org/Brandi_Mandato"
+    }
+   ],
+   "overview": [
+    [
+     {
+      "t": "Brandi Mandato is a candidate on the November 3, 2026 ballot for State Senate District 34, running as: Democratic; Working Families.",
+      "s": "ballotS"
+     }
+    ],
+    [
+     {
+      "t": "In a Ballotpedia Candidate Connection survey answered in 2024, they wrote: "
+     },
+     {
+      "q": "Born and raised in Greater New Haven, the grand-daughter of Italian American immigrants, I grew up in a working class family, the oldest of eight children, and have watched the people I love work hard to find stability and build beautiful lives in Connecticut.",
+      "s": "bp"
+     }
+    ]
+   ],
+   "incumbent": false,
+   "unreviewed": true,
+   "accessed": "2026-10-22",
+   "state": "CT",
+   "photo": null,
+   "photoSource": null,
+   "topics": {
+    "abortion": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "lgbtq": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "taxes": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "defense": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "healthcare": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "immigration": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "economy": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "climate": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "guns": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "education": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    }
+   },
+   "noWebsite": false
+  },
+  {
+   "id": "ct-sen-34-cicarella",
+   "name": "Paul Cicarella, Jr.",
+   "party": "R",
+   "ticket": "Republican; Independent of Connecticut",
+   "office": "State Senate",
+   "district": "34",
+   "website": null,
+   "reviewed": null,
+   "sources": [
+    {
+     "key": "ballotS",
+     "title": "Ballotpedia: Connecticut State Senate elections, 2026",
+     "url": "https://ballotpedia.org/Connecticut_State_Senate_elections,_2026"
+    },
+    {
+     "key": "bp",
+     "title": "Ballotpedia: Paul Cicarella, Jr.",
+     "url": "https://ballotpedia.org/Paul_Cicarella,_Jr"
+    }
+   ],
+   "overview": [
+    [
+     {
+      "t": "Paul Cicarella, Jr. is the incumbent on the November 3, 2026 ballot for State Senate District 34, running as: Republican; Independent of Connecticut.",
+      "s": "ballotS"
+     }
+    ]
+   ],
+   "incumbent": true,
+   "unreviewed": true,
+   "accessed": "2026-10-22",
+   "state": "CT",
+   "photo": null,
+   "photoSource": null,
+   "topics": {
+    "abortion": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "lgbtq": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "taxes": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "defense": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "healthcare": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "immigration": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "economy": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "climate": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "guns": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "education": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    }
+   },
+   "noWebsite": true
+  },
+  {
+   "id": "ct-sen-35-werstler",
+   "name": "Ethan Werstler",
+   "party": "D",
+   "ticket": "Democratic; Working Families",
+   "office": "State Senate",
+   "district": "35",
+   "website": "https://werstlerforct.com",
+   "reviewed": null,
+   "sources": [
+    {
+     "key": "ballotS",
+     "title": "Ballotpedia: Connecticut State Senate elections, 2026",
+     "url": "https://ballotpedia.org/Connecticut_State_Senate_elections,_2026"
+    },
+    {
+     "key": "bp",
+     "title": "Ballotpedia: Ethan Werstler",
+     "url": "https://ballotpedia.org/Ethan_Werstler"
+    }
+   ],
+   "overview": [
+    [
+     {
+      "t": "Ethan Werstler is a candidate on the November 3, 2026 ballot for State Senate District 35, running as: Democratic; Working Families.",
+      "s": "ballotS"
+     }
+    ],
+    [
+     {
+      "t": "In a Ballotpedia Candidate Connection survey answered in 2026, they wrote: "
+     },
+     {
+      "q": "I'm a third-generation Woodstock resident and fourth-generation UConn graduate running to represent the 35th Senate District.",
+      "s": "bp"
+     }
+    ]
+   ],
+   "incumbent": false,
+   "unreviewed": true,
+   "accessed": "2026-10-22",
+   "state": "CT",
+   "photo": null,
+   "photoSource": null,
+   "topics": {
+    "abortion": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "lgbtq": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "taxes": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "defense": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "healthcare": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "immigration": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "economy": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "climate": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "guns": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "education": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    }
+   },
+   "noWebsite": false
+  },
+  {
+   "id": "ct-sen-35-gordon",
+   "name": "Jeff Gordon",
+   "party": "R",
+   "ticket": "Republican; Independent of Connecticut",
+   "office": "State Senate",
+   "district": "35",
+   "website": null,
+   "reviewed": null,
+   "sources": [
+    {
+     "key": "ballotS",
+     "title": "Ballotpedia: Connecticut State Senate elections, 2026",
+     "url": "https://ballotpedia.org/Connecticut_State_Senate_elections,_2026"
+    },
+    {
+     "key": "bp",
+     "title": "Ballotpedia: Jeff Gordon",
+     "url": "https://ballotpedia.org/Jeff_Gordon"
+    }
+   ],
+   "overview": [
+    [
+     {
+      "t": "Jeff Gordon is the incumbent on the November 3, 2026 ballot for State Senate District 35, running as: Republican; Independent of Connecticut.",
+      "s": "ballotS"
+     }
+    ]
+   ],
+   "incumbent": true,
+   "unreviewed": true,
+   "accessed": "2026-10-22",
+   "state": "CT",
+   "photo": null,
+   "photoSource": null,
+   "topics": {
+    "abortion": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "lgbtq": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "taxes": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "defense": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "healthcare": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "immigration": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "economy": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "climate": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "guns": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "education": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    }
+   },
+   "noWebsite": true
+  },
+  {
+   "id": "ct-sen-36-oberlander",
+   "name": "Jill Oberlander",
+   "party": "D",
+   "ticket": "Democratic",
+   "office": "State Senate",
+   "district": "36",
+   "website": "https://jilloberlander.com/",
+   "reviewed": null,
+   "sources": [
+    {
+     "key": "ballotS",
+     "title": "Ballotpedia: Connecticut State Senate elections, 2026",
+     "url": "https://ballotpedia.org/Connecticut_State_Senate_elections,_2026"
+    },
+    {
+     "key": "bp",
+     "title": "Ballotpedia: Jill Oberlander",
+     "url": "https://ballotpedia.org/Jill_Oberlander"
+    }
+   ],
+   "overview": [
+    [
+     {
+      "t": "Jill Oberlander is a candidate on the November 3, 2026 ballot for State Senate District 36, running as: Democratic.",
+      "s": "ballotS"
+     }
+    ]
+   ],
+   "incumbent": false,
+   "unreviewed": true,
+   "accessed": "2026-10-22",
+   "state": "CT",
+   "photo": null,
+   "photoSource": null,
+   "topics": {
+    "abortion": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "lgbtq": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "taxes": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "defense": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "healthcare": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "immigration": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "economy": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "climate": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "guns": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "education": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    }
+   },
+   "noWebsite": false
+  },
+  {
+   "id": "ct-sen-36-kelly",
+   "name": "Joe Kelly",
+   "party": "R",
+   "ticket": "Republican; Independent of Connecticut",
+   "office": "State Senate",
+   "district": "36",
+   "website": null,
+   "reviewed": null,
+   "sources": [
+    {
+     "key": "ballotS",
+     "title": "Ballotpedia: Connecticut State Senate elections, 2026",
+     "url": "https://ballotpedia.org/Connecticut_State_Senate_elections,_2026"
+    },
+    {
+     "key": "bp",
+     "title": "Ballotpedia: Joe Kelly",
+     "url": "https://ballotpedia.org/Joe_Kelly"
+    }
+   ],
+   "overview": [
+    [
+     {
+      "t": "Joe Kelly is a candidate on the November 3, 2026 ballot for State Senate District 36, running as: Republican; Independent of Connecticut.",
+      "s": "ballotS"
+     }
+    ]
+   ],
+   "incumbent": false,
+   "unreviewed": true,
+   "accessed": "2026-10-22",
+   "state": "CT",
+   "photo": null,
+   "photoSource": null,
+   "topics": {
+    "abortion": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "lgbtq": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "taxes": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "defense": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "healthcare": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "immigration": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "economy": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "climate": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "guns": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "education": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    }
+   },
+   "noWebsite": true
+  },
+  {
+   "id": "ct-treasurer-russell",
+   "name": "Erick Russell",
+   "party": "D",
+   "ticket": "Democratic; Working Families",
+   "office": "Treasurer",
+   "district": null,
+   "website": "https://www.erickforct.com/",
+   "reviewed": null,
+   "sources": [
+    {
+     "key": "ballot",
+     "title": "The Green Papers: Connecticut 2026 General Election",
+     "url": "https://www.thegreenpapers.com/G26/CT"
+    },
+    {
+     "key": "bp",
+     "title": "Ballotpedia: Erick Russell",
+     "url": "https://ballotpedia.org/Erick_Russell"
+    }
+   ],
+   "overview": [
+    [
+     {
+      "t": "Erick Russell is the incumbent on the November 3, 2026 ballot for Treasurer, running as: Democratic; Working Families.",
+      "s": "ballot"
+     }
+    ]
+   ],
+   "incumbent": true,
+   "unreviewed": true,
+   "accessed": "2026-10-22",
+   "state": "CT",
+   "photo": "https://run.imgix.net/194f1f9b-bbef-42aa-b768-979d265acb7a/5fc71304-0cf1-4a0a-87bf-71c3803147ad/5fc71304-0cf1-4a0a-87bf-71c3803147ad.jpg?ixlib=js-3.8.0&bri=0&con=0&sat=0&high=0&shad=0&usm=0&rect=0%2C0%2C1200%2C628&s=7e3c97f253c625d2d06889c0e56929c1",
+   "photoSource": "https://www.erickforct.com/",
+   "topics": {
+    "abortion": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "lgbtq": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "taxes": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "defense": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "healthcare": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "immigration": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "economy": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "climate": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "guns": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "education": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    }
+   },
+   "photoYear": null,
+   "photoBasis": null,
+   "noWebsite": false
+  },
+  {
+   "id": "ct-treasurer-wilms",
+   "name": "Fred Wilms",
+   "party": "R",
+   "ticket": "Republican; Independent Party of Connecticut",
+   "office": "Treasurer",
+   "district": null,
+   "website": "https://www.fredforconnecticut.com/",
+   "reviewed": null,
+   "sources": [
+    {
+     "key": "ballot",
+     "title": "The Green Papers: Connecticut 2026 General Election",
+     "url": "https://www.thegreenpapers.com/G26/CT"
+    },
+    {
+     "key": "bp",
+     "title": "Ballotpedia: Fred Wilms",
+     "url": "https://ballotpedia.org/Fred_Wilms"
+    }
+   ],
+   "overview": [
+    [
+     {
+      "t": "Fred Wilms is a candidate on the November 3, 2026 ballot for Treasurer, running as: Republican; Independent Party of Connecticut.",
+      "s": "ballot"
+     }
+    ]
+   ],
+   "incumbent": false,
+   "unreviewed": true,
+   "accessed": "2026-10-22",
+   "state": "CT",
+   "photo": null,
+   "photoSource": null,
+   "topics": {
+    "abortion": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "lgbtq": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "taxes": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "defense": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "healthcare": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "immigration": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "economy": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "climate": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "guns": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "education": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    }
+   },
+   "noWebsite": false
+  },
+  {
+   "id": "ct-comptroller-tooker",
+   "name": "Jennifer Tooker",
+   "party": "R",
+   "ticket": "Republican",
+   "office": "Comptroller",
+   "district": null,
+   "website": "https://www.jentooker.com/",
+   "reviewed": null,
+   "sources": [
+    {
+     "key": "ballot",
+     "title": "The Green Papers: Connecticut 2026 General Election",
+     "url": "https://www.thegreenpapers.com/G26/CT"
+    },
+    {
+     "key": "bp",
+     "title": "Ballotpedia: Jennifer Tooker",
+     "url": "https://ballotpedia.org/Jennifer_Tooker"
+    }
+   ],
+   "overview": [
+    [
+     {
+      "t": "Jennifer Tooker is a candidate on the November 3, 2026 ballot for Comptroller, running as: Republican.",
+      "s": "ballot"
+     }
+    ]
+   ],
+   "incumbent": false,
+   "unreviewed": true,
+   "accessed": "2026-10-22",
+   "state": "CT",
+   "photo": "https://irp.cdn-website.com/acf027a0/dms3rep/multi/opt/Jen-Tooker-1920w.jpeg",
+   "photoSource": "https://www.jentooker.com/",
+   "topics": {
+    "abortion": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "lgbtq": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "taxes": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "defense": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "healthcare": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "immigration": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "economy": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "climate": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "guns": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "education": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    }
+   },
+   "photoYear": null,
+   "photoBasis": null,
+   "noWebsite": false
+  },
+  {
+   "id": "ct-attorney-general-bolton",
+   "name": "John Bolton",
+   "party": "R",
+   "ticket": "Republican",
+   "office": "Attorney General",
+   "district": null,
+   "website": null,
+   "reviewed": null,
+   "sources": [
+    {
+     "key": "ballot",
+     "title": "The Green Papers: Connecticut 2026 General Election",
+     "url": "https://www.thegreenpapers.com/G26/CT"
+    },
+    {
+     "key": "bp",
+     "title": "Ballotpedia: John Bolton",
+     "url": "https://ballotpedia.org/John_Bolton"
+    }
+   ],
+   "overview": [
+    [
+     {
+      "t": "John Bolton is a candidate on the November 3, 2026 ballot for Attorney General, running as: Republican.",
+      "s": "ballot"
+     }
+    ]
+   ],
+   "incumbent": false,
+   "unreviewed": true,
+   "accessed": "2026-10-22",
+   "state": "CT",
+   "photo": null,
+   "photoSource": null,
+   "topics": {
+    "abortion": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "lgbtq": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "taxes": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "defense": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "healthcare": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "immigration": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "economy": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "climate": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "guns": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "education": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    }
+   },
+   "noWebsite": true
+  },
+  {
+   "id": "ct-lieutenant-governor-corey",
+   "name": "Matt Corey",
+   "party": "R",
+   "ticket": "Republican (running with Ryan Fazio)",
+   "office": "Lieutenant Governor",
+   "district": null,
+   "website": "http://www.mattcoreyct.com/",
+   "reviewed": null,
+   "sources": [
+    {
+     "key": "ballot",
+     "title": "The Green Papers: Connecticut 2026 General Election",
+     "url": "https://www.thegreenpapers.com/G26/CT"
+    },
+    {
+     "key": "bp",
+     "title": "Ballotpedia: Matt Corey",
+     "url": "https://ballotpedia.org/Matthew_Corey"
+    }
+   ],
+   "overview": [
+    [
+     {
+      "t": "Matt Corey is a candidate on the November 3, 2026 ballot for Lieutenant Governor, running as: Republican (running with Ryan Fazio).",
+      "s": "ballot"
+     }
+    ],
+    [
+     {
+      "t": "In a Ballotpedia Candidate Connection survey answered in 2024, they wrote: "
+     },
+     {
+      "q": "I’m a Navy veteran and a small business owner.",
+      "s": "bp"
+     }
+    ]
+   ],
+   "incumbent": false,
+   "unreviewed": true,
+   "accessed": "2026-10-22",
+   "state": "CT",
+   "photo": null,
+   "photoSource": null,
+   "topics": {
+    "abortion": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "lgbtq": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "taxes": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "defense": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "healthcare": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "immigration": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "economy": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "climate": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "guns": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "education": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    }
+   },
+   "noWebsite": false
+  },
+  {
+   "id": "ct-secretary-of-the-state-lumaj",
+   "name": "Peter Lumaj",
+   "party": "R",
+   "ticket": "Republican",
+   "office": "Secretary of the State",
+   "district": null,
+   "website": "https://peterlumaj.com/",
+   "reviewed": null,
+   "sources": [
+    {
+     "key": "ballot",
+     "title": "The Green Papers: Connecticut 2026 General Election",
+     "url": "https://www.thegreenpapers.com/G26/CT"
+    },
+    {
+     "key": "bp",
+     "title": "Ballotpedia: Peter Lumaj",
+     "url": "https://ballotpedia.org/Peter_Lumaj"
+    }
+   ],
+   "overview": [
+    [
+     {
+      "t": "Peter Lumaj is a candidate on the November 3, 2026 ballot for Secretary of the State, running as: Republican.",
+      "s": "ballot"
+     }
+    ]
+   ],
+   "incumbent": false,
+   "unreviewed": true,
+   "accessed": "2026-10-22",
+   "state": "CT",
+   "photo": null,
+   "photoSource": null,
+   "topics": {
+    "abortion": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "lgbtq": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "taxes": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "defense": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "healthcare": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "immigration": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "economy": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "climate": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "guns": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "education": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    }
+   },
+   "noWebsite": false
+  },
+  {
+   "id": "ct-comptroller-scanlon",
+   "name": "Sean Scanlon",
+   "party": "D",
+   "ticket": "Democratic; Independent Party of Connecticut; Working Families",
+   "office": "Comptroller",
+   "district": null,
+   "website": "https://www.osc.ct.gov/",
+   "reviewed": null,
+   "sources": [
+    {
+     "key": "ballot",
+     "title": "The Green Papers: Connecticut 2026 General Election",
+     "url": "https://www.thegreenpapers.com/G26/CT"
+    },
+    {
+     "key": "bp",
+     "title": "Ballotpedia: Sean Scanlon",
+     "url": "https://ballotpedia.org/Sean_Scanlon"
+    }
+   ],
+   "overview": [
+    [
+     {
+      "t": "Sean Scanlon is the incumbent on the November 3, 2026 ballot for Comptroller, running as: Democratic; Independent Party of Connecticut; Working Families.",
+      "s": "ballot"
+     }
+    ]
+   ],
+   "incumbent": true,
+   "unreviewed": true,
+   "accessed": "2026-10-22",
+   "state": "CT",
+   "photo": "https://www.osc.ct.gov/wp-content/themes/osc/exec/images/sean_scanlon_square.jpg",
+   "photoSource": "https://www.osc.ct.gov/",
+   "topics": {
+    "abortion": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "lgbtq": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "taxes": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "defense": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "healthcare": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "immigration": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "economy": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "climate": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "guns": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "education": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    }
+   },
+   "photoYear": null,
+   "photoBasis": null,
+   "noWebsite": false
+  },
+  {
+   "id": "ct-secretary-of-the-state-thomas",
+   "name": "Stephanie Thomas",
+   "party": "D",
+   "ticket": "Democratic; Independent Party of Connecticut; Working Families",
+   "office": "Secretary of the State",
+   "district": null,
+   "website": null,
+   "reviewed": null,
+   "sources": [
+    {
+     "key": "ballot",
+     "title": "The Green Papers: Connecticut 2026 General Election",
+     "url": "https://www.thegreenpapers.com/G26/CT"
+    },
+    {
+     "key": "bp",
+     "title": "Ballotpedia: Stephanie Thomas",
+     "url": "https://ballotpedia.org/Stephanie_Thomas"
+    }
+   ],
+   "overview": [
+    [
+     {
+      "t": "Stephanie Thomas is the incumbent on the November 3, 2026 ballot for Secretary of the State, running as: Democratic; Independent Party of Connecticut; Working Families.",
+      "s": "ballot"
+     }
+    ]
+   ],
+   "incumbent": true,
+   "unreviewed": true,
+   "accessed": "2026-10-22",
+   "state": "CT",
+   "photo": null,
+   "photoSource": null,
+   "topics": {
+    "abortion": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "lgbtq": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "taxes": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "defense": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "healthcare": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "immigration": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "economy": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "climate": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "guns": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "education": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    }
+   },
+   "noWebsite": true
+  },
+  {
+   "id": "ct-lieutenant-governor-bysiewicz",
+   "name": "Susan Bysiewicz",
+   "party": "D",
+   "ticket": "Democratic (running with Ned Lamont)",
+   "office": "Lieutenant Governor",
+   "district": null,
+   "website": "https://bysiewiczforct.com",
+   "reviewed": null,
+   "sources": [
+    {
+     "key": "ballot",
+     "title": "The Green Papers: Connecticut 2026 General Election",
+     "url": "https://www.thegreenpapers.com/G26/CT"
+    },
+    {
+     "key": "bp",
+     "title": "Ballotpedia: Susan Bysiewicz",
+     "url": "https://ballotpedia.org/Susan_Bysiewicz"
+    }
+   ],
+   "overview": [
+    [
+     {
+      "t": "Susan Bysiewicz is the incumbent on the November 3, 2026 ballot for Lieutenant Governor, running as: Democratic (running with Ned Lamont).",
+      "s": "ballot"
+     }
+    ]
+   ],
+   "incumbent": true,
+   "unreviewed": true,
+   "accessed": "2026-10-22",
+   "state": "CT",
+   "photo": null,
+   "photoSource": null,
+   "topics": {
+    "abortion": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "lgbtq": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "taxes": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "defense": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "healthcare": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "immigration": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "economy": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "climate": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "guns": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "education": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    }
+   },
+   "noWebsite": false
+  },
+  {
+   "id": "ct-attorney-general-tong",
+   "name": "William Tong",
+   "party": "D",
+   "ticket": "Democratic; Working Families",
+   "office": "Attorney General",
+   "district": null,
+   "website": "https://www.williamtong.com",
+   "reviewed": null,
+   "sources": [
+    {
+     "key": "ballot",
+     "title": "The Green Papers: Connecticut 2026 General Election",
+     "url": "https://www.thegreenpapers.com/G26/CT"
+    },
+    {
+     "key": "bp",
+     "title": "Ballotpedia: William Tong",
+     "url": "https://ballotpedia.org/William_Tong"
+    }
+   ],
+   "overview": [
+    [
+     {
+      "t": "William Tong is the incumbent on the November 3, 2026 ballot for Attorney General, running as: Democratic; Working Families.",
+      "s": "ballot"
+     }
+    ]
+   ],
+   "incumbent": true,
+   "unreviewed": true,
+   "accessed": "2026-10-22",
+   "state": "CT",
+   "photo": null,
+   "photoSource": null,
+   "topics": {
+    "abortion": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "lgbtq": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "taxes": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "defense": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "healthcare": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "immigration": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "economy": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "climate": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "guns": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    },
+    "education": {
+     "gap": true,
+     "said": [],
+     "plan": []
+    }
+   },
+   "noWebsite": false
   }
  ]
 }

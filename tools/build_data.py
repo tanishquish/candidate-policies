@@ -347,6 +347,9 @@ C.append(cand(
     }))
 
 
+import extra_candidates
+C.extend(extra_candidates.build(T, Q, src, cand))
+
 # ---------------- photo captions ----------------
 # year, basis ("taken" = year in the image file's own metadata; "posted" = year in the image's upload path/name)
 PHOTO = {

@@ -93,27 +93,57 @@ async function drawMap() {
 }
 
 /* ---------- state ---------- */
-const raceLabel = c => c.district ? `U.S. House — District ${c.district}` : c.office;
-const raceOrder = c => c.office === 'Governor' ? 0 : 1 + Number(c.district || 0);
+const OFFICE_RANK = { 'Governor': 0, 'Lieutenant Governor': 1, 'Secretary of the State': 2, 'Treasurer': 3, 'Comptroller': 4, 'Attorney General': 5, 'U.S. House': 6, 'State Senate': 7 };
+const raceLabel = c => c.district ? `${c.office} — District ${c.district}` : c.office;
+const raceOrder = c => OFFICE_RANK[c.office] * 100 + Number(c.district || 0);
+
+const GROUPS = [
+  ['statewide', 'Statewide offices', c => OFFICE_RANK[c.office] <= 5],
+  ['house', 'U.S. House', c => c.office === 'U.S. House'],
+  ['senate', 'State Senate', c => c.office === 'State Senate'],
+];
+
+function card(c) {
+  return `
+    <a class="card" href="#/candidate/${esc(c.id)}">
+      ${photo(c)}
+      <div class="body"><div class="name">${esc(c.name)}</div>
+      <span class="party ${partyKey(c.party)}">${esc(PARTY[c.party] || c.party)}</span>${c.incumbent ? ' <span class="inc">Incumbent</span>' : ''}</div>
+    </a>`;
+}
 
 function stateView(code) {
   const name = state.states[code];
   if (!name) return notFound();
-  const list = state.candidates.filter(c => c.state === code);
-  const races = {};
-  list.sort((a, b) => raceOrder(a) - raceOrder(b)).forEach(c => (races[raceLabel(c)] ||= []).push(c));
-  const body = list.length
-    ? Object.entries(races).map(([r, cs]) => `
-        <h2 class="race">${esc(r)}</h2>
-        <div class="cards">${cs.map(c => `
-          <a class="card" href="#/candidate/${esc(c.id)}">
-            ${photo(c)}
-            <div class="body"><div class="name">${esc(c.name)}</div>
-            <span class="party ${partyKey(c.party)}">${esc(PARTY[c.party] || c.party)}</span></div>
-          </a>`).join('')}</div>`).join('') +
-      `<p class="muted small">Candidates are those listed for the November 3, 2026 general election as of ${esc(state.updated)}, per <a href="${esc(list[0].sources[0].url)}" target="_blank" rel="noopener">${esc(list[0].sources[0].title)}</a>. Write-in candidates are not included.</p>`
-    : `<div class="empty">Candidate information for ${esc(name)} hasn't been added yet. Connecticut is available now.</div>`;
-  $app.innerHTML = `<p><a href="#/">← Back to the map</a></p><h1>${esc(name)}</h1>${body}`;
+  const list = state.candidates.filter(c => c.state === code).sort((a, b) => raceOrder(a) - raceOrder(b));
+  if (!list.length) {
+    $app.innerHTML = `<p><a href="#/">← Back to the map</a></p><h1>${esc(name)}</h1><div class="empty">Candidate information for ${esc(name)} hasn't been added yet. Connecticut is available now.</div>`;
+    return;
+  }
+  const sections = GROUPS.map(([id, label, pred]) => {
+    const cs = list.filter(pred);
+    if (!cs.length) return null;
+    const races = {};
+    cs.forEach(c => (races[raceLabel(c)] ||= []).push(c));
+    const body = Object.entries(races).map(([r, rc]) => `
+      <h3 class="race" id="${id}-${esc(r.replace(/\D+/g, '') || r)}">${esc(r)}</h3>
+      <div class="cards">${rc.map(card).join('')}</div>`).join('');
+    return { id, label, body, races: Object.keys(races) };
+  }).filter(Boolean);
+  const senate = sections.find(s => s.id === 'senate');
+  const districtPicker = senate ? `
+    <label class="picker-l" for="dist">Find your State Senate district</label>
+    <select id="dist"><option value="">Choose a district…</option>${senate.races.map(r => `<option value="${esc(r.replace(/\D+/g, ''))}">${esc(r.replace('State Senate — ', ''))}</option>`).join('')}</select>` : '';
+  $app.innerHTML = `
+    <p><a href="#/">← Back to the map</a></p>
+    <h1>${esc(name)}</h1>
+    <nav class="jump" aria-label="Jump to">${sections.map(s => `<a href="#" data-j="${s.id}">${esc(s.label)}</a>`).join('')}</nav>
+    ${districtPicker}
+    ${sections.map(s => `<section id="sec-${s.id}"><h2 class="sec">${esc(s.label)}</h2>${s.body}</section>`).join('')}
+    <p class="muted small">Candidates are those listed for the November 3, 2026 general election as of ${esc(state.updated)}, per ${[...new Set(list.map(c => c.sources[0]))].map(s => `<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.title)}</a>`).join(' and ')}. Write-in candidates are not included.</p>`;
+  $app.querySelectorAll('[data-j]').forEach(a => a.onclick = e => { e.preventDefault(); document.getElementById('sec-' + a.dataset.j).scrollIntoView({ behavior: 'smooth' }); });
+  const dist = document.getElementById('dist');
+  if (dist) dist.onchange = () => { const el = document.getElementById('senate-' + dist.value); if (el) el.scrollIntoView({ behavior: 'smooth' }); };
 }
 
 /* ---------- candidate ---------- */
@@ -143,6 +173,9 @@ function topicPanel(c, topic) {
   const t = c.topics[topic.id];
   const rev = c.reviewed;
   let html = `<div class="topic-panel"><h3>${esc(topic.label)}</h3>`;
+  if (c.unreviewed && !(t.paras && t.paras.length) && !t.said.length && !(t.plan && t.plan.length)) {
+    return html + `<p class="nosite">Not yet reviewed: this candidate’s positions on ${esc(topic.label.toLowerCase())} have not been researched for this site yet.${c.website ? ` Their own website is the best source: <a href="${esc(c.website)}" target="_blank" rel="noopener">${esc(c.website)}</a>.` : ' No campaign website was listed on their Ballotpedia profile.'}</p></div>`;
+  }
 
   html += '<h4 class="sec-h">Their position</h4>';
   if (t.paras && t.paras.length) html += paragraphs(c, t.paras);
@@ -185,11 +218,12 @@ function candidateView(id, topicId) {
       </div>
     </div>
     ${noInfo}
+    ${c.unreviewed ? `<div class="unrev"><b>Profile in progress.</b> This page confirms who is running and links to their website; their positions and plans have not been reviewed yet.</div>` : ''}
     <h2>Where they stand</h2>
     <div class="topics" role="group" aria-label="Topics">
-      ${topics.map(x => `<button class="${c.topics[x.id].gap ? 'noweb' : ''}" aria-pressed="${x.id === topicId}" data-t="${x.id}">${esc(x.label)}</button>`).join('')}
+      ${topics.map(x => `<button class="${c.topics[x.id].gap && !c.unreviewed ? 'noweb' : ''}" aria-pressed="${x.id === topicId}" data-t="${x.id}">${esc(x.label)}</button>`).join('')}
     </div>
-    <p class="muted small">Dashed buttons: nothing on this topic on the candidate’s own website; the page shows other sourced statements instead.</p>
+    ${c.unreviewed ? '' : '<p class="muted small">Dashed buttons: nothing on this topic on the candidate’s own website; the page shows other sourced statements instead.</p>'}
     ${panel}
     <h2 class="sources-h">Sources</h2>
     <ol class="sources">${c.sources.map(s => `<li><a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.title)}</a> <span class="muted">(accessed ${esc(c.accessed)})</span></li>`).join('')}</ol>`;
