@@ -16,6 +16,20 @@ Open http://localhost:8000. No build step or install is needed for the site itse
 libraries from the jsDelivr CDN (a pinned `topojson-client` with an integrity hash, and a pinned `us-atlas`
 data file), so it needs an internet connection.
 
+## Compare Candidates agent
+Race pages with two or more candidates have a **Compare Candidates** button. It needs an Anthropic API key and
+the bundled server, which replaces `http.server`:
+```
+ANTHROPIC_API_KEY=your-key python3 tools/serve.py
+```
+The key is read from the environment on your computer and is never sent to the page. Set `COMPARE_MODEL` to
+change the model and `PORT` to change the port. Without a key the rest of the site works and the button explains
+what is missing.
+
+The agent sees only the cited overview, positions, plans and past statements for that race. Every point it
+returns must reference those facts, and the server drops any point that does not, so each superscript opens a
+vetted source. The output is AI-generated and can still be wrong, which the page says.
+
 ## Data workflow
 `data/candidates.json` is generated; edit the Python sources instead.
 
