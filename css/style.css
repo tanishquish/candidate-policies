@@ -133,3 +133,13 @@ h3.race.hit{background:#fff4d6;box-shadow:-6px 0 0 #fff4d6,6px 0 0 #fff4d6;borde
 h1:focus{outline:none}
 a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid #e0a526;outline-offset:2px;border-radius:4px}
 .pl{color:var(--muted);font-size:.72rem}
+
+.compare{margin:28px 0;text-align:center}
+.btn-compare{padding:12px 28px;background:var(--navy);color:#fff;border:0;border-radius:999px;font-size:1.05rem;cursor:pointer}
+.btn-compare:hover{background:var(--red)}
+.cmp-out{text-align:left;margin-top:20px}
+.cmp-sum{background:#fff;border:1px solid var(--line,#cfd8e6);border-radius:12px;padding:4px 20px 12px;margin-bottom:16px}
+.cmp-topic li{margin:6px 0}
+.cmp-ask{margin-top:20px}.cmp-ask label{display:block;font-weight:600;margin-bottom:6px}
+.cmp-ask div{display:flex;gap:8px}.cmp-ask input{flex:1;padding:9px 12px;border:1px solid #9fb0c9;border-radius:8px;font:inherit}
+.cmp-ask button{padding:9px 20px;background:var(--navy);color:#fff;border:0;border-radius:8px;cursor:pointer}
