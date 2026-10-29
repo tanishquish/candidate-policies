@@ -96,52 +96,64 @@ def state_items(cand):
     return items
 
 
-def fed_items(cand_id):
-    bid = FED_IDS.get(cand_id)
-    if not bid:
-        return []
+def _vehicle_note(label, desc):
+    """When the Clerk lists a vote under a different title (an amended vehicle bill), say so, quoting the roll call."""
+    words = [w for w in re.findall(r"[A-Za-z]{4,}", label.lower()) if w not in ("act", "with", "from", "that", "this")]
+    if desc and sum(w in desc.lower() for w in words[:4]) < 2:
+        return [f"The Clerk’s roll call lists this vote under the measure’s original title: “{desc}”.", None, None]
+    return None
+
+
+def collect_house(path=CACHE / "house_votes.json"):
+    """Distil the downloaded roll-call XML (votes_cache/house_sel, not committed) into a small committed file:
+    every candidate roll for the targets in fed_targets.py, with the four Connecticut incumbents' votes."""
     from fed_targets import FED
-    items = []
     final = re.compile(r"Passage|Pass\b|Conference Report|Concur|Agree", re.I)
-    other = re.compile(r"Recommit|Previous Question|Rule|Table|Adjourn|Reconsider|Commit|Amendment\b(?!.*Concur)", re.I)
+    other = re.compile(r"Recommit|Previous Question|Rule\b(?!s and)|Table|Adjourn|Reconsider|Commit|Agreeing to the Amendment|Retaining Title", re.I)
+    out = []
     for year, day, bill, topic, label in FED:
         chosen = []
-        hits = sorted((CACHE / "house_sel").glob(f"{year}_*.xml"), key=lambda f: int(f.stem.split("_")[1]))
-        for f in hits:
+        for f in sorted((CACHE / "house_sel").glob(f"{year}_*.xml"), key=lambda f: int(f.stem.split("_")[1])):
             root = ET.parse(f).getroot()
             m = root.find("vote-metadata")
             if m.findtext("legis-num").strip().replace(" ", "") != bill.replace(" ", ""):
                 continue
             dd, mon, yr = m.findtext("action-date").split("-")
             date = dt.datetime.strptime(f"{dd}-{mon}-{yr}", "%d-%b-%Y").date()
-            if date.isoformat() != day:
-                continue
-            code = None
-            for rv in root.iter("recorded-vote"):
-                lg = rv.find("legislator")
-                if lg is not None and lg.get("name-id") == bid:
-                    code = rv.findtext("vote")
-            if code is None:
-                continue
-            n = int(m.findtext("rollcall-num"))
-            congress = int(m.findtext("congress"))
-            num = re.sub(r"\D", "", bill.split()[-1])
-            kind = "house-bill" if bill.startswith("H R") else "senate-bill"
-            tot = {t.findtext("party"): t for t in m.iter("totals-by-party")}
-            pick = lambda t, *names: int(next(t.findtext(n) for n in names if t.findtext(n) is not None))
-            yea = sum(pick(t, "yea-total", "aye-total") for t in tot.values())
-            nay = sum(pick(t, "nay-total", "no-total") for t in tot.values())
             q = m.findtext("vote-question").strip()
-            if not final.search(q) or other.search(q):
+            if date.isoformat() != day or not final.search(q) or other.search(q):
                 continue
-            chosen.append({
-                "date": date.isoformat(), "body": "U.S. House", "bill": bill.replace("H R", "H.R.").replace("S ", "S. "), "title": label, "label": label,
-                "topic": topic, "vote": {"Yea": "Yea", "Aye": "Yea", "Nay": "Nay", "No": "Nay", "Not Voting": "Not voting", "Present": "Present"}[code],
-                "tally": f"{yea}–{nay}", "roll": f"https://clerk.house.gov/evs/{year}/roll{n}.xml",
-                "page": f"https://www.congress.gov/bill/{congress}th-congress/{kind}/{num}", "kind": "fed", "year": year, "rollno": n,
-                "question": q})
+            rvs = [(rv.find("legislator").get("name-id"), rv.findtext("vote") or "") for rv in root.iter("recorded-vote")]
+            chosen.append({"year": year, "date": day, "bill": bill, "label": label, "topic": topic, "question": q,
+                           "roll": int(m.findtext("rollcall-num")), "congress": int(m.findtext("congress")),
+                           "desc": (m.findtext("vote-desc") or "").strip(),
+                           "yea": sum(v in ("Yea", "Aye") for _, v in rvs), "nay": sum(v in ("Nay", "No") for _, v in rvs),
+                           "members": {i: v for i, v in rvs if i in FED_IDS.values()}})
         if chosen:
-            items.append(chosen[-1])   # the last qualifying roll on that day is the final vote on the measure
+            out.append(chosen[-1])   # the last qualifying roll that day is the final vote on the measure
+        else:
+            print("no roll found for", year, day, bill)
+    path.write_text(json.dumps(out, indent=1))
+    return out
+
+
+def fed_items(cand_id):
+    bid = FED_IDS.get(cand_id)
+    if not bid:
+        return []
+    items = []
+    for r in json.load(open(CACHE / "house_votes.json")):
+        code = r["members"].get(bid)
+        if code is None:
+            continue
+        kind = "house-bill" if r["bill"].startswith("H R") else "senate-bill"
+        items.append({
+            "date": r["date"], "body": "U.S. House", "bill": r["bill"].replace("H R", "H.R.").replace("S ", "S. "), "title": r["label"],
+            "label": r["label"], "topic": r["topic"], "vote": {"Yea": "Yea", "Aye": "Yea", "Nay": "Nay", "No": "Nay", "Not Voting": "Not voting", "Present": "Present"}[code],
+            "tally": f"{r['yea']}–{r['nay']}", "roll": f"https://clerk.house.gov/evs/{r['year']}/roll{r['roll']:03d}.xml",
+            "page": f"https://www.congress.gov/bill/{r['congress']}th-congress/{kind}/{re.sub(r'\D', '', r['bill'].split()[-1])}",
+            "kind": "fed", "year": r["year"], "rollno": r["roll"], "question": r["question"],
+            "note": _vehicle_note(r["label"], r["desc"])})
     return items
 
 
@@ -164,9 +176,12 @@ def build(BYID, add_src):
             row = {k: i[k] for k in ("date", "body", "bill", "title", "label", "topic", "vote", "tally")}
             row["s"], row["b"] = rk, bk
             if i.get("note"):
-                nk = "note-" + bk
-                add_src(cid, nk, i["note"][1], i["note"][2])
-                row["note"] = {"t": i["note"][0], "s": nk}
+                if i["note"][1] is None:
+                    row["note"] = {"t": i["note"][0], "s": rk}
+                else:
+                    nk = "note-" + bk
+                    add_src(cid, nk, i["note"][1], i["note"][2])
+                    row["note"] = {"t": i["note"][0], "s": nk}
             rec["items"].append(row)
         c["votes"] = rec
         stats["with_votes" if rec["items"] else "none"] += 1

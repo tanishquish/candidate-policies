@@ -30,6 +30,21 @@ The agent sees only the cited overview, positions, plans and past statements for
 returns must reference those facts, and the server drops any point that does not, so each superscript opens a
 vetted source. The output is AI-generated and can still be wrong, which the page says.
 
+## Voting records
+Candidate pages list how each legislator voted on final passage of 29 Connecticut bills (2017-2026) and, for
+the four U.S. House incumbents, 26 House roll calls. The bills are chosen in `tools/vote_bills.py` (state) and
+`tools/fed_targets.py` (federal); the votes themselves are read from the official roll calls, never typed in.
+
+| Step | Command |
+|------|---------|
+| Fetch the state roll calls (needs `pip install pypdf`) | `cd tools && python3 collect_state_votes.py` |
+| Fetch and distil the U.S. House roll calls | `python3 tools/find_house_rolls.py YEAR YYYY-MM-DD "H R 1"`, then `python3 -c "import votes_build as V; V.collect_house()"` from `tools/` |
+| Attach votes to candidates | `python3 tools/build_data.py` |
+| Re-check every stored vote against fresh copies of the roll calls | `python3 tools/verify_votes.py` |
+
+State House members appear on roll calls by surname only, so who is who is pinned in
+`STATE_HOUSE_SERVICE` in `tools/votes_build.py`, each with a cited biography.
+
 ## Data workflow
 `data/candidates.json` is generated; edit the Python sources instead.
 

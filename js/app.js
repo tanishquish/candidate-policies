@@ -143,7 +143,7 @@ function wireZip() {
     clear();
     if (!/^\d{5}$/.test(z)) return show('<p class="zip-msg">Enter a 5-digit ZIP code.</p>');
     try {
-      zipData ||= await fetch('data/zip_districts.json?v=20261029c').then(r => r.json());
+      zipData ||= await fetch('data/zip_districts.json?v=20261029d').then(r => r.json());
     } catch { return show('<p class="zip-msg">The ZIP lookup could not be loaded. Use the district list below.</p>'); }
     const r = zipData[z];
     if (!r || (!r.h.length && !r.s.length)) return show(`<p class="zip-msg">${esc(z)} ${z.startsWith('06') ? 'isn’t in this lookup (PO-box-only ZIP codes are not included). Try the district list below.' : 'isn’t a Connecticut ZIP code.'}</p>`);
@@ -402,7 +402,7 @@ function route() {
 document.getElementById('skip')?.addEventListener('click', e => { e.preventDefault(); $app.setAttribute('tabindex', '-1'); $app.focus(); });
 
 async function init() {
-  const [s, t, c] = await Promise.all(['states', 'topics', 'candidates'].map(f => fetch(`data/${f}.json?v=20261029c`).then(r => r.json())));
+  const [s, t, c] = await Promise.all(['states', 'topics', 'candidates'].map(f => fetch(`data/${f}.json?v=20261029d`).then(r => r.json())));
   Object.assign(state, { states: s, topics: t, candidates: c.candidates, updated: c.updated, votesMeta: c.votesMeta });
   window.addEventListener('hashchange', route);
   route();

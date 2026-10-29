@@ -9,11 +9,11 @@ MON = {m: i for i, m in enumerate(["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Ju
 def fetch(y, n):
     f = SEL / f"{y}_{n}.xml"
     if not f.exists():
-        for _ in range(3):
-            out = subprocess.run(["curl", "-s", "-m", "30", "-A", "Mozilla/5.0", f"https://clerk.house.gov/evs/{y}/roll{n}.xml"], capture_output=True).stdout
+        for _ in range(6):
+            out = subprocess.run(["curl", "-s", "-m", "30", "-A", "Mozilla/5.0", f"https://clerk.house.gov/evs/{y}/roll{n:03d}.xml"], capture_output=True).stdout
             if b"<rollcall-vote" in out:
                 f.write_bytes(out); break
-            time.sleep(1.5)
+            time.sleep(2)
         time.sleep(0.25)
     if not f.exists():
         return None
@@ -22,13 +22,14 @@ def fetch(y, n):
     return {"roll": n, "date": dt.date(int(yr), MON[mon], int(d)), "bill": m.findtext("legis-num").strip(), "q": m.findtext("vote-question").strip(),
             "result": m.findtext("vote-result").strip(), "desc": (m.findtext("vote-desc") or "").strip()}
 
-def first_on_or_after(y, day, hi=900):
+def first_on_or_after(y, day, hi=None):
+    hi = hi or {2017: 700, 2018: 500, 2019: 700, 2020: 250, 2021: 450, 2022: 560, 2023: 730, 2024: 540, 2025: 430, 2026: 250}[y]
     lo = 1
     while lo < hi:
         mid = (lo + hi) // 2
         r = fetch(y, mid)
-        if r is None:           # past the last roll of the year
-            hi = mid
+        if r is None:
+            raise RuntimeError(f"could not fetch {y} roll {mid}")
         elif r["date"] < day:
             lo = mid + 1
         else:

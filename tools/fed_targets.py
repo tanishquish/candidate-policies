@@ -2,7 +2,7 @@
 FED = [
     (2017, "2017-05-04", "H R 1628", "healthcare", "American Health Care Act"),
     (2017, "2017-12-19", "H R 1", "taxes", "Tax Cuts and Jobs Act (conference report)"),
-    (2018, "2018-05-16", "S 2372", "veterans", "VA MISSION Act"),
+    (2018, "2018-05-16", "S 2372", "veterans", "VA MISSION Act of 2018"),
     (2018, "2018-07-26", "H R 5515", "defense", "John S. McCain National Defense Authorization Act for Fiscal Year 2019 (conference report)"),
     (2019, "2019-02-27", "H R 8", "guns", "Bipartisan Background Checks Act of 2019"),
     (2019, "2019-05-02", "H R 9", "climate", "Climate Action Now Act"),
@@ -12,7 +12,7 @@ FED = [
     (2020, "2020-06-25", "H R 7120", "safety", "George Floyd Justice in Policing Act of 2020"),
     (2021, "2021-03-10", "H R 1319", "economy", "American Rescue Plan Act of 2021"),
     (2021, "2021-11-05", "H R 3684", "economy", "Infrastructure Investment and Jobs Act"),
-    (2021, "2021-12-08", "H R 4350", "defense", "National Defense Authorization Act for Fiscal Year 2022 (conference report)"),
+    (2021, "2021-12-07", "S 1605", "defense", "National Defense Authorization Act for Fiscal Year 2022"),
     (2022, "2022-03-03", "H R 3967", "veterans", "Honoring our PACT Act of 2022"),
     (2022, "2022-06-08", "H R 7910", "guns", "Protecting Our Kids Act"),
     (2022, "2022-06-24", "S 2938", "guns", "Bipartisan Safer Communities Act"),
@@ -24,6 +24,6 @@ FED = [
     (2023, "2023-05-11", "H R 2", "immigration", "Secure the Border Act of 2023"),
     (2023, "2023-05-31", "H R 3746", "economy", "Fiscal Responsibility Act of 2023"),
     (2023, "2023-12-14", "H R 2670", "defense", "National Defense Authorization Act for Fiscal Year 2024 (conference report)"),
-    (2025, "2025-01-22", "H R 29", "immigration", "Laken Riley Act"),
+    (2025, "2025-01-22", "S 5", "immigration", "Laken Riley Act"),
     (2025, "2025-07-03", "H R 1", "taxes", "One Big Beautiful Bill Act (concurring in Senate amendment)"),
 ]

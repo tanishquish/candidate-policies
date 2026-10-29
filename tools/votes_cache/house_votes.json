@@ -1,0 +1,492 @@
+[
+ {
+  "year": 2017,
+  "date": "2017-05-04",
+  "bill": "H R 1628",
+  "label": "American Health Care Act",
+  "topic": "healthcare",
+  "question": "On Passage",
+  "roll": 256,
+  "congress": 115,
+  "desc": "American Health Care Act",
+  "yea": 217,
+  "nay": 213,
+  "members": {
+   "C001069": "No",
+   "D000216": "No",
+   "H001047": "No"
+  }
+ },
+ {
+  "year": 2017,
+  "date": "2017-12-19",
+  "bill": "H R 1",
+  "label": "Tax Cuts and Jobs Act (conference report)",
+  "topic": "taxes",
+  "question": "On Agreeing to the Conference Report",
+  "roll": 692,
+  "congress": 115,
+  "desc": "Tax Cuts and Jobs Act",
+  "yea": 227,
+  "nay": 203,
+  "members": {
+   "C001069": "Nay",
+   "D000216": "Nay",
+   "H001047": "Nay"
+  }
+ },
+ {
+  "year": 2018,
+  "date": "2018-05-16",
+  "bill": "S 2372",
+  "label": "VA MISSION Act of 2018",
+  "topic": "veterans",
+  "question": "On Passage",
+  "roll": 189,
+  "congress": 115,
+  "desc": "Veterans Cemetery Benefit Correction Act",
+  "yea": 347,
+  "nay": 70,
+  "members": {
+   "C001069": "Aye",
+   "D000216": "No",
+   "H001047": "Aye"
+  }
+ },
+ {
+  "year": 2018,
+  "date": "2018-07-26",
+  "bill": "H R 5515",
+  "label": "John S. McCain National Defense Authorization Act for Fiscal Year 2019 (conference report)",
+  "topic": "defense",
+  "question": "On Agreeing to the Conference Report",
+  "roll": 379,
+  "congress": 115,
+  "desc": "National Defense Authorization Act FY 2019",
+  "yea": 359,
+  "nay": 54,
+  "members": {
+   "C001069": "Yea",
+   "D000216": "Yea",
+   "H001047": "Yea"
+  }
+ },
+ {
+  "year": 2019,
+  "date": "2019-02-27",
+  "bill": "H R 8",
+  "label": "Bipartisan Background Checks Act of 2019",
+  "topic": "guns",
+  "question": "On Passage",
+  "roll": 99,
+  "congress": 116,
+  "desc": "Bipartisan Background Checks Act",
+  "yea": 240,
+  "nay": 190,
+  "members": {
+   "C001069": "Yea",
+   "D000216": "Yea",
+   "H001081": "Yea",
+   "H001047": "Yea"
+  }
+ },
+ {
+  "year": 2019,
+  "date": "2019-05-02",
+  "bill": "H R 9",
+  "label": "Climate Action Now Act",
+  "topic": "climate",
+  "question": "On Passage",
+  "roll": 184,
+  "congress": 116,
+  "desc": "Climate Action Now Act",
+  "yea": 231,
+  "nay": 190,
+  "members": {
+   "C001069": "Aye",
+   "D000216": "Aye",
+   "H001081": "Aye",
+   "H001047": "Aye"
+  }
+ },
+ {
+  "year": 2019,
+  "date": "2019-05-17",
+  "bill": "H R 5",
+  "label": "Equality Act",
+  "topic": "lgbtq",
+  "question": "On Passage",
+  "roll": 217,
+  "congress": 116,
+  "desc": "Equality Act",
+  "yea": 236,
+  "nay": 173,
+  "members": {
+   "C001069": "Aye",
+   "D000216": "Aye",
+   "H001081": "Aye",
+   "H001047": "Aye"
+  }
+ },
+ {
+  "year": 2019,
+  "date": "2019-06-04",
+  "bill": "H R 6",
+  "label": "American Dream and Promise Act of 2019",
+  "topic": "immigration",
+  "question": "On Passage",
+  "roll": 240,
+  "congress": 116,
+  "desc": "American Dream and Promise Act",
+  "yea": 237,
+  "nay": 187,
+  "members": {
+   "C001069": "Aye",
+   "D000216": "Aye",
+   "H001081": "Aye",
+   "H001047": "Aye"
+  }
+ },
+ {
+  "year": 2019,
+  "date": "2019-12-12",
+  "bill": "H R 3",
+  "label": "Elijah E. Cummings Lower Drug Costs Now Act",
+  "topic": "healthcare",
+  "question": "On Passage",
+  "roll": 682,
+  "congress": 116,
+  "desc": "Elijah E. Cummings Lower Drug Costs Now Act",
+  "yea": 230,
+  "nay": 192,
+  "members": {
+   "C001069": "Yea",
+   "D000216": "Yea",
+   "H001081": "Yea",
+   "H001047": "Yea"
+  }
+ },
+ {
+  "year": 2020,
+  "date": "2020-06-25",
+  "bill": "H R 7120",
+  "label": "George Floyd Justice in Policing Act of 2020",
+  "topic": "safety",
+  "question": "On Passage",
+  "roll": 119,
+  "congress": 116,
+  "desc": "George Floyd Justice in Policing Act",
+  "yea": 236,
+  "nay": 181,
+  "members": {
+   "C001069": "Yea",
+   "D000216": "Yea",
+   "H001081": "Yea",
+   "H001047": "Yea"
+  }
+ },
+ {
+  "year": 2021,
+  "date": "2021-03-10",
+  "bill": "H R 1319",
+  "label": "American Rescue Plan Act of 2021",
+  "topic": "economy",
+  "question": "On Motion to Concur in the Senate Amendment",
+  "roll": 72,
+  "congress": 117,
+  "desc": "American Rescue Plan Act",
+  "yea": 220,
+  "nay": 211,
+  "members": {
+   "C001069": "Yea",
+   "D000216": "Yea",
+   "H001081": "Yea",
+   "H001047": "Yea"
+  }
+ },
+ {
+  "year": 2021,
+  "date": "2021-11-05",
+  "bill": "H R 3684",
+  "label": "Infrastructure Investment and Jobs Act",
+  "topic": "economy",
+  "question": "On Motion to Concur in the Senate Amendment",
+  "roll": 369,
+  "congress": 117,
+  "desc": "INVEST in America Act",
+  "yea": 228,
+  "nay": 206,
+  "members": {
+   "C001069": "Yea",
+   "D000216": "Yea",
+   "H001081": "Yea",
+   "H001047": "Yea"
+  }
+ },
+ {
+  "year": 2021,
+  "date": "2021-12-07",
+  "bill": "S 1605",
+  "label": "National Defense Authorization Act for Fiscal Year 2022",
+  "topic": "defense",
+  "question": "On Passage",
+  "roll": 405,
+  "congress": 117,
+  "desc": "To designate the National Pulse Memorial located at 1912 South Orange Avenue in Orlando, Florida, and for other purposes",
+  "yea": 363,
+  "nay": 70,
+  "members": {
+   "C001069": "Yea",
+   "D000216": "Yea",
+   "H001081": "Yea",
+   "H001047": "Yea"
+  }
+ },
+ {
+  "year": 2022,
+  "date": "2022-03-03",
+  "bill": "H R 3967",
+  "label": "Honoring our PACT Act of 2022",
+  "topic": "veterans",
+  "question": "On Passage",
+  "roll": 57,
+  "congress": 117,
+  "desc": "Honoring our PACT Act",
+  "yea": 256,
+  "nay": 174,
+  "members": {
+   "C001069": "Yea",
+   "D000216": "Yea",
+   "H001081": "Yea",
+   "H001047": "Yea"
+  }
+ },
+ {
+  "year": 2022,
+  "date": "2022-06-08",
+  "bill": "H R 7910",
+  "label": "Protecting Our Kids Act",
+  "topic": "guns",
+  "question": "On Passage",
+  "roll": 245,
+  "congress": 117,
+  "desc": "Protecting Our Kids Act",
+  "yea": 223,
+  "nay": 204,
+  "members": {
+   "C001069": "Yea",
+   "D000216": "Yea",
+   "H001081": "Yea",
+   "H001047": "Yea"
+  }
+ },
+ {
+  "year": 2022,
+  "date": "2022-06-24",
+  "bill": "S 2938",
+  "label": "Bipartisan Safer Communities Act",
+  "topic": "guns",
+  "question": "On Concurring in the Senate Amendments to the House Amendment",
+  "roll": 299,
+  "congress": 117,
+  "desc": "To designate the United States Courthouse and Federal Building located at 111 North Adams Street in Tallahassee, Florida, as the \u201cJoseph Woodrow Hatchett United States Courthouse and Federal Building\u201d",
+  "yea": 234,
+  "nay": 193,
+  "members": {
+   "C001069": "Yea",
+   "D000216": "Yea",
+   "H001081": "Yea",
+   "H001047": "Yea"
+  }
+ },
+ {
+  "year": 2022,
+  "date": "2022-07-15",
+  "bill": "H R 8296",
+  "label": "Women's Health Protection Act of 2022",
+  "topic": "abortion",
+  "question": "On Passage",
+  "roll": 360,
+  "congress": 117,
+  "desc": "Women\u2019s Health Protection Act",
+  "yea": 219,
+  "nay": 210,
+  "members": {
+   "C001069": "Yea",
+   "D000216": "Yea",
+   "H001081": "Yea",
+   "H001047": "Yea"
+  }
+ },
+ {
+  "year": 2022,
+  "date": "2022-08-12",
+  "bill": "H R 5376",
+  "label": "Inflation Reduction Act of 2022",
+  "topic": "climate",
+  "question": "On Motion to Concur in the Senate Amendment",
+  "roll": 420,
+  "congress": 117,
+  "desc": "To provide for reconciliation pursuant to title II of S. Con. Res. 14",
+  "yea": 220,
+  "nay": 207,
+  "members": {
+   "C001069": "Yea",
+   "D000216": "Yea",
+   "H001081": "Yea",
+   "H001047": "Yea"
+  }
+ },
+ {
+  "year": 2022,
+  "date": "2022-12-08",
+  "bill": "H R 8404",
+  "label": "Respect for Marriage Act",
+  "topic": "lgbtq",
+  "question": "On Motion to Concur in the Senate Amendment",
+  "roll": 513,
+  "congress": 117,
+  "desc": "Respect for Marriage Act",
+  "yea": 258,
+  "nay": 169,
+  "members": {
+   "C001069": "Yea",
+   "D000216": "Yea",
+   "H001081": "Yea",
+   "H001047": "Yea"
+  }
+ },
+ {
+  "year": 2023,
+  "date": "2023-01-11",
+  "bill": "H R 26",
+  "label": "Born-Alive Abortion Survivors Protection Act",
+  "topic": "abortion",
+  "question": "On Passage",
+  "roll": 29,
+  "congress": 118,
+  "desc": "Born-Alive Abortion Survivors Protection Act",
+  "yea": 220,
+  "nay": 210,
+  "members": {
+   "C001069": "Nay",
+   "D000216": "Nay",
+   "H001081": "Nay",
+   "H001047": "Nay"
+  }
+ },
+ {
+  "year": 2023,
+  "date": "2023-03-24",
+  "bill": "H R 5",
+  "label": "Parents Bill of Rights Act",
+  "topic": "education",
+  "question": "On Passage",
+  "roll": 161,
+  "congress": 118,
+  "desc": "Parents Bill of Rights Act",
+  "yea": 213,
+  "nay": 208,
+  "members": {
+   "C001069": "No",
+   "D000216": "No",
+   "H001081": "No",
+   "H001047": "No"
+  }
+ },
+ {
+  "year": 2023,
+  "date": "2023-05-11",
+  "bill": "H R 2",
+  "label": "Secure the Border Act of 2023",
+  "topic": "immigration",
+  "question": "On Passage",
+  "roll": 209,
+  "congress": 118,
+  "desc": "Secure the Border Act",
+  "yea": 219,
+  "nay": 213,
+  "members": {
+   "C001069": "Nay",
+   "D000216": "Nay",
+   "H001081": "Nay",
+   "H001047": "Nay"
+  }
+ },
+ {
+  "year": 2023,
+  "date": "2023-05-31",
+  "bill": "H R 3746",
+  "label": "Fiscal Responsibility Act of 2023",
+  "topic": "economy",
+  "question": "On Passage",
+  "roll": 243,
+  "congress": 118,
+  "desc": "Fiscal Responsibility Act",
+  "yea": 314,
+  "nay": 117,
+  "members": {
+   "C001069": "Aye",
+   "D000216": "No",
+   "H001081": "No",
+   "H001047": "Aye"
+  }
+ },
+ {
+  "year": 2023,
+  "date": "2023-12-14",
+  "bill": "H R 2670",
+  "label": "National Defense Authorization Act for Fiscal Year 2024 (conference report)",
+  "topic": "defense",
+  "question": "On Motion to Suspend the Rules and Agree to the Conference Report",
+  "roll": 723,
+  "congress": 118,
+  "desc": "National Defense Authorization Act",
+  "yea": 310,
+  "nay": 118,
+  "members": {
+   "C001069": "Yea",
+   "D000216": "Yea",
+   "H001081": "Yea",
+   "H001047": "Yea"
+  }
+ },
+ {
+  "year": 2025,
+  "date": "2025-01-22",
+  "bill": "S 5",
+  "label": "Laken Riley Act",
+  "topic": "immigration",
+  "question": "On Passage",
+  "roll": 23,
+  "congress": 119,
+  "desc": "Laken Riley Act",
+  "yea": 263,
+  "nay": 156,
+  "members": {
+   "C001069": "Yea",
+   "D000216": "Nay",
+   "H001081": "Yea",
+   "H001047": "Nay"
+  }
+ },
+ {
+  "year": 2025,
+  "date": "2025-07-03",
+  "bill": "H R 1",
+  "label": "One Big Beautiful Bill Act (concurring in Senate amendment)",
+  "topic": "taxes",
+  "question": "On Motion to Concur in the Senate Amendment",
+  "roll": 190,
+  "congress": 119,
+  "desc": "One Big Beautiful Bill Act",
+  "yea": 218,
+  "nay": 214,
+  "members": {
+   "C001069": "No",
+   "D000216": "No",
+   "H001081": "No",
+   "H001047": "No"
+  }
+ }
+]

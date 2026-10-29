@@ -5,3 +5,4 @@ tools/votes_cache/house_sel/
 tools/votes_cache/house_index.json
 tools/votes_cache/*
 !tools/votes_cache/state_votes.json
+!tools/votes_cache/house_votes.json
