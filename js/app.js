@@ -143,7 +143,7 @@ function wireZip() {
     clear();
     if (!/^\d{5}$/.test(z)) return show('<p class="zip-msg">Enter a 5-digit ZIP code.</p>');
     try {
-      zipData ||= await fetch('data/zip_districts.json?v=20261026c').then(r => r.json());
+      zipData ||= await fetch('data/zip_districts.json?v=20261029c').then(r => r.json());
     } catch { return show('<p class="zip-msg">The ZIP lookup could not be loaded. Use the district list below.</p>'); }
     const r = zipData[z];
     if (!r || (!r.h.length && !r.s.length)) return show(`<p class="zip-msg">${esc(z)} ${z.startsWith('06') ? 'isn’t in this lookup (PO-box-only ZIP codes are not included). Try the district list below.' : 'isn’t a Connecticut ZIP code.'}</p>`);
@@ -298,6 +298,53 @@ function online(c) {
     <p class="muted small">Links come from the candidate’s own website and their Ballotpedia profile; they open external sites.</p>`;
 }
 
+/* ---------- voting record ---------- */
+const VOTE_CLASS = { Yea: 'v-yea', Nay: 'v-nay' };
+function votesSection(c) {
+  const v = c.votes, m = state.votesMeta;
+  if (!v || !m) return '';
+  const federal = v.scope === 'federal';
+  const n = federal ? m.federalBills : m.stateBills;
+  const body = federal ? 'the U.S. House of Representatives' : 'the Connecticut House of Representatives or State Senate';
+  const method = `<details class="v-method"><summary>How these votes were chosen</summary>
+    <p>This is not a complete voting record. It lists how ${esc(c.name)} voted on final passage of ${n} ${federal ? 'U.S. House' : 'Connecticut'} bills from ${m.from} to ${m.to}, chosen to cover each topic on this site. The same list is used for every ${federal ? 'member of Congress' : 'legislator'}, so two records can be compared directly. Amendments and procedural votes are left out, and each bill is described only by its official title, without commentary. A vote means the legislator supported or opposed the bill as it was finally voted on, which can differ from their view of its individual provisions. Every row links to the official roll call${federal ? ' (Clerk of the House)' : ' (Connecticut General Assembly)'} and the bill page.</p>
+    <p>${federal ? 'The full record is on <a href="https://clerk.house.gov/Votes" target="_blank" rel="noopener">clerk.house.gov</a> and <a href="https://www.congress.gov" target="_blank" rel="noopener">congress.gov</a>.' : 'The full record is on <a href="https://www.cga.ct.gov" target="_blank" rel="noopener">cga.ct.gov</a>.'}</p></details>`;
+  if (!v.items.length) {
+    return `<section class="votes"><h2>Voting record</h2>
+      <p class="nosite">No recorded votes: ${esc(c.name)} does not appear in the roll calls of the ${n} bills reviewed from ${body}. This page does not describe service in other offices.</p>${method}</section>`;
+  }
+  const topics = [...new Set(v.items.map(i => i.topic))];
+  const label = id => id === 'other' ? 'Other' : (state.topics.find(t => t.id === id) || { label: id }).label;
+  const svc = v.service.length ? `<p>${v.service.map(g => esc(g.t) + sup(c, g.s)).join(' ')}</p>` : '';
+  const rows = v.items.map(i => {
+    const roll = c.sources.find(x => x.key === i.s), bill = c.sources.find(x => x.key === i.b);
+    return `<tr data-topic="${esc(i.topic)}">
+      <td>${esc(fmtDate(i.date))}</td>
+      <td><a href="${esc(bill.url)}" target="_blank" rel="noopener">${esc(i.bill)}</a>: ${esc(i.label)}<br><span class="muted small">${esc(i.body)}${i.title !== i.label ? ` · Official title: ${esc(i.title)}` : ''}</span>${i.note ? `<br><span class="muted small">${esc(i.note.t)}${sup(c, i.note.s)}</span>` : ''}</td>
+      <td>${esc(label(i.topic))}</td>
+      <td><span class="vote ${VOTE_CLASS[i.vote] || 'v-other'}">${esc(i.vote)}</span>${sup(c, i.s)}</td>
+      <td>${esc(i.tally)}</td></tr>`;
+  }).join('');
+  return `<section class="votes"><h2>Voting record, ${m.from}–${m.to}</h2>
+    ${svc}
+    <div class="topics v-filter" role="group" aria-label="Filter votes by topic">
+      <button aria-pressed="true" data-vt="all">All (${v.items.length})</button>
+      ${topics.map(t => `<button aria-pressed="false" data-vt="${esc(t)}">${esc(label(t))}</button>`).join('')}
+    </div>
+    <div class="v-wrap"><table class="v-table"><caption class="sr">Recorded votes by ${esc(c.name)}, newest first</caption>
+      <thead><tr><th scope="col">Date</th><th scope="col">Bill</th><th scope="col">Topic</th><th scope="col">Vote</th><th scope="col">Result (yea–nay)</th></tr></thead>
+      <tbody>${rows}</tbody></table></div>
+    ${method}</section>`;
+}
+function wireVotes() {
+  const box = $app.querySelector('.v-filter');
+  if (!box) return;
+  box.querySelectorAll('[data-vt]').forEach(b => b.onclick = () => {
+    box.querySelectorAll('[data-vt]').forEach(x => x.setAttribute('aria-pressed', String(x === b)));
+    $app.querySelectorAll('.v-table tbody tr').forEach(r => { r.hidden = b.dataset.vt !== 'all' && r.dataset.topic !== b.dataset.vt; });
+  });
+}
+
 function candidateView(id, topicId) {
   const c = state.candidates.find(x => x.id === id);
   if (!c) return notFound();
@@ -327,8 +374,10 @@ function candidateView(id, topicId) {
       ${topics.map(x => `<button class="${c.topics[x.id].gap && !c.unreviewed ? 'noweb' : ''}" aria-pressed="${x.id === topicId}" data-t="${x.id}">${esc(x.label)}</button>`).join('')}
     </div>
     ${c.unreviewed ? '' : '<p class="muted small">Dashed buttons: nothing on this topic on the candidate’s own website; the page shows other sourced statements instead.</p>'}
-    ${panel}`;
+    ${panel}
+    ${votesSection(c)}`;
   $app.querySelectorAll('[data-t]').forEach(b => b.onclick = () => { location.hash = `#/candidate/${id}/${b.dataset.t}`; });
+  wireVotes();
 }
 
 function notFound() {
@@ -353,8 +402,8 @@ function route() {
 document.getElementById('skip')?.addEventListener('click', e => { e.preventDefault(); $app.setAttribute('tabindex', '-1'); $app.focus(); });
 
 async function init() {
-  const [s, t, c] = await Promise.all(['states', 'topics', 'candidates'].map(f => fetch(`data/${f}.json?v=20261026c`).then(r => r.json())));
-  Object.assign(state, { states: s, topics: t, candidates: c.candidates, updated: c.updated });
+  const [s, t, c] = await Promise.all(['states', 'topics', 'candidates'].map(f => fetch(`data/${f}.json?v=20261029c`).then(r => r.json())));
+  Object.assign(state, { states: s, topics: t, candidates: c.candidates, updated: c.updated, votesMeta: c.votesMeta });
   window.addEventListener('hashchange', route);
   route();
 }

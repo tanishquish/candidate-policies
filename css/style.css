@@ -143,3 +143,14 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{ou
 .cmp-ask{margin-top:20px}.cmp-ask label{display:block;font-weight:600;margin-bottom:6px}
 .cmp-ask div{display:flex;gap:8px}.cmp-ask input{flex:1;padding:9px 12px;border:1px solid #9fb0c9;border-radius:8px;font:inherit}
 .cmp-ask button{padding:9px 20px;background:var(--navy);color:#fff;border:0;border-radius:8px;cursor:pointer}
+
+.votes{margin-top:36px}
+.v-wrap{overflow-x:auto;margin:12px 0}
+.v-table{width:100%;border-collapse:collapse;background:#fff;border:1px solid #cfd8e6;font-size:.93rem}
+.v-table th,.v-table td{padding:9px 12px;border-bottom:1px solid #e3e9f2;text-align:left;vertical-align:top}
+.v-table th{background:#eaf0f8;color:var(--navy)}
+.v-table td:first-child{white-space:nowrap}
+.vote{font-weight:700;padding:2px 9px;border-radius:999px;border:1px solid currentColor;white-space:nowrap}
+.v-yea{color:#1d5a2c}.v-nay{color:#8a1c1c}.v-other{color:#55627a}
+.v-method{margin:14px 0;font-size:.92rem}.v-method summary{cursor:pointer;color:var(--navy);font-weight:600}
+.sr{position:absolute;left:-9999px}

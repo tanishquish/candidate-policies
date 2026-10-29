@@ -24,7 +24,7 @@ Rules:
 - Neutral wording. Do not use loaded adjectives. Describe each candidate's stated positions and plans in parallel terms and the same depth, whatever their party.
 - Every point must cite the fact ids it rests on. A comparison point cites facts from each candidate it mentions.
 - Where a candidate has no fact on a topic, say so plainly under that topic (e.g. "No published position was found for X") and never infer.
-- Distinguish a stated position from a plan of action from a past statement.
+- Distinguish a stated position from a plan of action from a past statement from a recorded vote. A recorded vote shows how someone voted on a bill's final passage; do not infer motives or their views on individual provisions, and note when a candidate has no recorded votes because they have not served in that body.
 - Do not quote text directly; paraphrase closely. Do not include URLs.
 - Cover where candidates are similar, where they differ, and what each says it would do (plans), by topic.
 Respond with ONLY JSON: {"summary":[point],"topics":[{"topic":str,"similarities":[point],"differences":[point],"gaps":[point]}]}
@@ -58,6 +58,9 @@ def build_facts(cands, topics):
             for it in d.get('said') or []:
                 add(c, t['label'], 'past statement', flat(it['seg']), {g['s'] for g in it['seg'] if g.get('s')},
                     f' (said {it["when"]}; context: {it["context"]})')
+        for it in (c.get('votes') or {}).get('items', []):
+            label = next((t['label'] for t in topics if t['id'] == it['topic']), 'Other')
+            add(c, label, 'recorded vote', f'{it["vote"]} on {it["bill"]}, {it["title"]} ({it["body"]}, {it["date"]}; final tally {it["tally"]} yea-nay)', {it['s']})
     return '\n'.join(facts), table
 
 def call_claude(system, user):
